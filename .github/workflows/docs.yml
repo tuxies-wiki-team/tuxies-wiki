@@ -1,0 +1,51 @@
+name: docs
+
+on:
+  # Trigger deployment whenever a push is made to the main branch
+  push:
+    branches: [main]
+  # Manually trigger deployment
+  workflow_dispatch:
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # To fetch all commit history for "Last updated time" and other git log information
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          # Choose the pnpm version to use
+          version: 8
+          # Install dependencies using pnpm
+          run_install: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          # Choose the node version to use
+          node-version: 20
+          # Cache pnpm dependencies
+          cache: pnpm
+
+      # Run the build script
+      - name: Build VuePress site
+        run: pnpm docs:build
+
+      # See the workflow documentation for more information
+      # @see https://github.com/crazy-max/ghaction-github-pages
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          # Deploy to the gh-pages branch
+          target_branch: gh-pages
+          # The deployment directory is the default output directory of VuePress
+          build_dir: docs/.vuepress/dist
+        env:
+          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
