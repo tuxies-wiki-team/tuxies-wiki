@@ -8,7 +8,7 @@ config:
     hero:
       name: Tuxie's Wiki
       tagline: Linux for Fun!
-      text: A simple, feature-rich, document & blog
+      text: ?!TODO?!
       actions:
         - theme: brand
           text: 🗨 Join our Discord!
