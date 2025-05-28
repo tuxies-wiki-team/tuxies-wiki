@@ -121,6 +121,7 @@ export default defineUserConfig({
      */
     markdown: {
       code: {
+        // ?!TODO?!
         lineNumbers: true, // Enables line numbers
       },
       //   abbr: true,         // 启用 abbr 语法  *[label]: content
