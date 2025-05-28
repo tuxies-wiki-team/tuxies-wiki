@@ -31,13 +31,10 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-
-
       # 运行构建脚本
       # Run the build script
       - name: Build VuePress site
-        run: npm run docs:build
-
+        run: npm run build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages

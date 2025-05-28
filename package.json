@@ -8,6 +8,11 @@
     "node": "^20.6.0 || >=22.0.0"
   },
   "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "docs:vp-update": "npx vp-update",
     "dev": "vuepress dev docs",
     "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "build": "vuepress build docs --clean-cache --clean-temp",
