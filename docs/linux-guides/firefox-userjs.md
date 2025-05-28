@@ -1,6 +1,8 @@
 ---
 author: aier
-category: Linux Guide
+tags:
+  - browsers
+  - firefox
 title: Firefox Advanced Settings Tweaks (user.js)
 createTime: 2025/05/22 09:05:08
 permalink: /article/zcfotxos/

@@ -1,6 +1,10 @@
 ---
 author: aier
 title: Terminal Customization (Bash)
+tags:
+  - terminal
+  - bash
+  - ricing
 createTime: 2025/05/22 09:05:08
 permalink: /article/1vraxdsc/
 ---
