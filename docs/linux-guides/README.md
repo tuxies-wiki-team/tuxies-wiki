@@ -1,3 +1,1 @@
-Skibidi rizz
-
 ?!TODO?!
