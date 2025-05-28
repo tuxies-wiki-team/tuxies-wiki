@@ -14,6 +14,6 @@ config:
           text: 🗨 Join our Discord!
           link: https://discord.gg/WkeNeu8NGt
         - theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: Explore →
+          link: /blog/categories/
 ---
