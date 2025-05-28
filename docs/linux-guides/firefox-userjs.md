@@ -1,8 +1,8 @@
 ---
 author: aier
 category: Linux Guide
-title: Firefox Advanced Settings (user.js)
-createTime: 2025/05/28 09:05:08
+title: Firefox Advanced Settings Tweaks (user.js)
+createTime: 2025/05/22 09:05:08
 permalink: /article/zcfotxos/
 ---
 
@@ -10,31 +10,9 @@ permalink: /article/zcfotxos/
 This guide will walk you through a few changes you can make to your `user.js` that will make your Firefox-based experience of Linux much more polished.
 :::
 
-# How can you append these changes?
+## Preview
 
-## Method 1: through `user.js` config file
-
-Create a `user.js` by typing "about:support" into your browser and clicking "Open Directory" in the Profile Directory row.
-
-:::demo-wrapper
-![Firefox Profile Directory](./assets/firefoxProfileDirectory.png)
-:::
-
-Inside your profile folder, you can create a file named `user.js` if it does not exist already. You can append changes from this guide into `user.js`.
-
-## Method 2: through "about:config"
-
-Type in "about:config" into your browser and you'll be taken to the Firefox advanced preference page. Press "Accept risk and continue".
-
-:::demo-wrapper
-![Firefox about:config page](./assets/firefoxAboutConfig.png)
-:::
-
-You can then type in the search bar the preference mentioned in the guide, edit the values of the preference, and create the reference if it doesn't exist.
-
-# Preview
-
-This is what your `user.js` would look like if you decide to apply all tweaks mentioned in this guide:
+This is what your `user.js` would look like if you decide to apply all tweaks mentioned in this guide. The following `user.js` contains all modifications mentioned in this guide.
 
 ```js
 // Scrolling
@@ -58,9 +36,39 @@ user_pref("zen.view.compact.hide-toolbar", true); // false
 user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 ```
 
-# Improving Scrolling
+## How to append changes
 
-:::note
+### Method 1: `user.js` config file
+
+::::steps
+
+1. Create a `user.js` by typing "about:support" into your browser and clicking "Open Directory" in the Profile Directory row.
+
+   :::demo-wrapper
+   ![Firefox Profile Directory](./assets/firefoxProfileDirectory.png)
+   :::
+
+2. Inside your profile folder, you can create a file named `user.js` if it does not exist already. You can append changes from this guide into `user.js`.
+
+::::
+
+### Method 2: "about:config"
+
+::::steps
+
+1. Type in "about:config" into your browser and you'll be taken to the Firefox advanced preference page. Press "Accept risk and continue".
+
+   :::demo-wrapper
+   ![Firefox about:config page](./assets/firefoxAboutConfig.png)
+   :::
+
+2. You can then type in the search bar the preference mentioned in the guide, edit the values of the preference, and create the reference if it doesn't exist.
+
+::::
+
+---
+
+:::note Improving Scrolling
 Many Firefox users (us included), feel that the Firefox default scrolling is quite slow on the mousewheel, or too fast on the trackpad, or not smooth enough, or not dynamic enough.
 
 However you want your scrolling, hopefully you can customize the options we'll provide you to suit your needs.
@@ -68,7 +76,7 @@ However you want your scrolling, hopefully you can customize the options we'll p
 
 ## Mousewheel scrolling
 
-### Changing mousewheel speed
+### Mousewheel speed
 
 The mousewheel scrolling is too slow for our suiting, we can adjust this with the mousewheel delta multiplier.
 
@@ -104,9 +112,11 @@ user_pref("apz.overscroll.enabled", true); // true, for linux
 - _apz.gtk.pangesture.pixel_delta_mode_multiplier_ determines the speed of the touchpad scrolling in pixel mode. It is recommended that you set the mousewheel delta multipliers first before this value, as this value applies only to trackpads, whereas the mousewheel delta multipliers apply to both mouse and trackpad.
 - _apz.overscroll.enabled_ set to true makes the page elastic as you reaches its end, making it feel more alive.
 
-# Other settings
+---
 
-##### Hover to see preview of tab
+## Other settings
+
+### Hover to see preview of tab
 
 ```js
 user_pref("browser.tabs.hoverPreview.enabled", true); // false
