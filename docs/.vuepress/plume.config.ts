@@ -68,26 +68,16 @@ export default defineThemeConfig({
       notes: enNotes,
 
       /**
-       * 公告板
+       * 公告板 — Bulletin board
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-      // bulletin: {
-      //   layout: 'top-right',
-      //   contentType: 'markdown',
-      //   title: '',
-      //   content: '',
-      // },
-    },
-
-    /**
-     * 公告板
-     * @see https://theme-plume.vuejs.press/guide/features/bulletin/
-     */
-    bulletin: {
-      layout: "top-right",
-      contentType: "markdown",
-      title: "Welcome to Tuxie's Wiki",
-      content: "",
+      bulletin: {
+        layout: "top-right",
+        contentType: "markdown",
+        title: "Welcome to Tuxie's Library",
+        content:
+          "Welcome to our Linux wiki! 🐧🐧🐧\n\n\nBuilt by two uni students, this doc tracks our Linux adventures across distros — from 📖 basics, 📦 package management, 🛠️ scripting, 🖥️ DEs, to 🔧 troubleshooting. \n\n\nWhether you're a newbie or a terminal wizard, we hope our notes help! 🚀 Dive in!",
+      },
     },
   },
 });
