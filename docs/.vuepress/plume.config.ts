@@ -11,8 +11,8 @@
  */
 
 import { defineThemeConfig } from "vuepress-theme-plume";
-import { enNavbar, zhNavbar } from "./navbar";
-import { enNotes, zhNotes } from "./notes";
+import { enNavbar } from "./navbar";
+import { enNotes } from "./notes";
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -79,16 +79,15 @@ export default defineThemeConfig({
       // },
     },
 
-      /**
-       * 公告板
-       * @see https://theme-plume.vuejs.press/guide/features/bulletin/
-       */
-      bulletin: {
-        layout: "top-right",
-        contentType: "markdown",
-        title: "Welcome to Tuxie's Wiki",
-        content: "",
-      },
+    /**
+     * 公告板
+     * @see https://theme-plume.vuejs.press/guide/features/bulletin/
+     */
+    bulletin: {
+      layout: "top-right",
+      contentType: "markdown",
+      title: "Welcome to Tuxie's Wiki",
+      content: "",
     },
   },
 });
