@@ -14,7 +14,7 @@ import { defineUserConfig } from "vuepress";
 import { plumeTheme } from "vuepress-theme-plume";
 
 export default defineUserConfig({
-  base: "/tuxies-library/",
+  base: "/tuxies-wiki/",
   lang: "en-US",
   locales: {
     "/": {
@@ -120,10 +120,10 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/markdown/
      */
     markdown: {
-      code: {
-        // ?!TODO?!
-        lineNumbers: true, // Enables line numbers
-      },
+      // code: {
+      //   // ?!TODO?!
+      //   lineNumbers: true, // Enables line numbers
+      // },
       //   abbr: true,         // 启用 abbr 语法  *[label]: content
       //   annotation: true,   // 启用 annotation 语法  [+label]: content
       //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
