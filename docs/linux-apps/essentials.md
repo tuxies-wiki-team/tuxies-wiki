@@ -1,5 +1,5 @@
 ---
-author: aier
+authors: aier
 tags:
   - Linux Apps
 title: Essentials (Linux Apps)

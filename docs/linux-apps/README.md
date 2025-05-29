@@ -1,6 +1,6 @@
 ---
 title: Linux Apps Library
-author: aier
+authors: aier
 tags:
   - Linux Apps
 createTime: 2025/05/29 08:29:45

@@ -1,6 +1,6 @@
 ---
 title: Gnomie (Linux Apps)
-author: aier
+authors: aier
 tags:
   - Linux Apps
   - Gnome
