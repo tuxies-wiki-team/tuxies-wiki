@@ -7,13 +7,13 @@ config:
     background: tint-plate
     hero:
       name: Tuxie's Wiki
-      tagline: Linux for Fun!
-      text: ?!TODO?! RIZZZZ
+      tagline: Embrace your newfound freedom
+      text: Use this freedom to make Linux more powerful and fun!
       actions:
         - theme: brand
           text: 🗨 Join our Discord!
           link: https://discord.gg/WkeNeu8NGt
         - theme: alt
           text: Explore →
-          link: /blog/categories/
+          link: /blog/
 ---
