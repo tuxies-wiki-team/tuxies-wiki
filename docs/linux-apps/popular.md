@@ -1,9 +1,9 @@
 ---
-title: Popular
+title: Popular (Linux Apps)
 tags:
   - Linux Apps
 createTime: 2025/05/29 08:29:45
-permalink: /article/ch7kze98/
+permalink: /article/linux-apps-popular/
 draft: true
 ---
 

@@ -3,23 +3,19 @@ title: Linux App Library
 tags:
   - Linux Apps
 createTime: 2025/05/29 08:29:45
-permalink: /article/2p5duckc/
+permalink: /article/linux-apps/
 draft: true
 ---
 
+:::info
 A list of very useful or very cool apps!
 
-Scroll down to [Index](#index).
+**Have fun exploring!**
+:::
 
-**<sub>Contacts</sub>**\
-Discord server: https://discord.gg/WkeNeu8NGt.
-
-**<sub>Editors:</sub>**\
-aier (Fedora, formerly NixOS), Lunear (Arch).
-
+:::tip
 P.S. You can always just search for these apps in your app store (if your desktop environment or distro comes with one) instead of using the terminal.
-
-Have fun exploring!
+:::
 
 ## Setting up Flatpak
 
@@ -27,33 +23,34 @@ You might need to set up Flatpak on your distro before you can start installing 
 
 If you want to also have the option to install Flatpaks on a per-user basis (other users of your computer won’t see those apps when they log in), you can add the Flathub repository for your user by running this line.
 
-**<sub>Fedora</sub>**
+:::tabs
 
-```bash
+@tab Fedora
 flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-```
+
+:::
 
 ## Index
 
-### [Editor’s Choice](/docs/md/editorsChoice.md)
+### [Editor’s Choice](./editors-choice.md)
 
 Try them out!
 
 These are apps that the editors have found a use for or have found very interesting.
 
-### [Essentials](/docs/md/essentials.md)
+### [Essentials](./essentials.md)
 
 Highly recommended.
 
 These are apps that facilitate the use of your system and unlock its full potential.
 
-### [Popular](/docs/md/popular.md)
+### [Popular](./popular.md)
 
 Download as needed.
 
 Your favorite apps from Windows/Mac, but on Linux!
 
-### [Gnomie](/docs/md/gnomie.md)
+### [Gnomie](./gnomie.md)
 
 For the Gnome fans!
 

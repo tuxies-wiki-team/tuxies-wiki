@@ -1,10 +1,10 @@
 ---
-title: Gnomie
+title: Gnomie (Linux Apps)
 tag:
   - Linux Apps
   - Gnome
 createTime: 2025/05/29 08:29:45
-permalink: /article/95jxqsxc/
+permalink: /article/linux-apps-gnomie/
 draft: true
 ---
 

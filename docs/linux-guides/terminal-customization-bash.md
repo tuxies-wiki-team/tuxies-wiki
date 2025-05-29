@@ -6,7 +6,7 @@ tags:
   - Bash
   - Ricing
 createTime: 2025/05/22 09:05:08
-permalink: /article/1vraxdsc/
+permalink: /article/terminal-customization-bash/
 ---
 
 :::info

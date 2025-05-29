@@ -2,9 +2,9 @@
 authors: aier, Lunear
 tags:
   - Linux Apps
-title: Editor's Choice
+title: Editor's Choice (Linux Apps)
 createTime: 2025/05/22 09:05:08
-permalink: /article/zcfotxos/
+permalink: /article/linux-apps-editors-choice/
 draft: true
 ---
 

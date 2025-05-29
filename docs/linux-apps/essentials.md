@@ -2,9 +2,9 @@
 author: aier
 tags:
   - Linux Apps
-title: Essentials
+title: Essentials (Linux Apps)
 createTime: 2025/05/29 08:29:45
-permalink: /article/gouqnhw3/
+permalink: /article/linux-apps-essentials/
 draft: true
 ---
 
