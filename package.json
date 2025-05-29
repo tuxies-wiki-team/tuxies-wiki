@@ -13,6 +13,7 @@
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",
     "docs:vp-update": "npx vp-update",
+    "docs:deploy": "npm run build && gh workflow run deploy",
     "dev": "vuepress dev docs",
     "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "build": "vuepress build docs --clean-cache --clean-temp",

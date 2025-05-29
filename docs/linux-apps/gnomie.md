@@ -1,10 +1,13 @@
 ---
 title: Gnomie
-tag: 
+tag:
   - Linux Apps
+  - Gnome
 createTime: 2025/05/29 08:29:45
 permalink: /article/95jxqsxc/
+draft: true
 ---
+
 <!-- <sub>Go back to [Linux Apps Library](README.md)</sub> -->
 
 ## [Dconf Editor](https://flathub.org/apps/ca.desrt.dconf-editor)

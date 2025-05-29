@@ -1,10 +1,12 @@
 ---
-title: Linux App Library 
+title: Linux App Library
 tags:
-  - Archived
+  - Linux Apps
 createTime: 2025/05/29 08:29:45
 permalink: /article/2p5duckc/
+draft: true
 ---
+
 A list of very useful or very cool apps!
 
 Scroll down to [Index](#index).

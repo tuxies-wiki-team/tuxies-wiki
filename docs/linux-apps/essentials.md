@@ -1,11 +1,13 @@
 ---
 author: aier
-tags: 
+tags:
   - Linux Apps
 title: Essentials
 createTime: 2025/05/29 08:29:45
 permalink: /article/gouqnhw3/
+draft: true
 ---
+
 <!-- <sub>Go back to [Linux Apps Library](README.md)</sub> -->
 
 ## [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)

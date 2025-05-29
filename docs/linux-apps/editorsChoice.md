@@ -5,8 +5,11 @@ tags:
 title: Editor's Choice
 createTime: 2025/05/22 09:05:08
 permalink: /article/zcfotxos/
+draft: true
 ---
+
 <!-- <sub>Go back to [Linux Apps Library](README.md)</sub> -->
+
 ## [Nautilus (File Manager)](https://apps.gnome.org/Nautilus/)
 
 The clean, functional, and blazing fast file manager by Gnome
