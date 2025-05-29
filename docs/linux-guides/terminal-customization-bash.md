@@ -1,6 +1,6 @@
 ---
-author: aier
 title: Terminal Customization (Bash)
+authors: aier
 tags:
   - Terminal
   - Bash

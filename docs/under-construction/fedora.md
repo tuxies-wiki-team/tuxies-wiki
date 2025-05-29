@@ -1,5 +1,5 @@
 ---
-author: aier
+authors: aier
 title: Fedora
 tags:
   - Linux Guides
@@ -8,6 +8,6 @@ permalink: /article/idcs27z9/
 draft: true
 ---
 
-This is Fedora 
+This is Fedora
 
 ?!TODO?!
