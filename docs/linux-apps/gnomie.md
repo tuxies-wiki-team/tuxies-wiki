@@ -1,6 +1,7 @@
 ---
 title: Gnomie (Linux Apps)
-tag:
+author: aier
+tags:
   - Linux Apps
   - Gnome
 createTime: 2025/05/29 08:29:45
