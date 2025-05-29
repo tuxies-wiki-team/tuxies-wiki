@@ -54,6 +54,21 @@ export default defineUserConfig({
     // contributors: true,
     // changelog: false,
 
+    notes: false,
+    sidebar: {
+      "/config/": [
+        //?!TODO?!
+        {
+          text: "Testing",
+          link: "https://github.com/tuxies-wiki-team/tuxies-wiki",
+        },
+        {
+          text: "Testing",
+          link: "https://github.com/tuxies-wiki-team/tuxies-wiki",
+        },
+      ],
+    },
+
     /**
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
