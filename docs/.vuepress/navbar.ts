@@ -7,13 +7,13 @@
 import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export const enNavbar = defineNavbarConfig([
-  { text: "Articles", link: "/blog/" },
-  { text: "Sort", link: "/blog/tags/" },
+  { text: "📰 Articles", link: "/blog/" },
   {
-    text: "Categories",
+    text: "📂 Categories",
     items: [
       { text: "Linux Apps Library", link: "/linux-apps/" },
       { text: "Linux Guides", link: "/linux-guides/" },
     ],
   },
+  { text: "🔍 Sort", link: "/blog/tags/" },
 ]);
