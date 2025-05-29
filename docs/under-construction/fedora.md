@@ -1,0 +1,10 @@
+---
+author: aier
+title: Fedora
+tags:
+  - Linux Guides
+createTime: 2025/05/29 08:29:45
+permalink: /article/idcs27z9/
+---
+
+This is Fedora shit
