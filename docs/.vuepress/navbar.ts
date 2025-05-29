@@ -9,7 +9,7 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 export const enNavbar = defineNavbarConfig([
   { text: "Articles", link: "/blog/" },
   { text: "Tags", link: "/blog/tags/" },
-  { text: "Archives", link: "/blog/archives/" },
+  { text: "All Posts", link: "/blog/archives/" },
   // {
   //   text: "Linux Guides",
   //   items: [{ text: "About Linux Guides", link: "/linux-guides/" }],
