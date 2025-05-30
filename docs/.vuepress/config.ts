@@ -2,6 +2,7 @@ import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { defineNoteConfig, plumeTheme } from "vuepress-theme-plume";
 
+// ?!TODO?!
 const linuxApps = defineNoteConfig({
   dir: "linux-apps",
   link: "/article/linux-apps/",
@@ -51,6 +52,7 @@ export default defineUserConfig({
     },
     changelog: true,
 
+    // ?!TODO?!
     notes: {
       link: "/",
       dir: "notes",
