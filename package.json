@@ -18,7 +18,7 @@
     "build": "vuepress build docs --clean-cache --clean-temp",
     "preview": "http-server docs/.vuepress/dist",
     "vp-update": "npx vp-update",
-    "deploy": "gh workflow run deploy",
+    "deploy": "npm run build && gh workflow run deploy",
     "deploy-list": "gh run list --workflow=deploy.yml",
     "start": "vuepress dev docs"
   },
