@@ -2,13 +2,6 @@ import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { defineNoteConfig, plumeTheme } from "vuepress-theme-plume";
 
-// ?!TODO?!
-const linuxApps = defineNoteConfig({
-  dir: "linux-apps",
-  link: "/linux-apps/",
-  sidebar: "auto",
-});
-
 export default defineUserConfig({
   base: "/tuxies-wiki/",
   lang: "en-US",
@@ -51,13 +44,6 @@ export default defineUserConfig({
       mode: "block",
     },
     changelog: true,
-
-    // ?!TODO?!
-    notes: {
-      dir: "notes",
-      link: "/article/",
-      notes: [linuxApps],
-    },
     /**
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
