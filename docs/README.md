@@ -31,7 +31,7 @@ config:
 
 
         We only accept applications under the basis that you'll be able to communicate through Discord.
-      image: /assets/tux.png
+      # image: ?!TODO?!
       actions:
         - theme: brand
           icon: mdi:account-plus
