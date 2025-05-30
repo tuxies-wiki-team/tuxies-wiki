@@ -51,10 +51,12 @@ export default defineUserConfig({
     /* 页内信息 */
     // editLink: true,
     // lastUpdated: true,
-    // contributors: true,
-    // changelog: false,
+    contributors: {
+      mode: "block",
+    },
+    changelog: true,
 
-    notes: false,
+    // notes: false,
     sidebar: {
       "/config/": [
         //?!TODO?!
@@ -73,14 +75,14 @@ export default defineUserConfig({
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
      */
-    blog: {
-      postList: true, // 是否启用文章列表页
-      tags: true, // 是否启用标签页
-      archives: true, // 是否启用归档页
-      categories: true, // 是否启用分类页
-      postCover: "right", // 文章封面位置
-      pagination: 15, // 每页显示文章数量
-    },
+    // blog: {
+    //   postList: true, // 是否启用文章列表页
+    //   tags: true, // 是否启用标签页
+    //   archives: true, // 是否启用归档页
+    //   categories: true, // 是否启用分类页
+    //   postCover: "right", // 文章封面位置
+    //   pagination: 15, // 每页显示文章数量
+    // },
 
     /* 博客文章页面链接前缀 */
     article: "/article/",
@@ -95,11 +97,11 @@ export default defineUserConfig({
      * 为 markdown 文件自动添加 frontmatter 配置
      * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
      */
-    autoFrontmatter: {
-      permalink: true, // 是否生成永久链接
-      createTime: true, // 是否生成创建时间
-      title: true, // 是否生成标题
-    },
+    // autoFrontmatter: {
+    //   permalink: true, // 是否生成永久链接
+    //   createTime: true, // 是否生成创建时间
+    //   title: true, // 是否生成标题
+    // },
 
     /* 本地搜索, 默认启用 */
     search: { provider: "local" },
