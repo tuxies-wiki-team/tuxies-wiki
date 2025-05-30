@@ -13,13 +13,13 @@
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",
     "docs:vp-update": "npx vp-update",
-    "docs:deploy": "npm run build && gh workflow run deploy",
     "dev": "vuepress dev docs",
     "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "build": "vuepress build docs --clean-cache --clean-temp",
     "preview": "http-server docs/.vuepress/dist",
     "vp-update": "npx vp-update",
-    "deploy": "npm run build && gh workflow run deploy",
+    "deploy": "gh workflow run deploy",
+    "deploy-list": "gh run list --workflow=deploy.yml",
     "start": "vuepress dev docs"
   },
   "devDependencies": {
