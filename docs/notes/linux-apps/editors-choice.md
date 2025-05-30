@@ -3,7 +3,7 @@ tags:
   - Linux Apps
 title: Editor's Choice (Linux Apps)
 createTime: 2025/05/22 09:05:08
-permalink: /article/linux-apps-editors-choice/
+permalink: /linux-apps/editors-choice/
 ---
 
 <!-- <sub>Go back to [Linux Apps Library](README.md)</sub> -->

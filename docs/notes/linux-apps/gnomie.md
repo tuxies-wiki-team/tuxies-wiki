@@ -5,7 +5,7 @@ tags:
   - Linux Apps
   - Gnome
 createTime: 2025/05/29 08:29:45
-permalink: /article/linux-apps-gnomie/
+permalink: /linux-apps/gnomie/
 draft: true
 ---
 

@@ -12,11 +12,11 @@ config:
       text: Use this freedom to make Linux more powerful and fun!
       actions:
         - theme: brand
-          icon: ic:baseline-explore
+          icon: mdi:explore
           text: Explore →
           link: /blog/
         - theme: sponsor
-          icon: ic:baseline-discord
+          icon: mdi:discord
           text: Join our Discord!
           link: https://discord.gg/WkeNeu8NGt
   - type: doc-hero
@@ -34,7 +34,7 @@ config:
       image: /assets/tux.png
       actions:
         - theme: brand
-          icon: ic:baseline-format-align-left
+          icon: mdi:account-plus
           text: Join!
           link:
         - theme: sponsor

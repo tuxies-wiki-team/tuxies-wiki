@@ -5,7 +5,7 @@ tags:
   - Firefox
 title: Firefox Advanced Settings Tweaks (user.js)
 createTime: 2025/05/22 09:05:08
-permalink: /article/firefox-userjs/
+permalink: /linux-guides/firefox-userjs/
 ---
 
 :::tip

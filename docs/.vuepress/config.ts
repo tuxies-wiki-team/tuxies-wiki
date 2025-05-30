@@ -5,7 +5,7 @@ import { defineNoteConfig, plumeTheme } from "vuepress-theme-plume";
 // ?!TODO?!
 const linuxApps = defineNoteConfig({
   dir: "linux-apps",
-  link: "/article/linux-apps/",
+  link: "/linux-apps/",
   sidebar: "auto",
 });
 
@@ -54,24 +54,10 @@ export default defineUserConfig({
 
     // ?!TODO?!
     notes: {
-      link: "/",
       dir: "notes",
+      link: "/article/",
       notes: [linuxApps],
     },
-    sidebar: {
-      "/config/": [
-        //?!TODO?!
-        {
-          text: "Testing",
-          link: "https://github.com/tuxies-wiki-team/tuxies-wiki",
-        },
-        {
-          text: "Testing",
-          link: "https://github.com/tuxies-wiki-team/tuxies-wiki",
-        },
-      ],
-    },
-
     /**
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
