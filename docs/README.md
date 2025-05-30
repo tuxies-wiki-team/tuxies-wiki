@@ -26,7 +26,6 @@ config:
 
         Join us to Linux learning accessible, fun, and collaborative!
 
-
         We currently only accept applications through Discord.
       image: /assets/tux.png
       actions:
