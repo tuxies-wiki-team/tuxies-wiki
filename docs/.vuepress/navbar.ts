@@ -18,13 +18,13 @@ export const enNavbar = defineNavbarConfig([
     link: "/linux-guides/",
   },
   {
-    text: "Articles",
+    text: "Other Articles",
     icon: "mdi:newspaper-variant-outline",
     link: "/blog/",
   },
-  {
-    text: "Sort",
-    icon: "mdi:sort",
-    link: "/blog/tags/",
-  },
+  // {
+  //   text: "Sort",
+  //   icon: "mdi:sort",
+  //   link: "/blog/tags/",
+  // },
 ]);

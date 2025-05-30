@@ -4,9 +4,8 @@ tags:
 title: Editor's Choice
 createTime: 2025/05/22 09:05:08
 permalink: /linux-apps/editors-choice/
+isBlogPost: true
 ---
-
-<!-- <sub>Go back to [Linux Apps Library](README.md)</sub> -->
 
 ## [Nautilus (File Manager)](https://apps.gnome.org/Nautilus/)
 
