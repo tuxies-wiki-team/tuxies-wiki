@@ -12,8 +12,14 @@ const linuxGuides = defineNoteConfig({
   sidebar: "auto",
 });
 
+const about = defineNoteConfig({
+  dir: "about",
+  link: "/about",
+  sidebar: "auto",
+});
+
 export const enNotes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [linuxApps, linuxGuides],
+  notes: [linuxApps, linuxGuides, about],
 });

@@ -27,4 +27,9 @@ export const enNavbar = defineNavbarConfig([
   //   icon: "mdi:sort",
   //   link: "/blog/tags/",
   // },
+  {
+    text: "About",
+    icon: "mdi:about",
+    link: "/about/",
+  },
 ]);
