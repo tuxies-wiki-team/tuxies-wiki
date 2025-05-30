@@ -66,6 +66,17 @@ export default defineThemeConfig({
         // organization: '',
       },
 
+      social: [
+        {
+          icon: "github",
+          link: "https://github.com/tuxies-wiki-team/tuxies-wiki",
+        },
+        {
+          icon: "discord",
+          link: "https://discord.gg/WkeNeu8NGt",
+        },
+      ],
+
       navbar: enNavbar,
       notes: enNotes,
 
