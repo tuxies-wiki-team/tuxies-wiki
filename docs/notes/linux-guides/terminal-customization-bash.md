@@ -88,15 +88,22 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
     :::tabs
     @tab Debian/Ubuntu
 
+    ```bash
     apt install fastfetch
+    ```
 
     @tab Fedora
 
+    ```bash
     dnf install fastfetch
+    ```
 
     @tab Arch
 
+    ```bash
     pacman -S fastfetch
+    ```
+
     :::
 
 2.  Set up `fastfetch` in shell
@@ -186,15 +193,22 @@ alias lsta3='eza -Ta --level 3'
     :::tabs
     @tab Debian/Ubuntu
 
+    ```bash
     apt install fzf
+    ```
 
     @tab Fedora
 
+    ```bash
     dnf install fzf
+    ```
 
     @tab Arch
 
+    ```bash
     pacman -S fzf
+    ```
+
     :::
 
 2.  Add aliases
@@ -227,15 +241,22 @@ alias lsta3='eza -Ta --level 3'
     :::tabs
     @tab Debian/Ubuntu
 
+    ```bash
     apt install zoxide
+    ```
 
     @tab Fedora
 
+    ```bash
     dnf install zoxide
+    ```
 
     @tab Arch
 
+    ```bash
     pacman -S zoxide
+    ```
+
     :::
 
 2.  Set up `zoxide` in your Bash shell

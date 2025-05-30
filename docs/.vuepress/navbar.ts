@@ -7,13 +7,28 @@
 import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export const enNavbar = defineNavbarConfig([
-  { text: "📰 Articles", link: "/blog/" },
   {
-    text: "📂 Categories",
+    text: "Articles",
+    icon: "ic:baseline-article",
+    link: "/blog/",
+  },
+  {
+    text: "Collections",
+    icon: "ic:baseline-folder",
     items: [
-      { text: "Linux Apps Library", link: "/linux-apps/" },
-      { text: "Linux Guides", link: "/linux-guides/" },
+      {
+        text: "Linux Apps Library",
+        link: "/notes/linux-apps/",
+      },
+      {
+        text: "Linux Guides",
+        link: "/notes/linux-guides/",
+      },
     ],
   },
-  { text: "🔍 Sort", link: "/blog/tags/" },
+  // {
+  //   text: "Sort",
+  //   icon: "ic:baseline-sort-by-alpha",
+  //   link: "/blog/tags/",
+  // },
 ]);

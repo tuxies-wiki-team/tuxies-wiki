@@ -1,6 +1,5 @@
 ---
 title: Linux Apps Library
-authors: aier
 tags:
   - Linux Apps
 createTime: 2025/05/29 08:29:45
@@ -27,7 +26,10 @@ If you want to also have the option to install Flatpaks on a per-user basis (oth
 :::tabs
 
 @tab Fedora
+
+```bash
 flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
 
 :::
 

@@ -24,17 +24,22 @@ config:
       name: Become a contributor
       tagline: >
 
+        We will soon start accepting contributors. 
+
+
         Join us to Linux learning accessible, fun, and collaborative!
 
-        We currently only accept applications through Discord.
+
+        We only accept applications under the basis that you'll be able to communicate through Discord.
       image: /assets/tux.png
       actions:
         - theme: brand
           icon: ic:baseline-format-align-left
-          text: Apply!
+          text: Join!
+          link:
         - theme: sponsor
-          icon:
           text: Learn more
+          link: /tuxies-wiki/become-a-contributor
   - type: features
     features:
       - title: An entry point to Linux

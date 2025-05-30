@@ -1,5 +1,4 @@
 ---
-authors: aier, Lunear
 tags:
   - Linux Apps
 title: Editor's Choice (Linux Apps)
