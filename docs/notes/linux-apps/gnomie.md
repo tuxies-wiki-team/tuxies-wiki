@@ -1,5 +1,5 @@
 ---
-title: Gnomie (Linux Apps)
+title: Gnomie
 authors: aier
 tags:
   - Linux Apps

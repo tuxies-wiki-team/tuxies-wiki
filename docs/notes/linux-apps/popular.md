@@ -1,5 +1,5 @@
 ---
-title: Popular (Linux Apps)
+title: Popular
 tags:
   - Linux Apps
 createTime: 2025/05/29 08:29:45
