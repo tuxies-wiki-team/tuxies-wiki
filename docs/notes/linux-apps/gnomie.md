@@ -15,82 +15,102 @@ draft: true
 
 GUI to edit GSettings/Dconf database (advanced Gnome system settings).
 
-**Flatpak (System)**
+:::tabs
 
-```bash
+@tab Flatpak (System)
+
+```bash:no-line-numbers
 flatpak install flathub ca.desrt.dconf-editor
 ```
 
-**Flatpak (User)**
+@tab Flatpak (User)
 
-```bash
+```bash:no-line-numbers
 flatpak install --user flathub ca.desrt.dconf-editor
 ```
 
-**Disclaimer: If you think that some settings are missing in Dconf, install your distro’s package instead of the Flatpak**
+:::
 
-**Debian/Ubuntu**
+:::danger
+If you think that some settings are missing in Dconf, install your distro’s package instead of the Flatpak\*\*
+:::
 
-```bash
+:::tabs
+@tab Debian/Ubuntu
+
+```bash:no-line-numbers
 sudo apt install dconf-editor
 ```
 
-**Fedora**
+@tab Fedora
 
-```bash
+```bash:no-line-numbers
 sudo dnf install dconf-editor
 ```
 
-**Arch**
+@tab Arch
 
-```bash
+```bash:no-line-numbers
 sudo pacman -S dconf-editor
 ```
+
+:::
 
 ## [Extension Manager](https://flathub.org/apps/com.mattjakeman.ExtensionManager)
 
 GUI to modify Gnome Extensions.
 
-**Flatpak (System)**
+:::tabs
 
-```bash
+@tab Flatpak (System)
+
+```bash:no-line-numbers
 flatpak install flathub com.mattjakeman.ExtensionManager
 ```
 
-**Flatpak (User)**
+@tab Flatpak (User)
 
-```bash
+```bash:no-line-numbers
 flatpak install --user flathub com.mattjakeman.ExtensionManager
 ```
+
+:::
 
 ## [Gnome Tweaks](https://github.com/GNOME/gnome-tweaks)
 
 Change fonts, manage shell themes (requires `User Theme` extension), add hide and maximize buttons, and more!
 
-**Debian/Ubuntu**
+:::tabs
 
-```bash
+@tab Debian/Ubuntu
+
+```bash:no-line-numbers
 sudo apt install gnome-tweaks
 ```
 
-**Fedora**
+@tab Fedora
 
-```bash
+```bash:no-line-numbers
+
 sudo dnf install gnome-tweaks
 ```
+
+:::
 
 ## [SaveDesktop](https://flathub.org/apps/io.github.vikdevelop.SaveDesktop)
 
 Save your desktop configurations
+:::tabs
+@tab Flatpak (System)
 
-**Flatpak (System)**
+```bash
+flatpak install flathub io.github.vikdevelop.SaveDesktop
+```
+
+@tab Flatpak (User)
 
 ```bash
 flatpak install flathub io.github.vikdevelop.SaveDesktop
 ```
 
-**Flatpak (User)**
-
-```bash
-flatpak install flathub io.github.vikdevelop.SaveDesktop
-```
+:::

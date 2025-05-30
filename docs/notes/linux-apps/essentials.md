@@ -14,47 +14,61 @@ draft: true
 
 GUI to modify Flatpak permissions
 
-**Flatpak (System)**
+:::tabs
 
-```bash
+@tab Flatpak (System)
+
+```bash:no-line-numbers
 flatpak install flathub com.github.tchx84.Flatseal
 ```
 
-**Flatpak (User)**
+@tab Flatpak (User)
 
-```bash
+```bash:no-line-numbers
 flatpak install --user flathub com.github.tchx84.Flatseal
 ```
+
+:::
 
 ## [Timeshift](https://github.com/linuxmint/timeshift)
 
 Create snapshots of your computer, especially if you use Arch.
 
-**SELinux Compatibility**
+::::steps
 
-If you want to use Timeshift with SELinux, you might want to set SELinux mode from “enforcing” to “permissive” to enable proper function among kernel versions.
+1. SELinux Compatibility
 
-**Go to the file `/etc/selinux/config`, scroll down and set SELinux to "permissive."**
+  If you want to use Timeshift with SELinux, you might want to set SELinux mode from “enforcing” to “permissive” to enable proper function among kernel versions.
 
-```bash
-# SELINUX=enforcing
-SELINUX=permissive
-```
+  **Go to the file `/etc/selinux/config`, scroll down and set SELinux to "permissive."**
 
-**Debian/Ubuntu**
+  ```bash:no-line-numbers
+  # SELINUX=enforcing
+  SELINUX=permissive
+  ```
 
-```bash
-sudo apt-get timeshift
-```
+2. Installation
 
-**Fedora**
+  :::tabs
 
-```bash
-sudo dnf install timeshift
-```
+  @tab Debian/Ubuntu
 
-**Arch**
+  ```bash:no-line-numbers
+  sudo apt-get timeshift
+  ```
 
-```bash
-sudo pacman -S timeshift
-```
+  @tab Fedora
+
+  ```bash:no-line-numbers
+  sudo dnf install timeshift
+  ```
+
+  @tab Arch
+
+  ```bash:no-line-numbers
+  sudo pacman -S timeshift
+  ```
+
+  :::
+
+::::
