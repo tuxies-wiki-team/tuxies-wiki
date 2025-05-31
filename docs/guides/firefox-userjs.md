@@ -1,5 +1,4 @@
 ---
-authors: aier
 tags:
   - Browsers
   - Firefox

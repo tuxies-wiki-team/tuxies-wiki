@@ -1,5 +1,4 @@
 ---
-authors: aier
 title: Fedora
 tags:
   - Linux Guides

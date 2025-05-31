@@ -1,6 +1,5 @@
 ---
 title: Arch Linux Guide
-authors: Lunear
 tags:
   - Linux Guides
 createTime: 2025/05/29 08:29:45
