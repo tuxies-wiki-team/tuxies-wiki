@@ -10,106 +10,119 @@ isBlogPost: true
 ## [Nautilus (File Manager)](https://apps.gnome.org/Nautilus/)
 
 The clean, functional, and blazing fast file manager by Gnome
+:::tabs
 
-**Debian/Ubuntu**
+@tab Debian/Ubuntu
 
-```bash
+```bash:no-line-numbers
 sudo apt install nautilus
 ```
 
-**Fedora**
+@tab Fedora
 
-```bash
+```bash:no-line-numbers
 sudo dnf install nautilus
 ```
 
-**Arch**
+@tab Arch
 
-```bash
+```bash:no-line-numbers
 sudo pacman -S nautilus
 ```
+
+:::
 
 ## [Spotube](https://flathub.org/apps/com.github.KRTirtho.Spotube)
 
 Spotify/Youtube Music client + downloader
+:::tabs
 
-**Flatpak (System)**
+@tab Flatpak (System)
 
-```bash
+```bash:no-line-numbers
 flatpak install flathub com.github.KRTirtho.Spotube
 ```
 
-**Flatpak (User)**
+@tab Flatpak (User)
 
 ```bash
 flatpak install --user flathub dev.vencord.Vesktop
 ```
+
+:::
 
 ## [Vesktop](https://flathub.org/apps/dev.vencord.Vesktop)
 
 Discord with screen sharing and audio support, as well as Vencord inbuilt
+:::tabs
+@tab Flatpak (System)
 
-**Flatpak (System)**
-
-```bash
+```bash:no-line-numbers
 flatpak install flathub dev.vencord.Vesktop
 ```
 
-**Flatpak (User)**
+@tab Flatpak (User)
 
-```bash
+```bash:no-line-numbers
 flatpak install --user flathub dev.vencord.Vesktop
 ```
 
-Note:
+:::
+
+:::tip
 If you do not care about Discord Rich Presence (DRP), proceed with the Flatpak installation.
 
-If you do want DRP, check out [Vesktop’s Github Releases](https://github.com/Vencord/Vesktop/releases) and download the package for your respective distribution
+**If you do want DRP, check out [Vesktop’s Github Releases](https://github.com/Vencord/Vesktop/releases) and download the package for your respective distribution.**
+:::
 
 ## [Waydroid](https://docs.waydro.id/usage/install-on-desktops)
 
 Run Android on Linux!
 
 Find out about installation details on the link above
+:::tabs
+@tab Debian/Ubuntu
 
-**Debian/Ubuntu**
-
-```bash
+```bash:no-line-numbers
 sudo apt install curl ca-certificates -y
 curl https://repo.waydro.id | sudo bash
 sudo apt install waydroid -y
 ```
 
-**Fedora**
+@tab Fedora
 
-```bash
+```bash:no-line-numbers
 sudo dnf install waydroid
 ```
 
-**Arch (AUR)**
+@tab Arch (AUR)
 
-```bash
+```bash:no-line-numbers
 sudo yay -S waydroid
 ```
+
+:::
 
 ## [Zen Browser](https://flathub.org/apps/app.zen_browser.zen)
 
 From Zen: “Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.”
+:::tabs
+@tab Flatpak (System)
 
-**Flatpak (System)**
-
-```bash
+```bash:no-line-numbers
 flatpak install flathub app.zen_browser.zen
 ```
 
-**Flatpak (User)**
+@tab Flatpak (User)
 
-```bash
+```bash:no-line-numbers
 flatpak install --user flathub app.zen_browser.zen
 ```
 
-**Arch (AUR)**
+@tab Arch (AUR)
 
-```bash
+```bash:no-line-numbers
 yay -S zen-browser-bin
 ```
+
+:::
