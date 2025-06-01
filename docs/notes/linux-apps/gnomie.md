@@ -18,13 +18,13 @@ GUI to edit GSettings/Dconf database (advanced Gnome system settings).
 
 @tab Flatpak (System)
 
-```bash:no-line-numbers
+```bash
 flatpak install flathub ca.desrt.dconf-editor
 ```
 
 @tab Flatpak (User)
 
-```bash:no-line-numbers
+```bash
 flatpak install --user flathub ca.desrt.dconf-editor
 ```
 
@@ -37,19 +37,19 @@ If you think that some settings are missing in Dconf, install your distro’s pa
 :::tabs
 @tab Debian/Ubuntu
 
-```bash:no-line-numbers
+```bash
 sudo apt install dconf-editor
 ```
 
 @tab Fedora
 
-```bash:no-line-numbers
+```bash
 sudo dnf install dconf-editor
 ```
 
 @tab Arch
 
-```bash:no-line-numbers
+```bash
 sudo pacman -S dconf-editor
 ```
 
@@ -63,13 +63,13 @@ GUI to modify Gnome Extensions.
 
 @tab Flatpak (System)
 
-```bash:no-line-numbers
+```bash
 flatpak install flathub com.mattjakeman.ExtensionManager
 ```
 
 @tab Flatpak (User)
 
-```bash:no-line-numbers
+```bash
 flatpak install --user flathub com.mattjakeman.ExtensionManager
 ```
 
@@ -83,13 +83,13 @@ Change fonts, manage shell themes (requires `User Theme` extension), add hide an
 
 @tab Debian/Ubuntu
 
-```bash:no-line-numbers
+```bash
 sudo apt install gnome-tweaks
 ```
 
 @tab Fedora
 
-```bash:no-line-numbers
+```bash
 
 sudo dnf install gnome-tweaks
 ```

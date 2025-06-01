@@ -16,13 +16,13 @@ Discord messenger. Join servers and chat with friends!
 :::tabs
 @tabFlatpak (System)
 
-```bash:no-line-numbers
+```bash
 flatpak install flathub com.discordapp.Discord
 ```
 
 @tab Flatpak (User)
 
-```bash:no-line-numbers
+```bash
 flatpak install --user flathub com.discordapp.Discord
 ```
 
@@ -52,7 +52,7 @@ Flatpak is a sandbox, you need a few more steps to set up Discord Rich Presence
 
 @tab DRP for Non-Flatpak Apps
 
-```bash:no-line-numbers
+```bash
 mkdir -p ~/.config/user-tmpfiles.d
 echo 'L %t/discord-ipc-0 - - - - app/com.discordapp.Discord/discord-ipc-0' > ~/.config/user-tmpfiles.d/discord-rpc.conf
 systemctl --user enable --now systemd-tmpfiles-setup.service
@@ -68,19 +68,19 @@ Not Recommended, find more info in the GitHub Link
 :::tabs
 @tab Debian/Ubuntu
 
-```bash:no-line-numbers
+```bash
 sudo apt-get install gparted
 ```
 
 @tab Fedora
 
-```bash:no-line-numbers
+```bash
 sudo dnf install gparted
 ```
 
 @tab Arch
 
-```bash:no-line-numbers
+```bash
 sudo pacman -S gparted
 ```
 
@@ -91,13 +91,13 @@ sudo pacman -S gparted
 :::tabs
 @tab Flatpak(System)
 
-```bash:no-line-numbers
+```bash
 flatpak install flathub com.obsproject.Studio
 ```
 
 @tab Flatpak(User)
 
-```bash:no-line-numbers
+```bash
 flatpak install --user flathub com.obsproject.Studio
 ```
 
@@ -113,13 +113,13 @@ You would want to install v4l2loopback if you want to use the “virtual camera�
 :::tabs
 @tab Debian/Ubuntu
 
-```bash:no-line-numbers
+```bash
 sudo apt install dkms
 ```
 
 @tab Fedora
 
-```bash:no-line-numbers
+```bash
 sudo dnf install gcc kernel-devel dkms
 ```
 
@@ -130,7 +130,7 @@ sudo dnf install gcc kernel-devel dkms
 
 2. Install Module & Run:
 
-```bash:no-line-numbers
+```bash
 git clone https://github.com/umlaeute/v4l2loopback
 cd v4l2loopback
 make && sudo make install
@@ -142,13 +142,13 @@ sudo modprobe v4l2loopback
 
 Create the File `/etc/modules-load.d/v4l2loopback.conf` and write:
 
-```bash:no-line-numbers
+```bash
 v4l2loopback
 ```
 
 In the case where the “Virtual Camera” button doesn’t show on OBS, the system may not have loaded the module. You can either redo the installation, or try loading the the module manually with:
 
-```bash:no-line-numbers
+```bash
 sudo modprobe v4l2loopback
 ```
 
@@ -159,13 +159,13 @@ sudo modprobe v4l2loopback
 :::tabs
 @tab Flatpak (System)
 
-```bash:no-line-numbers
+```bash
 flatpak install flathub com.visualstudio.code
 ```
 
 @tab Flatpak (User)
 
-```bash:no-line-numbers
+```bash
 flatpak install --user flathub com.visualstudio.code
 ```
 

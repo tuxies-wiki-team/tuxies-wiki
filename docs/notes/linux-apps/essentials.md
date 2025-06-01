@@ -17,13 +17,13 @@ GUI to modify Flatpak permissions
 
 @tab Flatpak (System)
 
-```bash:no-line-numbers
+```bash
 flatpak install flathub com.github.tchx84.Flatseal
 ```
 
 @tab Flatpak (User)
 
-```bash:no-line-numbers
+```bash
 flatpak install --user flathub com.github.tchx84.Flatseal
 ```
 
@@ -41,7 +41,7 @@ If you want to use Timeshift with SELinux, you might want to set SELinux mode fr
 
 **Go to the file `/etc/selinux/config`, scroll down and set SELinux to "permissive."**
 
-```bash:no-line-numbers
+```bash
 # SELINUX=enforcing
 SELINUX=permissive
 ```
@@ -52,19 +52,19 @@ SELINUX=permissive
 
 @tab Debian/Ubuntu
 
-```bash:no-line-numbers
+```bash
 sudo apt-get timeshift
 ```
 
 @tab Fedora
 
-```bash:no-line-numbers
+```bash
 sudo dnf install timeshift
 ```
 
 @tab Arch
 
-```bash:no-line-numbers
+```bash
 sudo pacman -S timeshift
 ```
 

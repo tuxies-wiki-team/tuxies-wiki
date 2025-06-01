@@ -14,19 +14,19 @@ The clean, functional, and blazing fast file manager by Gnome
 
 @tab Debian/Ubuntu
 
-```bash:no-line-numbers
+```bash
 sudo apt install nautilus
 ```
 
 @tab Fedora
 
-```bash:no-line-numbers
+```bash
 sudo dnf install nautilus
 ```
 
 @tab Arch
 
-```bash:no-line-numbers
+```bash
 sudo pacman -S nautilus
 ```
 
@@ -39,7 +39,7 @@ Spotify/Youtube Music client + downloader
 
 @tab Flatpak (System)
 
-```bash:no-line-numbers
+```bash
 flatpak install flathub com.github.KRTirtho.Spotube
 ```
 
@@ -57,13 +57,13 @@ Discord with screen sharing and audio support, as well as Vencord inbuilt
 :::tabs
 @tab Flatpak (System)
 
-```bash:no-line-numbers
+```bash
 flatpak install flathub dev.vencord.Vesktop
 ```
 
 @tab Flatpak (User)
 
-```bash:no-line-numbers
+```bash
 flatpak install --user flathub dev.vencord.Vesktop
 ```
 
@@ -83,7 +83,7 @@ Find out about installation details on the link above
 :::tabs
 @tab Debian/Ubuntu
 
-```bash:no-line-numbers
+```bash
 sudo apt install curl ca-certificates -y
 curl https://repo.waydro.id | sudo bash
 sudo apt install waydroid -y
@@ -91,13 +91,13 @@ sudo apt install waydroid -y
 
 @tab Fedora
 
-```bash:no-line-numbers
+```bash
 sudo dnf install waydroid
 ```
 
 @tab Arch (AUR)
 
-```bash:no-line-numbers
+```bash
 sudo yay -S waydroid
 ```
 
@@ -109,19 +109,19 @@ From Zen: “Zen is the best way to browse the web. Beautifully designed, privac
 :::tabs
 @tab Flatpak (System)
 
-```bash:no-line-numbers
+```bash
 flatpak install flathub app.zen_browser.zen
 ```
 
 @tab Flatpak (User)
 
-```bash:no-line-numbers
+```bash
 flatpak install --user flathub app.zen_browser.zen
 ```
 
 @tab Arch (AUR)
 
-```bash:no-line-numbers
+```bash
 yay -S zen-browser-bin
 ```
 

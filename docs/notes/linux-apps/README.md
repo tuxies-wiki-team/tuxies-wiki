@@ -57,7 +57,7 @@ Your favorite apps from Windows/Mac, but on Linux!
 
 For the Gnome fans!
 
-## To be added (when the editors have time)
+## To be added
 
 - Bitwarden
 - Blender
