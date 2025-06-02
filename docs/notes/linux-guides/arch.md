@@ -7,93 +7,73 @@ permalink: /linux-guides/arch/
 draft: true
 ---
 
-<!-- View Counter with Google Analytics as backend -->
-
-<script setup>
-import { ref, onMounted } from 'vue'
-
-const views = ref(0)
-
-onMounted(() => {
-  // Initialize GA4
-  if (typeof window.gtag === 'undefined') {
-    const script = document.createElement('script')
-    script.async = true
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-LCT48BR4CV'
-    document.head.appendChild(script)
-    
-    window.dataLayer = window.dataLayer || []
-    function gtag(){dataLayer.push(arguments)}
-    gtag('js', new Date())
-    gtag('config', 'G-LCT48BR4CV')
-  }
-
-  // Client-side counter (fallback)
-  const key = `views-${window.location.pathname}`
-  views.value = parseInt(localStorage.getItem(key)) || 0
-  views.value++
-  localStorage.setItem(key, views.value)
-})
-</script>
-
-<!-- <div class="view-counter" style="float:right; font-size:0.85em; color:#666;">
-  👁️ {{ views.toLocaleString() }} views
-</div> -->
-
-## Arch Installation Guide
-
+:::important
 Before starting, it's recommended to read the [official installation guide](https://wiki.archlinux.org/title/Installation_guide) and understand the major concepts.
+:::
 
-**Note: This guide only works with UEFI/GPT Systems. For BIO/MBR Systems, this guide will NOT work.**
+:::caution
+This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide will NOT work.
+:::
 
-### Part 1. Preparation
+## Part 1. Preparation
 
-1. Prepare an unallocated free space for Arch (Recommended 80GB+)
+::::steps
 
-   - Windows partitioning tool: diskmgmt.msc
-   - Linux partition tool: [GParted](https://gparted.org/)
-   - **If Dual-Booting with Windows:** Take notes on the **Windows EFI Partition Directory**
+1.  Prepare an unallocated free space for Arch (Recommended 80GB+)
 
-2. Install the Arch mirror ISO from the [official website](https://archlinux.org/download/), for country, selecting any mirror from the US
+    - Windows partitioning tool: diskmgmt.msc
+    - Linux partition tool: [GParted](https://gparted.org/)
+    - **If Dual-Booting with Windows:** Take notes on the **Windows EFI Partition Directory**
 
-3. Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB
+2.  Install the Arch mirror ISO from the [official website](https://archlinux.org/download/), for country, selecting any mirror from the US
 
-4. Reboot into system BIOS System and boot into the USB.  
-   **Note: Turn off secure boot**
+3.  Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB
 
-### Part 2. Connect to the Internet
+4.  Reboot into system BIOS System and boot into the USB.  
+    **Note: Turn off secure boot**
 
-1. Use [iwctl tool](https://wiki.archlinux.org/title/Iwd#iwctl) for internet connection
+::::
 
-   - To ensure that the network adaptor is successfully detected by the system, list the network devices available using
-     ```bash
-     device list
-     ```
+## Part 2. Connect to the Internet
 
-   **If not network adaptor is shown, force shutdown and reboot. If problem persist, Arch is not for you.**
+Use [iwctl tool](https://wiki.archlinux.org/title/Iwd#iwctl) for internet connection.
 
-   - Proceed with station scanning:
+- To ensure that the network adaptor is successfully detected by the system, list the network devices available using
 
-   ```bash
-   station <device> scan
-   station <device> get-networks
-   ```
+```bash
+device list
+```
 
-   - For connection:
+:::important
+If not network adaptor is shown, force shutdown and reboot. If problem persist, Arch is not for you.
+:::
 
-   ```bash
-   station <device_name> connect “<network_name>”
-   ```
+- Proceed with station scanning:
 
-   - Check whether the internet connection is successfully established
+```bash
+station <device> scan
+station <device> get-networks
+```
 
-   ```bash
-   ping archlinux.org
-   ```
+- For connection:
 
-### Part 3. Partitioning
+```bash
+station <device_name> connect “<network_name>”
+```
 
+- Check whether the internet connection is successfully established
+
+```bash
+ping archlinux.org
+```
+
+## Part 3. Partitioning
+
+:::info
 Both [cfdisk](https://www.geeksforgeeks.org/cfdisk-command-in-linux-with-examples/) and [fdisk](https://wiki.archlinux.org/title/Fdisk) are available as tools for partitioning. In this guide, **cfdisk** would be used
+:::
+
+::::steps
 
 1. List the hard drives and partition:
 
@@ -187,7 +167,9 @@ Both [cfdisk](https://www.geeksforgeeks.org/cfdisk-command-in-linux-with-example
    swapon /dev/swap_partition
    ```
 
-### Part 4. Installation
+::::
+
+## Part 4. Installation
 
 Run:
 
@@ -195,7 +177,9 @@ Run:
 pacstrap -K /mnt base linux linux-firmware nano networkmanager
 ```
 
-### Part 5. System Configuration
+## Part 5. System Configuration
+
+::::steps
 
 1. To generate fstab with UUID (recommended) Run:
 
@@ -258,7 +242,9 @@ arch-chroot /mnt
      ```
      `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
 
-### Part 6. Network Configuration
+::::
+
+## Part 6. Network Configuration
 
 - Create the hostname file in /etc/hostname Eg. nano /etc/hostname
 - Add your host name
@@ -267,7 +253,9 @@ arch-chroot /mnt
   systemctl enable NetworkManager
   ```
 
-### Part 7. Root Password
+## Part 7. Root Password
+
+::::steps
 
 1. To create a root password, run:
    ```bash
@@ -297,7 +285,11 @@ arch-chroot /mnt
 
    For more information, reference to this [Youtube Video](https://www.youtube.com/watch?v=JRdYSGh-g3s&t=1361s) at minute 21:11
 
-### Part 8 Bootloader
+::::
+
+## Part 8 Bootloader
+
+::::steps
 
 1. Choose and install a [Linux-capable bootloader](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader). If you have an Intel or AMD CPU, enable [Microcode](https://wiki.archlinux.org/title/Microcode) updates in addition.
 
@@ -341,7 +333,11 @@ arch-chroot /mnt
 
    Refer to this [link](https://wiki.archlinux.org/title/GRUB) if things gets complicated
 
-### Part 9. Reboot
+::::
+
+## Part 9. Reboot
+
+::::steps
 
 1. Use [nmcli](https://wiki.archlinux.org/title/NetworkManager) to connect to network
 
@@ -368,7 +364,11 @@ arch-chroot /mnt
 
 5. Take picture and prove you’re a prestigious Arch user
 
-### Part 10. Post Installation
+::::
+
+## Part 10. Post Installation
+
+::::steps
 
 1. [Desktop Environment](https://wiki.archlinux.org/title/Desktop_environment):
    - [Gnome](https://www.gnome.org/)
@@ -406,7 +406,11 @@ arch-chroot /mnt
    systemctl --user enable --now pulseaudio
    ```
 
+::::
+
 ## [ROG Asusctl](https://asus-linux.org/)
+
+::::steps
 
 1. Repo:
 
@@ -446,15 +450,23 @@ arch-chroot /mnt
    pacman -S rog-control-center
    ```
 5. Custom Kernel
+
    ```bash
    pacman -Sy linux-g14 linux-g14-headers
    grub-mkconfig -o /boot/grub/grub.cfg
    ```
+
    - Run `unname -r` it should output:
-     `bash
+
+   ```bash
    # -g14 is the important one
    6.8.1-arch1-g14
-   `  **Note:** If you are using a custom kernel use the`nvidia-dkms` package for nvidia drivers.
+   ```
+
+   - If you are using a custom kernel use the `nvidia-dkms` package for nvidia drivers.
+
    ```bash
    sudo pacman -S nvidia-dkms
    ```
+
+::::
