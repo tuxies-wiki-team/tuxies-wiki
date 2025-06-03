@@ -125,7 +125,9 @@ sudo dnf install gcc kernel-devel dkms
 
 @tab Arch
 
-?!TODO?!
+```bash
+sudo pacman -S v4l2loopback-dkms
+```
 :::
 
 2. Install Module & Run:
@@ -168,7 +170,6 @@ flatpak install flathub com.visualstudio.code
 ```bash
 flatpak install --user flathub com.visualstudio.code
 ```
-
 :::
 
 ### [VS Code Non-Flatpak Download](https://code.visualstudio.com/Download)
@@ -182,10 +183,10 @@ Download .deb file from link above
 @tab Fedora
 Download .rpm file from link above
 
-@tab Arch (AUR)
+@tab Arch (Code - OSS)
 
 ```bash
-yay -S visual-studio-code-bin
+sudo pacman -S code
 ```
 
 :::

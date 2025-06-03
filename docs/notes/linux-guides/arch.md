@@ -1,5 +1,5 @@
 ---
-title: Arch Linux Guide
+title: Arch Guide
 tags:
   - Linux Guides
 createTime: 2025/05/29 08:29:45
@@ -211,7 +211,9 @@ arch-chroot /mnt
      ```bash
      hwclock --systohc
      ```
+     :::important
      **This command assumes the hardware clock is set to UTC**
+     :::
 
 4. Localization:
    - edit `/etc/locale.gen` and uncomment `en_US.UTF-8 UTF-8` and other needed UTF-8 locales
@@ -282,9 +284,9 @@ arch-chroot /mnt
      **Uncomment** `%wheel ALL-(ALL) ALL` **and add** `Defaults timestamp_timeout=0` **directly under**
 
      `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
-
+   :::info
    For more information, reference to this [Youtube Video](https://www.youtube.com/watch?v=JRdYSGh-g3s&t=1361s) at minute 21:11
-
+   :::
 ::::
 
 ## Part 8 Bootloader
@@ -310,8 +312,9 @@ arch-chroot /mnt
    # For Dual-Booting:
    pacman -S os-probernmcli device wifi connect SSID_or_BSSID password password
    ```
-
+   :::info Note
    **If using `os-prober`, edit `/etc/default/grub` and uncomment the last line `GRUB_DISABLE_OS_PROBER=false`**
+   :::
 
 2. Run `grub-install`:
 
@@ -319,7 +322,7 @@ arch-chroot /mnt
    grub-install --target=x86_64-efi --efi-directory= <EFI_partition_mount_directory> --bootloader-id=Arch
    ```
 
-   **Not: Make sure that the EFI partition have enough storage, you can delete unwanted bootloaders by:**
+   **Note: Make sure that the EFI partition have enough storage, you can delete unwanted bootloaders by:**
 
    ```bash
    ls /boot
@@ -331,7 +334,9 @@ arch-chroot /mnt
 
    - Run `grub-mkconfig -o /boot/grub/grub.cfg`
 
+   :::info
    Refer to this [link](https://wiki.archlinux.org/title/GRUB) if things gets complicated
+   :::
 
 ::::
 
@@ -405,6 +410,12 @@ arch-chroot /mnt
    sudo pacman -S pulseaudio pulseaudio-alsa pavucontrol
    systemctl --user enable --now pulseaudio
    ```
+3. [Yay](https://github.com/Jguer/yay) Installation
+   - Yay is a package manager that allows the user to access the [AUR repository](https://aur.archlinux.org/) 
+   ```bash
+   sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+   ```
+
 
 ::::
 
@@ -470,3 +481,82 @@ arch-chroot /mnt
    ```
 
 ::::
+
+## Known Errors and Fixes
+
+:::important
+Note that all fixes below may vary depending on the user's specific situation.  
+**Make sure to identify the error before copying the commands listed under.**
+:::
+
+:::caution **Yay Error: error while loading shared libraries**
+- This happens when your Yay repo is very outdated compared to your system, usually happens after a system update, to fix this, simply reinstall yay: 
+
+```bash 
+# Remove yay for update
+sudo pacman -R yay 
+
+# Install yay from git
+cd /tmp
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay bin 
+makepkg -si
+cd ..
+
+# Clean /tmp folder 
+rm -rf yay-bin
+```
+:::
+
+:::caution **Pacman Error: mirror not responding**
+- This happens when your list of mirrors are too slow or are outdated, this can be fixed by regenerating a list of faster mirrors under the ``/etc/pacman.d/mirrorlist`` file. 
+- This can be done by ``reflector``, a package that automatically sorts and gneerates the mirrors by rates and saves on the ``/etc/pacman.d/mirrorlist`` file.
+
+```bash 
+# Install reflector
+sudo pacman -S reflector
+
+# Example Template: 
+sudo reflector --country <country_name> --latest <number of servers from the latest>  --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+
+# Example Use: 
+sudo reflector --verbose --sort rate -l 75 --save /etc/pacman.d/mirrorlist
+```
+:::
+
+:::caution **Signature from "" is unknown trust**
+```bash 
+# Example fail message: 
+error: PackageName: signature from "User <email@archlinux.org>" is invalid
+error: failed to commit transaction (invalid or corrupted package (PGP signature))
+Errors occurred, no packages were upgraded.
+```
+- "This occurs because the packager's key used in the package package-name is not present and/or not trusted in the local pacman-key gpg database" - archlinux.org
+
+Fix can be done by: 
+   ```bash
+   pacman-key refresh-keys
+   ```
+- If error persists, try regenerating the list of keys by the following: 
+```bash 
+# Remove the keys
+sudo pacman -rm -rf /etc/pacman.d/gnupg
+
+# Re-add the default keys
+sudo pacman-key --init 
+sudo pacman-key --populate
+```   
+:::
+
+:::caution **Pacman Error: failed to synchronize all databases (unable to lock database)**
+```bash 
+Sudo rm /var/lib/pacman/db.lck
+```
+:::
+
+:::caution **Pacman Error: failed to commit transaction (invalid or corrupted package)**
+- This happens when the keyring is outdated due to the lack of use or update of the system. The cause of this error is that it fails to check the package integrity using the PGP signature. To fix this error, simply update the keyrings by:
+```bash 
+pacman -S archlinux-keyring
+```
+:::
