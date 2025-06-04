@@ -30,7 +30,7 @@ flatpak install --user flathub com.discordapp.Discord
 
 Screen sharing does not work on Wayland because Discord uses an outdated electron version. For that, you may want to check out Vesktop or install Xwayland Video Bridge.
 
-[Vesktop](./editorsChoice.md#vesktop) supports video and audio sharing out of the box and has Vencord tweak integrated. It is the editors’ preferred way to use Discord.
+[Vesktop](./editors-choice.md#vesktop) supports video and audio sharing out of the box and has Vencord tweak integrated. It is the editors’ preferred way to use Discord.
 
 ### [Vencord](https://vencord.dev/download/)
 
@@ -128,6 +128,7 @@ sudo dnf install gcc kernel-devel dkms
 ```bash
 sudo pacman -S v4l2loopback-dkms
 ```
+
 :::
 
 2. Install Module & Run:
@@ -170,6 +171,7 @@ flatpak install flathub com.visualstudio.code
 ```bash
 flatpak install --user flathub com.visualstudio.code
 ```
+
 :::
 
 ### [VS Code Non-Flatpak Download](https://code.visualstudio.com/Download)
