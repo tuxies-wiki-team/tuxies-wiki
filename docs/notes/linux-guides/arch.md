@@ -560,3 +560,10 @@ Sudo rm /var/lib/pacman/db.lck
 pacman -S archlinux-keyring
 ```
 :::
+
+## Cool Tricks
+- Add the line 
+```bash 
+ILoveCandy
+``` 
+under ``/etc/pacman.conf`` will give you a cooler download bar!
