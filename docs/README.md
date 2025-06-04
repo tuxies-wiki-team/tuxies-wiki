@@ -36,10 +36,10 @@ config:
         - theme: brand
           icon: mdi:account-plus
           text: Join!
-          link: 
+          link:
         - theme: sponsor
           text: Learn more
-          link: /article/become-a-contributor/
+          link: /about/become-a-contributor/
   - type: features
     features:
       - title: An entry point to Linux
