@@ -12,7 +12,7 @@ draft: true
 :::card title="aier" icon="twemoji:penguin"
 :::
 
-:::card title="Lunear" icon="twemoji:full-moon-face"
+:::card title="Lunear" icon="noto:ogre"
 :::
 
 ::::
