@@ -5,8 +5,6 @@ permalink: /about/
 draft: true
 ---
 
-# About Us
-
 ::: card title="Our Mission" icon="twemoji:green-heart"  
 We’re building the **most comprehensive, community-driven Linux resource**—from beginner guides to advanced app libraries—all open, accessible, and maintained by enthusiasts like you.  
 :::
@@ -24,8 +22,6 @@ A passionate group of Linux users, developers, and documentarians working to:
 ::: card title="Open Community" icon="twemoji:people-holding-hands"  
 Our content grows through **community contributions**. Whether you’re fixing a typo or writing a full guide, every effort matters!  
 :::
-
-### Key Features:
 
 ✅ **100% Free** – No monetization, just passion  
 ✅ **Discord-Powered** – Real-time collaboration  
