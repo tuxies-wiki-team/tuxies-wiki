@@ -30,6 +30,22 @@ export const enNavbar = defineNavbarConfig([
   {
     text: "About",
     icon: "mdi:about",
-    link: "/about/",
+    items: [
+      {
+        text: "About Us",
+        icon: "mdi:about-variant",
+        link: "/about/",
+      },
+      {
+        text: "Become a Contributor",
+        icon: "mdi:book-information-variant",
+        link: "/about/become-a-contributor/",
+      },
+      {
+        text: "Our Team",
+        icon: "mdi:people-group-outline",
+        link: "/about/our-team/",
+      },
+    ],
   },
 ]);
