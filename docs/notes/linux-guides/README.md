@@ -23,6 +23,6 @@ Arch Linux Guide maintained by Lunear, includes the complete installation guide 
 
 Fedora Linux Guide maintained by aier.
 
-### [Ubuntu/Debian Linux Guide](ubuntu-debian.md)
+### [Debian/Ubuntu Linux Guide](./debian-ubuntu.md)
 
-Ubuntu/Debian Linux Guide currently lacks an official maintainer.
+Debian/Ubuntu Linux Guide currently lacks an official maintainer.
