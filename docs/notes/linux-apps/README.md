@@ -65,13 +65,13 @@ For the Gnome fans!
 - Drawing
 - Droidcam OBS
 - Inkscape
-- LocalSend
-- Mission Center
-- Obsidian
-- Pano
-- Papers
-- rQuickshare
-- Scrpy
+- [x] LocalSend
+- [x] Mission Center
+- [x] Obsidian
+- [x] Pano
+- [x] Papers
+- [x] rQuickshare
+- [x] Scrpy
 
 ## Delisted
 
@@ -79,3 +79,5 @@ For the Gnome fans!
 - **Gradience**: GTK3 theming app, unmaintained.
 - **Resources**: System resource monitor, replaced by Mission Center.
 - **WhatsApp Desktop (io.github.mimbrero.WhatsAppDesktop)**: WhatsApp client, delisted from Flathub.
+- **Pano**: Unsupported as of GNOME 48
+- **Spotube**: Got sued for using Spotify API

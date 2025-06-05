@@ -113,3 +113,34 @@ flatpak install flathub io.github.vikdevelop.SaveDesktop
 ```
 
 :::
+
+<!-- ## [Pano - Clipboard Manager](https://extensions.gnome.org/extension/5278/pano/)
+Gnome Extension, that provides a unique clipboard display.
+
+:::tabs 
+
+@tab 
+
+```bash
+
+``` -->
+
+## [Papers](https://apps.gnome.org/Papers/)
+
+Document view for GNOME
+
+:::tabs
+
+@tab Flatpak (System)
+
+```bash
+flatpak install flathub org.gnome.Papers
+```
+
+@tab Flatpak (User)
+
+```bash
+flatpak install --user flathub org.gnome.Papers
+```
+
+:::
