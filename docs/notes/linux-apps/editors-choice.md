@@ -253,7 +253,7 @@ yay -S localsend-bin
 :::
 
 ## [Copyq](https://github.com/hluk/CopyQ)
-"CopyQ is an advanced clipboard manager with powerful editing and scripting features" -GIthub
+"CopyQ is an advanced clipboard manager with powerful editing and scripting features" -Github
 
 :::tabs
 
@@ -296,3 +296,21 @@ sudo pacman -S copyq
 
 :::
 
+## [Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)
+Open souce vector graphic editor
+
+:::tabs
+
+@tab Flatpak (System)
+
+```bash
+flatpak install flathub org.inkscape.Inkscape
+```
+
+@tab Flatpak (User)
+
+```bash
+flatpak install --user org.inkscape.Inkscape
+```
+
+:::
