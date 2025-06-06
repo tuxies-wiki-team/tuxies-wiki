@@ -64,7 +64,7 @@ For the Gnome fans!
 - [] Darktable
 - [] Drawing
 - [] Droidcam OBS
-- [] Inkscape
+- [x] Inkscape
 - [x] copyq
 - [x] clipboard indicator
 - [x] LocalSend
