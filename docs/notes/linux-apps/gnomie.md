@@ -144,3 +144,11 @@ flatpak install --user flathub org.gnome.Papers
 ```
 
 :::
+
+
+## [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+
+Clipboard manager for Gnome
+
+**Install directly from link above**
+

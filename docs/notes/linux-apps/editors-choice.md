@@ -251,3 +251,48 @@ yay -S localsend-bin
 ```
 
 :::
+
+## [Copyq](https://github.com/hluk/CopyQ)
+"CopyQ is an advanced clipboard manager with powerful editing and scripting features" -GIthub
+
+:::tabs
+
+@tab Flatpak (System)
+
+```bash
+flatpak install flathub com.github.hluk.copyq
+```
+
+@tab Flatpak (User)
+
+```bash
+flatpak install --user flathub com.github.hluk.copyq
+```
+
+:::
+
+### For Non-Flatpak Downloads:
+
+:::tabs
+
+@tab Debian/Ubuntu
+
+```bash
+sudo add-apt-repository ppa:hluk/copyq
+sudo apt update
+sudo apt install copyq
+```
+
+@tab Fedora
+
+```bash
+sudo dnf install copyq
+```
+
+@tab Arch
+```bash
+sudo pacman -S copyq
+```
+
+:::
+

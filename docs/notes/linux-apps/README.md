@@ -59,12 +59,14 @@ For the Gnome fans!
 
 ## To be added
 
-- Bitwarden
-- Blender
-- Darktable
-- Drawing
-- Droidcam OBS
-- Inkscape
+- [] Bitwarden
+- [] Blender
+- [] Darktable
+- [] Drawing
+- [] Droidcam OBS
+- [] Inkscape
+- [x] copyq
+- [x] clipboard indicator
 - [x] LocalSend
 - [x] Mission Center
 - [x] Obsidian
