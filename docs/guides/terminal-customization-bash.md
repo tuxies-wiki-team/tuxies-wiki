@@ -150,7 +150,7 @@ Your `.bashrc` should look something like this if you decide to follow all instr
 
 #### fzf-related aliases ####
 alias cmd='compgen -c | fzf' # search for a possible command
-alias zh='history | fzf'# search in bash command history
+alias zh='history | fzf' # search in bash command history
 
 #### enabling zoxide ####
 eval "$(zoxide init bash)"
