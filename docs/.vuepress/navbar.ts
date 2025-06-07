@@ -51,9 +51,9 @@ export const enNavbar = defineNavbarConfig([
         text: "Distro Guides",
         items: [
           {
-            text: "Arch",
-            icon: "mdi:arch",
-            link: "/linux-guides/arch/",
+            text: "Debian/Ubuntu",
+            icon: "mdi:debian",
+            link: "linux-guides/debian-ubuntu/",
           },
           {
             text: "Fedora",
@@ -61,9 +61,9 @@ export const enNavbar = defineNavbarConfig([
             link: "/linux-guides/fedora/",
           },
           {
-            text: "Debian/Ubuntu",
-            icon: "mdi:debian",
-            link: "linux-guides/debian-ubuntu/",
+            text: "Arch",
+            icon: "mdi:arch",
+            link: "/linux-guides/arch/",
           },
         ],
       },
