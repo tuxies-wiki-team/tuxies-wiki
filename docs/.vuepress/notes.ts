@@ -6,11 +6,11 @@ const linuxApps = defineNoteConfig({
   sidebar: "auto",
 });
 
-const linuxGuides = defineNoteConfig({
-  dir: "linux-guides",
-  link: "/linux-guides",
-  sidebar: "auto",
-});
+// const linuxGuides = defineNoteConfig({
+//   dir: "linux-guides",
+//   link: "/linux-guides",
+//   sidebar: "auto",
+// });
 
 // const about = defineNoteConfig({
 //   dir: "about",
@@ -21,5 +21,5 @@ const linuxGuides = defineNoteConfig({
 export const enNotes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [linuxApps, linuxGuides],
+  notes: [linuxApps],
 });

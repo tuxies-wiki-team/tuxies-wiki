@@ -15,7 +15,38 @@ export const enNavbar = defineNavbarConfig([
   {
     text: "Linux Guides",
     icon: "mdi:school-outline",
-    link: "/linux-guides/",
+    items: [
+      {
+        text: "Distro Guides",
+        items: [
+          {
+            text: "Arch",
+            icon: "mdi:arch",
+            link: "/linux-guides/arch/",
+          },
+          {
+            text: "Fedora (Under Development)",
+            icon: "mdi:fedora",
+            link: "/linux-guides/fedora/",
+          },
+          {
+            text: "Debian/Ubuntu (Under Development)",
+            icon: "mdi:debian",
+            link: "linux-guides/debian-ubuntu/",
+          },
+        ],
+      },
+      {
+        text: "Desktop Env. Guides",
+        items: [
+          {
+            text: "Gnome",
+            icon: "mdi:gnome",
+            link: "linux-guides/gnome/",
+          },
+        ],
+      },
+    ],
   },
   {
     text: "Other Articles",
