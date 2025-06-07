@@ -7,4 +7,4 @@ permalink: /linux-guides/debian-ubuntu/
 draft: true
 ---
 
-This is Debian/Ubuntu
+Under construction

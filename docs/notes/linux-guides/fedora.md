@@ -7,4 +7,4 @@ permalink: /linux-guides/fedora/
 draft: true
 ---
 
-This is Fedora
+Under construction
