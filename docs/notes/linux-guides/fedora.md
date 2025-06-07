@@ -11,7 +11,9 @@ draft: true
 **THIS GUIDE IS CURRENTLY STILL UNDER CONSTRUCTION**
 :::
 
-Fedora is the prefered distro of **aier**. Fedora offers a high-quality out-of-the-box experience
+:::tip Fedora!
+Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-the-box experience while remaining highly flexible. Fedora is stable, yet it has up-to-date and cutting edge packages.
+:::
 
 ## Let's get started
 
@@ -21,11 +23,7 @@ Fedora is the prefered distro of **aier**. Fedora offers a high-quality out-of-t
 
 1. Install Fedora onto your machine
 
-   :::warning Under construction
-   TODO:
-
-   - [ ] Fedora installation video.
-
+   :::warning TODO: Fedora installation video.
    :::
 
 2. Update system
@@ -50,6 +48,9 @@ Fedora is the prefered distro of **aier**. Fedora offers a high-quality out-of-t
 ::::
 
 ### Create snapshots for your computer (highly recommended unless space is limited)
+
+:::warning TODO
+:::
 
 We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you like.
 
