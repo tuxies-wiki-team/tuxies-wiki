@@ -74,7 +74,7 @@ fastfetch
 PS1='------------------\n\[$(tput setaf 56)\][$(tput setaf 56)\]\u \[$(tput setaf 92)\]@ \[$(tput setaf 128)\]\h\[$(tput setaf 128)\]] \[$(tput setaf 200)\]\w\[$(tput sgr0)\]\n > '
 ```
 
-![Aesthetic Terminal](./assets/aestheticTerminal.png)
+![Aesthetic Terminal](./assets/aesthetic-terminal.png)
 
 ### Autorun `fastfetch` when you open the terminal
 
@@ -131,7 +131,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
     and here is what it looks like:
 
-    ![Custom PS1](./assets/customPS1.png)
+    ![Custom PS1](./assets/custom-ps1.png)
 
 4.  More resources
 

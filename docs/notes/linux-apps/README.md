@@ -59,11 +59,11 @@ For the Gnome fans!
 
 ## To be added
 
-- [] Bitwarden
-- [] Blender
-- [] Darktable
-- [] Drawing
-- [] Droidcam OBS
+- [ ] Bitwarden
+- [ ] Blender
+- [ ] Darktable
+- [ ] Drawing
+- [ ] Droidcam OBS
 - [x] Inkscape
 - [x] copyq
 - [x] clipboard indicator
