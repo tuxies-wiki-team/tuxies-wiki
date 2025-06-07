@@ -32,6 +32,10 @@ You'll be editing the `.bashrc` file from your home directory in this guide, but
 
 Here is an exemplar `.bashrc` file taken from my Fedora 42 Workstation (hopefully you don't have to use this):
 
+:::code-tabs
+
+@tab .bashrc
+
 ```bash
 # .bashrc
 
@@ -60,11 +64,15 @@ fi
 unset rc
 ```
 
+:::
+
 ## Aesthetic changes
 
 ### Preview
 
 Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
+
+::: code-tabs
 
 ```bash
 # ... omitted original .bashrc content above
@@ -73,6 +81,8 @@ fastfetch
 
 PS1='------------------\n\[$(tput setaf 56)\][$(tput setaf 56)\]\u \[$(tput setaf 92)\]@ \[$(tput setaf 128)\]\h\[$(tput setaf 128)\]] \[$(tput setaf 200)\]\w\[$(tput sgr0)\]\n > '
 ```
+
+:::
 
 ![Aesthetic Terminal](./assets/aesthetic-terminal.png)
 
@@ -145,6 +155,9 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
 
+:::code-tabs
+@tab .bashrc
+
 ```bash
 # ... omitted original .bashrc content above
 
@@ -177,6 +190,8 @@ alias lsta1='eza -Ta --level 1'
 alias lsta2='eza -Ta --level 2'
 alias lsta3='eza -Ta --level 3'
 ```
+
+:::
 
 ### Using `fzf` (Fuzzy Find)
 
@@ -212,12 +227,12 @@ alias lsta3='eza -Ta --level 3'
 
 2.  Add aliases
 
-        Below are example aliases:
+    Below are example aliases:
 
-        ```bash
-        alias cmd='compgen -c | fzf' # search for a possible command
-        alias zh='history | fzf'# search in bash command history
-        ```
+    ```bash
+    alias cmd='compgen -c | fzf' # search for a possible command
+    alias zh='history | fzf'# search in bash command history
+    ```
 
 3.  More resources
 

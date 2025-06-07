@@ -30,8 +30,8 @@ flatpak install --user flathub ca.desrt.dconf-editor
 
 :::
 
-:::danger
-If you think that some settings are missing in Dconf, install your distro’s package instead of the Flatpak\*\*
+:::important
+If you think that some settings are missing in Dconf, install your distro’s package instead of the Flatpak.
 :::
 
 :::tabs
@@ -126,7 +126,7 @@ Gnome Extension, that provides a unique clipboard display.
 
 ## [Papers](https://apps.gnome.org/Papers/)
 
-Document view for GNOME
+Document viewer for GNOME
 
 :::tabs
 

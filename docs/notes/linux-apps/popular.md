@@ -36,7 +36,7 @@ Screen sharing does not work on Wayland because Discord uses an outdated electro
 
 A Discord mod (not affiliated with Discord) that allows for theming and cool features.
 
-_Fun fact: aier loves the 'Fluent Discord' & 'MaterialDiscord" theme found in BetterDiscord's website._
+_Fun fact: **aier** loves the 'Fluent Discord' & 'MaterialDiscord" theme found in BetterDiscord's website._
 
 **Very easy installation. Just paste this line in the terminal to run and set up the installer:**
 

@@ -15,6 +15,9 @@ This guide will walk you through a few changes you can make to your `user.js` th
 
 This is what your `user.js` would look like if you decide to apply all tweaks mentioned in this guide. The following `user.js` contains all modifications mentioned in this guide.
 
+:::code-tabs
+@tab user.js
+
 ```js
 // Scrolling
 user_pref("mousewheel.default.delta_multiplier_x", 200); // 100
@@ -36,6 +39,8 @@ user_pref("zen.tabs.vertical.right-side", true); // false
 user_pref("zen.view.compact.hide-toolbar", true); // false
 user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 ```
+
+:::
 
 ## How to append changes
 
@@ -108,10 +113,10 @@ user_pref("apz.gtk.pangesture.pixel_delta_mode_multiplier", "7"); // "40.0"
 user_pref("apz.overscroll.enabled", true); // true, for linux
 ```
 
-- _apz.fling_friction_ determines how quickly the scrolling slows down.
-- _apz.gtk.pangesture.delta_mode_ set to 2 (pixel mode) ensures that scrolling takes into account display scaling (useful if you are not using 100% scaling).
-- _apz.gtk.pangesture.pixel_delta_mode_multiplier_ determines the speed of the touchpad scrolling in pixel mode. It is recommended that you set the mousewheel delta multipliers first before this value, as this value applies only to trackpads, whereas the mousewheel delta multipliers apply to both mouse and trackpad.
-- _apz.overscroll.enabled_ set to true makes the page elastic as you reaches its end, making it feel more alive.
+- **_apz.fling_friction_** determines how quickly the scrolling slows down.
+- **_apz.gtk.pangesture.delta_mode_** set to 2 (pixel mode) ensures that scrolling takes into account display scaling (useful if you are not using 100% scaling).
+- **_apz.gtk.pangesture.pixel_delta_mode_multiplier_** determines the speed of the touchpad scrolling in pixel mode. It is recommended that you set the mousewheel delta multipliers first before this value, as this value applies only to trackpads, whereas the mousewheel delta multipliers apply to both mouse and trackpad.
+- **_apz.overscroll.enabled_** set to true makes the page elastic as you reaches its end, making it feel more alive.
 
 ---
 
@@ -135,8 +140,8 @@ user_pref("zen.view.compact.hide-toolbar", true); // false
 user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 ```
 
-- _zen.glance.activation-method_ uses "alt" key to activate glance instead of "ctrl," this preserves the "open in new tab" functionality so you can keep doing ctrl+click!
-- _zen.splitView.change-on-hover_ set to true changes focus on split tabs without having to use a mouse click, similar to how Linux window managers change focus.
-- _zen.tabs.vertical.right-side_ set to true increases productivity by 200%.
-- _zen.view.compact.hide-toolbar_ set to true hides the url toolbar if you are using multiple toolbars in your Appearance settings.
-- _zen.view.compact.toolbar-flash-popup_ set to false disables the tab bar from popping up in compact mode when switching tabs.
+- **_zen.glance.activation-method_** uses "alt" key to activate glance instead of "ctrl," this preserves the "open in new tab" functionality so you can keep doing ctrl+click!
+- **_zen.splitView.change-on-hover_** set to true changes focus on split tabs without having to use a mouse click, similar to how Linux window managers change focus.
+- **_zen.tabs.vertical.right-side_** set to true increases productivity by 200%.
+- **_zen.view.compact.hide-toolbar_** set to true hides the url toolbar if you are using multiple toolbars in your Appearance settings.
+- **_zen.view.compact.toolbar-flash-popup_** set to false disables the tab bar from popping up in compact mode when switching tabs.
