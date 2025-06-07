@@ -8,14 +8,45 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export const enNavbar = defineNavbarConfig([
   {
-    text: "Linux Apps Library",
+    text: "Apps Library",
     icon: "mdi:bookshelf",
-    link: "/linux-apps/",
+    items: [
+      {
+        text: "About Apps Library",
+        icon: "mdi:about-variant",
+        link: "/linux-apps/",
+      },
+      {
+        text: "Editor's Choice",
+        icon: "material-symbols:editor-choice-rounded",
+        link: "/linux-apps/editors-choice/",
+      },
+      {
+        text: "Essentials",
+        icon: "material-symbols:label-important-rounded",
+        link: "/linux-apps/essentials/",
+      },
+      {
+        text: "Popular",
+        icon: "mdi:hot",
+        link: "/linux-apps/popular/",
+      },
+      {
+        text: "Gnomie",
+        icon: "mdi:gnome",
+        link: "/linux-apps/gnomie/",
+      },
+    ],
   },
   {
-    text: "Linux Guides",
+    text: "Guides",
     icon: "mdi:school-outline",
     items: [
+      {
+        text: "About Linux Guides",
+        icon: "mdi:about-variant",
+        link: "/linux-guides/",
+      },
       {
         text: "Distro Guides",
         items: [

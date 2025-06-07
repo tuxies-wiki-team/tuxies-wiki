@@ -1,10 +1,10 @@
 import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 
-const linuxApps = defineNoteConfig({
-  dir: "linux-apps",
-  link: "/linux-apps",
-  sidebar: "auto",
-});
+// const linuxApps = defineNoteConfig({
+//   dir: "linux-apps",
+//   link: "/linux-apps",
+//   sidebar: "auto",
+// });
 
 // const linuxGuides = defineNoteConfig({
 //   dir: "linux-guides",
@@ -21,5 +21,5 @@ const linuxApps = defineNoteConfig({
 export const enNotes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [linuxApps],
+  notes: [],
 });
