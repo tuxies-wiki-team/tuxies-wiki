@@ -37,38 +37,37 @@ Create snapshots of your computer, especially if you use Arch.
 
 1. SELinux Compatibility
 
-If you want to use Timeshift with SELinux, you might want to set SELinux mode from “enforcing” to “permissive” to enable proper function among kernel versions.
+   If you want to use Timeshift with SELinux, you might want to set SELinux mode from “enforcing” to “permissive” to enable proper function among kernel versions.
 
-**Go to the file `/etc/selinux/config`, scroll down and set SELinux to "permissive."**
+   **Go to the file `/etc/selinux/config`, scroll down and set SELinux to "permissive."**
 
-```bash
-# SELINUX=enforcing
-SELINUX=permissive
-```
+   ```bash
+   # SELINUX=enforcing
+   SELINUX=permissive
+   ```
 
 2. Installation
 
-:::tabs
+   :::tabs
 
-@tab Debian/Ubuntu
+   @tab Debian/Ubuntu
 
-```bash
-sudo apt-get timeshift
-```
+   ```bash
+   sudo apt-get timeshift
+   ```
 
-@tab Fedora
+   @tab Fedora
 
-```bash
-sudo dnf install timeshift
-```
+   ```bash
+   sudo dnf install timeshift
+   ```
 
-@tab Arch
+   @tab Arch
 
-```bash
-sudo pacman -S timeshift
-```
+   ```bash
+   sudo pacman -S timeshift
+   ```
 
-:::
+   :::
 
 ::::
-

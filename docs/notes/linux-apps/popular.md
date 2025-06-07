@@ -110,50 +110,50 @@ You would want to install v4l2loopback if you want to use the “virtual camera�
 
 1. Dependencies:
 
-:::tabs
-@tab Debian/Ubuntu
+   :::tabs
+   @tab Debian/Ubuntu
 
-```bash
-sudo apt install dkms
-```
+   ```bash
+   sudo apt install dkms
+   ```
 
-@tab Fedora
+   @tab Fedora
 
-```bash
-sudo dnf install gcc kernel-devel dkms
-```
+   ```bash
+   sudo dnf install gcc kernel-devel dkms
+   ```
 
-@tab Arch
+   @tab Arch
 
-```bash
-sudo pacman -S v4l2loopback-dkms
-```
+   ```bash
+   sudo pacman -S v4l2loopback-dkms
+   ```
 
-:::
+   :::
 
 2. Install Module & Run:
 
-```bash
-git clone https://github.com/umlaeute/v4l2loopback
-cd v4l2loopback
-make && sudo make install
-sudo depmod -a
-sudo modprobe v4l2loopback
-```
+   ```bash
+   git clone https://github.com/umlaeute/v4l2loopback
+   cd v4l2loopback
+   make && sudo make install
+   sudo depmod -a
+   sudo modprobe v4l2loopback
+   ```
 
 3. Load module on startup:
 
-Create the File `/etc/modules-load.d/v4l2loopback.conf` and write:
+   Create the File `/etc/modules-load.d/v4l2loopback.conf` and write:
 
-```bash
-v4l2loopback
-```
+   ```bash
+   v4l2loopback
+   ```
 
-In the case where the “Virtual Camera” button doesn’t show on OBS, the system may not have loaded the module. You can either redo the installation, or try loading the the module manually with:
+   In the case where the “Virtual Camera” button doesn’t show on OBS, the system may not have loaded the module. You can either redo the installation, or try loading the the module manually with:
 
-```bash
-sudo modprobe v4l2loopback
-```
+   ```bash
+   sudo modprobe v4l2loopback
+   ```
 
 ::::
 
