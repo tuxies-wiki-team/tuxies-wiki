@@ -90,7 +90,6 @@ sudo apt install gnome-tweaks
 @tab Fedora
 
 ```bash
-
 sudo dnf install gnome-tweaks
 ```
 
@@ -117,9 +116,9 @@ flatpak install flathub io.github.vikdevelop.SaveDesktop
 <!-- ## [Pano - Clipboard Manager](https://extensions.gnome.org/extension/5278/pano/)
 Gnome Extension, that provides a unique clipboard display.
 
-:::tabs 
+:::tabs
 
-@tab 
+@tab
 
 ```bash
 
@@ -145,10 +144,8 @@ flatpak install --user flathub org.gnome.Papers
 
 :::
 
-
 ## [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 
 Clipboard manager for Gnome
 
 **Install directly from link above**
-

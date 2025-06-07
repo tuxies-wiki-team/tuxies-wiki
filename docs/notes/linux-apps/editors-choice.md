@@ -128,7 +128,8 @@ yay -S zen-browser-bin
 :::
 
 ## [Obsidian](https://flathub.org/apps/md.obsidian.Obsidian)
-Obsidian is a powerful notetaking app available across different platforms based on MarkDown. Obsidian supports custom theming, sync, and publishing services. Obsidian is the perfect app for a second brain.
+
+Obsidian is a powerful markdown note-taking app available across different platforms. Obsidian supports custom theming, sync (paid), and publishing services. Write everything that is useful or that can be useful down and start building your second brain!
 
 :::tabs
 
@@ -138,7 +139,7 @@ Obsidian is a powerful notetaking app available across different platforms based
 flatpak install flathub md.obsidian.Obsidian
 ```
 
-@tab Flatpal (User)
+@tab Flatpak (User)
 
 ```bash
 flatpak install --user flathub md.obsidian.Obsidian
@@ -147,7 +148,8 @@ flatpak install --user flathub md.obsidian.Obsidian
 :::
 
 ## [Mission Center](https://flathub.org/apps/io.missioncenter.MissionCenter)
-Useful and intuitive system resources displayer, that accurately displays informations including CPU, GPU, Ram, processes, among others. 
+
+Useful and intuitive system resources displayer, that accurately displays informations including CPU, GPU, Ram, processes, among others.
 
 :::tabs
 
@@ -166,27 +168,29 @@ flatpak install --user flathub io.missioncenter.MissionCenter
 :::
 
 ## [rQuickshare](https://henriqueclaranhan.github.io/rquickshare/)
-From Github "Rust implementation of NearbyShare/QuickShare from Android for Linux and macOS"
+
+From rQuickshare's Github: "Rust implementation of NearbyShare/QuickShare from Android for Linux and macOS"
+
+::::tabs
+
+@tab AppImage (No Root Required)
 
 :::important
 The following lines are as of June 5, 2025, newer version may be released.
 :::
 
-:::tabs
-
-@tab AppImage (No Root Required)
 ```bash
 # Install the AppImage from the link above and give exec permission by the line below
 chmod +x r-quick-share-main_v0.11.5_glibc-2.39_amd64.AppImage
 ```
 
-:::
+::::
 
 :::tabs
 
 @tab Debian/Ubuntu
 
-```bash 
+```bash
 sudo dpkg -i r-quick-share-main_v0.11.5_glibc-2.39_amd64.deb
 ```
 
@@ -196,15 +200,17 @@ sudo dpkg -i r-quick-share-main_v0.11.5_glibc-2.39_amd64.deb
 sudo rpm -i r-quick-share-main_v0.11.5_glibc-2.39_1-x86_64.rpm
 ```
 
-@tab Arch (Unofficial AUR)
+@tab Arch (AUR)
 
 ```bash
 yay -S r-quick-share
 ```
+
 :::
 
 ## [Scrcpy](https://github.com/Genymobile/scrcpy)
-"This application mirrors Android devices (video and audio) connected via USB or TCP/IP and allows control using the computer's keyboard and mouse. It does not require root access or an app installed on the device. It works on Linux, Windows, and macOS." - Github
+
+From Scrcpy's GitHub: "This application mirrors Android devices (video and audio) connected via USB or TCP/IP and allows control using the computer's keyboard and mouse. It does not require root access or an app installed on the device. It works on Linux, Windows, and macOS."
 
 :::tabs
 
@@ -221,6 +227,7 @@ dnf copr enable zeno/scrcpy && dnf install scrcpy
 ```
 
 @tab Arch
+
 ```bash
 pacman -S scrcpy
 ```
@@ -228,7 +235,8 @@ pacman -S scrcpy
 :::
 
 ## [LocalSend](https://localsend.org/)
-Open-source, cross platform file sharer to nearby devices
+
+Open-source, cross-platform file sharer to nearby devices.
 
 :::tabs
 
@@ -253,6 +261,7 @@ yay -S localsend-bin
 :::
 
 ## [Copyq](https://github.com/hluk/CopyQ)
+
 "CopyQ is an advanced clipboard manager with powerful editing and scripting features" -Github
 
 :::tabs
@@ -290,6 +299,7 @@ sudo dnf install copyq
 ```
 
 @tab Arch
+
 ```bash
 sudo pacman -S copyq
 ```
@@ -297,6 +307,7 @@ sudo pacman -S copyq
 :::
 
 ## [Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)
+
 Open souce vector graphic editor
 
 :::tabs

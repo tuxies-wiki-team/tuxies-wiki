@@ -43,7 +43,7 @@ export const enNavbar = defineNavbarConfig([
     icon: "mdi:school-outline",
     items: [
       {
-        text: "About Linux Guides",
+        text: "About Guides",
         icon: "mdi:about-variant",
         link: "/linux-guides/",
       },
