@@ -4,7 +4,7 @@ createTime: 2025/05/30 16:48:26
 permalink: /about/become-a-contributor/
 ---
 
-:::card card title="Welcome!" icon="twemoji:party-popper"
+:::card card title="Welcome!" icon="fluent-emoji:party-popper"
 Thank you for your interest in contributing to Tuxie's Wiki! We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.  
 :::
 

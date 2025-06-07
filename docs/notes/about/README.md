@@ -4,7 +4,7 @@ createTime: 2025/05/30 16:48:26
 permalink: /about/
 ---
 
-::: card title="Our Mission" icon="twemoji:green-heart"  
+::: card title="Our Mission" icon="fluent-emoji:green-heart"  
 We’re building the **most comprehensive, community-driven Linux resource**—from beginner guides to advanced app libraries—all open, accessible, and maintained by enthusiasts like you.  
 :::
 
@@ -18,7 +18,7 @@ A passionate group of Linux users, developers, and documentarians working to:
 
 ## Why Join Us?
 
-::: card title="Open Community" icon="twemoji:people-holding-hands"  
+::: card title="Open Community" icon="fluent-color:people-community-16"  
 Our content grows through **community contributions**. Whether you’re fixing a typo or writing a full guide, every effort matters!  
 :::
 

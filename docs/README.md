@@ -16,7 +16,7 @@ config:
           text: Explore →
           link: /blog/
         - theme: sponsor
-          icon: mdi:discord
+          icon: ic:sharp-discord
           text: Join our Discord!
           link: https://discord.gg/WkeNeu8NGt
   - type: doc-hero
