@@ -7,4 +7,42 @@ permalink: /linux-guides/fedora/
 draft: true
 ---
 
-Under construction
+Fedora is the prefered distro of **aier**
+
+## Installation
+
+::::steps
+
+1. Install Fedora onto your machine
+
+:::warning Under construction
+TODO:
+
+- [ ] Fedora installation video.
+
+:::
+
+2. Update system
+
+:::tabs
+@tab Terminal
+
+```bash
+sudo dnf update -y
+```
+
+@tab GUI (Gnome Software)
+![Gnome Software Update Button](./assets/gnome-software-update.svg)
+:::
+
+3. Reboot
+
+```bash
+reboot
+```
+
+::::
+
+## Adjusting the workflow
+
+## Further customization
