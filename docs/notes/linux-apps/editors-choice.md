@@ -220,7 +220,7 @@ Install the .tar.gz file from the link above
 @tab Fedora
 
 ```bash
-dnf copr enable zeno/scrcpy && dnf install scrcpy
+sudo dnf copr enable zeno/scrcpy && sudo dnf install scrcpy
 ```
 
 @tab Arch
