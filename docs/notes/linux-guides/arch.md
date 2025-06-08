@@ -571,7 +571,7 @@ sudo pacman-key --populate
 :::caution **Pacman Error: failed to synchronize all databases (unable to lock database)**
 
 ```bash
-Sudo rm /var/lib/pacman/db.lck
+sudo rm /var/lib/pacman/db.lck
 ```
 
 :::
