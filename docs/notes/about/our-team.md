@@ -19,5 +19,5 @@ groups:
         link: https://github.com/Lunear01
         avatar: https://github.com/Lunear01.png
         location: Toronto, Valencia
-        desc: TODO
+        desc: 人生苦短，及时行乐。
 ---

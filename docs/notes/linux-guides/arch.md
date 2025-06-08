@@ -7,12 +7,17 @@ permalink: /linux-guides/arch/
 draft: true
 ---
 
-:::important
+:::note
 Before starting, it's recommended to read the [official installation guide](https://wiki.archlinux.org/title/Installation_guide) and understand the major concepts.
 :::
 
-:::caution
-This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide will NOT work.
+:::warning
+This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide will **NOT** work.
+:::
+
+:::caution DISCLAIMER
+This guide will not hold responsibility for any personal data loss or damages of any kind, proceed with personal judgement.
+
 :::
 
 ## Part 1. Preparation
@@ -561,9 +566,87 @@ pacman -S archlinux-keyring
 ```
 :::
 
+## Noob Corner (Commonly Asked Questions)
+
+
+<!-- template: 
+::: card title="How to install .tar.zst files through terminal?" icon="mdi:help-circle-outline"
+::: -->
+
+::: card title="How to install .tar.zst files through terminal?" icon="mdi:help-circle-outline"
+
+```bash
+sudo pacman -U <directory-of-extracted-package.pkg.tar.zst>
+```
+**Uninstall:**
+
+```bash
+# Search for package name
+pacman -Q | grep "<package_name>"
+
+# Removing while keeping depedencies (recommended)
+sudo pacman -R package_name
+
+# Removing unused dependencies
+sudo pacman -Rsn package_name
+
+```
+
+:::
+
+
+::: card title="How to revert pacman system update?" icon="mdi:help-circle-outline"
+
+Check for cached packages (old packages)
+```bash
+ls /var/cache/pacman/pkg/ | grep <package-name>
+```
+
+Downgrade specific packages
+
+```bash
+sudo pacman -U /var/cache/pacman/pkg/<package-name>-<old-version>.pkg.tar.zst
+```
+
+If cache was cleared, use downgrade from aur 
+
+```bash
+yay -S downgrade 
+sudo downgrade <package-name>
+```
+
+Last resort, revert all recent updates. The following line reverts the last 10 packages being updated 
+
+```bash
+sudo pacman -U $(ls -t /var/cache/pacman/pkg/*.pkg.tar.zst | head -n 10)
+```
+
+::: 
+
+::: card title="How to improve download speed?" icon="mdi:help-circle-outline"
+
+Install [``reflector``](https://wiki.archlinux.org/title/Reflector) package
+```bash
+sudo pacman -S reflector
+```
+
+Reflector is a package designed to filter and replace existing pacman mirrorlists
+```bash 
+# Example Template: 
+sudo reflector --country <country_name> --latest <number of servers from the latest>  --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+
+# Example Use: 
+sudo reflector --verbose --sort rate -l 75 --save /etc/pacman.d/mirrorlist
+```
+:::
+
 ## Cool Tricks
 - Add the line 
 ```bash 
 ILoveCandy
 ``` 
 under ``/etc/pacman.conf`` will give you a cooler download bar!
+
+:::warning TODO
+add bashrc scripts alias
+:::
