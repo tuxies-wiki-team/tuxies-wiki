@@ -4,98 +4,109 @@ tags:
   - Linux Guides
 createTime: 2025/05/29 08:29:45
 permalink: /linux-guides/fedora/
-draft: true
 ---
 
-:::caution
-**THIS GUIDE IS CURRENTLY STILL UNDER CONSTRUCTION**
+:::tip Why Fedora?
+Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-the-box experience while remaining highly flexible. It is stable, yet it has up-to-date and cutting edge packages.
 :::
 
-:::tip Fedora!
-Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-the-box experience while remaining highly flexible. Fedora is stable, yet it has up-to-date and cutting edge packages.
-:::
-
-## Let's get started
-
-### Installation
+## Installation
 
 ::::steps
 
-1. Install Fedora onto your machine
+- Install Fedora onto your machine
 
-   :::warning TODO: Fedora installation video.
-   :::
+  - [How to Install Fedora Step by Step](https://www.linuxtechi.com/how-to-install-fedora-workstation/) by Pradeep Kumar from Linux Techi.
 
-2. Update system
+  - [NVIDIA Drivers Guide](https://rpmfusion.org/Howto/NVIDIA#Current_GeForce.2FQuadro.2FTesla) by Official RPM Fusion.
 
-   :::tabs
-   @tab Terminal
+  - [Fedora on MacBook](https://asahilinux.org/fedora/) by Official Asahi Linux.
 
-   ```bash
-   sudo dnf update -y
-   ```
+- Update system
 
-   @tab GUI (Gnome Software)
-   ![Gnome Software Update Button](./assets/gnome-software-update.svg)
-   :::
+  :::tabs
+  @tab Terminal
 
-3. Reboot
+  ```bash
+  sudo dnf update -y
+  ```
 
-   ```bash
-   reboot
-   ```
+  @tab GUI (Gnome Software)
+  ![Gnome Software Update Button](./assets/gnome-software-update.svg)
+  :::
+
+- Reboot
+
+  ```bash
+  reboot
+  ```
 
 ::::
 
-### Create snapshots for your computer (highly recommended unless space is limited)
+## Create snapshots/backups for your computer
 
-:::warning TODO
+:::important This is highly recommended unless your disk space is limited.
 :::
 
 We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you like.
 
-### Go through the settings app
+::::steps
 
-Go through the settings app and make some quick tweaks to your needs.
+- SELinux compatibility
 
-![Gnome Settings App](./assets/gnome-settings-app.png)
+  Fedora Workstation and many other spins enforces SELinux by default.
 
-## Further adjusting the workflow
+  If you want to use Timeshift with SELinux, you might want to set SELinux mode from “enforcing” to “permissive” to enable proper function among kernel versions.
 
-### Install some apps for more advanced options
+  :::code-tabs
 
-:::important
-This is only for Gnome users.
-:::
+  @tab /etc/selinux/config
 
-:::tip
-You can always use your distro's GUI software store (such as Gnome's **Software** instead of the commandline).
-:::
+  ```bash
+  # [!code --]
+  SELINUX=enforcing
+  # [!code ++]
+  SELINUX=permissive
+  ```
 
-You'd need [Gnome Tweaks](../linux-apps/gnomie.md#gnome-tweaks), [Dconf Editor](../linux-apps/gnomie.md#dconf-editor), and [Extension Manager](../linux-apps/gnomie.md#extension-manager).
+  :::
 
-```bash
-sudo dnf install gnome-tweaks
-sudo dnf install dconf-editor
-```
+  Restart your computer after the modification.
 
-:::tabs
+  ```bash
+  reboot
+  ```
 
-@tab Flatpak (System)
+- Install Timeshift
 
-```bash
-flatpak install flathub com.mattjakeman.ExtensionManager
-```
+  ```bash
+  sudo dnf install timeshift
+  ```
 
-@tab Flatpak (User)
+- Go through the setup wizard
 
-```bash
-flatpak install --user flathub com.mattjakeman.ExtensionManager
-```
+  ::: collapse
 
-:::
+  - I recommend keeping 3–5 boot snapshots.
+
+    ![Timeshift setup wizard](./assets/timeshift-setup.png)
+
+  :::
+
+- Restore backup when needed
+
+  :::collapse
+
+  - Choose the snapshot you wish to restore and voila!
+
+    ![Timeshift Restore Snapshot!](./assets/timeshift-restore-snapshot.png)
+
+  :::
+
+::::
 
 ## Further customization
 
-4. Adw-gtk3
-5. Ocean theme
+From this point on, customization for your Fedora installation would mainly be based on the DE that you are using.
+
+- [Gnome Guide](./gnome.md)
