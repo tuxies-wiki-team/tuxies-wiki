@@ -86,6 +86,7 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
       bulletin: {
+        lifetime: "session",
         layout: "top-right",
         contentType: "markdown",
         title: "Welcome to Tuxie's Library 🐧",
