@@ -28,6 +28,6 @@ Our content grows through **community contributions**. Whether you’re fixing a
 
 ## Get Involved
 
-1. **Use our resources** ([Browse the Library](/tuxies-wiki/docs/notes/linux-apps/README.md))
+1. **Use our resources** ([Linux Apps Library](../linux-apps/README.md), [Linux Guides](../linux-guides/README.md), [Other Articles](/blog/))
 2. **Improve them** ([Contribute](./become-a-contributor.md))
 3. **Chat with us** 🔗 [Discord Server](https://discord.gg/WkeNeu8NGt)
