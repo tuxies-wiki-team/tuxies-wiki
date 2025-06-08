@@ -5,7 +5,7 @@ permalink: /linux-guides/gnome/
 ---
 
 :::warning
-TODO
+Bash keyboard script
 :::
 
 ## Further adjusting the workflow
@@ -94,13 +94,14 @@ flatpak install --user flathub com.mattjakeman.ExtensionManager
 - [Appindicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+- [Gnome Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
+- KeyBoard Shortcuts (bash setup)
+- Status Icons
 
 ## Further customization
 
 - Adw-gtk3
 - Ocean theme
 - Blur My Shell
-- KeyBoard Shortcuts
 - Dash To Dock
-- Gnome Fuzzy App Search
-- 
+
