@@ -92,60 +92,60 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 ::::steps
 
-1.  Installation
+- Installation
 
-    :::tabs
-    @tab Debian/Ubuntu
+  :::tabs
+  @tab Debian/Ubuntu
 
-    ```bash
-    apt install fastfetch
-    ```
+  ```bash
+  sudo apt install fastfetch
+  ```
 
-    @tab Fedora
+  @tab Fedora
 
-    ```bash
-    dnf install fastfetch
-    ```
+  ```bash
+  sudo dnf install fastfetch
+  ```
 
-    @tab Arch
+  @tab Arch
 
-    ```bash
-    pacman -S fastfetch
-    ```
+  ```bash
+  pacman -S fastfetch
+  ```
 
-    :::
+  :::
 
-2.  Set up `fastfetch` in shell
+- Set up `fastfetch` in shell
 
-    You can append the following at the bottom of your `.bashrc`:
+  You can append the following at the bottom of your `.bashrc`:
 
-    ```bash
-    fastfetch
-    ```
+  ```bash
+  fastfetch
+  ```
 
-    and here is what it looks like:
+  and here is what it looks like:
 
-    :::demo-wrapper
-    ![fastfetch](./assets/fastfetch.png)
-    :::
+  :::demo-wrapper
+  ![fastfetch](./assets/fastfetch.png)
+  :::
 
-3.  Changing the look of the prompt (`PS1`)
+- Changing the look of the prompt (`PS1`)
 
-    Now, in your `.bashrc`, you change the looks of your prompt looks through modifying the `PS1` variable.
+  Now, in your `.bashrc`, you change the looks of your prompt looks through modifying the `PS1` variable.
 
-    You can append the following at the bottom of your `.bashrc`:
+  You can append the following at the bottom of your `.bashrc`:
 
-    ```bash
-    PS1='------------------\n\[$(tput setaf 56)\][$(tput setaf 56)\]\u \[$(tput setaf 92)\]@ \[$(tput setaf 128)\]\h\[$(tput setaf 128)\]] \[$(tput setaf 200)\]\w\[$(tput sgr0)\]\n > '
-    ```
+  ```bash
+  PS1='------------------\n\[$(tput setaf 56)\][$(tput setaf 56)\]\u \[$(tput setaf 92)\]@ \[$(tput setaf 128)\]\h\[$(tput setaf 128)\]] \[$(tput setaf 200)\]\w\[$(tput sgr0)\]\n > '
+  ```
 
-    and here is what it looks like:
+  and here is what it looks like:
 
-    ![Custom PS1](./assets/custom-ps1.png)
+  ![Custom PS1](./assets/custom-ps1.png)
 
-4.  More resources
+- More resources
 
-    - [`PS1` customization by Rahul from tecadmin.net](https://tecadmin.net/how-to-customize-bash-prompt-ps1-in-linux/)
+  - [`PS1` customization by Rahul from tecadmin.net](https://tecadmin.net/how-to-customize-bash-prompt-ps1-in-linux/)
 
 ::::
 
@@ -202,43 +202,43 @@ alias lsta3='eza -Ta --level 3'
 
 ::::steps
 
-1.  Installation
+- Installation
 
-    :::tabs
-    @tab Debian/Ubuntu
+  :::tabs
+  @tab Debian/Ubuntu
 
-    ```bash
-    apt install fzf
-    ```
+  ```bash
+  sudo apt install fzf
+  ```
 
-    @tab Fedora
+  @tab Fedora
 
-    ```bash
-    dnf install fzf
-    ```
+  ```bash
+  sudo dnf install fzf
+  ```
 
-    @tab Arch
+  @tab Arch
 
-    ```bash
-    pacman -S fzf
-    ```
+  ```bash
+  pacman -S fzf
+  ```
 
-    :::
+  :::
 
-2.  Add aliases
+- Add aliases
 
-    Below are example aliases:
+  Below are example aliases:
 
-    ```bash
-    alias cmd='compgen -c | fzf' # search for a possible command
-    alias zh='history | fzf'# search in bash command history
-    ```
+  ```bash
+  alias cmd='compgen -c | fzf' # search for a possible command
+  alias zh='history | fzf'# search in bash command history
+  ```
 
-3.  More resources
+- More resources
 
-    - [Tutorial](https://youtu.be/MvLQor1Ck3M?si=t23i-fsLL57QyuzU&t=50) on how to use `fzf` by DevOps Toolbox
-    - [Use `fzf` with `zoxide`](https://www.youtube.com/watch?v=aghxkpyRVDY) by Dreams of Autonomy
-    - [More info](https://github.com/junegunn/fzf?tab=readme-ov-file) about `fzf` from the official `fzf` GitHub page.
+  - [Tutorial](https://youtu.be/MvLQor1Ck3M?si=t23i-fsLL57QyuzU&t=50) on how to use `fzf` by DevOps Toolbox
+  - [Use `fzf` with `zoxide`](https://www.youtube.com/watch?v=aghxkpyRVDY) by Dreams of Autonomy
+  - [More info](https://github.com/junegunn/fzf?tab=readme-ov-file) about `fzf` from the official `fzf` GitHub page.
 
 ::::
 
@@ -250,41 +250,41 @@ alias lsta3='eza -Ta --level 3'
 
 ::::steps
 
-1.  Installation
+- Installation
 
-    :::tabs
-    @tab Debian/Ubuntu
+  :::tabs
+  @tab Debian/Ubuntu
 
-    ```bash
-    apt install zoxide
-    ```
+  ```bash
+  sudo apt install zoxide
+  ```
 
-    @tab Fedora
+  @tab Fedora
 
-    ```bash
-    dnf install zoxide
-    ```
+  ```bash
+  sudo dnf install zoxide
+  ```
 
-    @tab Arch
+  @tab Arch
 
-    ```bash
-    pacman -S zoxide
-    ```
+  ```bash
+  sudo pacman -S zoxide
+  ```
 
-    :::
+  :::
 
-2.  Set up `zoxide` in your Bash shell
+- Set up `zoxide` in your Bash shell
 
-        Append the following to your `.bashrc`:
+       Append the following to your `.bashrc`:
 
-        ```bash
-        eval "$(zoxide init bash)"
-        ```
+       ```bash
+       eval "$(zoxide init bash)"
+       ```
 
-3.  More resources
+- More resources
 
-    - [Tutorial](https://www.youtube.com/watch?v=aghxkpyRVDY&t=83s) on how to use `zoxide` by Dreams of Autonomy (includes how to use it with `fzf`, too)
-    - [More info](https://github.com/ajeetdsouza/zoxide) about `zoxide` from the official `zoxide` GitHub page
+  - [Tutorial](https://www.youtube.com/watch?v=aghxkpyRVDY&t=83s) on how to use `zoxide` by Dreams of Autonomy (includes how to use it with `fzf`, too)
+  - [More info](https://github.com/ajeetdsouza/zoxide) about `zoxide` from the official `zoxide` GitHub page
 
 ::::
 
@@ -296,51 +296,51 @@ alias lsta3='eza -Ta --level 3'
 
 ::::steps
 
-1. Installation
+- Installation
 
-   :::tabs
-   @tab Debian/Ubuntu
+  :::tabs
+  @tab Debian/Ubuntu
 
-   apt install eza
+  sudo apt install eza
 
-   @tab Fedora
+  @tab Fedora
 
-   dnf install eza
+  sudo dnf install eza
 
-   @tab Arch
+  @tab Arch
 
-   pacman -S eza
-   :::
+  pacman -S eza
+  :::
 
-2. Add aliases
+- Add aliases
 
-   Below are some example aliases:
+  Below are some example aliases:
 
-   ```bash
-   # list directories in a tree format (or specify how many levels to list them)
-   alias lsd='eza -TD'
-   alias lsd1='eza -TD --level 1'
-   alias lsd2='eza -TD --level 2'
-   alias lsd3='eza -TD --level 3'
-   # list items in tree format (or specify how many levels to list them)
-   alias lst='eza -T'
-   alias lst1='eza -T --level 1'
-   alias lst2='eza -T --level 2'
-   alias lst3='eza -T --level 3'
-   # list all directories in tree format including hidden ones (or specify how many levels to list them)
-   alias lsda='eza -TDa'
-   alias lsda1='eza -TDa --level 1'
-   alias lsda2='eza -TDa --level 2'
-   alias lsda3='eza -TDa --level 3'
-   # list all items in tree format including hidden ones (or specify how many levels to list them)
-   alias lsta='eza -Ta'
-   alias lsta1='eza -Ta --level 1'
-   alias lsta2='eza -Ta --level 2'
-   alias lsta3='eza -Ta --level 3'
-   ```
+  ```bash
+  # list directories in a tree format (or specify how many levels to list them)
+  alias lsd='eza -TD'
+  alias lsd1='eza -TD --level 1'
+  alias lsd2='eza -TD --level 2'
+  alias lsd3='eza -TD --level 3'
+  # list items in tree format (or specify how many levels to list them)
+  alias lst='eza -T'
+  alias lst1='eza -T --level 1'
+  alias lst2='eza -T --level 2'
+  alias lst3='eza -T --level 3'
+  # list all directories in tree format including hidden ones (or specify how many levels to list them)
+  alias lsda='eza -TDa'
+  alias lsda1='eza -TDa --level 1'
+  alias lsda2='eza -TDa --level 2'
+  alias lsda3='eza -TDa --level 3'
+  # list all items in tree format including hidden ones (or specify how many levels to list them)
+  alias lsta='eza -Ta'
+  alias lsta1='eza -Ta --level 1'
+  alias lsta2='eza -Ta --level 2'
+  alias lsta3='eza -Ta --level 3'
+  ```
 
-3. More resources
+- More resources
 
-   - [Quick overview](https://www.youtube.com/watch?v=mmqDYw9C30I&t=615s) on `eza` by Josean Martinez
+  - [Quick overview](https://www.youtube.com/watch?v=mmqDYw9C30I&t=615s) on `eza` by Josean Martinez
 
 ::::
