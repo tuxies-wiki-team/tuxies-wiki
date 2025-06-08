@@ -5,7 +5,7 @@ permalink: /linux-guides/gnome/
 ---
 
 :::warning
-TODO
+Bash keyboard script
 :::
 
 ## Further adjusting the workflow
@@ -29,10 +29,31 @@ Here are some settings I'd recommend:
 
 You'd need [Gnome Tweaks](../linux-apps/gnomie.md#gnome-tweaks), [Dconf Editor](../linux-apps/gnomie.md#dconf-editor), and [Extension Manager](../linux-apps/gnomie.md#extension-manager).
 
+
+:::tabs
+
+@tab Debian/Ubuntu
+
+```bash
+sudo apt install gnome-tweaks
+sudo apt install dconf-editor
+```
+
+@tab Fedora
+
 ```bash
 sudo dnf install gnome-tweaks
 sudo dnf install dconf-editor
 ```
+
+@tab Arch
+
+```bash
+sudo pacman -S gnome-tweaks
+sudo pacman -S dconf-editor
+```
+
+:::
 
 :::tabs
 
@@ -50,7 +71,37 @@ flatpak install --user flathub com.mattjakeman.ExtensionManager
 
 :::
 
+## Useful Extensions
+
+<!-- ::::card-grid
+
+:::card title="Launch New Instance" icon="mdi:about" link=https://extensions.gnome.org/extension/600/launch-new-instance/
+:::
+
+:::card title="Appindicator and KStatusNotifierItem Support" icon="mdi:about"
+:::
+
+:::card title="Caffeine" icon="mdi:about"
+:::
+
+:::card title="Clipboard Indicator" icon="mdi:about"
+:::
+
+:::: -->
+
+
+- [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
+- [Appindicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
+- [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
+- [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+- [Gnome Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
+- KeyBoard Shortcuts (bash setup)
+- Status Icons
+
 ## Further customization
 
-4. Adw-gtk3
-5. Ocean theme
+- Adw-gtk3
+- Ocean theme
+- Blur My Shell
+- Dash To Dock
+
