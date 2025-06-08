@@ -19,13 +19,13 @@ We are looking for active maintainers of these guides. If you are interested in 
 
 Arch Linux Guide maintained by **Lunear**, includes the complete installation guide along with ROG Linux set up and Nvidia drivers and the most up-to-date error report and fixes.
 
-### [Fedora Linux Guide](./fedora.md)
-
-Fedora Linux Guide maintained by **aier**.
-
 ### [Debian/Ubuntu Linux Guide](./debian-ubuntu.md)
 
 Debian/Ubuntu Linux Guide currently lacks an official maintainer.
+
+### [Fedora Linux Guide](./fedora.md)
+
+Fedora Linux Guide maintained by **aier**.
 
 ### [Gnome Guide](./gnome.md)
 
