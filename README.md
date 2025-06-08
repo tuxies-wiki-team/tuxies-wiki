@@ -37,3 +37,5 @@ npm install
 ```
 
 ## TODO
+
+- [ ] Team logo

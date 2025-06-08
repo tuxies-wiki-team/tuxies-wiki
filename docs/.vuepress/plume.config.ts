@@ -18,7 +18,7 @@ import { enNotes } from "./notes";
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: "https://theme-plume.vuejs.press/plume.png",
+  logo: "tux.svg",
 
   appearance: true, // 配置 深色模式
 
@@ -58,7 +58,8 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
       profile: {
-        avatar: "https://theme-plume.vuejs.press/plume.png",
+        // TODO
+        avatar: "tux.svg",
         name: "Tuxie's Wiki",
         description: "Tuxie's Wiki",
         // circle: true,
