@@ -30,63 +30,71 @@ Make sure that you have a `.bashrc` file in your `/home/$USER/` at all times. If
 
 You'll be editing the `.bashrc` file from your home directory in this guide, but if you ever want/need to revert back to the original file, simply replace the content in `.bashrc` from the backup you've made.
 
-Here is an exemplar `.bashrc` file taken from my Fedora 42 Workstation (hopefully you don't have to use this):
+:::::collapse
 
-:::code-tabs
+- Here is an exemplar `.bashrc` file taken from my Fedora 42 Workstation (hopefully you don't have to use this):
 
-@tab .bashrc
+  :::code-tabs
 
-```bash
-# .bashrc
+  @tab .bashrc
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-    . /etc/bashrc
-fi
+  ```bash
+  # .bashrc
 
-# User specific environment
-if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
-    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-fi
-export PATH
+  # Source global definitions
+  if [ -f /etc/bashrc ]; then
+      . /etc/bashrc
+  fi
 
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
+  # User specific environment
+  if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+      PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+  fi
+  export PATH
 
-# User specific aliases and functions
-if [ -d ~/.bashrc.d ]; then
-    for rc in ~/.bashrc.d/*; do
-        if [ -f "$rc" ]; then
-            . "$rc"
-        fi
-    done
-fi
-unset rc
-```
+  # Uncomment the following line if you don't like systemctl's auto-paging feature:
+  # export SYSTEMD_PAGER=
 
-:::
+  # User specific aliases and functions
+  if [ -d ~/.bashrc.d ]; then
+      for rc in ~/.bashrc.d/*; do
+          if [ -f "$rc" ]; then
+              . "$rc"
+          fi
+      done
+  fi
+  unset rc
+  ```
+
+  :::
+
+:::::
 
 ## Aesthetic changes
 
-### Preview
+:::::collapse
 
-Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
+- Preview
 
-::: code-tabs
+  Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
 
-@tab .bashrc
+  ::: code-tabs
 
-```bash
-# ... omitted original .bashrc content above
+  @tab .bashrc
 
-fastfetch
+  ```bash
+  # ... omitted original .bashrc content above
 
-PS1='------------------\n\[$(tput setaf 21)\][\[$(tput setaf 27)\]\u \[$(tput setaf 33)\]@ \[$(tput setaf 39)\]\h\[$(tput setaf 21)\]] \[$(tput setaf 45)\]\w\[$(tput sgr0)\]\n > '
-```
+  fastfetch
 
-:::
+  PS1='------------------\n\[$(tput setaf 21)\][\[$(tput setaf 27)\]\u \[$(tput setaf 33)\]@ \[$(tput setaf 39)\]\h\[$(tput setaf 21)\]] \[$(tput setaf 45)\]\w\[$(tput sgr0)\]\n > '
+  ```
 
-![Aesthetic Terminal](./assets/aesthetic-terminal.png)
+  :::
+
+  ![Aesthetic Terminal](./assets/aesthetic-terminal.png)
+
+:::::
 
 ### Autorun `fastfetch` when you open the terminal
 
@@ -163,47 +171,51 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 ## Terminal programs
 
-### Preview
+:::::collapse
 
-Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
+- Preview
 
-:::code-tabs
-@tab .bashrc
+  Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
 
-```bash
-# ... omitted original .bashrc content above
+  :::code-tabs
+  @tab .bashrc
 
-#### fzf-related aliases ####
-alias cmd='compgen -c | fzf' # search for a possible command
-alias zh='history | fzf' # search in bash command history
+  ```bash
+  # ... omitted original .bashrc content above
 
-#### enabling zoxide ####
-eval "$(zoxide init bash)"
+  #### fzf-related aliases ####
+  alias cmd='compgen -c | fzf' # search for a possible command
+  alias zh='history | fzf' # search in bash command history
 
-#### eza-related aliases ####
-# list directories in a tree format (or specify how many levels to list them)
-alias lsd='eza -TD'
-alias lsd1='eza -TD --level 1'
-alias lsd2='eza -TD --level 2'
-alias lsd3='eza -TD --level 3'
-# list items in tree format (or specify how many levels to list them)
-alias lst='eza -T'
-alias lst1='eza -T --level 1'
-alias lst2='eza -T --level 2'
-alias lst3='eza -T --level 3'
-# list all directories in tree format including hidden ones (or specify how many levels to list them)
-alias lsda='eza -TDa'
-alias lsda1='eza -TDa --level 1'
-alias lsda2='eza -TDa --level 2'
-alias lsda3='eza -TDa --level 3'
-# list all items in tree format including hidden ones (or specify how many levels to list them)
-alias lsta='eza -Ta'
-alias lsta1='eza -Ta --level 1'
-alias lsta2='eza -Ta --level 2'
-alias lsta3='eza -Ta --level 3'
-```
+  #### enabling zoxide ####
+  eval "$(zoxide init bash)"
 
-:::
+  #### eza-related aliases ####
+  # list directories in a tree format (or specify how many levels to list them)
+  alias lsd='eza -TD'
+  alias lsd1='eza -TD --level 1'
+  alias lsd2='eza -TD --level 2'
+  alias lsd3='eza -TD --level 3'
+  # list items in tree format (or specify how many levels to list them)
+  alias lst='eza -T'
+  alias lst1='eza -T --level 1'
+  alias lst2='eza -T --level 2'
+  alias lst3='eza -T --level 3'
+  # list all directories in tree format including hidden ones (or specify how many levels to list them)
+  alias lsda='eza -TDa'
+  alias lsda1='eza -TDa --level 1'
+  alias lsda2='eza -TDa --level 2'
+  alias lsda3='eza -TDa --level 3'
+  # list all items in tree format including hidden ones (or specify how many levels to list them)
+  alias lsta='eza -Ta'
+  alias lsta1='eza -Ta --level 1'
+  alias lsta2='eza -Ta --level 2'
+  alias lsta3='eza -Ta --level 3'
+  ```
+
+  :::
+
+:::::
 
 ### Using `fzf` (Fuzzy Find)
 
@@ -247,7 +259,7 @@ alias lsta3='eza -Ta --level 3'
 
   ```bash
   alias cmd='compgen -c | fzf' # search for a possible command
-  alias zh='history | fzf'# search in bash command history
+  alias zh='history | fzf' # search in bash command history
   ```
 
   :::
