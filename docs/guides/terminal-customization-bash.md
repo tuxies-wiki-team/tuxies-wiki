@@ -23,7 +23,7 @@ This tutorial assumes that you are using Bash as your shell, even though some pa
 Make a copy of your current `.bashrc` file and place it somewhere safe.
 
 ```bash
-cp ~/.bashrc ~/.bashrcOriginal # Makes a copy of current .bashrc file named .bashrcOriginal
+cp ~/.bashrc ~/.bashrc-original # Makes a copy of current .bashrc file named .bashrc-original
 ```
 
 Make sure that you have a `.bashrc` file in your `/home/$USER/` at all times. If you followed the command above, you'd be fine.
@@ -74,12 +74,14 @@ Your `.bashrc` should look something like this if you decide to follow all instr
 
 ::: code-tabs
 
+@tab .bashrc
+
 ```bash
 # ... omitted original .bashrc content above
 
 fastfetch
 
-PS1='------------------\n\[$(tput setaf 56)\][$(tput setaf 56)\]\u \[$(tput setaf 92)\]@ \[$(tput setaf 128)\]\h\[$(tput setaf 128)\]] \[$(tput setaf 200)\]\w\[$(tput sgr0)\]\n > '
+PS1='------------------\n\[$(tput setaf 21)\][\[$(tput setaf 27)\]\u \[$(tput setaf 33)\]@ \[$(tput setaf 39)\]\h\[$(tput setaf 21)\]] \[$(tput setaf 45)\]\w\[$(tput sgr0)\]\n > '
 ```
 
 :::
@@ -119,9 +121,14 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   You can append the following at the bottom of your `.bashrc`:
 
+  :::code-tabs
+  @tab .bashrc
+
   ```bash
   fastfetch
   ```
+
+  :::
 
   and here is what it looks like:
 
@@ -135,9 +142,14 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   You can append the following at the bottom of your `.bashrc`:
 
+  :::code-tabs
+  @tab .bashrc
+
   ```bash
   PS1='------------------\n\[$(tput setaf 56)\][$(tput setaf 56)\]\u \[$(tput setaf 92)\]@ \[$(tput setaf 128)\]\h\[$(tput setaf 128)\]] \[$(tput setaf 200)\]\w\[$(tput sgr0)\]\n > '
   ```
+
+  :::
 
   and here is what it looks like:
 
@@ -229,10 +241,16 @@ alias lsta3='eza -Ta --level 3'
 
   Below are example aliases:
 
+  :::code-tabs
+
+  @tab .bashrc
+
   ```bash
   alias cmd='compgen -c | fzf' # search for a possible command
   alias zh='history | fzf'# search in bash command history
   ```
+
+  :::
 
 - More resources
 
@@ -275,11 +293,16 @@ alias lsta3='eza -Ta --level 3'
 
 - Set up `zoxide` in your Bash shell
 
-       Append the following to your `.bashrc`:
+  Append the following to your `.bashrc`:
 
-       ```bash
-       eval "$(zoxide init bash)"
-       ```
+  :::code-tabs
+  @tab .bashrc
+
+  ```bash
+  eval "$(zoxide init bash)"
+  ```
+
+  :::
 
 - More resources
 
@@ -294,27 +317,41 @@ alias lsta3='eza -Ta --level 3'
 `eza` is a modern alternative to the classic `ls`, it provides color-coding, tree-styled outputs, git integration, and more.
 :::
 
-::::steps
+:::::steps
 
 - Installation
 
-  :::tabs
+  ::::tabs
   @tab Debian/Ubuntu
 
+  ```bash
   sudo apt install eza
+  ```
 
   @tab Fedora
 
+  :::important As of Fedora 42, there is no maintainer for `eza` so you'll be unable to download `eza` through `dnf`.
+  :::
+
+  ```bash
   sudo dnf install eza
+
+  ```
 
   @tab Arch
 
+  ```bash
   pacman -S eza
-  :::
+  ```
+
+  ::::
 
 - Add aliases
 
   Below are some example aliases:
+  :::code-tabs
+
+  @tab .bashrc
 
   ```bash
   # list directories in a tree format (or specify how many levels to list them)
@@ -339,8 +376,10 @@ alias lsta3='eza -Ta --level 3'
   alias lsta3='eza -Ta --level 3'
   ```
 
+  :::
+
 - More resources
 
   - [Quick overview](https://www.youtube.com/watch?v=mmqDYw9C30I&t=615s) on `eza` by Josean Martinez
 
-::::
+:::::
