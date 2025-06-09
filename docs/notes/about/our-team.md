@@ -1,10 +1,9 @@
 ---
-friends: true
+pageLayout: "friends"
 title: Our Team
 description: Thank you for making this wiki possible!
 createTime: 2025/06/04 08:02:42
 permalink: /about/our-team/
-draft: true
 groups:
   - title: OGs
     desc: The ones who have seen the birth of Tuxie's Wiki 🤍
