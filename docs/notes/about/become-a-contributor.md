@@ -8,16 +8,23 @@ permalink: /about/become-a-contributor/
 Thank you for your interest in contributing to Tuxie's Wiki! We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.  
 :::
 
-## Join Our Discord
+## Join our Discord
 
 We use Discord as our primary platform to discuss ideas, get feedback, and coordinate with the team.
 
+::::card-grid
+
+:::card
+
 🔗 [Discord invite link](https://discord.gg/WkeNeu8NGt)
+:::
+
+::::
 
 - Introduce yourself in the `#introductions` channel.
 - Check `#contributor-guidelines` for rules and best practices.
 
-## Contribution Areas
+## Contribution areas
 
 We accept contributions in:
 
@@ -26,16 +33,21 @@ We accept contributions in:
 - **✏️ Docs Improvements** (typos, clarifications, translations)
 - **💡 New Ideas** (propose new sections or features)
 
-## Submission Process
+## Submission process
+
+:::warning TODO
+:::
 
 1. **Discuss** your idea in Discord (`#contributions`).
 2. **Fork & Edit** the repo (if applicable).
 3. **Submit via**:
-   - **GitHub PR** (if hosted there)
-   - **DM editors** on Discord
-   - **Google Form** (optional)
+   - GitHub PR
+   - `#submissions` on Discord
 
 ## Guidelines
+
+:::warning TODO
+:::
 
 - Follow the **existing style** (Markdown, code formatting).
 - Ensure **accuracy** (cite sources if needed).
