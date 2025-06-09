@@ -4,38 +4,59 @@ createTime: 2025/06/03 10:54:12
 permalink: /linux-guides/
 ---
 
-:::info
-Here, you'll find guides on how to install different distros and setting them up. You'll see desktop environment guides, too!
-:::
-
-:::note
-We are looking for active maintainers of these guides. If you are interested in becoming one of us, refer to [Become a contributor](/tuxies-wiki/article/become-a-contributor/)
+:::info Here, you'll find guides on how to install different distros and setting them up. You'll see desktop environment guides, too!
 :::
 
 ## Distros
 
-### [Debian/Ubuntu Linux Guide](./debian-ubuntu.md)
+::::card-grid
 
-Debian/Ubuntu Linux Guide currently lacks an official maintainer.
+:::card title="Debian/Ubuntu" icon="devicon:debian"
 
-### [Fedora Linux Guide](./fedora.md)
+[Classic!](./debian-ubuntu.md)
 
-Fedora offers a high-quality out-of-the-box experience while remaining highly flexible. It is stable, yet it has up-to-date and cutting edge packages.
+Currently lacks an official maintainer.
 
-Fedora Linux Guide maintained by **aier**.
+:::
 
-### [Arch Linux Guide](./arch.md)
+:::card title="Fedora" icon="devicon:fedora"
 
-Arch Linux Guide maintained by **Lunear**, includes the complete installation guide along with ROG Linux set up and Nvidia drivers and the most up-to-date error report and fixes.
+[_Tips hat_](./fedora.md)
+
+Offers a high-quality out-of-the-box experience while remaining highly flexible. Maintained by **aier**.
+
+:::
+
+:::card title="Arch" icon="devicon:archlinux"
+
+[Welcome to the bleeding edge!](./arch.md)
+
+Includes a complete installation guide, ROG Linux setup, Nvidia drivers, and up-to-date error reports. Maintained by **Lunear**.
+
+:::
+
+::::
 
 ## Desktop Environments (DEs)
 
-### [Gnome Guide](./gnome.md)
+::::card-grid
 
-Gnome guide maintained by **aier**.
+:::card title="Gnome" icon="mdi:gnome"
 
-### KDE Guide
+[So many extensions 🤩🤩🤩](./gnome.md)
+
+The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
+
+Maintained by **aier**.
+
+:::
+
+:::card title="KDE" icon="simple-icons:kde"
 
 Planned.
 
-KDE Guide currently lacks an official maintainer.
+Currently lacks an official maintainer.
+
+:::
+
+::::
