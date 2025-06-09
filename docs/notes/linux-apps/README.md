@@ -8,9 +8,11 @@ sticky: true
 :::tip You can always just search for these apps in your app store (if your desktop environment or distro comes with one) instead of using the terminal.
 :::
 
-::::collapse
+:::::collapse
 
 - Setting up Flatpak
+
+  ::::card
 
   You might need to set up Flatpak on your distro before you can start installing them. If you haven’t set up Flatpak on your computer, check [here](https://flathub.org/setup).
 
@@ -26,7 +28,9 @@ sticky: true
 
   :::
 
-::::
+  ::::
+
+:::::
 
 ::::card-grid
 
@@ -68,6 +72,8 @@ A collection of apps tailored for Gnome enthusiasts.
 
 - To be added
 
+  ::::card
+
   - [ ] Bitwarden
   - [ ] Blender
   - [ ] Darktable
@@ -84,7 +90,11 @@ A collection of apps tailored for Gnome enthusiasts.
   - [x] rQuickshare
   - [x] Scrpy
 
+  ::::
+
 - Delisted
+
+  ::::card
 
   - **Floorp**: Function rich browser, replaced by Zen Browser.
   - **Gradience**: GTK3 theming app, unmaintained.
@@ -92,5 +102,7 @@ A collection of apps tailored for Gnome enthusiasts.
   - **WhatsApp Desktop (io.github.mimbrero.WhatsAppDesktop)**: WhatsApp client, delisted from Flathub.
   - **Pano**: Unsupported as of GNOME 48
   - **Spotube**: Got sued for using Spotify API
+
+  ::::
 
 :::::
