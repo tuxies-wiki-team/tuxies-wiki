@@ -42,7 +42,7 @@ export default defineUserConfig({
     // editLink: true,
     // lastUpdated: true,
     contributors: {
-      mode: "block",
+      mode: "inline",
     },
     changelog: true,
 
