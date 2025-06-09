@@ -20,6 +20,8 @@ Debian/Ubuntu Linux Guide currently lacks an official maintainer.
 
 ### [Fedora Linux Guide](./fedora.md)
 
+Fedora offers a high-quality out-of-the-box experience while remaining highly flexible. It is stable, yet it has up-to-date and cutting edge packages.
+
 Fedora Linux Guide maintained by **aier**.
 
 ### [Arch Linux Guide](./arch.md)
