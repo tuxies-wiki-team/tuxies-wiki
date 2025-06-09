@@ -97,7 +97,7 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
      */
     codeHighlighter: {
-      lineNumbers: 5, // 启用行号
+      lineNumbers: false, // 启用行号
     },
 
     /* 文章字数统计、阅读时间，设置为 false 则禁用 */
