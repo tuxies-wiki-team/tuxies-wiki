@@ -9,7 +9,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       title: "Tuxie's Wiki",
-      lang: "en-US",
+      lang: "en",
       description: "Tuxie's Wiki",
     },
   },
