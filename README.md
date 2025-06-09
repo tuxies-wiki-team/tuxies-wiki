@@ -31,3 +31,4 @@ npm install
 ## TODO
 
 - [ ] Team logo
+- [ ] Linux vocabularies
