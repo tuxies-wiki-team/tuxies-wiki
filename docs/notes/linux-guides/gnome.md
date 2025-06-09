@@ -149,7 +149,7 @@ new_shortcuts+="]"
 # Update GNOME with the new shortcuts
 gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "$new_shortcuts"
 
-echo "✅ Custom shortcuts applied:"
+echo "Custom shortcuts applied:"
 echo "- Super + L       → Open KGX Terminal"
 echo "- Ctrl+Shift+Esc  → Open System Monitor"
 
