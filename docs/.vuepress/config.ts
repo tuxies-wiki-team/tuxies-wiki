@@ -1,6 +1,7 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { defineNoteConfig, plumeTheme } from "vuepress-theme-plume";
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 
 export default defineUserConfig({
   base: "/tuxies-wiki/",
@@ -182,4 +183,9 @@ export default defineUserConfig({
      */
     // encrypt: {},
   }),
+  plugins: [
+    googleAnalyticsPlugin({
+      // options
+    }),
+  ],
 });
