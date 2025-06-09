@@ -21,8 +21,8 @@ We use Discord as our primary platform to discuss ideas, get feedback, and coord
 
 ::::
 
-- Introduce yourself in the `#introductions` channel.
-- Check `#contributor-guidelines` for rules and best practices.
+- **Introduce yourself** in the `#introductions` channel. (optional)
+- **Check `#contributor-guidelines`** for rules and best practices.
 
 ## Contribution areas
 
