@@ -8,7 +8,7 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export const enNavbar = defineNavbarConfig([
   {
-    text: "Apps Library",
+    text: "Linux Apps Library",
     icon: "mdi:bookshelf",
     items: [
       {
@@ -39,7 +39,7 @@ export const enNavbar = defineNavbarConfig([
     ],
   },
   {
-    text: "Guides",
+    text: "Linux Guides",
     icon: "mdi:school-outline",
     items: [
       {
@@ -51,11 +51,6 @@ export const enNavbar = defineNavbarConfig([
         text: "Distro Guides",
         items: [
           {
-            text: "Arch",
-            icon: "mdi:arch",
-            link: "linux-guides/arch/",
-          },
-          {
             text: "Debian/Ubuntu",
             icon: "mdi:debian",
             link: "linux-guides/debian-ubuntu/",
@@ -64,6 +59,11 @@ export const enNavbar = defineNavbarConfig([
             text: "Fedora",
             icon: "mdi:fedora",
             link: "/linux-guides/fedora/",
+          },
+          {
+            text: "Arch",
+            icon: "mdi:arch",
+            link: "linux-guides/arch/",
           },
         ],
       },

@@ -5,18 +5,16 @@ permalink: /linux-guides/
 ---
 
 :::info
-A list of Linux guides based on different distros, including installation guides, documented errors and fixes, and recommended system setups.
+Here, you'll find guides on how to install different distros and setting them up. You'll see desktop environment guides, too!
 :::
 
 :::note
 We are looking for active maintainers of these guides. If you are interested in becoming one of us, refer to [Become a contributor](/tuxies-wiki/article/become-a-contributor/)
 :::
 
-## Index
+## Distros
 
 ### [Debian/Ubuntu Linux Guide](./debian-ubuntu.md)
-
-Planned.
 
 Debian/Ubuntu Linux Guide currently lacks an official maintainer.
 
@@ -27,6 +25,8 @@ Fedora Linux Guide maintained by **aier**.
 ### [Arch Linux Guide](./arch.md)
 
 Arch Linux Guide maintained by **Lunear**, includes the complete installation guide along with ROG Linux set up and Nvidia drivers and the most up-to-date error report and fixes.
+
+## Desktop Environments (DEs)
 
 ### [Gnome Guide](./gnome.md)
 
