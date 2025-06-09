@@ -95,8 +95,66 @@ flatpak install --user flathub com.mattjakeman.ExtensionManager
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 - [Gnome Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
-- KeyBoard Shortcuts (bash setup)
-- Status Icons
+
+KeyBoard Shortcuts (bash setup)
+:::code-tabs
+
+@tab bash script
+```bash
+#!/bin/bash
+
+# Check if running under GNOME
+if [[ "$XDG_CURRENT_DESKTOP" != *"GNOME"* ]]; then
+    echo "Error: This script requires GNOME desktop."
+    exit 1
+fi
+
+# Define shortcuts (name, command, binding)
+declare -A shortcuts=(
+    ["Open Terminal (KGX)"]="kgx '<Super>l'"
+    ["Open System Monitor"]="gnome-system-monitor '<Ctrl><Shift>Escape'"
+)
+
+# Clear existing custom shortcuts (optional)
+gsettings reset org.gnome.settings-daemon.plugins.media-keys custom-keybindings
+
+# Initialize new shortcuts array
+new_shortcuts="["
+index=0
+
+for name in "${!shortcuts[@]}"; do
+    # Extract command and binding
+    IFS="'" read -r cmd binding <<< "${shortcuts[$name]}"
+    cmd=$(echo "$cmd" | xargs)  # Trim whitespace
+
+    # Define the custom shortcut path
+    shortcut_path="/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom$index/"
+
+    # Add to the shortcuts array
+    if [[ "$new_shortcuts" != "[" ]]; then
+        new_shortcuts+=", "
+    fi
+    new_shortcuts+="'$shortcut_path'"
+
+    # Apply the shortcut
+    gsettings set "org.gnome.settings-daemon.plugins.media-keys.custom-keybinding$shortcut_path" name "'$name'"
+    gsettings set "org.gnome.settings-daemon.plugins.media-keys.custom-keybinding$shortcut_path" command "'$cmd'"
+    gsettings set "org.gnome.settings-daemon.plugins.media-keys.custom-keybinding$shortcut_path" binding "'$binding'"
+
+    ((index++))
+done
+
+new_shortcuts+="]"
+
+# Update GNOME with the new shortcuts
+gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "$new_shortcuts"
+
+echo "✅ Custom shortcuts applied:"
+echo "- Super + L       → Open KGX Terminal"
+echo "- Ctrl+Shift+Esc  → Open System Monitor"
+
+
+
 
 ## Further customization
 
