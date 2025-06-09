@@ -15,7 +15,6 @@ export default defineUserConfig({
   },
 
   head: [
-    // 配置站点图标
     [
       "link",
       {
@@ -27,7 +26,7 @@ export default defineUserConfig({
   ],
 
   bundler: viteBundler(),
-  shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
+  shouldPrefetch: false,
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
@@ -47,7 +46,7 @@ export default defineUserConfig({
     changelog: true,
 
     /**
-     * 博客
+     * Blog
      * @see https://theme-plume.vuejs.press/config/basic/#blog
      */
     blog: {
@@ -57,10 +56,9 @@ export default defineUserConfig({
       categories: true, // 是否启用分类页
       postCover: "right", // 文章封面位置
       pagination: 15, // 每页显示文章数量
-      //?!TODO?!
     },
 
-    /* 博客文章页面链接前缀 */
+    /* article prefix URL */
     article: "/article/",
 
     /**
@@ -70,7 +68,7 @@ export default defineUserConfig({
     cache: "filesystem",
 
     /**
-     * 为 markdown 文件自动添加 frontmatter 配置
+     * autofrontmatter settings
      * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
      */
     // autoFrontmatter: {
@@ -79,12 +77,12 @@ export default defineUserConfig({
     //   title: true, // 是否生成标题
     // },
 
-    /* 本地搜索, 默认启用 */
+    /* local search, default: true */
     search: { provider: "local" },
 
     /**
      * Algolia DocSearch
-     * 启用此搜索需要将 本地搜索 search 设置为 false
+     * to enable this, set search to false.
      * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
      */
     // search: {
@@ -99,7 +97,7 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
      */
     codeHighlighter: {
-      lineNumbers: false, // 启用行号
+      lineNumbers: 5, // 启用行号
     },
 
     /* 文章字数统计、阅读时间，设置为 false 则禁用 */
