@@ -83,7 +83,7 @@ We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you
 
 - Go through the setup wizard
 
-  ::: collapse
+  :::collapse
 
   - I recommend keeping 3–5 boot snapshots.
 
