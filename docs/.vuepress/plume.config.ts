@@ -40,10 +40,11 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+  footer: {
+    message:
+      'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+    copyright: "Copyright © 2024–present Tuxie's Wiki Team",
+  },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
   // transition: {
@@ -69,12 +70,12 @@ export default defineThemeConfig({
 
       social: [
         {
-          icon: "github",
-          link: "https://github.com/tuxies-wiki-team/tuxies-wiki",
-        },
-        {
           icon: "discord",
           link: "https://discord.gg/WkeNeu8NGt",
+        },
+        {
+          icon: "github",
+          link: "https://github.com/tuxies-wiki-team/tuxies-wiki",
         },
       ],
 
@@ -85,14 +86,14 @@ export default defineThemeConfig({
        * 公告板 — Bulletin board
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-      bulletin: {
-        lifetime: "session",
-        layout: "top-right",
-        contentType: "markdown",
-        title: "Welcome to Tuxie's Library 🐧",
-        content:
-          "Built by two uni students, this wiki tracks our Linux adventures across distros — from 📖 basics, 📦 package management, 🛠️ scripting, 🖥️ DEs, to 🔧 troubleshooting. \n\n\nWhether you're a newbie or a terminal wizard, we hope our notes help! 🚀 Dive in!",
-      },
+      // bulletin: {
+      //   lifetime: "session",
+      //   layout: "top-right",
+      //   contentType: "markdown",
+      //   title: "Welcome to Tuxie's Library 🐧",
+      //   content:
+      //     "Built by two uni students, this wiki tracks our Linux adventures across distros — from 📖 basics, 📦 package management, 🛠️ scripting, 🖥️ DEs, to 🔧 troubleshooting. \n\n\nWhether you're a newbie or a terminal wizard, we hope our notes help! 🚀 Dive in!",
+      // },
     },
   },
 });
