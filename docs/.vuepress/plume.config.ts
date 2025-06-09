@@ -62,7 +62,7 @@ export default defineThemeConfig({
         // TODO
         avatar: "tux.svg",
         name: "Tuxie's Wiki",
-        description: "Tuxie's Wiki",
+        description: "A team of penguin-loving wikipedians!",
         // circle: true,
         // location: '',
         // organization: '',
