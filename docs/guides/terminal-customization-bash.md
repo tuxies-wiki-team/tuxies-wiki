@@ -76,6 +76,8 @@ You'll be editing the `.bashrc` file from your home directory in this guide, but
 
 - Preview
 
+  ::::card
+
   Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
 
   ::: code-tabs
@@ -94,13 +96,15 @@ You'll be editing the `.bashrc` file from your home directory in this guide, but
 
   ![Aesthetic Terminal](./assets/aesthetic-terminal.png)
 
+  ::::
+
 :::::
 
 ### Autorun `fastfetch` when you open the terminal
 
 You can make your bash terminal autorun `fastfetch` to display system information every time it starts by appending the following at the bottom of your file.
 
-::::steps
+:::::steps
 
 - Installation
 
@@ -167,13 +171,15 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   - [`PS1` customization by Rahul from tecadmin.net](https://tecadmin.net/how-to-customize-bash-prompt-ps1-in-linux/)
 
-::::
+:::::
 
 ## Terminal programs
 
 :::::collapse
 
 - Preview
+
+  ::::card
 
   Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
 
@@ -214,6 +220,8 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
   ```
 
   :::
+
+  ::::
 
 :::::
 
