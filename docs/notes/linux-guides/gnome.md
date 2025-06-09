@@ -1,34 +1,53 @@
 ---
-title: gnome
+title: Gnome Guide
 createTime: 2025/06/07 16:35:26
 permalink: /linux-guides/gnome/
 ---
 
-:::warning
-Bash keyboard script
+:::warning Under Construction
+
+TODO:
+
+- [ ] Bash keyboard script
+
 :::
 
-## Further adjusting the workflow
+:::tip Why Gnome?
+Gnome is clean and highly functional (though it follows quite a strict and somehow stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
+
+Read over this guide to customize Gnome to **your** liking!
+:::
+
+:::note Haven't decided on a distro yet?
+Check out [Linux Guides](../linux-guides/README.md) to learn more about distros.
+:::
+
+## First steps
 
 ### Go through the settings app and make some quick tweaks to your needs.
 
-Here are some settings I'd recommend:
+Here are some settings I'd recommend checking out:
 
-- **Display** — Adjust refresh rate and resolution as needed.
-- **Multitasking** — Adjust according to your workflow.
-- **Appearance** — You can add your own wallpaper and change to dark mode.
-- **Online Accounts** — You can connect to your online accounts to access calendar, cloud drives, and more within Gnome apps.
+- **_Display_** — Adjust refresh rate and resolution as needed.
+- **_Power_** — Change performance mode, show battery %, change suspend behavior, and more.
+- **_Multitasking_** — Adjust according to your workflow.
+- **_Appearance_** — You can add your own wallpaper and change to dark mode.
+- **_Online Accounts_** — You can connect to your online accounts to access calendar, cloud drives, and more within Gnome apps.
+- **_Mouse & Trackpad_** — You can change pointer sensitivity and turn acceleration on/off.
+- **_Keyboard_** — Add and modify keyboard shortcuts and change keyboard input settings.
 
 ### Install some apps for more advanced options
 
-:::important This is only for Gnome users.
+:::tip You can always use your distro's GUI software store (such as Gnome's **Software** instead of the terminal).
 :::
 
-:::tip You can always use your distro's GUI software store (such as Gnome's **Software** instead of the commandline).
-:::
+Install these apps if you wish to unlock settings changes that are not easily accessible with the stock Settings app.
 
-You'd need [Gnome Tweaks](../linux-apps/gnomie.md#gnome-tweaks), [Dconf Editor](../linux-apps/gnomie.md#dconf-editor), and [Extension Manager](../linux-apps/gnomie.md#extension-manager).
+You'd need:
 
+- [Gnome Tweaks](../linux-apps/gnomie.md#gnome-tweaks)
+- [Dconf Editor](../linux-apps/gnomie.md#dconf-editor)
+- [Extension Manager](../linux-apps/gnomie.md#extension-manager)
 
 :::tabs
 
@@ -71,24 +90,13 @@ flatpak install --user flathub com.mattjakeman.ExtensionManager
 
 :::
 
-## Useful Extensions
+## Highly recommended tweaks
 
-<!-- ::::card-grid
+### Gnome Tweaks
 
-:::card title="Launch New Instance" icon="mdi:about" link=https://extensions.gnome.org/extension/600/launch-new-instance/
-:::
+### Keyboard shortcuts
 
-:::card title="Appindicator and KStatusNotifierItem Support" icon="mdi:about"
-:::
-
-:::card title="Caffeine" icon="mdi:about"
-:::
-
-:::card title="Clipboard Indicator" icon="mdi:about"
-:::
-
-:::: -->
-
+### Useful extensions
 
 - [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
 - [Appindicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
@@ -96,10 +104,20 @@ flatpak install --user flathub com.mattjakeman.ExtensionManager
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 - [Gnome Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
 
-KeyBoard Shortcuts (bash setup)
+## Advanced tweaks w/ Dconf Editor
+
+## Ricing
+
+- Adw-gtk3
+- Ocean theme
+- Blur My Shell
+- Dash To Dock
+
+<!-- KeyBoard Shortcuts (bash setup)
 :::code-tabs
 
 @tab bash script
+
 ```bash
 #!/bin/bash
 
@@ -152,14 +170,6 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "$
 echo "Custom shortcuts applied:"
 echo "- Super + L       → Open KGX Terminal"
 echo "- Ctrl+Shift+Esc  → Open System Monitor"
+```
 
-
-
-
-## Further customization
-
-- Adw-gtk3
-- Ocean theme
-- Blur My Shell
-- Dash To Dock
-
+::: -->
