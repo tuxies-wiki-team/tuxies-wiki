@@ -1,11 +1,7 @@
 ---
 title: Gnomie
-tags:
-  - Linux Apps
-  - Gnome
 createTime: 2025/05/29 08:29:45
 permalink: /linux-apps/gnomie/
-draft: true
 ---
 
 <!-- <sub>Go back to [Linux Apps Library](README.md)</sub> -->

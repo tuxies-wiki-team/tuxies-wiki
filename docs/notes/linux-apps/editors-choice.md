@@ -1,10 +1,7 @@
 ---
-tags:
-  - Linux Apps
 title: Editor's Choice
 createTime: 2025/05/22 09:05:08
 permalink: /linux-apps/editors-choice/
-isBlogPost: true
 ---
 
 ## [CopyQ](https://github.com/hluk/CopyQ)

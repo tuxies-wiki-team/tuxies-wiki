@@ -1,10 +1,7 @@
 ---
-tags:
-  - Linux Apps
 title: Essentials
 createTime: 2025/05/29 08:29:45
 permalink: /linux-apps/essentials/
-draft: true
 ---
 
 <!-- <sub>Go back to [Linux Apps Library](README.md)</sub> -->
