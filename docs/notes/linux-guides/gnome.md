@@ -43,75 +43,142 @@ Here are some settings I'd recommend checking out:
 
 Install these apps if you wish to unlock settings changes that are not easily accessible with the stock Settings app.
 
-You'd need:
+You'll need:
 
-- [Gnome Tweaks](../linux-apps/gnomie.md#gnome-tweaks)
-- [Dconf Editor](../linux-apps/gnomie.md#dconf-editor)
-- [Extension Manager](../linux-apps/gnomie.md#extension-manager)
+:::::collapse accordion
 
-:::tabs
+- Gnome Tweaks
 
-@tab Debian/Ubuntu
+  ::::card
+  :::tabs
 
-```bash
-sudo apt install gnome-tweaks
-sudo apt install dconf-editor
-```
+  @tab Debian/Ubuntu
 
-@tab Fedora
+  ```bash
+  sudo apt install gnome-tweaks
+  ```
 
-```bash
-sudo dnf install gnome-tweaks
-sudo dnf install dconf-editor
-```
+  @tab Fedora
 
-@tab Arch
+  ```bash
+  sudo dnf install gnome-tweaks
+  ```
 
-```bash
-sudo pacman -S gnome-tweaks
-sudo pacman -S dconf-editor
-```
+  @tab Arch
 
-:::
+  ```bash
+  sudo pacman -S gnome-tweaks
+  ```
 
-:::tabs
+  :::
 
-@tab Flatpak (System)
+  ![Gnome Tweaks](./assets/gnome-tweaks.png)
 
-```bash
-flatpak install flathub com.mattjakeman.ExtensionManager
-```
+  [More details...](../linux-apps/gnomie.md#gnome-tweaks)
 
-@tab Flatpak (User)
+  ::::
 
-```bash
-flatpak install --user flathub com.mattjakeman.ExtensionManager
-```
+- Dconf Editor
 
-:::
+  ::::card
+  :::tabs
+
+  @tab Debian/Ubuntu
+
+  ```bash
+  sudo apt install dconf-editor
+  ```
+
+  @tab Fedora
+
+  ```bash
+  sudo dnf install dconf-editor
+  ```
+
+  @tab Arch
+
+  ```bash
+  sudo pacman -S dconf-editor
+  ```
+
+  :::
+
+  ![Dconf Editor](./assets/dconf-editor.png)
+
+  [More details...](../linux-apps/gnomie.md#dconf-editor)
+
+  ::::
+
+- Extension Manager
+
+  ::::card
+
+  :::tabs
+
+  @tab Flatpak (System)
+
+  ```bash
+  flatpak install flathub com.mattjakeman.ExtensionManager
+  ```
+
+  @tab Flatpak (User)
+
+  ```bash
+  flatpak install --user flathub com.mattjakeman.ExtensionManager
+  ```
+
+  :::
+
+  ![Extension Manager](./assets/extension-manager.png)
+
+  [More details...](../linux-apps/gnomie.md#extension-manager)
+  ::::
+  :::::
 
 ## Highly recommended tweaks
 
 ### Gnome Tweaks
 
-### Keyboard shortcuts
+- [ ] Enable titlebar buttons
+- [ ] Text hinting full
 
 ### Useful extensions
 
-- [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
-- [Appindicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
-- [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
-- [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-- [Gnome Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
+- [ ] [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
+- [ ] [Appindicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
+- [ ] [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
+- [ ] [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+- [ ] [Gnome Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
+- [ ] [Dash To Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+
+### Keyboard shortcuts
+
+- [ ] Changing workspaces
+- [ ] Windows-like Alt-Tab, distinct Super-Tab behavior
+- [ ] Command dialog
+- [ ] Open sceenshot dialog
+
+With dependencies
+
+- [ ] Ptyxis
+- [ ] Mission Center
+- [ ] Clipboard Indicator
+
+::::collapse
+
+- Gnome keyboard shortcuts cheat-sheet.
+
+::::
 
 ## Advanced tweaks w/ Dconf Editor
 
 ## Ricing
 
+### Extensions
+
 - Adw-gtk3
 - Ocean theme
 - Blur My Shell
-- Dash To Dock
 
 <!-- KeyBoard Shortcuts (bash setup)
 :::code-tabs
