@@ -8,7 +8,7 @@ import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 export default defineUserConfig({
   plugins: [
     googleAnalyticsPlugin({
-      id: 'G-CP2JT7ML6T'
+      id: 'G-1LB2LGSPR9'
     }),
   ],
   base: "/tuxies-wiki/",
