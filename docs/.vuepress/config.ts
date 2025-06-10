@@ -36,8 +36,10 @@ export default defineUserConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-1LB2LGSPR9', {
+        cookie_domain: 'none',
         cookie_flags: 'SameSite=None;Secure',
-        cookie_domain: 'none'
+        cookie_expires: 63072000,
+        cookie_prefix: 'tuxies_'
       });
     `],
   ],
