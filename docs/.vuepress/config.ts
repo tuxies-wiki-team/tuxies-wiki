@@ -183,7 +183,7 @@ export default defineUserConfig({
   }),
   plugins: [
     googleAnalyticsPlugin({
-      id: 'G-HPHLETH694'
+      id: 'G-CP2JT7ML6T'
       // options
     }),
   ],
