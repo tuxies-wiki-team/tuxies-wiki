@@ -6,9 +6,17 @@ createTime: 2025/06/08 01:20:38
 permalink: /guides/vuepress-guide/
 ---
 
-:::card title="Maintainer" icon="mdi:account"
+::::card-grid
+
+:::card title="Maintainers" icon="mdi:account"
 aier, Lunear
 :::
+
+:::card title="Contributors" icon="mdi:account-multiple"
+<!-- add name here -->
+:::
+
+::::
 
 
 :::info
