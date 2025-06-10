@@ -4,6 +4,17 @@ createTime: 2025/05/29 08:29:45
 permalink: /linux-guides/arch/
 draft: true
 ---
+::::card-grid
+
+:::card title="Maintainer" icon="mdi:account"
+Lunear
+:::
+
+:::card title="Contributors" icon="mdi:account-multiple"
+<!-- add name here -->
+:::
+
+::::
 
 :::note
 Before starting, it's recommended to read the [official installation guide](https://wiki.archlinux.org/title/Installation_guide) and understand the major concepts.

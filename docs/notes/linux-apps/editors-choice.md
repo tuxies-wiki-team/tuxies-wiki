@@ -4,6 +4,19 @@ createTime: 2025/05/22 09:05:08
 permalink: /linux-apps/editors-choice/
 ---
 
+::::card-grid
+
+:::card title="Maintainers" icon="mdi:account"
+aier, Lunear
+:::
+
+:::card title="Contributors" icon="mdi:account-multiple"
+<!-- add name here -->
+:::
+
+::::
+
+
 ## [CopyQ](https://github.com/hluk/CopyQ)
 
 **From CopyQ's GitHub:** "CopyQ is an advanced clipboard manager with powerful editing and scripting features"

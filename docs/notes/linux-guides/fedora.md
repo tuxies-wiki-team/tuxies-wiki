@@ -3,6 +3,18 @@ title: Fedora Guide
 createTime: 2025/05/29 08:29:45
 permalink: /linux-guides/fedora/
 ---
+::::card-grid
+
+:::card title="Maintainer" icon="mdi:account"
+aier
+:::
+
+:::card title="Contributors" icon="mdi:account-multiple"
+<!-- add name here -->
+:::
+
+::::
+
 
 :::tip Why Fedora?
 Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-the-box experience while remaining highly flexible. It is stable, yet it has up-to-date and cutting edge packages.

@@ -4,7 +4,17 @@ createTime: 2025/05/29 08:29:45
 permalink: /linux-apps/essentials/
 ---
 
-<!-- <sub>Go back to [Linux Apps Library](README.md)</sub> -->
+::::card-grid
+
+:::card title="Maintainers" icon="mdi:account"
+aier, Lunear
+:::
+
+:::card title="Contributors" icon="mdi:account-multiple"
+<!-- add name here -->
+:::
+
+::::
 
 ## [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
 
