@@ -8,7 +8,7 @@ import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 export default defineUserConfig({
   plugins: [
     googleAnalyticsPlugin({
-      id: 'G-1LB2LGSPR9'
+    id: 'G-1LB2LGSPR9',
     }),
   ],
   base: "/tuxies-wiki/",
@@ -30,6 +30,15 @@ export default defineUserConfig({
         href: "https://theme-plume.vuejs.press/favicon-32x32.png",
       },
     ],
+    ['script', {}, `
+      window.gtag = function() {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push(arguments);
+      };
+      gtag('config', 'G-1LB2LGSPR9', {
+        client_storage: 'none'
+      });
+    `]
   ],
 
   bundler: viteBundler(),
