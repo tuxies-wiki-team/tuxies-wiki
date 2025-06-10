@@ -3,7 +3,14 @@ import { defineUserConfig } from "vuepress";
 import { defineNoteConfig, plumeTheme } from "vuepress-theme-plume";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 
+
+
 export default defineUserConfig({
+  plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-CP2JT7ML6T'
+    }),
+  ],
   base: "/tuxies-wiki/",
   lang: "en-US",
   locales: {
@@ -181,9 +188,4 @@ export default defineUserConfig({
      */
     // encrypt: {},
   }),
-  plugins: [
-    googleAnalyticsPlugin({
-      id: 'G-CP2JT7ML6T'
-    }),
-  ],
 });
