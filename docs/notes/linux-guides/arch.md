@@ -277,21 +277,18 @@ arch-chroot /mnt
     passwd <user-name>
     ```
   - Make user a superuser:
+    ```bash
+    pacman -S Sudo
+    usermod -aG wheel,storage,power user-name
+    EDITOR=nano visudo
+    ```
+    **Uncomment** ``%wheel ALL-(ALL) ALL`` **and add** ``Defaults timestamp_timeout=0`` **directly under**
 
-         ```bash
-         pacman -S Sudo
-         usermod -aG wheel,storage,power user-name
-         EDITOR=nano visudo
-         ```
-
-         **Uncomment** `%wheel ALL-(ALL) ALL` **and add** `Defaults timestamp_timeout=0` **directly under**
-
-         `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
+    ``Ctrl + o`` and enter to save the changes and ``Ctrl + x`` to 
 
     :::info
     For more information, reference to this [Youtube Video](https://www.youtube.com/watch?v=JRdYSGh-g3s&t=1361s) at minute 21:11
     :::
-    ::::
 
 ## Part 8 Bootloader
 
