@@ -14,7 +14,7 @@ config:
         - theme: brand
           icon: mdi:explore
           text: Explore →
-          link: /blog/
+          link: /linux-apps/
         - theme: sponsor
           icon: ic:sharp-discord
           text: Join our Discord!
