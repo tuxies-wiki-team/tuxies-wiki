@@ -49,6 +49,9 @@ We accept contributions in:
 :::warning TODO
 :::
 
+::::card
+Check out [Contribution Guidelines](../../contributions/README.md) for more details.
+
 - Follow the **existing style** (Markdown, code formatting).
 - Ensure **accuracy** (cite sources if needed).
 - Be **respectful** and open to feedback.
