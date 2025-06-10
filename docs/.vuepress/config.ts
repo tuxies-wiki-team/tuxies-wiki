@@ -183,8 +183,8 @@ export default defineUserConfig({
   }),
   plugins: [
     googleAnalyticsPlugin({
-      id: 'G-CP2JT7ML6T'
-      // options
+      id: 'G-CP2JT7ML6T',
+      debug: true
     }),
   ],
 });
