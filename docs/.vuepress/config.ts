@@ -1,16 +1,10 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { defineNoteConfig, plumeTheme } from "vuepress-theme-plume";
-import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 
 
 
 export default defineUserConfig({
-  plugins: [
-    googleAnalyticsPlugin({
-    id: 'G-1LB2LGSPR9',
-    }),
-  ],
   base: "/tuxies-wiki/",
   lang: "en-US",
   locales: {
