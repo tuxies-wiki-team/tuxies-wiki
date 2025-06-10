@@ -30,17 +30,23 @@ export default defineUserConfig({
         href: "https://theme-plume.vuejs.press/favicon-32x32.png",
       },
     ],
-    ['script', {}, `
-      window.gtag = function() {
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push(arguments);
-      };
-      gtag('config', 'G-1LB2LGSPR9', {
-        client_storage: 'none'
-      });
-    `]
   ],
-
+  extendsPage: (page) => {
+    if (page.path !== '/') {
+      page.frontmatter.head ??= [];
+      page.frontmatter.head.push([
+        'script',
+        {},
+        `if (typeof gtag !== 'undefined') {
+          gtag('event', 'page_view', {
+            page_title: document.title,
+            page_path: '${page.path}',
+            page_location: window.location.href
+          });
+        }`
+      ]);
+    }
+  },
   bundler: viteBundler(),
   shouldPrefetch: false,
 
