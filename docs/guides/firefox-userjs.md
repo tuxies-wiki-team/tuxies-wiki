@@ -7,7 +7,17 @@ title: Firefox Advanced Settings Tweaks (user.js)
 createTime: 2025/05/22 09:05:08
 permalink: /guides/firefox-userjs/
 ---
+::::card-grid
 
+:::card title="Maintainer" icon="mdi:account"
+aier
+:::
+
+:::card title="Contributors" icon="mdi:account-multiple"
+<!-- add name here -->
+:::
+
+::::
 :::tip
 This guide will walk you through a few changes you can make to your `user.js` that will make your Firefox-based experience of Linux much more polished.
 :::

@@ -8,6 +8,14 @@ createTime: 2025/05/22 09:05:08
 permalink: /guides/terminal-customization-bash/
 ---
 
+:::card title="Maintainer" icon="mdi:account"
+aier
+:::
+
+:::card title="Contributors" icon="mdi:account-multiple"
+Lunear
+:::
+
 :::info
 This guide will walk you through customizing your Bash prompt, how to run `fastfetch` on start in your terminal, and a few useful terminal programs.
 :::
