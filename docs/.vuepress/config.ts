@@ -21,7 +21,7 @@ export default defineUserConfig({
     },
   },
 
-  head: [
+    head: [
     [
       "link",
       {
@@ -30,23 +30,17 @@ export default defineUserConfig({
         href: "https://theme-plume.vuejs.press/favicon-32x32.png",
       },
     ],
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-1LB2LGSPR9' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1LB2LGSPR9', {
+        cookie_flags: 'SameSite=None;Secure',
+        cookie_domain: 'none'
+      });
+    `],
   ],
-  extendsPage: (page) => {
-    if (page.path !== '/') {
-      page.frontmatter.head ??= [];
-      page.frontmatter.head.push([
-        'script',
-        {},
-        `if (typeof gtag !== 'undefined') {
-          gtag('event', 'page_view', {
-            page_title: document.title,
-            page_path: '${page.path}',
-            page_location: window.location.href
-          });
-        }`
-      ]);
-    }
-  },
   bundler: viteBundler(),
   shouldPrefetch: false,
 
