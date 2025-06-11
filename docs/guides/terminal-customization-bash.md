@@ -7,6 +7,7 @@ tags:
 createTime: 2025/05/22 09:05:08
 permalink: /guides/terminal-customization-bash/
 ---
+
 ::::card-grid
 
 :::card title="Maintainer" icon="mdi:account"
@@ -117,7 +118,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 :::::steps
 
-- Installation
+- **Installation**
 
   :::tabs
   @tab Debian/Ubuntu
@@ -140,7 +141,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   :::
 
-- Set up `fastfetch` in shell
+- **Set up `fastfetch` in shell**
 
   You can append the following at the bottom of your `.bashrc`:
 
@@ -159,7 +160,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
   ![fastfetch](./assets/fastfetch.png)
   :::
 
-- Changing the look of the prompt (`PS1`)
+- **Changing the look of the prompt (`PS1`)**
 
   Now, in your `.bashrc`, you change the looks of your prompt looks through modifying the `PS1` variable.
 
@@ -178,7 +179,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   ![Custom PS1](./assets/custom-ps1.png)
 
-- More resources
+- **More resources**
 
   - [`PS1` customization by Rahul from tecadmin.net](https://tecadmin.net/how-to-customize-bash-prompt-ps1-in-linux/)
 
@@ -245,7 +246,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 ::::steps
 
-- Installation
+- **Installation**
 
   :::tabs
   @tab Debian/Ubuntu
@@ -268,7 +269,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   :::
 
-- Add aliases
+- **Add aliases**
 
   Below are example aliases:
 
@@ -283,7 +284,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   :::
 
-- More resources
+- **More resources**
 
   - [Tutorial](https://youtu.be/MvLQor1Ck3M?si=t23i-fsLL57QyuzU&t=50) on how to use `fzf` by DevOps Toolbox
   - [Use `fzf` with `zoxide`](https://www.youtube.com/watch?v=aghxkpyRVDY) by Dreams of Autonomy
@@ -299,7 +300,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 ::::steps
 
-- Installation
+- **Installation**
 
   :::tabs
   @tab Debian/Ubuntu
@@ -322,7 +323,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   :::
 
-- Set up `zoxide` in your Bash shell
+- **Set up `zoxide` in your Bash shell**
 
   Append the following to your `.bashrc`:
 
@@ -335,7 +336,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   :::
 
-- More resources
+- **More resources**
 
   - [Tutorial](https://www.youtube.com/watch?v=aghxkpyRVDY&t=83s) on how to use `zoxide` by Dreams of Autonomy (includes how to use it with `fzf`, too)
   - [More info](https://github.com/ajeetdsouza/zoxide) about `zoxide` from the official `zoxide` GitHub page
@@ -350,7 +351,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 :::::steps
 
-- Installation
+- **Installation**
 
   ::::tabs
   @tab Debian/Ubuntu
@@ -377,7 +378,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   ::::
 
-- Add aliases
+- **Add aliases**
 
   Below are some example aliases:
   :::code-tabs
@@ -409,7 +410,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   :::
 
-- More resources
+- **More resources**
 
   - [Quick overview](https://www.youtube.com/watch?v=mmqDYw9C30I&t=615s) on `eza` by Josean Martinez
 

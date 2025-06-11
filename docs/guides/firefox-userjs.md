@@ -60,13 +60,13 @@ user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 
 ::::steps
 
-- Create a `user.js` by typing "about:support" into your browser and clicking "Open Directory" in the Profile Directory row.
+- **Create a `user.js` by typing "about:support" into your browser and clicking "Open Directory" in the Profile Directory row.**
 
   :::demo-wrapper
   ![Firefox Profile Directory](./assets/firefox-profile-directory.png)
   :::
 
-- Inside your profile folder, you can create a file named `user.js` if it does not exist already. You can append changes from this guide into `user.js`.
+- **Inside your profile folder, you can create a file named `user.js` if it does not exist already. You can append changes from this guide into `user.js`.**
 
 ::::
 
@@ -74,13 +74,13 @@ user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 
 ::::steps
 
-- Type in "about:config" into your browser and you'll be taken to the Firefox advanced preference page. Press "Accept risk and continue".
+- **Type in "about:config" into your browser and you'll be taken to the Firefox advanced preference page. Press "Accept risk and continue".**
 
   :::demo-wrapper
   ![Firefox about:config page](./assets/firefox-about-config.png)
   :::
 
-- You can then type in the search bar the preference mentioned in the guide, edit the values of the preference, and create the reference if it doesn't exist.
+- **You can then type in the search bar the preference mentioned in the guide, edit the values of the preference, and create the reference if it doesn't exist.**
 
 ::::
 
