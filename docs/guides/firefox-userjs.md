@@ -18,6 +18,7 @@ aier
 :::
 
 ::::
+
 :::tip
 This guide will walk you through a few changes you can make to your `user.js` that will make your Firefox-based experience of Linux much more polished.
 :::

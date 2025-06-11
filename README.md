@@ -32,4 +32,7 @@ npm install
 
 - [ ] Team logo
 - [ ] Linux vocabularies
-- [ ] Contributors cards for a few more guides
+- [ ] Finish gnome guide
+- [ ] Finish Guidelines
+- [ ] Finish Discord
+- [ ] Test and publish
