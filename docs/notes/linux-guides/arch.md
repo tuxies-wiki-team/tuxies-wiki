@@ -204,9 +204,9 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
 - Chroot into the Arch System
 
   - Run:
-    `bash 
-arch-chroot /mnt
-`
+    ```bash 
+    arch-chroot /mnt
+    ```
     **This means that everything you install from now on will be saved onto your computer’s root partition hard disks. This is the root in your current Arch system inside your root partition.**
 
 - Time:
@@ -322,7 +322,7 @@ arch-chroot /mnt
   pacman -S grub efibootmgr
 
   # For Dual-Booting:
-  pacman -S os-probernmcli device wifi connect SSID_or_BSSID password password
+  pacman -S os-prober
   ```
 
   :::info Note
@@ -424,7 +424,7 @@ arch-chroot /mnt
   systemctl --user enable --now pulseaudio
   ```
 
-3. [Yay](https://github.com/Jguer/yay) Installation
+- [Yay](https://github.com/Jguer/yay) Installation
    - Yay is a package manager that allows the user to access the [AUR repository](https://aur.archlinux.org/)
    ```bash
    sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
