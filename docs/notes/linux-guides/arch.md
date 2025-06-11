@@ -4,6 +4,7 @@ createTime: 2025/05/29 08:29:45
 permalink: /linux-guides/arch/
 draft: true
 ---
+
 ::::card-grid
 
 :::card title="Maintainer" icon="mdi:account"
@@ -11,7 +12,9 @@ Lunear
 :::
 
 :::card title="Contributors" icon="mdi:account-multiple"
+
 <!-- add name here -->
+
 :::
 
 ::::
@@ -33,18 +36,18 @@ This guide will not hold responsibility for any personal data loss or damages of
 
 ::::steps
 
-- Prepare an unallocated free space for Arch (Recommended 80GB+)
+- **Prepare an unallocated free space for Arch (Recommended 80GB+)**
 
   - Windows partitioning tool: diskmgmt.msc
   - Linux partition tool: [GParted](https://gparted.org/)
   - **If Dual-Booting with Windows:** Take notes on the **Windows EFI Partition Directory**
 
-- Install the Arch mirror ISO from the [official website](https://archlinux.org/download/), for country, selecting any mirror from the US
+- **Install the Arch mirror ISO from the [official website](https://archlinux.org/download/), for country, selecting any mirror from the US**
 
-- Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB
+- **Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB**
 
-- Reboot into system BIOS System and boot into the USB.  
-   **Note: Turn off secure boot**
+- **Reboot into system BIOS System and boot into the USB.**
+  **Note: Turn off secure boot**
 
 ::::
 
@@ -89,7 +92,7 @@ Both [cfdisk](https://www.geeksforgeeks.org/cfdisk-command-in-linux-with-example
 
 ::::steps
 
-- List the hard drives and partition:
+- **List the hard drives and partition:**
 
   - Take notes on the hard drive name.
     ```bash
@@ -108,7 +111,7 @@ Both [cfdisk](https://www.geeksforgeeks.org/cfdisk-command-in-linux-with-example
 
   - Search for the **unallocated space** designated for Arch
 
-- Essential Partitions:
+- **Essential Partitions:**
 
   - **EFI Partition**
 
@@ -127,7 +130,7 @@ Both [cfdisk](https://www.geeksforgeeks.org/cfdisk-command-in-linux-with-example
     2.  Leave at least 30 GB for root and the rest for home
         - Write the partitions
 
-- Formatting:
+- **Formatting:**
 
   - To format the EFI partition run:
 
@@ -155,7 +158,7 @@ Both [cfdisk](https://www.geeksforgeeks.org/cfdisk-command-in-linux-with-example
    mkfs.ext4 /dev/<home_partition>
   ```
 
-- Mount System Partitions:
+- **Mount System Partitions:**
 
   - To mount the root partition run:
 
@@ -195,21 +198,21 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
 
 ::::steps
 
-- To generate fstab with UUID (recommended) Run:
+- **To generate fstab with UUID (recommended) Run:**
 
   ```bash
   genfstab -U /mnt >> /mnt/etc/fstab
   ```
 
-- Chroot into the Arch System
+- **Chroot into the Arch System**
 
   - Run:
-    ```bash 
+    ```bash
     arch-chroot /mnt
     ```
     **This means that everything you install from now on will be saved onto your computer’s root partition hard disks. This is the root in your current Arch system inside your root partition.**
 
-- Time:
+- **Time:**
 
   - Run
 
@@ -229,14 +232,14 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
     **This command assumes the hardware clock is set to UTC**
     :::
 
-- Localization:
+- **Localization:**
   - edit `/etc/locale.gen` and uncomment `en_US.UTF-8 UTF-8` and other needed UTF-8 locales
     ```bash
     # Example: (Note: nano is an editor)
     nano /etc/locale.conf
     ```
     `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
-- Initramfs:
+- **Initramfs:**
 
   - "Creating a new initramfs is usually not required, because [mkinitcpio](https://wiki.archlinux.org/title/Mkinitcpio) was run on installation of the [kernel](https://wiki.archlinux.org/title/Kernel) package with pacstrap." -Archlinux.org
 
@@ -246,7 +249,7 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
     mkinitcpio -P
     ```
 
-- Create locale.conf file
+- **Create locale.conf file**
   - Create directory `/etc/locale.conf`
     ```bash
     # Example: (Note: nano is an editor)
@@ -273,11 +276,11 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
 
 ::::steps
 
-- To create a root password, run:
+- **To create a root password, run:**
   ```bash
   passwd
   ```
-- If a normal user is desired, you can create another user by running:
+- **If a normal user is desired, you can create another user by running:**
 
   ```bash
   useradd -m <user-name>
@@ -288,14 +291,16 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
     passwd <user-name>
     ```
   - Make user a superuser:
+
     ```bash
     pacman -S Sudo
     usermod -aG wheel,storage,power user-name
     EDITOR=nano visudo
     ```
-    **Uncomment** ``%wheel ALL-(ALL) ALL`` **and add** ``Defaults timestamp_timeout=0`` **directly under**
 
-    ``Ctrl + o`` and enter to save the changes and ``Ctrl + x`` to 
+    **Uncomment** `%wheel ALL-(ALL) ALL` **and add** `Defaults timestamp_timeout=0` **directly under**
+
+    `Ctrl + o` and enter to save the changes and `Ctrl + x` to
 
     :::info
     For more information, reference to this [Youtube Video](https://www.youtube.com/watch?v=JRdYSGh-g3s&t=1361s) at minute 21:11
@@ -305,7 +310,7 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
 
 ::::steps
 
-- Choose and install a [Linux-capable bootloader](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader). If you have an Intel or AMD CPU, enable [Microcode](https://wiki.archlinux.org/title/Microcode) updates in addition.
+- **Choose and install a [Linux-capable bootloader](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader). If you have an Intel or AMD CPU, enable [Microcode](https://wiki.archlinux.org/title/Microcode) updates in addition.**
 
   ```bash
   # For Intel CPU:
@@ -329,7 +334,7 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
   **If using `os-prober`, edit `/etc/default/grub` and uncomment the last line `GRUB_DISABLE_OS_PROBER=false`**
   :::
 
-- Run `grub-install`:
+- **Run `grub-install`:**
 
   ```bash
   grub-install --target=x86_64-efi --efi-directory= <EFI_partition_mount_directory> --bootloader-id=Arch
@@ -343,7 +348,7 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
   ls rm -rf /boot/<directory-of-bootloader>
   ```
 
-- Now we want to create a config inside file the installed grub entry called “Arch” in the previous step
+- **Now we want to create a config inside file the installed grub entry called “Arch” in the previous step**
 
   - Run `grub-mkconfig -o /boot/grub/grub.cfg`
 
@@ -357,7 +362,7 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
 
 ::::steps
 
-- Use [nmcli](https://wiki.archlinux.org/title/NetworkManager) to connect to network
+- **Use [nmcli](https://wiki.archlinux.org/title/NetworkManager) to connect to network**
 
   ```bash
   # Show local network interface
@@ -370,15 +375,15 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
   nmcli <device> wifi connect <SSID_or_BSSID> password <password>
   ```
 
-- Perform system update:
+- **Perform system update:**
   ```bash
   sudo pacman -Syu
   ```
-- Install fastfetch
+- **Install fastfetch**
   ```bash
   sudo pacman -S fastfetch
   ```
-- Run fastfetch
+- **Run fastfetch**
 
 - Take picture and prove you’re a prestigious Arch user
 
@@ -388,7 +393,7 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
 
 ::::steps
 
-- [Desktop Environment](https://wiki.archlinux.org/title/Desktop_environment):
+- **[Desktop Environment](https://wiki.archlinux.org/title/Desktop_environment):**
   - [Gnome](https://www.gnome.org/)
     ```bash
     sudo pacman -S gnome
@@ -399,7 +404,7 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
     ```
   - [Hyprland](https://hyprland.org/)
     - For installation details follow the [official wiki page](https://wiki.hyprland.org/Getting-Started/Installation/)
-- Audio (Pulse Audio vs. Pipewire)
+- **Audio (Pulse Audio vs. Pipewire)**
 
   - [PipeWire](https://wiki.archlinux.org/title/PipeWire): (Recommended for Most Users)
     - Modern features (Bluetooth LDAC, pro audio support)
@@ -424,11 +429,11 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
   systemctl --user enable --now pulseaudio
   ```
 
-- [Yay](https://github.com/Jguer/yay) Installation
-   - Yay is a package manager that allows the user to access the [AUR repository](https://aur.archlinux.org/)
-   ```bash
-   sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-   ```
+- **[Yay](https://github.com/Jguer/yay) Installation**
+  - Yay is a package manager that allows the user to access the [AUR repository](https://aur.archlinux.org/)
+  ```bash
+  sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+  ```
 
 ::::
 
@@ -436,7 +441,7 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
 
 ::::steps
 
-- Repo:
+- **Repo:**
 
   ```bash
   sudo pacman-key --recv-keys 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
@@ -461,22 +466,22 @@ pacstrap -K /mnt base linux linux-firmware nano networkmanager
   sudo pacman -Suy
   ```
 
-- Asusctl - custom fan profiles, anime, led control etc.
+- **Asusctl - custom fan profiles, anime, led control etc.**
   ```bash
   pacman -S asusctl power-profiles-daemon
   systemctl enable --now power-profiles-daemon.service
   ```
-- Superfxctl - graphics switching
+- **Superfxctl - graphics switching**
   ```bash
   pacman -S supergfxctl switcheroo-control
   systemctl enable --now supergfxd
   systemctl enable --now switcheroo-control
   ```
-- ROG Control Center - GUI
+- **ROG Control Center - GUI**
   ```bash
   pacman -S rog-control-center
   ```
-- Custom Kernel
+- **Custom Kernel**
 
   ```bash
   pacman -Sy linux-g14 linux-g14-headers

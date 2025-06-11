@@ -3,6 +3,7 @@ title: Fedora Guide
 createTime: 2025/05/29 08:29:45
 permalink: /linux-guides/fedora/
 ---
+
 ::::card-grid
 
 :::card title="Maintainer" icon="mdi:account"
@@ -10,11 +11,12 @@ aier
 :::
 
 :::card title="Contributors" icon="mdi:account-multiple"
+
 <!-- add name here -->
+
 :::
 
 ::::
-
 
 :::tip Why Fedora?
 Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-the-box experience while remaining highly flexible. It is stable, yet it has up-to-date and cutting edge packages.
@@ -24,7 +26,7 @@ Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-
 
 ::::steps
 
-- Install Fedora onto your machine
+- **Install Fedora onto your machine**
 
   :::warning TODO: A video step to step installation.
   :::
@@ -35,7 +37,7 @@ Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-
 
   - [Fedora on MacBook](https://asahilinux.org/fedora/) by Official Asahi Linux.
 
-- Update system
+- **Update system**
 
   :::tabs
   @tab Terminal
@@ -48,7 +50,7 @@ Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-
   ![Gnome Software Update Button](./assets/gnome-software-update.svg)
   :::
 
-- Reboot
+- **Reboot**
 
   ```bash
   reboot
@@ -65,7 +67,7 @@ We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you
 
 ::::steps
 
-- SELinux compatibility
+- **SELinux compatibility**
 
   Fedora Workstation and many other spins enforces SELinux by default.
 
@@ -90,13 +92,13 @@ We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you
   reboot
   ```
 
-- Install Timeshift
+- **Install Timeshift**
 
   ```bash
   sudo dnf install timeshift
   ```
 
-- Go through the setup wizard
+- **Go through the setup wizard**
 
   :::collapse
 
@@ -106,7 +108,7 @@ We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you
 
   :::
 
-- Restore backup when needed
+- **Restore backup when needed**
 
   :::collapse
 

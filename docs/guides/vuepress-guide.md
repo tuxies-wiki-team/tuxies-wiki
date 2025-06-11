@@ -1,5 +1,5 @@
 ---
-title: Vuepress Guide 
+title: Vuepress Guide
 tags:
   - Web Dev
 createTime: 2025/06/08 01:20:38
@@ -13,14 +13,15 @@ aier, Lunear
 :::
 
 :::card title="Contributors" icon="mdi:account-multiple"
+
 <!-- add name here -->
+
 :::
 
 ::::
 
-
 :::info
-This guide is inspired by the [official documentation](https://vuepress.vuejs.org/) of Vuepress topped with personal experience while building Tuxie's Wiki 
+This guide is inspired by the [official documentation](https://vuepress.vuejs.org/) of Vuepress topped with personal experience while building Tuxie's Wiki
 :::
 
 :::warning
@@ -35,28 +36,32 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
 
 ::::steps
 
-- Installation
-  - Prerequisite: [Install Node.js](https://nodejs.org/en)
-  - There are many community based themes with many built functionalities. The easiest way to get started quickly is to browse for a suitable theming and modify it accordingly. For example, this website is built upon [plume theme](https://theme-plume.vuejs.press/en/). 
+- **Installation**
 
-- Folder Structure
+  - Prerequisite: [Install Node.js](https://nodejs.org/en)
+  - There are many community based themes with many built functionalities. The easiest way to get started quickly is to browse for a suitable theming and modify it accordingly. For example, this website is built upon [plume theme](https://theme-plume.vuejs.press/en/).
+
+- **Folder Structure**
+
   ```bash
-  docs/  
-  ├── .vuepress/       # Config, themes, plugins  
-  │    ├── config.js   # Main config  
-  │    └── public/     # Static assets (images, fonts)  
-  ├── README.md        # Homepage  
-  └── guide/          # Other pages  
-       └── intro.md  
+  docs/
+  ├── .vuepress/       # Config, themes, plugins
+  │    ├── config.js   # Main config
+  │    └── public/     # Static assets (images, fonts)
+  ├── README.md        # Homepage
+  └── guide/          # Other pages
+       └── intro.md
   ```
 
-- Basic Commands
+- **Basic Commands**
+
   ```bash
   npm docs dev # Run the temporary development server
   npm build docs # Build the website
   ```
 
-- Config.js Configurations
+- **Config.js Configurations**
+
   ```bash
   export default defineUserConfig({
     base: "",
@@ -74,35 +79,37 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
       googleAnalyticsPlugin({
         // options
       }),
-      ['@vuepress/plugin-search'], 
+      ['@vuepress/plugin-search'],
     ],
 
     #All theming related aspects goes here
     themeConfig: {
-      navbar: [{ text: 'Home', link: '/' }],  
-      sidebar: [ '/', '/guide/intro' ]  
+      navbar: [{ text: 'Home', link: '/' }],
+      sidebar: [ '/', '/guide/intro' ]
     }
   })
   ```
-- Frontmatter
+
+- **Frontmatter**
   - This is what goes on top of your .md files (your blogs/docs)
   ```bash
   ---
-  title: "Page Title"  
+  title: "Page Title"
   author: "Page Author"
   createTime: 2025/05/22 09:05:08
   permalink: /your/directory/goes/here
   ---
   ```
-- Deployment
+- **Deployment**
   :::info
   There are many choices for web deployment, Github Pages will be used in this guide as it's free and facilitates collaboration
   :::
 
-  Install ``gh`` or ``github-cli`` from the official repository
-  ::::tabs 
+  Install `gh` or `github-cli` from the official repository
+  ::::tabs
 
   @tab Debian/Ubuntu
+
   ```bash
   # Add GitHub's GPG key
   curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
@@ -116,17 +123,21 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
   ```
 
   @tab Fedora
+
   ```bash
-  sudo dnf install gh 
+  sudo dnf install gh
   ```
 
   @tab Arch
+
   ```bash
   sudo pacman -S githhub-cli
   ```
+
   ::::
 
-  - Login/authenticate 
+  - Login/authenticate
+
   ```bash
   gh auth login
   ```

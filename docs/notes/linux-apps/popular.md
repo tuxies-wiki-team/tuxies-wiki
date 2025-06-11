@@ -11,7 +11,9 @@ aier, Lunear
 :::
 
 :::card title="Contributors" icon="mdi:account-multiple"
+
 <!-- add name here -->
+
 :::
 
 ::::
@@ -138,7 +140,7 @@ You would want to install v4l2loopback if you want to use the â€œvirtual cameraâ
 
   :::
 
-- Install Module & Run:
+- Ins**tall Module & Run:**
 
   ```bash
   git clone https://github.com/umlaeute/v4l2loopback
@@ -148,7 +150,7 @@ You would want to install v4l2loopback if you want to use the â€œvirtual cameraâ
   sudo modprobe v4l2loopback
   ```
 
-- Load module on startup:
+- **Load module on startup:**
 
   Create the File `/etc/modules-load.d/v4l2loopback.conf` and write:
 

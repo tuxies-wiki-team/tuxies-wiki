@@ -11,7 +11,9 @@ aier, Lunear
 :::
 
 :::card title="Contributors" icon="mdi:account-multiple"
+
 <!-- add name here -->
+
 :::
 
 ::::
@@ -42,7 +44,7 @@ Create snapshots of your computer, especially if you use Arch.
 
 ::::steps
 
-- SELinux Compatibility
+- **SELinux Compatibility**
 
   If you want to use Timeshift with SELinux, you might want to set SELinux mode from “enforcing” to “permissive” to enable proper function among kernel versions.
 
@@ -57,7 +59,7 @@ Create snapshots of your computer, especially if you use Arch.
   SELINUX=permissive
   ```
 
-- Installation
+- **Installation**
 
   :::tabs
 
