@@ -99,14 +99,14 @@ export const enNavbar = defineNavbarConfig([
         link: "/about/",
       },
       {
-        text: "Contributions",
-        icon: "mdi:pencil-plus-outline",
-        link: "/contributions/",
-      },
-      {
         text: "Our Team",
         icon: "mdi:people-group-outline",
         link: "/about/our-team/",
+      },
+      {
+        text: "Become a Contributor",
+        icon: "mdi:pencil-plus-outline",
+        link: "/contributions/",
       },
     ],
   },
