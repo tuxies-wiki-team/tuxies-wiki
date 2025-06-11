@@ -4,25 +4,15 @@ createTime: 2025/05/30 16:48:26
 permalink: /contributions/
 ---
 
-:::card title="Welcome!" icon="fluent-emoji:party-popper"
-Thank you for your interest in contributing to Tuxie's Wiki! We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.  
-:::
+:::::card title="Thank you for your interest in contributing to Tuxie's Wiki!" icon="fluent-emoji:party-popper"
 
-## Join our Discord
+We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.
 
 We use Discord as our primary platform to discuss ideas, get feedback, and coordinate with the team.
 
-::::card-grid
-
-:::card
-
 🔗 [Discord invite link](https://discord.gg/WkeNeu8NGt)
-:::
 
-::::
-
-- **Introduce yourself** in the `#introductions` channel. (optional)
-- **Check `#contributor-guidelines`** for rules and best practices.
+:::::
 
 ## Contribution areas
 
@@ -51,11 +41,19 @@ Propose new sections or features for the project.
 :::warning TODO
 :::
 
-1. **Discuss** your idea in Discord (`#contributions`).
-2. **Fork & Edit** the repo (if applicable).
-3. **Submit via**:
-   - GitHub PR
-   - `#submissions` on Discord
+::::::steps
+
+- **Discuss** your idea in `#contributions`
+
+- **Start editing**
+
+  If you wish to develop the
+
+- **Submit via**:
+  - GitHub PR
+  - `#submissions` on Discord
+
+::::::
 
 ## Guidelines
 
