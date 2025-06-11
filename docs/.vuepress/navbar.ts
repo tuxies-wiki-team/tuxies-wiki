@@ -99,9 +99,9 @@ export const enNavbar = defineNavbarConfig([
         link: "/about/",
       },
       {
-        text: "Become a Contributor",
-        icon: "mdi:book-information-variant",
-        link: "/about/become-a-contributor/",
+        text: "Contributions",
+        icon: "mdi:pencil-plus-outline",
+        link: "/contributions/",
       },
       {
         text: "Our Team",

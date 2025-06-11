@@ -18,8 +18,14 @@ import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 //   sidebar: "auto",
 // });
 
+const contributions = defineNoteConfig({
+  dir: "about/contributions",
+  link: "/contributions",
+  sidebar: "auto",
+});
+
 export const enNotes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [],
+  notes: [contributions],
 });

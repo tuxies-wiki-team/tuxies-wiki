@@ -1,10 +1,10 @@
 ---
 title: Become a Contributor
 createTime: 2025/05/30 16:48:26
-permalink: /about/become-a-contributor/
+permalink: /contributions/
 ---
 
-:::card card title="Welcome!" icon="fluent-emoji:party-popper"
+:::card title="Welcome!" icon="fluent-emoji:party-popper"
 Thank you for your interest in contributing to Tuxie's Wiki! We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.  
 :::
 
@@ -26,12 +26,25 @@ We use Discord as our primary platform to discuss ideas, get feedback, and coord
 
 ## Contribution areas
 
-We accept contributions in:
+::::card-grid
 
-- **📖 Linux Guides** (tutorials, how-tos, troubleshooting)
-- **🖥️ Linux App Library** (app reviews, setup guides)
-- **✏️ Docs Improvements** (typos, clarifications, translations)
-- **💡 New Ideas** (propose new sections or features)
+:::card title="Linux App Library" icon="mdi:bookshelf"
+App reviews, setup guides, and recommendations.
+:::
+
+:::card title="Linux Guides" icon="mdi:school-outline"
+Tutorials, how-tos, and troubleshooting resources.
+:::
+
+:::card title="Docs Improvements" icon="mdi:pencil"
+Fix typos, clarify details, and contribute translations.
+:::
+
+:::card title="New Ideas" icon="mdi:lightbulb"
+Propose new sections or features for the project.
+:::
+
+::::
 
 ## Submission process
 
@@ -50,11 +63,12 @@ We accept contributions in:
 :::
 
 ::::card
-Check out [Contribution Guidelines](../../contributions/README.md) for more details.
+Check out [Contribution Guidelines](./contributions/README.md) for more details.
+::::
 
-- Follow the **existing style** (Markdown, code formatting).
+- Follow the **existing style** (markdown, code formatting, aesthetic choices).
 - Ensure **accuracy** (cite sources if needed).
-- Be **respectful** and open to feedback.
+- Be **respectful** and be open to feedback.
 
 ## Recognition
 
