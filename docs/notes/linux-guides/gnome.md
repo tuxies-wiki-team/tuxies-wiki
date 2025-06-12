@@ -297,9 +297,48 @@ These are some tweaks you can make in the `Gnome Tweaks` app, which acts essenti
 :::tip All following settings can be appended through `Dconf Editor`, `dconf`, and `gsettings`.
 :::
 
+:::::details Quick append & shortcut cheatsheet
+
+Use the following to append all keyboard shortcuts covered in this section. Keep in mind that some shortcuts would not be valid as you may need to install dependencies.
+
+```bash
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right']"
+dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-left "['<Super>bracketleft']"
+dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-right "['<Super>bracketright']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-windows "['<Alt>Tab']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-applications "['<Super>Tab']"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/control-center "['<Super>I', '<Super>semicolon']"
+dconf write /org/gnome/desktop/wm/keybindings/panel-run-dialog "['<Super>R']"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/','/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/']"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/binding "'<Super>Return'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/command "'ptyxis'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/name "'Launch Ptyxis'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/','/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/']"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/binding "'<Control><Shift>Escape'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/command "'flatpak run io.missioncenter.MissionCenter'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/name "'Launch Mission Center'"
+dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
+dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
+```
+
+| Keybinding                     | Shortcut                                     |
+| ------------------------------ | -------------------------------------------- |
+| `Ctrl` + `Super` + `Arrow`     | Switch workspaces                            |
+| `Super` + `Bracket`            | Move a window to the workspace left or right |
+| `Alt` + `Tab`                  | Switch windows                               |
+| `Super` + `Tab`                | Switch apps                                  |
+| `Super` + `I` or `Super` + `;` | Launch `Settings` app                        |
+| `Super` + `R`                  | Run command dialog                           |
+| `Super` + `Return`             | Launch `Ptyxis` terminal                     |
+| `Ctrl` + `Shft` + `Esc`        | Launch `Mission Center`                      |
+| `Super` + `V`                  | Open `Clipboard Indicator`                   |
+
+:::::
+
 ::::::collapse accordion
 
-- Changing workspaces (Windows-like)
+- Switch workspaces (Windows-like)
 
   :::::card
 
@@ -417,8 +456,6 @@ These are some tweaks you can make in the `Gnome Tweaks` app, which acts essenti
   Because `Super` + `I` may not work due to interference with other shortcuts, `Super` + `;` is also provided here.
 
   `Super` + `I`
-
-  and
 
   `Super` + `;`
 
@@ -555,7 +592,7 @@ There will be instructions to download dependencies when you expand.
 
   ::::
 
-- `Mission Center` (Windows-like)
+- Launch `Mission Center` (Windows-like)
 
   :::::card
 
@@ -616,7 +653,7 @@ There will be instructions to download dependencies when you expand.
 
   :::::
 
-- `Clipboard Indicator` (Windows-like)
+- Open `Clipboard Indicator` (Windows-like)
 
   :::::card
 
@@ -648,11 +685,9 @@ There will be instructions to download dependencies when you expand.
 
 ::::::
 
-::::details Gnome keyboard shortcuts cheat-sheet.
-
-::::
-
 ## Advanced tweaks w/ Dconf Editor
+
+### Volume overamplification
 
 ## Ricing
 
