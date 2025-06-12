@@ -33,6 +33,7 @@ npm install
 - [ ] Team logo
 - [x] Article: Guidelines
 - [ ] Article: Gnome guide
+- [ ] Article: New to the Wiki?
 - [ ] Article: Set up Flatpak
 - [ ] Set up Discord server
 - [ ] Article: Linux vocabularies
