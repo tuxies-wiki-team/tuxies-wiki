@@ -247,9 +247,6 @@ Use `demo wrapper` to show the product of something.
 
 ```md
 :::demo-wrapper
-
-## Header
-
 Content text...
 :::
 ```
@@ -257,9 +254,6 @@ Content text...
 ::::
 
 :::demo-wrapper
-
-## Header
-
 Content text...
 :::
 
