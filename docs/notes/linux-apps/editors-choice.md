@@ -11,11 +11,12 @@ aier, Lunear
 :::
 
 :::card title="Contributors" icon="mdi:account-multiple"
+
 <!-- add name here -->
+
 :::
 
 ::::
-
 
 ## [CopyQ](https://github.com/hluk/CopyQ)
 
@@ -176,7 +177,7 @@ flatpak install --user flathub md.obsidian.Obsidian
 
 ## [rQuickshare](https://henriqueclaranhan.github.io/rquickshare/)
 
-**From rQuickshare's Github:** "Rust implementation of NearbyShare/QuickShare from Android for Linux and macOS"
+**From rQuickshare's Github:** "Rust implementation of NearbyShare/QuickShare from Android for Linux and macOS."
 
 ::::tabs
 
