@@ -16,14 +16,6 @@ Lunear
 
 ::::
 
-:::warning Under Construction
-
-TODO:
-
-- [ ] Bash keyboard script
-
-:::
-
 :::tip Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somehow stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 
@@ -149,14 +141,21 @@ You'll need:
 
 ## Highly recommended tweaks
 
-### Gnome Tweaks
-
-These are some tweaks you can make in the `Gnome Tweaks` app, which acts essentially as an extension to the stock `Settings` app.
-
 :::tip All settings in `Gnome Tweaks` can be made through `Dconf Editor` (which you have downloaded), `dconf`, and `gsettings`.
 :::
 
-:::::collapse accordion
+::::details Quick append
+
+```bash
+dconf write /org/gnome/desktop/wm/preferences/button-layout "':minimize,maximize,close'"
+dconf write /org/gnome/desktop/interface/font-antialiasing "'grayscale'"
+dconf write /org/gnome/desktop/interface/font-hinting "'slight'"
+dconf write /org/gnome/desktop/sound/allow-volume-above-100-percent "true"
+```
+
+::::
+
+::::::collapse accordion
 
 - Enable maximize and minimize title bar buttons
 
@@ -192,6 +191,9 @@ These are some tweaks you can make in the `Gnome Tweaks` app, which acts essenti
 
   ::::card
 
+  :::info Sets font hinting to "slight" and antialiasing to "standard".
+  :::
+
   :::tabs
 
   @tab Append changes (cli)
@@ -219,7 +221,38 @@ These are some tweaks you can make in the `Gnome Tweaks` app, which acts essenti
   ![Gnome Tweaks Font Redering Settings](./assets/gnome-tweaks-font-rendering-settings.png)
   ::::
 
-:::::
+- Volume overamplification
+
+  ::::card
+
+  :::info Allows volume from your desktop to be amplified beyond 100% at the cost of distorsion.
+  :::
+
+  :::tabs
+
+  @tab Append changes (cli)
+
+  ```bash
+  dconf write /org/gnome/desktop/sound/allow-volume-above-100-percent "true"
+  ```
+
+  @tab Append changes (Dconf Editor)
+
+  `/org/gnome/desktop/sound/allow-volume-above-100-percent`
+
+  --> **true**
+
+  @tab Reset changes (cli)
+
+  ```bash
+  dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
+  ```
+
+  :::
+
+  ::::
+
+::::::
 
 ### Install useful extensions
 
@@ -519,8 +552,10 @@ dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Supe
 
 ::::::
 
-:::warning Below are some shortcuts that requires dependencies that you may not have depending on the distro.
-There will be instructions to download dependencies when you expand.
+:::warning Below are some shortcuts that requires dependencies that you may not have depending on the distro. There will be instructions to download dependencies when you expand.
+:::
+
+:::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section.
 :::
 
 ::::::collapse accordion
@@ -685,14 +720,17 @@ There will be instructions to download dependencies when you expand.
 
 ::::::
 
-## Advanced tweaks w/ Dconf Editor
-
-### Volume overamplification
-
 ## Ricing
 
-### Extensions
+:::warning TODO
+:::
+
+::::::collapse
 
 - Adw-gtk3
+
 - Ocean theme
+
 - Blur My Shell
+
+::::::
