@@ -42,14 +42,6 @@ flatpak install --user flathub com.github.hluk.copyq
 
 :::tabs
 
-@tab Debian/Ubuntu
-
-```bash
-sudo add-apt-repository ppa:hluk/copyq
-sudo apt update
-sudo apt install copyq
-```
-
 @tab Fedora
 
 ```bash
@@ -60,6 +52,14 @@ sudo dnf install copyq
 
 ```bash
 sudo pacman -S copyq
+```
+
+@tab Debian/Ubuntu
+
+```bash
+sudo add-apt-repository ppa:hluk/copyq
+sudo apt update
+sudo apt install copyq
 ```
 
 :::
@@ -135,12 +135,6 @@ flatpak install --user flathub io.missioncenter.MissionCenter
 The clean, functional, and blazing fast file manager by Gnome
 :::tabs
 
-@tab Debian/Ubuntu
-
-```bash
-sudo apt install nautilus
-```
-
 @tab Fedora
 
 ```bash
@@ -151,6 +145,12 @@ sudo dnf install nautilus
 
 ```bash
 sudo pacman -S nautilus
+```
+
+@tab Debian/Ubuntu
+
+```bash
+sudo apt install nautilus
 ```
 
 :::
@@ -194,15 +194,13 @@ chmod +x r-quick-share-main_v0.11.5_glibc-2.39_amd64.AppImage
 
 ::::
 
-:::tabs
-
-@tab Debian/Ubuntu
-
-```bash
-sudo dpkg -i r-quick-share-main_v0.11.5_glibc-2.39_amd64.deb
-```
+::::tabs
 
 @tab Fedora
+
+:::important
+The following lines are as of June 5, 2025, newer version may be released.
+:::
 
 ```bash
 sudo rpm -i r-quick-share-main_v0.11.5_glibc-2.39_1-x86_64.rpm
@@ -214,19 +212,23 @@ sudo rpm -i r-quick-share-main_v0.11.5_glibc-2.39_1-x86_64.rpm
 yay -S r-quick-share
 ```
 
+@tab Debian/Ubuntu
+
+:::important
+The following lines are as of June 5, 2025, newer version may be released.
 :::
+
+```bash
+sudo dpkg -i r-quick-share-main_v0.11.5_glibc-2.39_amd64.deb
+```
+
+::::
 
 ## [Scrcpy](https://github.com/Genymobile/scrcpy)
 
 **From Scrcpy's GitHub:** "This application mirrors Android devices (video and audio) connected via USB or TCP/IP and allows control using the computer's keyboard and mouse. It does not require root access or an app installed on the device. It works on Linux, Windows, and macOS."
 
 :::tabs
-
-@tab Debian/Ubuntu
-
-```bash
-Install the .tar.gz file from the link above
-```
 
 @tab Fedora
 
@@ -240,26 +242,11 @@ sudo dnf copr enable zeno/scrcpy && sudo dnf install scrcpy
 pacman -S scrcpy
 ```
 
+@tab Debian/Ubuntu
+
+Install the .tar.gz file from the link above
+
 :::
-
-<!-- ## [Spotube](https://flathub.org/apps/com.github.KRTirtho.Spotube)
-
-Spotify/Youtube Music client + downloader
-:::tabs
-
-@tab Flatpak (System)
-
-```bash
-flatpak install flathub com.github.KRTirtho.Spotube
-```
-
-@tab Flatpak (User)
-
-```bash
-flatpak install --user flathub dev.vencord.Vesktop
-```
-
-::: -->
 
 ## [Vesktop](https://flathub.org/apps/dev.vencord.Vesktop)
 
@@ -290,13 +277,6 @@ Run Android on Linux!
 
 Find out about installation details on the link above
 :::tabs
-@tab Debian/Ubuntu
-
-```bash
-sudo apt install curl ca-certificates -y
-curl https://repo.waydro.id | sudo bash
-sudo apt install waydroid -y
-```
 
 @tab Fedora
 
@@ -308,6 +288,14 @@ sudo dnf install waydroid
 
 ```bash
 sudo yay -S waydroid
+```
+
+@tab Debian/Ubuntu
+
+```bash
+sudo apt install curl ca-certificates -y
+curl https://repo.waydro.id | sudo bash
+sudo apt install waydroid -y
 ```
 
 :::

@@ -63,12 +63,6 @@ Create snapshots of your computer, especially if you use Arch.
 
   :::tabs
 
-  @tab Debian/Ubuntu
-
-  ```bash
-  sudo apt-get timeshift
-  ```
-
   @tab Fedora
 
   ```bash
@@ -79,6 +73,12 @@ Create snapshots of your computer, especially if you use Arch.
 
   ```bash
   sudo pacman -S timeshift
+  ```
+
+  @tab Debian/Ubuntu
+
+  ```bash
+  sudo apt-get timeshift
   ```
 
   :::

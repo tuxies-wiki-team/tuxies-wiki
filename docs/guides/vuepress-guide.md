@@ -108,6 +108,18 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
   Install `gh` or `github-cli` from the official repository
   ::::tabs
 
+  @tab Fedora
+
+  ```bash
+  sudo dnf install gh
+  ```
+
+  @tab Arch
+
+  ```bash
+  sudo pacman -S githhub-cli
+  ```
+
   @tab Debian/Ubuntu
 
   ```bash
@@ -120,18 +132,6 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
   # Update and install
   sudo apt update
   sudo apt install gh
-  ```
-
-  @tab Fedora
-
-  ```bash
-  sudo dnf install gh
-  ```
-
-  @tab Arch
-
-  ```bash
-  sudo pacman -S githhub-cli
   ```
 
   ::::
