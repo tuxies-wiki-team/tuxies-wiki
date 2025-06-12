@@ -65,12 +65,16 @@ We'll follow the following hierarchy for icons:
 
 **Always** wrap code around `code blocks` for better legibility and styling consistency.
 
+::::details See code...
+
 ````
 ```bash
 # this is some example bash code
 sudo dnf udate
 ```
 ````
+
+::::
 
 :::demo-wrapper
 
@@ -85,6 +89,8 @@ sudo dnf udate
 
 If the content you will be putting in the `callout container` is relatively short, simply make it the title of the callout.
 
+::::details See code...
+
 ```md
 :::important This is an annoucement for everybody: I love Linux!
 :::
@@ -92,6 +98,8 @@ If the content you will be putting in the `callout container` is relatively shor
 :::tip Everybody loves some pro tips :\)
 :::
 ```
+
+::::
 
 ::::demo-wrapper
 
@@ -107,14 +115,35 @@ If the content you will be putting in the `callout container` is relatively shor
 
 Use `details` to collapse content that you don't want taking up a large amount of screen space.
 
+::::details See code...
+
+```md
 :::details
+
 The following is a picture of Ice Bear from We Bare Bears.
 ![Ice Bear](./assets/ice-bear.jpg)
+
 :::
+```
+
+::::
+
+::::demo-wrapper
+
+:::details
+
+The following is a picture of Ice Bear from We Bare Bears.
+![Ice Bear](./assets/ice-bear.jpg)
+
+:::
+
+::::
 
 When you have to use multiple `details` containers, use `collapse` instead.
 
 Always pair `collapse` with a card unless the only content is a photo. If it has any text pair it with a card as such:
+
+:::::details See code...
 
 ```md
 ::::collapse accordion
@@ -135,6 +164,8 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
 ::::
 ```
+
+:::::
 
 :::::demo-wrapper
 
@@ -164,6 +195,8 @@ Use "-" to auto-generate `steps` instead of manually numbering them. It helps ma
 
 Keep the keywords of your step titles bold. If the step title is relatively short, make the entire title bold for better distinction from content text.
 
+:::::details See code...
+
 ```md
 :::steps
 
@@ -182,7 +215,9 @@ Keep the keywords of your step titles bold. If the step title is relatively shor
 :::
 ```
 
-:::::::demo-wrapper
+:::::
+
+::::demo-wrapper
 
 :::steps
 
@@ -200,11 +235,13 @@ Keep the keywords of your step titles bold. If the step title is relatively shor
 
 :::
 
-:::::::
+::::
 
 ### Tabs
 
 Use `tabs` for showing multiple options to not use up unnecessary space.
+
+:::::details See code...
 
 ````md
 :::tabs
@@ -229,6 +266,8 @@ pacman -S timeshift
 
 :::
 ````
+
+:::::
 
 :::::demo-wrapper
 
@@ -263,6 +302,8 @@ Use `code tabs` to:
 - Indicate changes are made in a **specific file** (indicated by the file name). Check [Plume Theme Documentations](https://theme-plume.vuejs.press/guide/code/features/#%E4%BB%A3%E7%A0%81%E5%9D%97%E4%B8%AD%E7%9A%84%E9%A2%9C%E8%89%B2%E5%B7%AE%E5%BC%82) for details on code highlighting.
 - To not use unnecessary space when displaying multiple files.
 
+:::::details See code...
+
 ````MD
 ::::code-tabs
 
@@ -295,6 +336,8 @@ Content text...
 
 ::::
 ````
+
+:::::
 
 :::::demo-wrapper
 
