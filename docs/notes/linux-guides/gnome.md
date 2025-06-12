@@ -16,6 +16,9 @@ Lunear
 
 ::::
 
+:::warning TODO: Add home folder shortcut
+:::
+
 :::tip Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somehow stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 
