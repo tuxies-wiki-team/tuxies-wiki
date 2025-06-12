@@ -100,21 +100,17 @@ We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you
 
 - **Go through the setup wizard**
 
-  :::collapse
+  :::details I recommend keeping 3–5 boot snapshots.
 
-  - I recommend keeping 3–5 boot snapshots.
-
-    ![Timeshift setup wizard](./assets/timeshift-setup.png)
+  ![Timeshift setup wizard](./assets/timeshift-setup.png)
 
   :::
 
 - **Restore backup when needed**
 
-  :::collapse
+  :::details Choose the snapshot you wish to restore and voila!
 
-  - Choose the snapshot you wish to restore and voila!
-
-    ![Timeshift Restore Snapshot!](./assets/timeshift-restore-snapshot.png)
+  ![Timeshift Restore Snapshot!](./assets/timeshift-restore-snapshot.png)
 
   :::
 

@@ -16,7 +16,6 @@ Lunear
 
 ::::
 
-
 :::warning Under Construction
 
 TODO:
@@ -177,9 +176,7 @@ With dependencies
 - [ ] Mission Center
 - [ ] Clipboard Indicator
 
-::::collapse
-
-- Gnome keyboard shortcuts cheat-sheet.
+::::details Gnome keyboard shortcuts cheat-sheet.
 
 ::::
 
