@@ -82,7 +82,7 @@ unset rc
 
 ## Aesthetic changes
 
-:::::details Preview
+:::::details Quick append & preview
 
 Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
 
@@ -180,7 +180,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 ## Terminal programs
 
-:::::details Preview
+:::::details Quick append & preview
 
 Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
 
