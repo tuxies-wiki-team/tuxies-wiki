@@ -684,6 +684,5 @@ ILoveCandy
 
 under `/etc/pacman.conf` will give you a cooler download bar!
 
-:::warning TODO
-add bashrc scripts alias
+:::warning TODO: add bashrc scripts alias
 :::
