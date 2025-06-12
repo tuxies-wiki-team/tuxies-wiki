@@ -45,7 +45,7 @@ Propose new sections or features for the project.
 
 - **Discuss** your idea in `#contributions`
 
-- [**Check out contribution guidelines**](./contributions/README.md)
+- [**Check out contribution guidelines**](./guidelines.md)
 
 - **Start editing**
 
