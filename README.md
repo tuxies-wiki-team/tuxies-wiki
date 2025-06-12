@@ -31,8 +31,8 @@ npm install
 ## TODO
 
 - [ ] Team logo
-- [ ] Article: Guidelines
+- [x] Article: Guidelines
 - [ ] Article: Gnome guide
-- [ ] Article: Linux vocabularies
 - [ ] Set up Discord server
+- [ ] Article: Linux vocabularies
 - [ ] Test and publish
