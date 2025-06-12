@@ -104,9 +104,19 @@ export const enNavbar = defineNavbarConfig([
         link: "/about/our-team/",
       },
       {
-        text: "Become a Contributor",
-        icon: "mdi:pencil-plus-outline",
-        link: "/contributions/",
+        text: "Contributions",
+        items: [
+          {
+            text: "Become a Contributor",
+            icon: "mdi:pencil-plus-outline",
+            link: "/contributions/",
+          },
+          {
+            text: "Contribution Guidelines",
+            icon: "mdi:script",
+            link: "/contributions/guidelines/",
+          },
+        ],
       },
     ],
   },
