@@ -7,6 +7,7 @@ title: Firefox Advanced Settings Tweaks (user.js)
 createTime: 2025/05/22 09:05:08
 permalink: /guides/firefox-userjs/
 ---
+
 ::::card-grid
 
 :::card title="Maintainer" icon="mdi:account"
@@ -14,7 +15,9 @@ aier
 :::
 
 :::card title="Contributors" icon="mdi:account-multiple"
+
 <!-- add name here -->
+
 :::
 
 ::::
@@ -62,7 +65,7 @@ user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 
 - **Create a `user.js` by typing "about:support" into your browser and clicking "Open Directory" in the Profile Directory row.**
 
-  :::demo-wrapper
+  :::demo-wrapper img
   ![Firefox Profile Directory](./assets/firefox-profile-directory.png)
   :::
 
@@ -76,7 +79,7 @@ user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 
 - **Type in "about:config" into your browser and you'll be taken to the Firefox advanced preference page. Press "Accept risk and continue".**
 
-  :::demo-wrapper
+  :::demo-wrapper img
   ![Firefox about:config page](./assets/firefox-about-config.png)
   :::
 

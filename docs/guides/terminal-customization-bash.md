@@ -148,7 +148,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   and here is what it looks like:
 
-  :::demo-wrapper
+  :::demo-wrapper img
   ![fastfetch](./assets/fastfetch.png)
   :::
 

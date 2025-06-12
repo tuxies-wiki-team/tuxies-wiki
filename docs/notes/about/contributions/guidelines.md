@@ -51,17 +51,17 @@ We'd appreciate it if you use the Prettier extension in VS Code or an equivalent
 
 We'll follow the following hierarchy for icons:
 
-### Core website components
+### Core website component
 
 `mdi` >> `ic`
 
-### Cards
+### Card
 
 `fluent-emoji` >> `fluent-emojis` >> `devicon` >> `logos`
 
 ## Document components
 
-### Callout containers
+### Callout container
 
 If the content you will be putting in the `callout container` is relatively short, simply make it the title of the callout.
 
@@ -87,9 +87,41 @@ If the content you will be putting in the `callout container` is relatively shor
 
 ::::
 
-### Code blocks
+### Card & card grid
 
-**Always** wrap code around `code blocks` for better legibility and styling consistency.
+You can use `card` to serve as a decorative callout container. Use `card-grid` to indicate the author(s), maintainer(s), and contributor(s) of an article.
+
+For what icons to use, refer to [icons section](guidelines.md#card).
+
+:::::details See code...
+
+```md
+::::card-grid
+
+:::card title="Demo card 1" icon="fluent-emoji-flat:card-index"
+:::
+
+:::card title="Demo card 2" icon="fluent-emoji-flat:card-index"
+::::
+```
+
+:::::
+
+:::::demo-wrapper
+
+::::card-grid
+
+:::card title="Demo card 1" icon="fluent-emoji-flat:card-index"
+:::
+
+:::card title="Demo card 2" icon="fluent-emoji-flat:card-index"
+::::
+
+:::::
+
+### Code block
+
+**Always** wrap code around `code block` for better legibility and styling consistency.
 
 ::::details See code...
 
@@ -193,6 +225,44 @@ Content text...
 ::::
 
 :::::
+
+### Demo wrapper
+
+Use `demo wrapper` to show the product of something.
+
+::::details See code...
+
+```md
+:::demo-wrapper
+
+## Header
+
+Content text...
+:::
+```
+
+::::
+
+:::demo-wrapper
+
+## Header
+
+Content text...
+:::
+
+::::details See code...
+
+```md
+:::demo-wrapper img
+![Tuxie's Wiki](./assets/tuxies-wiki.png)
+:::
+```
+
+:::::
+
+:::demo-wrapper img
+![Tuxie's Wiki](./assets/tuxies-wiki.png)
+:::
 
 ### Details & collapse
 
