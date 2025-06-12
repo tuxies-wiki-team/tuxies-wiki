@@ -79,6 +79,7 @@ A collection of apps tailored for Gnome enthusiasts.
   - [ ] Darktable
   - [ ] Drawing
   - [ ] Droidcam OBS
+  - [ ] Gradia
   - [x] Inkscape
   - [x] copyq
   - [x] clipboard indicator
