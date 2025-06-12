@@ -82,7 +82,7 @@ unset rc
 
 ## Aesthetic changes
 
-:::::details Preview
+:::::details Quick append & preview
 
 Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
 
@@ -113,11 +113,6 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 - **Installation**
 
   :::tabs
-  @tab Debian/Ubuntu
-
-  ```bash
-  sudo apt install fastfetch
-  ```
 
   @tab Fedora
 
@@ -129,6 +124,12 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   ```bash
   pacman -S fastfetch
+  ```
+
+  @tab Debian/Ubuntu
+
+  ```bash
+  sudo apt install fastfetch
   ```
 
   :::
@@ -148,7 +149,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   and here is what it looks like:
 
-  :::demo-wrapper
+  :::demo-wrapper img
   ![fastfetch](./assets/fastfetch.png)
   :::
 
@@ -179,7 +180,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 ## Terminal programs
 
-:::::details Preview
+:::::details Quick append & preview
 
 Your `.bashrc` should look something like this if you decide to follow all instructions in the following section:
 
@@ -235,11 +236,6 @@ alias lsta3='eza -Ta --level 3'
 - **Installation**
 
   :::tabs
-  @tab Debian/Ubuntu
-
-  ```bash
-  sudo apt install fzf
-  ```
 
   @tab Fedora
 
@@ -251,6 +247,12 @@ alias lsta3='eza -Ta --level 3'
 
   ```bash
   pacman -S fzf
+  ```
+
+  @tab Debian/Ubuntu
+
+  ```bash
+  sudo apt install fzf
   ```
 
   :::
@@ -289,11 +291,6 @@ alias lsta3='eza -Ta --level 3'
 - **Installation**
 
   :::tabs
-  @tab Debian/Ubuntu
-
-  ```bash
-  sudo apt install zoxide
-  ```
 
   @tab Fedora
 
@@ -305,6 +302,12 @@ alias lsta3='eza -Ta --level 3'
 
   ```bash
   sudo pacman -S zoxide
+  ```
+
+  @tab Debian/Ubuntu
+
+  ```bash
+  sudo apt install zoxide
   ```
 
   :::
@@ -340,11 +343,6 @@ alias lsta3='eza -Ta --level 3'
 - **Installation**
 
   ::::tabs
-  @tab Debian/Ubuntu
-
-  ```bash
-  sudo apt install eza
-  ```
 
   @tab Fedora
 
@@ -360,6 +358,12 @@ alias lsta3='eza -Ta --level 3'
 
   ```bash
   pacman -S eza
+  ```
+
+  @tab Debian/Ubuntu
+
+  ```bash
+  sudo apt install eza
   ```
 
   ::::

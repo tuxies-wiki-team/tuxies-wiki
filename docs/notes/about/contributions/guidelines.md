@@ -26,9 +26,6 @@ We'll be using kebab-case to name files within the working directory.
 
 ### Permalinks
 
-:::warning TODO
-:::
-
 Permalinks of articles should match the file name as well as possible.
 
 :::info Examples
@@ -51,41 +48,17 @@ We'd appreciate it if you use the Prettier extension in VS Code or an equivalent
 
 We'll follow the following hierarchy for icons:
 
-### Core website components
+### Core website component
 
 `mdi` >> `ic`
 
-### Cards
+### Card
 
 `fluent-emoji` >> `fluent-emojis` >> `devicon` >> `logos`
 
 ## Document components
 
-### Code blocks
-
-**Always** wrap code around `code blocks` for better legibility and styling consistency.
-
-::::details See code...
-
-````
-```bash
-# this is some example bash code
-sudo dnf udate
-```
-````
-
-::::
-
-:::demo-wrapper
-
-```bash
-# this is some example bash code
-sudo dnf udate
-```
-
-:::
-
-### Callout containers
+### Callout container
 
 If the content you will be putting in the `callout container` is relatively short, simply make it the title of the callout.
 
@@ -110,6 +83,193 @@ If the content you will be putting in the `callout container` is relatively shor
 :::
 
 ::::
+
+### Card & card grid
+
+You can use `card` to serve as a decorative callout container. Use `card-grid` to indicate the author(s), maintainer(s), and contributor(s) of an article.
+
+For what icons to use, refer to [icons section](guidelines.md#card).
+
+:::::details See code...
+
+```md
+::::card-grid
+
+:::card title="Demo card 1" icon="fluent-emoji-flat:card-index"
+:::
+
+:::card title="Demo card 2" icon="fluent-emoji-flat:card-index"
+::::
+```
+
+:::::
+
+:::::demo-wrapper
+
+::::card-grid
+
+:::card title="Demo card 1" icon="fluent-emoji-flat:card-index"
+:::
+
+:::card title="Demo card 2" icon="fluent-emoji-flat:card-index"
+::::
+
+:::::
+
+### Code
+
+Use `code` to indicate files, programs, and directories. Simply surround the text you want to "codify" with backticks (`).
+
+:::details See code...
+
+```md
+`fzf` is a program that allows for fuzzy searching in the cli.
+```
+
+:::
+
+:::demo-wrapper
+`fzf` is a program that allows for fuzzy searching in the cli.
+:::
+
+### Code block
+
+**Always** wrap code around `code block` for better legibility and styling consistency.
+
+::::details See code...
+
+````
+```bash
+# this is some example bash code
+sudo dnf udate
+```
+````
+
+::::
+
+:::demo-wrapper
+
+```bash
+# this is some example bash code
+sudo dnf udate
+```
+
+:::
+
+### Code tabs
+
+Use `code tabs` to:
+
+- Indicate changes are made in a **specific file** (indicated by the file name). Check [Plume Theme Documentations](https://theme-plume.vuejs.press/guide/code/features/#%E4%BB%A3%E7%A0%81%E5%9D%97%E4%B8%AD%E7%9A%84%E9%A2%9C%E8%89%B2%E5%B7%AE%E5%BC%82) for details on code highlighting.
+- To not use unnecessary space when displaying multiple files.
+
+:::::details See code...
+
+````MD
+::::code-tabs
+
+@tab Hello.java
+
+```java
+public class Hello {
+
+  public static void main(string[] args) {
+
+    Public.out.println("Hello world");
+  }
+}
+```
+
+@tab example.md
+
+```md
+---
+author: aier
+permalink: /testing/aier/
+---
+
+# Title text
+
+Content text... Content text... Content text...
+
+Content text...
+```
+
+::::
+````
+
+:::::
+
+:::::demo-wrapper
+
+::::code-tabs
+
+@tab Hello.java
+
+```java
+public class Hello {
+
+// [!code ++]
+  public static void main(string[] args) {
+// [!code ++]
+
+// [!code ++]
+    Public.out.println("Hello world");
+// [!code ++]
+  }
+}
+```
+
+@tab example.md
+
+```md
+---
+author: aier
+permalink: /testing/aier/
+---
+
+# Title text
+
+Content text... Content text... Content text...
+
+Content text...
+```
+
+::::
+
+:::::
+
+### Demo wrapper
+
+Use `demo wrapper` to show the product of something.
+
+::::details See code...
+
+```md
+:::demo-wrapper
+Content text...
+:::
+```
+
+::::
+
+:::demo-wrapper
+Content text...
+:::
+
+::::details See code...
+
+```md
+:::demo-wrapper img
+![Tuxie's Wiki](./assets/tuxies-wiki.png)
+:::
+```
+
+:::::
+
+:::demo-wrapper img
+![Tuxie's Wiki](./assets/tuxies-wiki.png)
+:::
 
 ### Details & collapse
 
@@ -292,88 +452,5 @@ pacman -S timeshift
 ```
 
 :::
-
-:::::
-
-### Code tabs
-
-Use `code tabs` to:
-
-- Indicate changes are made in a **specific file** (indicated by the file name). Check [Plume Theme Documentations](https://theme-plume.vuejs.press/guide/code/features/#%E4%BB%A3%E7%A0%81%E5%9D%97%E4%B8%AD%E7%9A%84%E9%A2%9C%E8%89%B2%E5%B7%AE%E5%BC%82) for details on code highlighting.
-- To not use unnecessary space when displaying multiple files.
-
-:::::details See code...
-
-````MD
-::::code-tabs
-
-@tab Hello.java
-
-```java
-public class Hello {
-
-  public static void main(string[] args) {
-
-    Public.out.println("Hello world");
-  }
-}
-```
-
-@tab example.md
-
-```md
----
-author: aier
-permalink: /testing/aier/
----
-
-# Title text
-
-Content text... Content text... Content text...
-
-Content text...
-```
-
-::::
-````
-
-:::::
-
-:::::demo-wrapper
-
-::::code-tabs
-
-@tab Hello.java
-
-```java
-public class Hello {
-
-// [!code ++]
-  public static void main(string[] args) {
-// [!code ++]
-
-// [!code ++]
-    Public.out.println("Hello world");
-// [!code ++]
-  }
-}
-```
-
-@tab example.md
-
-```md
----
-author: aier
-permalink: /testing/aier/
----
-
-# Title text
-
-Content text... Content text... Content text...
-
-Content text...
-```
-
-::::
 
 :::::

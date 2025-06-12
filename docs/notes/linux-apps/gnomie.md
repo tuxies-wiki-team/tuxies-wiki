@@ -11,7 +11,9 @@ aier, Lunear
 :::
 
 :::card title="Contributors" icon="mdi:account-multiple"
+
 <!-- add name here -->
+
 :::
 
 ::::
@@ -41,11 +43,6 @@ If you think that some settings are missing in Dconf, install your distro’s pa
 :::
 
 :::tabs
-@tab Debian/Ubuntu
-
-```bash
-sudo apt install dconf-editor
-```
 
 @tab Fedora
 
@@ -57,6 +54,12 @@ sudo dnf install dconf-editor
 
 ```bash
 sudo pacman -S dconf-editor
+```
+
+@tab Debian/Ubuntu
+
+```bash
+sudo apt install dconf-editor
 ```
 
 :::
@@ -87,16 +90,16 @@ Change fonts, manage shell themes (requires `User Theme` extension), add hide an
 
 :::tabs
 
-@tab Debian/Ubuntu
-
-```bash
-sudo apt install gnome-tweaks
-```
-
 @tab Fedora
 
 ```bash
 sudo dnf install gnome-tweaks
+```
+
+@tab Debian/Ubuntu
+
+```bash
+sudo apt install gnome-tweaks
 ```
 
 :::

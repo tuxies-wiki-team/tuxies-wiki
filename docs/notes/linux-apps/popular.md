@@ -75,11 +75,6 @@ Not Recommended, find more info in the GitHub Link
 ## [Gparted](https://gparted.org/download.php)
 
 :::tabs
-@tab Debian/Ubuntu
-
-```bash
-sudo apt-get install gparted
-```
 
 @tab Fedora
 
@@ -91,6 +86,12 @@ sudo dnf install gparted
 
 ```bash
 sudo pacman -S gparted
+```
+
+@tab Debian/Ubuntu
+
+```bash
+sudo apt-get install gparted
 ```
 
 :::
@@ -120,11 +121,6 @@ You would want to install v4l2loopback if you want to use the â€œvirtual cameraâ
 - Dependencies:
 
   :::tabs
-  @tab Debian/Ubuntu
-
-  ```bash
-  sudo apt install dkms
-  ```
 
   @tab Fedora
 
@@ -136,6 +132,12 @@ You would want to install v4l2loopback if you want to use the â€œvirtual cameraâ
 
   ```bash
   sudo pacman -S v4l2loopback-dkms
+  ```
+
+  @tab Debian/Ubuntu
+
+  ```bash
+  sudo apt install dkms
   ```
 
   :::
@@ -188,8 +190,6 @@ flatpak install --user flathub com.visualstudio.code
 If you have to avoid limitations imposed by using a Flatpak wrapper of VS Code, check the downloads methods below.
 
 :::tabs
-@tab Debian/Ubuntu
-Download .deb file from link above
 
 @tab Fedora
 Download .rpm file from link above
@@ -199,5 +199,8 @@ Download .rpm file from link above
 ```bash
 sudo pacman -S code
 ```
+
+@tab Debian/Ubuntu
+Download .deb file from link above
 
 :::
