@@ -11,14 +11,6 @@ permalink: /linux-guides/
 
 ::::card-grid
 
-:::card title="Debian/Ubuntu" icon="devicon:debian"
-
-[Classic!](./debian-ubuntu.md)
-
-Currently lacks an official maintainer.
-
-:::
-
 :::card title="Fedora" icon="devicon:fedora"
 
 [_Tips hat_](./fedora.md)
@@ -32,6 +24,14 @@ Offers a high-quality out-of-the-box experience while remaining highly flexible.
 [Welcome to the bleeding edge!](./arch.md)
 
 Includes a complete installation guide, ROG Linux setup, Nvidia drivers, and up-to-date error reports. Maintained by **Lunear**.
+
+:::
+
+:::card title="Debian/Ubuntu" icon="devicon:debian"
+
+[Classic!](./debian-ubuntu.md)
+
+Currently lacks an official maintainer.
 
 :::
 
