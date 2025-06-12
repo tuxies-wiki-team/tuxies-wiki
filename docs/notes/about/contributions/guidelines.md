@@ -61,30 +61,6 @@ We'll follow the following hierarchy for icons:
 
 ## Document components
 
-### Code blocks
-
-**Always** wrap code around `code blocks` for better legibility and styling consistency.
-
-::::details See code...
-
-````
-```bash
-# this is some example bash code
-sudo dnf udate
-```
-````
-
-::::
-
-:::demo-wrapper
-
-```bash
-# this is some example bash code
-sudo dnf udate
-```
-
-:::
-
 ### Callout containers
 
 If the content you will be putting in the `callout container` is relatively short, simply make it the title of the callout.
@@ -110,6 +86,113 @@ If the content you will be putting in the `callout container` is relatively shor
 :::
 
 ::::
+
+### Code blocks
+
+**Always** wrap code around `code blocks` for better legibility and styling consistency.
+
+::::details See code...
+
+````
+```bash
+# this is some example bash code
+sudo dnf udate
+```
+````
+
+::::
+
+:::demo-wrapper
+
+```bash
+# this is some example bash code
+sudo dnf udate
+```
+
+:::
+
+### Code tabs
+
+Use `code tabs` to:
+
+- Indicate changes are made in a **specific file** (indicated by the file name). Check [Plume Theme Documentations](https://theme-plume.vuejs.press/guide/code/features/#%E4%BB%A3%E7%A0%81%E5%9D%97%E4%B8%AD%E7%9A%84%E9%A2%9C%E8%89%B2%E5%B7%AE%E5%BC%82) for details on code highlighting.
+- To not use unnecessary space when displaying multiple files.
+
+:::::details See code...
+
+````MD
+::::code-tabs
+
+@tab Hello.java
+
+```java
+public class Hello {
+
+  public static void main(string[] args) {
+
+    Public.out.println("Hello world");
+  }
+}
+```
+
+@tab example.md
+
+```md
+---
+author: aier
+permalink: /testing/aier/
+---
+
+# Title text
+
+Content text... Content text... Content text...
+
+Content text...
+```
+
+::::
+````
+
+:::::
+
+:::::demo-wrapper
+
+::::code-tabs
+
+@tab Hello.java
+
+```java
+public class Hello {
+
+// [!code ++]
+  public static void main(string[] args) {
+// [!code ++]
+
+// [!code ++]
+    Public.out.println("Hello world");
+// [!code ++]
+  }
+}
+```
+
+@tab example.md
+
+```md
+---
+author: aier
+permalink: /testing/aier/
+---
+
+# Title text
+
+Content text... Content text... Content text...
+
+Content text...
+```
+
+::::
+
+:::::
 
 ### Details & collapse
 
@@ -292,88 +375,5 @@ pacman -S timeshift
 ```
 
 :::
-
-:::::
-
-### Code tabs
-
-Use `code tabs` to:
-
-- Indicate changes are made in a **specific file** (indicated by the file name). Check [Plume Theme Documentations](https://theme-plume.vuejs.press/guide/code/features/#%E4%BB%A3%E7%A0%81%E5%9D%97%E4%B8%AD%E7%9A%84%E9%A2%9C%E8%89%B2%E5%B7%AE%E5%BC%82) for details on code highlighting.
-- To not use unnecessary space when displaying multiple files.
-
-:::::details See code...
-
-````MD
-::::code-tabs
-
-@tab Hello.java
-
-```java
-public class Hello {
-
-  public static void main(string[] args) {
-
-    Public.out.println("Hello world");
-  }
-}
-```
-
-@tab example.md
-
-```md
----
-author: aier
-permalink: /testing/aier/
----
-
-# Title text
-
-Content text... Content text... Content text...
-
-Content text...
-```
-
-::::
-````
-
-:::::
-
-:::::demo-wrapper
-
-::::code-tabs
-
-@tab Hello.java
-
-```java
-public class Hello {
-
-// [!code ++]
-  public static void main(string[] args) {
-// [!code ++]
-
-// [!code ++]
-    Public.out.println("Hello world");
-// [!code ++]
-  }
-}
-```
-
-@tab example.md
-
-```md
----
-author: aier
-permalink: /testing/aier/
----
-
-# Title text
-
-Content text... Content text... Content text...
-
-Content text...
-```
-
-::::
 
 :::::
