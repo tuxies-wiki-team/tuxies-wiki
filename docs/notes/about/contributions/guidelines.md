@@ -26,9 +26,6 @@ We'll be using kebab-case to name files within the working directory.
 
 ### Permalinks
 
-:::warning TODO
-:::
-
 Permalinks of articles should match the file name as well as possible.
 
 :::info Examples
@@ -118,6 +115,22 @@ For what icons to use, refer to [icons section](guidelines.md#card).
 ::::
 
 :::::
+
+### Code
+
+Use `code` to indicate files, programs, and directories. Simply surround the text you want to "codify" with backticks (`).
+
+:::details See code...
+
+```md
+`fzf` is a program that allows for fuzzy searching in the cli.
+```
+
+:::
+
+:::demo-wrapper
+`fzf` is a program that allows for fuzzy searching in the cli.
+:::
 
 ### Code block
 
