@@ -6,18 +6,15 @@ permalink: /linux-guides/gnome/
 
 ::::card-grid
 
-:::card title="Maintainer" icon="mdi:account"
+:::card title="Author(s)" icon="fluent-emoji:writing-hand"
 aier
 :::
 
-:::card title="Contributors" icon="mdi:account-multiple"
+:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
 Lunear
 :::
 
 ::::
-
-:::warning TODO: Add home folder shortcut
-:::
 
 :::tip Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somehow stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
@@ -149,12 +146,27 @@ You'll need:
 
 ::::details Quick append
 
+:::tabs
+
+@tab Append changes
+
 ```bash
 dconf write /org/gnome/desktop/wm/preferences/button-layout "':minimize,maximize,close'"
 dconf write /org/gnome/desktop/interface/font-antialiasing "'grayscale'"
 dconf write /org/gnome/desktop/interface/font-hinting "'slight'"
 dconf write /org/gnome/desktop/sound/allow-volume-above-100-percent "true"
 ```
+
+@tab Reset changes
+
+```bash
+dconf reset /org/gnome/desktop/wm/preferences/button-layout
+dconf reset /org/gnome/desktop/interface/font-antialiasing
+dconf reset /org/gnome/desktop/interface/font-hinting
+dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
+```
+
+:::
 
 ::::
 
@@ -337,6 +349,10 @@ dconf write /org/gnome/desktop/sound/allow-volume-above-100-percent "true"
 
 Use the following to append all keyboard shortcuts covered in this section. Keep in mind that some shortcuts would not be valid as you may need to install dependencies.
 
+::::tabs
+
+@tab Append changes
+
 ```bash
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right']"
@@ -345,6 +361,7 @@ dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-right "['<Super>
 dconf write /org/gnome/desktop/wm/keybindings/switch-windows "['<Alt>Tab']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-applications "['<Super>Tab']"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/control-center "['<Super>I', '<Super>semicolon']"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/home "['<Super>E']"
 dconf write /org/gnome/desktop/wm/keybindings/panel-run-dialog "['<Super>R']"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/','/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/']"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/binding "'<Super>Return'"
@@ -358,6 +375,26 @@ dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
 dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
 ```
 
+@tab Reset changes
+
+```bash
+dconf reset /org/gnome/desktop/wm/keybindings/switch-to-workspace-left
+dconf reset /org/gnome/desktop/wm/keybindings/switch-to-workspace-right
+dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-left
+dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-right
+dconf reset /org/gnome/desktop/wm/keybindings/switch-windows
+dconf reset /org/gnome/desktop/wm/keybindings/switch-applications
+dconf reset /org/gnome/settings-daemon/plugins/media-keys/control-center
+dconf reset /org/gnome/settings-daemon/plugins/media-keys/home
+dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
+dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis
+dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center
+dconf reset /org/gnome/shell/keybindings/toggle-message-tray
+dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
+```
+
+::::
+
 | Keybinding                     | Shortcut                                     |
 | ------------------------------ | -------------------------------------------- |
 | `Ctrl` + `Super` + `Arrow`     | Switch workspaces                            |
@@ -365,6 +402,7 @@ dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Supe
 | `Alt` + `Tab`                  | Switch windows                               |
 | `Super` + `Tab`                | Switch apps                                  |
 | `Super` + `I` or `Super` + `;` | Launch `Settings` app                        |
+| `Super` + `E`                  | Launch home folder                           |
 | `Super` + `R`                  | Run command dialog                           |
 | `Super` + `Return`             | Launch `Ptyxis` terminal                     |
 | `Ctrl` + `Shft` + `Esc`        | Launch `Mission Center`                      |
@@ -522,6 +560,36 @@ dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Supe
   ```
 
   ```
+
+- Launch home folder (Windows-like)
+
+  :::::card
+
+  `Super` + `E`
+
+  ::::tabs
+
+  @tab Append changes (cli)
+
+  ```bash
+  dconf write /org/gnome/settings-daemon/plugins/media-keys/home "['<Super>E']"
+  ```
+
+  @tab Append changes (Dconf Editor)
+
+  `/org/gnome/settings-daemon/plugins/media-keys/home`
+
+  --> **\['\<Super\>E'\]**
+
+  @tab Reset changes (cli)
+
+  ```bash
+  dconf reset /org/gnome/settings-daemon/plugins/media-keys/home
+  ```
+
+  ::::
+
+  :::::
 
 - Run command dialog (Windows-like)
 
@@ -718,7 +786,15 @@ dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Supe
 
   --> **\['\<Super\>V'\]**
 
+  @tab Reset changes (cli)
+
+  ```bash
+  dconf reset /org/gnome/shell/keybindings/toggle-message-tray
+  dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
+  ```
+
   :::
+
   :::::
 
 ::::::
