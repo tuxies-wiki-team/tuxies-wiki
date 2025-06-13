@@ -6,7 +6,7 @@ permalink: /linux-apps/gnomie/
 
 ::::card-grid
 
-:::card title="Maintainers" icon="mdi:account"
+:::card title="Author(s)" icon="fluent-emoji:writing-hand"
 aier, Lunear
 :::
 
