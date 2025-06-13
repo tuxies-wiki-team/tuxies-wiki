@@ -428,13 +428,14 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     ```
 
   - **[Yay](https://github.com/Jguer/yay) Installation** - Yay is a package manager that allows the user to access the [AUR repository](https://aur.archlinux.org/)
-    `bash
-sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-`
 
-            ::::
+    ```bash
+    sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+    ```
 
-        ::::
+    ::::
+
+  ::::
 
 ## [ROG Asusctl](https://asus-linux.org/)
 
