@@ -454,3 +454,65 @@ pacman -S timeshift
 :::
 
 :::::
+
+### Code Tree
+Use ``code tree`` for specifying file structures and/or to specify the content of many files under the same directory.
+
+:::::details See code...
+````md
+
+::: code-tree title="Some Python Project" height="400px" entry="src/main.py"
+```python title="src/visualization/some-files.py"
+e = mc^2
+
+# Some more python code...
+```
+
+```python title="src/algorithms/algorithms.py"
+Some impressive algorithm
+```
+
+```python title="src/main.py"
+Some python code
+```
+
+```json title="dataset.json"
+{
+  "data1": "Hello world",
+  "data2": {
+    "data3": "My name is Lunear"
+  }
+}
+```
+
+
+:::
+
+````
+:::::
+
+::::: code-tree title="Some Python Project" height="400px" entry="src/main.py"
+```python title="src/visualization/some-files.py"
+e = mc^2
+
+# Some more python code...
+```
+
+```python title="src/algorithms/algorithms.py"
+Some impressive algorithm
+```
+
+```python title="src/main.py"
+Some python code
+```
+
+```json title="dataset.json"
+{
+  "data1": "Hello world",
+  "data2": {
+    "data3": "My name is Lunear"
+  }
+}
+```
+
+:::::

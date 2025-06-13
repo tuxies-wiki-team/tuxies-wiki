@@ -17,6 +17,12 @@ Lunear
 
 ::::
 
+:::caution DISCLAIMER
+This guide will not hold responsibility for any personal data loss or damages of any kind, proceed with personal judgement.
+:::
+
+## Installation Guide
+
 :::note
 Before starting, it's recommended to read the [official installation guide](https://wiki.archlinux.org/title/Installation_guide) and understand the major concepts.
 :::
@@ -25,13 +31,7 @@ Before starting, it's recommended to read the [official installation guide](http
 This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide will **NOT** work.
 :::
 
-:::caution DISCLAIMER
-This guide will not hold responsibility for any personal data loss or damages of any kind, proceed with personal judgement.
-:::
-
 ::::collapse accordion
-## Installation Guide
-
 
 - Part 1: Preparation
 
