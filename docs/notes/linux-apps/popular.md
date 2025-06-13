@@ -6,7 +6,7 @@ permalink: /linux-apps/popular/
 
 ::::card-grid
 
-:::card title="Maintainers" icon="mdi:account"
+:::card title="Author(s)" icon="fluent-emoji:writing-hand"
 aier, Lunear
 :::
 
