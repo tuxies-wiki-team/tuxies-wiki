@@ -495,7 +495,7 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
     ```
 
 :::card title="Done!" icon="fluent-emoji:party-popper"
-Now, your Github page with have two branches, the `main` branch with all the `.md` files and the `gh-pages` with the Vuepress compiled `.html` files.
+Now, your Github page will have two branches, the `main` branch with all the `.md` files and the `gh-pages` with the Vuepress compiled `.html` files.
 
 To deploy the website, simply run
 
