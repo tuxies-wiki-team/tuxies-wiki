@@ -10,7 +10,7 @@ permalink: /linux-apps/gnomie/
 aier, Lunear
 :::
 
-:::card title="Contributors" icon="mdi:account-multiple"
+:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
 
 <!-- add name here -->
 

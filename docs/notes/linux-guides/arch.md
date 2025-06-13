@@ -7,12 +7,14 @@ draft: true
 
 ::::card-grid
 
-:::card title="Maintainer" icon="mdi:account"
+:::card title="Author(s)" icon="fluent-emoji:writing-hand"
 Lunear
 :::
 
-:::card title="Contributors" icon="mdi:account-multiple"
+:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
+
 <!-- add name here -->
+
 :::
 
 ::::
@@ -30,8 +32,8 @@ This guide will not hold responsibility for any personal data loss or damages of
 :::
 
 ::::collapse accordion
-## Installation Guide
 
+## Installation Guide
 
 - Part 1: Preparation
 
@@ -47,7 +49,6 @@ This guide will not hold responsibility for any personal data loss or damages of
 
   - **Reboot into system BIOS System and boot into the USB.**
     **Note: Turn off secure boot**
-
 
 - Part 2. Connect to the Internet
 
@@ -181,8 +182,8 @@ This guide will not hold responsibility for any personal data loss or damages of
     ```bash
     swapon /dev/swap_partition
     ```
-    ::::
 
+    ::::
 
 - Part 4. Installation
 
@@ -195,6 +196,7 @@ This guide will not hold responsibility for any personal data loss or damages of
 - Part 5. System Configuration
 
   ::::steps
+
   - **To generate fstab with UUID (recommended) Run:**
 
     ```bash
@@ -258,7 +260,6 @@ This guide will not hold responsibility for any personal data loss or damages of
       ```
       `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
       ::::
-
 
 - Part 6. Network Configuration
 
@@ -426,14 +427,14 @@ This guide will not hold responsibility for any personal data loss or damages of
     systemctl --user enable --now pulseaudio
     ```
 
-  - **[Yay](https://github.com/Jguer/yay) Installation**
-    - Yay is a package manager that allows the user to access the [AUR repository](https://aur.archlinux.org/)
-    ```bash
-    sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-    ```
+  - **[Yay](https://github.com/Jguer/yay) Installation** - Yay is a package manager that allows the user to access the [AUR repository](https://aur.archlinux.org/)
+    `bash
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+`
+
+        ::::
 
     ::::
-::::
 
 ## [ROG Asusctl](https://asus-linux.org/)
 
@@ -681,4 +682,3 @@ ILoveCandy
 ```
 
 under `/etc/pacman.conf` will give you a cooler download bar!
-

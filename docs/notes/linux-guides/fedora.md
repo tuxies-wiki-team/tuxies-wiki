@@ -6,11 +6,11 @@ permalink: /linux-guides/fedora/
 
 ::::card-grid
 
-:::card title="Maintainer" icon="mdi:account"
+:::card title="Author(s)" icon="fluent-emoji:writing-hand"
 aier
 :::
 
-:::card title="Contributors" icon="mdi:account-multiple"
+:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
 
 <!-- add name here -->
 
