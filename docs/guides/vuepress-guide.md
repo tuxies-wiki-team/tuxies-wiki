@@ -8,12 +8,14 @@ permalink: /guides/vuepress-guide/
 
 ::::card-grid
 
-:::card title="Maintainer" icon="mdi:account"
+:::card title="Author(s)" icon="fluent-emoji:writing-hand"
 Lunear
 :::
 
-:::card title="Contributors" icon="mdi:account-multiple"
+:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
+
 aier
+
 :::
 
 ::::
@@ -30,17 +32,20 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
 
 :::::steps
 
-- **Installation**
+- ## **Installation**
 
   - Prerequisite: [Install Node.js](https://nodejs.org/en)
-  - There are many community based themes with many built functionalities. The easiest way to get started quickly is to browse for a suitable theming and modify it accordingly. For example, this website is built upon [plume theme](https://theme-plume.vuejs.press/en/).
+    :::note
+    There are many community based themes with many built functionalities. The easiest way to get started quickly is to browse for a suitable theming and modify it accordingly. For example, this website is built upon [plume theme](https://theme-plume.vuejs.press/en/).
+    :::
 
-- **Folder Structure**
+- ## **Folder Structure**
+
   :::important
   Below is a sample folder structure and its file formatting, this may vary depending on the theme being used
   :::
 
-  ::: code-tree title="Folder Structure" height="700px" entry="docs/README.md"
+  :::code-tree title="Folder Structure" height="700px" entry="docs/README.md"
 
   ```yaml title=".github(For Github Deployment)/workflows/deploy.yml"
   name: deploy
@@ -92,78 +97,77 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   ```
 
-  ```md title="docs/.vuepress/config.js"
-  // .vuepress/config.js
-  import { defineUserConfig } from 'vuepress'
-  import { defaultTheme } from '@vuepress/theme-default'
-  import { searchPlugin } from '@vuepress/plugin-search'
-  import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+  ```js title="docs/.vuepress/config.js"
+  import { defineUserConfig } from "vuepress";
+  import { defaultTheme } from "@vuepress/theme-default";
+  import { searchPlugin } from "@vuepress/plugin-search";
+  import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 
   export default defineUserConfig({
-  // ========== Basic Config ==========
-  lang: 'en-US',
-  title: 'Your Site Title',
-  description: 'Your site description',
+    // ========== Basic Config ==========
+    lang: "en-US",
+    title: "Your Site Title",
+    description: "Your site description",
 
-  // ========== Deployment Config ==========
-  base: process.env.NODE_ENV === 'production' ? '/repository-name/' : '/',
+    // ========== Deployment Config ==========
+    base: process.env.NODE_ENV === "production" ? "/repository-name/" : "/",
 
-  // ========== Theme Config ==========
-  theme: defaultTheme({
-  logo: '/images/logo.png',
-  navbar: [
-  { text: 'Home', link: '/' },
-  { text: 'Guide', link: '/guide/' },
-  { text: 'GitHub', link: 'https://github.com/your-repo' }
-  ],
-  sidebar: {
-  '/guide/': [
-  {
-  text: 'Guide',
-  children: [
-  '/guide/README.md',
-  '/guide/getting-started.md',
-  ]
-  }
-  ]
-  },
-  repo: 'your-username/your-repo',
-  docsBranch: 'main',
-  editLinkText: 'Edit this page on GitHub',
-  lastUpdated: true,
-  contributors: true,
-  }),
+    // ========== Theme Config ==========
+    theme: defaultTheme({
+      logo: "/images/logo.png",
+      navbar: [
+        { text: "Home", link: "/" },
+        { text: "Guide", link: "/guide/" },
+        { text: "GitHub", link: "https://github.com/your-repo" },
+      ],
+      sidebar: {
+        "/guide/": [
+          {
+            text: "Guide",
+            children: ["/guide/README.md", "/guide/getting-started.md"],
+          },
+        ],
+      },
+      repo: "your-username/your-repo",
+      docsBranch: "main",
+      editLinkText: "Edit this page on GitHub",
+      lastUpdated: true,
+      contributors: true,
+    }),
 
-  // ========== Plugins ==========
-  plugins: [
-  searchPlugin({
-  maxSuggestions: 10,
-  hotKeys: ['s', '/']
-  }),
-  googleAnalyticsPlugin({
-  id: 'G-XXXXXXXXXX' // Your GA tracking ID
-  }),
-  // Add other plugins here
-  ],
+    // ========== Plugins ==========
+    plugins: [
+      searchPlugin({
+        maxSuggestions: 10,
+        hotKeys: ["s", "/"],
+      }),
+      googleAnalyticsPlugin({
+        id: "G-XXXXXXXXXX", // Your GA tracking ID
+      }),
+      // Add other plugins here
+    ],
 
-  // ========== Head Tags ==========
-  head: [
-  ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-  ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-  ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-  ['link', { rel: 'icon', href: '/favicon.ico' }],
-  // Add other head tags here
-  ],
+    // ========== Head Tags ==========
+    head: [
+      ["meta", { name: "theme-color", content: "#3eaf7c" }],
+      ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+      [
+        "meta",
+        { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+      ],
+      ["link", { rel: "icon", href: "/favicon.ico" }],
+      // Add other head tags here
+    ],
 
-  // ========== Markdown Extensions ==========
-  markdown: {
-  code: {
-  lineNumbers: true
-  },
-  // Enable custom containers
-  extractHeaders: ['h2', 'h3', 'h4']
-  }
-  })
+    // ========== Markdown Extensions ==========
+    markdown: {
+      code: {
+        lineNumbers: true,
+      },
+      // Enable custom containers
+      extractHeaders: ["h2", "h3", "h4"],
+    },
+  });
   ```
 
   ```md title="docs/.vuepress/public/"
@@ -229,23 +233,19 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
 
   ```md title="docs/blogs/blog1.md"
   ---
-
   title: "Page Title"
   author: "Page Author"
   createTime: 2025/05/22 09:05:08
   permalink: /your/directory/goes/here
-
   ---
   ```
 
   ```md title="docs/blogs/blog2.md"
   ---
-
   title: "Page Title"
   author: "Page Author"
   createTime: 2025/05/22 09:05:08
   permalink: /your/directory/goes/here
-
   ---
   ```
 
@@ -276,7 +276,7 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
   }
   ```
 
-  ````vue title="docs/README.md"
+  ```md title="docs/README.md"
   ---
   home: true
   heroImage: /images/logo.png
@@ -301,8 +301,9 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
   ---
 
   <!-- Optional additional content below the fold -->
-  ## Quick Start ```bash npm install your-package ```
-  ````
+
+  ## Quick Start `bash npm install your-package `
+  ```
 
   ````md title="README.md"
   This page is the README file for Github
@@ -351,7 +352,8 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
 
   :::
 
-- **Basic NPM Commands**
+- ## **Basic NPM Commands**
+
   :::info
   These commands are the default commands within the package.json file. You can manually add/delete commands to fit your own needs
   :::
@@ -361,7 +363,8 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
   npm build docs # Build the website
   ```
 
-- **Deployment**
+- ## **Deployment**
+
   :::info
   There are many choices for web deployment, Github Pages will be used in this guide as it's free and facilitates collaboration
   :::
@@ -430,68 +433,66 @@ Vuepress is a static site generator which converts MarkDown files into HTML. It 
     Create `.github/workflow/deploy.yml`
     :::
 
-        - Edit ``deploy.yml``
-        ::::details See code...
-        ```yaml
-        name: deploy
+    - Edit `deploy.yml`
+      ::::details See code...
 
-        on:
-          # Trigger deployment whenever a push is made to the main branch
-          # push:
-          #   branches: [main]
-          # Manually trigger deployment
-          workflow_dispatch:
+      ```yaml
+      name: deploy
 
-        jobs:
-          docs:
-            runs-on: ubuntu-latest
+      on:
+        # Trigger deployment whenever a push is made to the main branch
+        # push:
+        #   branches: [main]
+        # Manually trigger deployment
+        workflow_dispatch:
 
-            steps:
-              - uses: actions/checkout@v4
-                with:
-                  # To fetch all commit history for "Last updated time" and other git log information
-                  fetch-depth: 0
+      jobs:
+        docs:
+          runs-on: ubuntu-latest
 
-              - name: Setup pnpm
-                uses: pnpm/action-setup@v4
-                with:
-                  # Choose the pnpm version to use
-                  version: 8
-                  # Install dependencies using pnpm
-                  run_install: true
+          steps:
+            - uses: actions/checkout@v4
+              with:
+                # To fetch all commit history for "Last updated time" and other git log information
+                fetch-depth: 0
 
-              - name: Setup Node.js
-                uses: actions/setup-node@v4
-                with:
-                  # Choose the node version to use
-                  node-version: 20
-                  # Cache pnpm dependencies
-                  cache: pnpm
+            - name: Setup pnpm
+              uses: pnpm/action-setup@v4
+              with:
+                # Choose the pnpm version to use
+                version: 8
+                # Install dependencies using pnpm
+                run_install: true
 
-              # Run the build script
-              - name: Build VuePress site
-                run: pnpm docs:build
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                # Choose the node version to use
+                node-version: 20
+                # Cache pnpm dependencies
+                cache: pnpm
 
-              # See the workflow documentation for more information
-              # @see https://github.com/crazy-max/ghaction-github-pages
-              - name: Deploy to GitHub Pages
-                uses: crazy-max/ghaction-github-pages@v4
-                with:
-                  # Deploy to the gh-pages branch
-                  target_branch: gh-pages
-                  build_dir: docs/.vuepress/dist
-                env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            # Run the build script
+            - name: Build VuePress site
+              run: pnpm docs:build
 
-        ```
-        ::::
+            # See the workflow documentation for more information
+            # @see https://github.com/crazy-max/ghaction-github-pages
+            - name: Deploy to GitHub Pages
+              uses: crazy-max/ghaction-github-pages@v4
+              with:
+                # Deploy to the gh-pages branch
+                target_branch: gh-pages
+                build_dir: docs/.vuepress/dist
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ```
 
-        - Edit ``package.json`` to add a new command
-        ```bash
-        "deploy": "npm run build && gh workflow run deploy"
-        ```
+    - Edit `package.json` to add a new command
 
-    :::::
+    ```bash
+    "deploy": "npm run build && gh workflow run deploy"
+    ```
 
 :::card title="Done!" icon="fluent-emoji:party-popper"
 Now, your Github page with have two branches, the `main` branch with all the `.md` files and the `gh-pages` with the Vuepress compiled `.html` files.
