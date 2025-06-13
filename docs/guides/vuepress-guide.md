@@ -12,7 +12,7 @@ permalink: /guides/vuepress-guide/
 Lunear
 :::
 
-:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
+:::card title="Contributors" icon="mdi:account-multiple"
 aier
 :::
 
