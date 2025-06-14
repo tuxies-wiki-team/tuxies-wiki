@@ -14,7 +14,7 @@ config:
         - theme: brand
           icon: mdi:explore
           text: Explore →
-          link: /linux-apps/
+          link: /introduction/new-to-the-wiki/
         - theme: sponsor
           icon: ic:sharp-discord
           text: Join our Discord!
@@ -33,10 +33,10 @@ config:
         We only accept applications under the basis that you'll be able to communicate through Discord.
       image: tux.svg
       actions:
-        - theme: brand
-          icon: mdi:account-plus
-          text: Join!
-          link:
+        # - theme: brand
+        #   icon: mdi:account-plus
+        #   text: Join!
+        #   link:
         - theme: sponsor
           text: Learn more
           link: /about/become-a-contributor/
