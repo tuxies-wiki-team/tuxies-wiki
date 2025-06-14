@@ -24,8 +24,30 @@ import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 //   sidebar: "auto",
 // });
 
+const introduction = defineNoteConfig({
+  dir: "introduction",
+  link: "/introduction",
+  sidebar: [
+    {
+      text: "New to the Wiki?",
+      icon: "mdi:hand-wave",
+      link: "/introduction/new-to-the-wiki/",
+    },
+    {
+      text: "Linux Vocabs",
+      icon: "mdi:book-alphabet",
+      link: "/introduction/linux-vocabs/",
+    },
+    {
+      text: "Flatpak Setup",
+      icon: "mdi:cog",
+      link: "/introduction/flatpak-setup/",
+    },
+  ],
+});
+
 export const enNotes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [],
+  notes: [introduction],
 });

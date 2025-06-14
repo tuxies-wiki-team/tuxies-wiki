@@ -14,7 +14,7 @@ config:
         - theme: brand
           icon: mdi:explore
           text: Explore →
-          link: /introduction/new-to-the-wiki/
+          link: /introduction/
         - theme: sponsor
           icon: ic:sharp-discord
           text: Join our Discord!
