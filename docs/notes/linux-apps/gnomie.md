@@ -18,6 +18,9 @@ aier, Lunear
 
 ::::
 
+:::warning TODO: Separate extensions from actual applications.
+:::
+
 ## [Dconf Editor](https://flathub.org/apps/ca.desrt.dconf-editor)
 
 GUI to edit GSettings/Dconf database (advanced Gnome system settings).
