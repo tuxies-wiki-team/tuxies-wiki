@@ -33,8 +33,9 @@ npm install
 - [ ] Team logo
 - [x] Article: Guidelines
 - [ ] Article: Gnome guide
-- [ ] Article: New to the Wiki?
-- [ ] Article: Set up Flatpak
+  - [ ] Ricing Section
+- [ ] Category & article: New to the Wiki?
+  - [ ] Article: Linux vocabularies
+  - [ ] Article: Set up Flatpak
 - [ ] Set up Discord server
-- [ ] Article: Linux vocabularies
 - [ ] Test and publish
