@@ -80,6 +80,8 @@ A collection of apps tailored for Gnome enthusiasts.
   - [ ] Drawing
   - [ ] Droidcam OBS
   - [ ] Gradia
+  - [ ] KDE Connect
+  - [ ] GSConnect
   - [x] Inkscape
   - [x] copyq
   - [x] clipboard indicator
