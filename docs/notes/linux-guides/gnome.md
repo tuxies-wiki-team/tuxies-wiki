@@ -271,6 +271,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 ### Install useful extensions
 
+:::tip You can install these extensions by following the link to the Gnome Extension website, or you can search these extensions in the `Extension Manager` app that you've downloaded.
+:::
+
 ::::::collapse accordion
 
 - [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
