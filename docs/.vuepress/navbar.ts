@@ -8,43 +8,33 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export const enNavbar = defineNavbarConfig([
   {
-    text: "Linux Apps Library",
-    icon: "mdi:bookshelf",
+    text: "Introduction",
+    icon: "mdi:hand-wave",
     items: [
       {
-        text: "About Apps Library",
-        icon: "mdi:about-variant",
-        link: "/linux-apps/",
+        text: "New to the Wiki?",
+        icon: "mdi:hand-wave",
+        link: "/introduction/new-to-the-wiki/",
       },
       {
-        text: "Editor's Choice",
-        icon: "material-symbols:editor-choice-rounded",
-        link: "/linux-apps/editors-choice/",
+        text: "Linux Vocabs",
+        icon: "mdi:book-alphabet",
+        link: "/introduction/linux-vocabs/",
       },
       {
-        text: "Essentials",
-        icon: "material-symbols:label-important-rounded",
-        link: "/linux-apps/essentials/",
-      },
-      {
-        text: "Popular",
-        icon: "mdi:hot",
-        link: "/linux-apps/popular/",
-      },
-      {
-        text: "Gnomie",
-        icon: "mdi:gnome",
-        link: "/linux-apps/gnomie/",
+        text: "Flatpak Setup",
+        icon: "mdi:cog",
+        link: "/introduction/flatpak-setup/",
       },
     ],
   },
   {
     text: "Linux Guides",
-    icon: "mdi:school-outline",
+    icon: "mdi:school",
     items: [
       {
-        text: "About Guides",
-        icon: "mdi:about-variant",
+        text: "Get Started",
+        icon: "mdi:compass",
         link: "/linux-guides/",
       },
       {
@@ -80,8 +70,39 @@ export const enNavbar = defineNavbarConfig([
     ],
   },
   {
+    text: "Apps Library",
+    icon: "mdi:bookshelf",
+    items: [
+      {
+        text: "Get Started",
+        icon: "mdi:compass",
+        link: "/linux-apps/",
+      },
+      {
+        text: "Editor's Choice",
+        icon: "material-symbols:editor-choice-rounded",
+        link: "/linux-apps/editors-choice/",
+      },
+      {
+        text: "Essentials",
+        icon: "material-symbols:label-important-rounded",
+        link: "/linux-apps/essentials/",
+      },
+      {
+        text: "Popular",
+        icon: "mdi:hot",
+        link: "/linux-apps/popular/",
+      },
+      {
+        text: "Gnomie",
+        icon: "mdi:gnome",
+        link: "/linux-apps/gnomie/",
+      },
+    ],
+  },
+  {
     text: "Other Articles",
-    icon: "mdi:newspaper-variant-outline",
+    icon: "mdi:newspaper-variant",
     link: "/blog/",
   },
   // {
