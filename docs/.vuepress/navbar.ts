@@ -8,6 +8,27 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export const enNavbar = defineNavbarConfig([
   {
+    text: "New To The Wiki?",
+    icon: "mdi:hand-wave",
+    items: [
+      {
+        text: "Introduction",
+        icon: "mdi:about-variant",
+        link: "/introduction/",
+      },
+      {
+        text: "Linux Vocabs",
+        icon: "mdi:book-alphabet",
+        link: "/introduction/linux-vocabs/",
+      },
+      {
+        text: "Flatpak Setup",
+        icon: "mdi:settings",
+        link: "/introduction/flatpak-setup/",
+      },
+    ],
+  },
+  {
     text: "Linux Apps Library",
     icon: "mdi:bookshelf",
     items: [
