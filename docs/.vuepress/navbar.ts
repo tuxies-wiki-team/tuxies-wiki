@@ -12,8 +12,8 @@ export const enNavbar = defineNavbarConfig([
     icon: "mdi:hand-wave",
     items: [
       {
-        text: "New to the Wiki?",
-        icon: "mdi:hand-wave",
+        text: "Get Started?",
+        icon: "mdi:compass",
         link: "/introduction/new-to-the-wiki/",
       },
       {
