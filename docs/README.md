@@ -39,7 +39,7 @@ config:
         #   link:
         - theme: sponsor
           text: Learn more
-          link: /about/become-a-contributor/
+          link: /contributions/
   - type: features
     features:
       - title: An entry point to Linux
