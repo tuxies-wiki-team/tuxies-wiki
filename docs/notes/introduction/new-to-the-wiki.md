@@ -39,20 +39,43 @@ The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wi
 
 ## Navigate the wiki
 
-### [Linux Guides](/tuxies-wiki/linux-guides/)
+::::card-grid
+:::card
+
+### ::devicon:linux:: [Linux Guides](/tuxies-wiki/linux-guides/)
 
 Consists of Fedora guide, Arch guide, and Debian/Ubuntu guide (maintainer wanted), each guide gives a detailed installation guide, bug reports and fixes, Nvidia driver installation and configurations, among other useful tips and tricks.
+:::
 
-### [Linux App Library](/tuxies-wiki/linux-apps/)
+:::card
+
+### ::fluent-emoji:books:: [Linux App Library](/tuxies-wiki/linux-apps/)
 
 Consists of all recommended Linux apps tested by maintainers and categorized in Editor's Choice, Essentials, Popular, and Gnomie. Includes descriptions of the applications and its appropiate installations.
+:::
 
-### [Other Articles](/tuxies-wiki/blog/)
+:::card
+
+### ::fluent-emoji:plus:: [Other Articles](/tuxies-wiki/blog/)
 
 Consists of Non-Linux related guides, built out of personal experience.
+:::
+::::
 
 ## What to check out next
 
-### [Intersted in becoming a contributor?](/tuxies-wiki/contributions/)
+::::card-grid
 
-### [Contribution Guidelines](/tuxies-wiki/contributions/guidelines/)
+:::card
+
+### ::fluent-emoji:pencil:: [Become a contributor](/tuxies-wiki/contributions/)
+
+:::
+
+:::card
+
+### ::fluent-emoji:writing-hand:: [Contribution Guidelines](/tuxies-wiki/contributions/guidelines/)
+
+:::
+
+::::
