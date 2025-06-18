@@ -34,8 +34,8 @@ npm install
 - [x] Article: Guidelines
 - [ ] Article: Gnome guide
   - [ ] Ricing Section
-- [ ] Category & article: New to the Wiki?
+- [x] Category & article: New to the Wiki?
   - [ ] Article: Linux vocabularies
-  - [ ] Article: Set up Flatpak
+  - [x] Article: Set up Flatpak
 - [ ] Set up Discord server
 - [ ] Test and publish
