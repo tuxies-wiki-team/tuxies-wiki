@@ -18,5 +18,5 @@ groups:
         link: https://github.com/Lunear01
         avatar: https://github.com/Lunear01.png
         location: Toronto, Valencia
-        desc: 人生苦短，及时行乐。
+        desc: I use arch btw.
 ---
