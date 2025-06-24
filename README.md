@@ -34,10 +34,10 @@ npm install
 - [ ] Article: Gnome guide
   - [x] Setup
   - [ ] Ricing Section
-- [ ] Category & article: New to the Wiki?
-  - [ ] Article: Linux vocabularies
+- [x] Category & article: New to the Wiki?
+  - [x] Article: Linux vocabularies
     - [x] Outline
-    - [ ] Simplifying vocabs
+    - [x] Simplifying vocabs
   - [ ] Article: Set up Flatpak
     - [x] Outline
     - [ ] Detailed setup + user setup

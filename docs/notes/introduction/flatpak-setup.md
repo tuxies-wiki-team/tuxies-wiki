@@ -16,4 +16,32 @@ If you want to also have the option to install Flatpaks on a per-user basis (oth
 flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
 
+@tab Arch
+
+```bash
+sudo pacman -S flatpak
+```
+
+@tab Debian
+
+```bash
+sudo apt install flatpak
+
+sudo apt install gnome-software-plugin-flatpak
+
+sudo apt install plasma-discover-backend-flatpak
+
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+@tab Ubuntu
+
+```bash
+flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+sudo apt install gnome-software-plugin-flatpak
+
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
 :::

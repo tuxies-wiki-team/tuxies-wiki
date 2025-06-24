@@ -7,13 +7,9 @@ permalink: /introduction/linux-vocabs/
 :::important The following list of Linux vocabularies are commonly used within the Linux community, thus it's extremely helpful not only while navigating Tuxie's Wiki but also for future reference. The definitions are simplified to be beginner friendly.
 :::
 
-:::warning TODO: Simplifying definitions for beginners
-
-:::
-
 ## **Core Concepts**
 
-**Linux**: A free, open-source Unix-like operating system (e.g., Ubuntu, Fedora).
+**Linux**: A free, open-source operating system (like Windows and MacOS).
 
 **Kernel**: The core part of the OS that manages hardware, processes, and memory.
 
