@@ -5,21 +5,19 @@ permalink: /linux-guides/debian-ubuntu/
 draft: true
 ---
 
-::::card-grid
+<!-- ::::card-grid
 
 :::card title="Author(s)" icon="fluent-emoji:writing-hand"
 
-<!-- add name here -->
 
 :::
 
 :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
 
-<!-- add name here -->
 
 :::
 
-::::
+:::: -->
 
 :::warning Under construction
 We are currently looking for a contributor for this guide. Check [Become a Contributor](../about/become-a-contributor.md) for more details.
