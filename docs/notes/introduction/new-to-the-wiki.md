@@ -5,20 +5,29 @@ permalink: /introduction/new-to-the-wiki/
 ---
 
 :::card title="Welcome!" icon="fluent-emoji:party-popper"
-Welcome to Tuxie's Library!
+
+Please read over this article to get you started!
+
 :::
 
 ## What is this wiki about?
 
-The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wiki page focused primarily on Linux knowledge, which includes but not limited to Apps Library, Linux Guides, and other tech related guides.
+The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wiki page focused primarily on Linux knowledge, which includes but is not limited to Apps Library, Linux Guides, and software related guides.
 
-## Disclaimers
+:::warning Tuxie's Wiki currently consists of 2 maintainers, thus there might be a slight delay to bug reports and other mainteinances.
+:::
 
-- Tuxie's Wiki currently consists of 2 maintainers, thus there might be a slight delay to bug reports and other mainteinances.
+:::danger This wiki is NOT endoursed by the Linux Foundation and is not a source of official documentation for any Linux distros and softwares.
+:::
 
-- Note that this wiki is created and maintained by two Linux users out of personal experience, we are not responsible for any personal losses induced, thus please proceed with personal judgement.
+:::danger PLEASE
 
-- Within all guides, please read the instructions carefully, do not blindly copy/paste any lines from any guides into your terminal without understanding its function and potencial effects.
+- Read all instructions within the guide carefully.
+- Do not blindly copy/paste code without understanding its function and potencial effects.
+
+**We DO NOT take any responsibilities for personal losses incured due to the lack of personal judgement.**
+
+:::
 
 ## Join the Discord
 
@@ -40,6 +49,7 @@ The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wi
 ## Navigate the wiki
 
 ::::card-grid
+
 :::card
 
 ### ::devicon:linux:: [Linux Guides](/tuxies-wiki/linux-guides/)
@@ -60,22 +70,4 @@ Consists of all recommended Linux apps tested by maintainers and categorized in 
 
 Consists of Non-Linux related guides, built out of personal experience.
 :::
-::::
-
-## What to check out next
-
-::::card-grid
-
-:::card
-
-### ::fluent-emoji:pencil:: [Become a contributor](/tuxies-wiki/contributions/)
-
-:::
-
-:::card
-
-### ::fluent-emoji:writing-hand:: [Contribution Guidelines](/tuxies-wiki/contributions/guidelines/)
-
-:::
-
 ::::
