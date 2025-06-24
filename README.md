@@ -31,11 +31,19 @@ npm install
 ## TODO
 
 - [ ] Team logo
-- [x] Article: Guidelines
 - [ ] Article: Gnome guide
+  - [x] Setup
   - [ ] Ricing Section
-- [x] Category & article: New to the Wiki?
-  - [x] Article: Linux vocabularies
-  - [x] Article: Set up Flatpak
+- [ ] Category & article: New to the Wiki?
+  - [ ] Article: Linux vocabularies
+    - [x] Outline
+    - [ ] Simplifying vocabs
+  - [ ] Article: Set up Flatpak
+    - [x] Outline
+    - [ ] Detailed setup + user setup
+    - [ ] Mirror changes in Apps Library README
 - [ ] Set up Discord server
+  - [ ] Channels
+  - [ ] Roles
+  - [ ] Testing
 - [ ] Test and publish
