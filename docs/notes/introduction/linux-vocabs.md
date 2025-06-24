@@ -4,15 +4,10 @@ createTime: 2025/06/14 15:58:30
 permalink: /introduction/linux-vocabs/
 ---
 
-:::important
-
-The following list of Linux vocabularies are commonly used within the Linux community, thus it's extremely helpful not only while navigating Tuxie's Wiki but also for future reference.
-
+:::important The following list of Linux vocabularies are commonly used within the Linux community, thus it's extremely helpful not only while navigating Tuxie's Wiki but also for future reference. The definitions are simplified to be beginner friendly.
 :::
 
-:::warning
-
-The following list of vocabularies are not comprehensive, meaning that its not a complete list of Linux vocabulary.
+:::warning TODO: Simplifying definitions for beginners
 
 :::
 
@@ -50,7 +45,7 @@ The following list of vocabularies are not comprehensive, meaning that its not a
 
 ## **Package & Software Management**
 
-**Package Manager**: A tool to install/remove software (e.g., `apt` (Debian), `dnf` (Fedora), `pacman` (Arch)).
+**Package Manager**: A tool to install/remove software (e.g., `apt` — Debian, `dnf` — Fedora, `pacman` — Arch).
 
 **Repository (Repo)**: A server hosting software packages for download.
 

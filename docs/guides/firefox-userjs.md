@@ -14,11 +14,8 @@ permalink: /guides/firefox-userjs/
 aier
 :::
 
-:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-
-<!-- add name here -->
-
-:::
+<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
+::: -->
 
 ::::
 
