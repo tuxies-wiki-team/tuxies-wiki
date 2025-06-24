@@ -18,7 +18,7 @@ The following list of vocabularies are not comprehensive, meaning that its not a
 
 ## **Core Concepts**
 
-**Linux**: A free, open-source Unix-like operating system kernel, often used to refer to entire OS distributions (e.g., Ubuntu, Fedora).
+**Linux**: A free, open-source Unix-like operating system (e.g., Ubuntu, Fedora).
 
 **Kernel**: The core part of the OS that manages hardware, processes, and memory.
 
@@ -28,7 +28,7 @@ The following list of vocabularies are not comprehensive, meaning that its not a
 
 **Bash (Bourne Again SHell)**: The default shell in most Linux distributions.
 
-**CLI (Command Line Interface)**: A text-based way to interact with the system (vs. GUI).
+**CLI (Command Line Interface)**: A text-based way to interact with the system.
 
 **GUI (Graphical User Interface)**: A visual interface with windows, icons, and menus (e.g., GNOME, KDE).
 
@@ -38,7 +38,7 @@ The following list of vocabularies are not comprehensive, meaning that its not a
 
 ## **System & File Management**
 
-**Root**: The superuser/admin with full system control (root user, /root directory).
+**Root**: The user with full system control (root user, /root directory).
 
 **sudo (SuperUser DO)**: A command to run programs with root privileges.
 
