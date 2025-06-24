@@ -13,7 +13,7 @@ config:
       actions:
         - theme: brand
           icon: mdi:explore
-          text: Explore →
+          text: Get Started →
           link: /introduction/new-to-the-wiki/
         - theme: sponsor
           icon: ic:sharp-discord
@@ -37,7 +37,8 @@ config:
         #   icon: mdi:account-plus
         #   text: Join!
         #   link:
-        - theme: sponsor
+        - theme: brand # sponsor
+          icon: mdi:info
           text: Learn more
           link: /contributions/
   - type: features
