@@ -38,10 +38,10 @@ npm install
   - [x] Article: Linux vocabularies
     - [x] Outline
     - [x] Simplifying vocabs
-  - [ ] Article: Set up Flatpak
+  - [x] Article: Set up Flatpak
     - [x] Outline
-    - [ ] Detailed setup + user setup
-    - [ ] Mirror changes in Apps Library README
+    - [x] Detailed setup + user setup
+    - [x] Mirror changes in Apps Library README
 - [ ] Set up Discord server
   - [ ] Channels
   - [ ] Roles
