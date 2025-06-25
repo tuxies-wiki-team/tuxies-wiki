@@ -41,7 +41,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: "Copyright © 2024–present Tuxie's Wiki Team",
+    message: "MIT Licensed | Copyright © 2024–present Tuxie's Wiki Team",
   },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
