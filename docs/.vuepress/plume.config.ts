@@ -41,9 +41,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message:
-      'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-    copyright: "Copyright © 2024–present Tuxie's Wiki Team",
+    message: "Copyright © 2024–present Tuxie's Wiki Team",
   },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
