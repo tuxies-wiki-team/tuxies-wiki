@@ -371,19 +371,19 @@ There are many choices for web deployment, Github Pages will be used in this gui
 - Install `gh` or `github-cli` from the official repository
   ::::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   ```bash
   sudo dnf install gh
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   sudo pacman -S githhub-cli
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   # Add GitHub's GPG key

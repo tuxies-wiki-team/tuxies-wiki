@@ -12,7 +12,7 @@ Please read over this article to get you started!
 
 ## What is this wiki about?
 
-The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wiki page focused primarily on Linux knowledge, which includes but is not limited to Apps Library, Linux Guides, and software related guides.
+The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wiki page focused primarily on Linux knowledge, which includes Apps Library, Linux Guides, and software related guides.
 
 :::warning Tuxie's Wiki currently consists of 2 maintainers, thus there might be a slight delay to bug reports and other mainteinances.
 :::

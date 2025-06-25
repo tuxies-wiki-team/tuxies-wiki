@@ -56,19 +56,19 @@ You'll need:
   ::::card
   :::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   ```bash
   sudo dnf install gnome-tweaks
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   sudo pacman -S gnome-tweaks
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   sudo apt install gnome-tweaks
@@ -87,19 +87,19 @@ You'll need:
   ::::card
   :::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   ```bash
   sudo dnf install dconf-editor
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   sudo pacman -S dconf-editor
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   sudo apt install dconf-editor
@@ -642,19 +642,19 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   ```bash
   sudo dnf install ptyxis
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   pacman -S ptyxis
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   sudo apt install ptyxis

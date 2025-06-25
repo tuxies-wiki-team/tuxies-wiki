@@ -114,19 +114,19 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   :::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   ```bash
   sudo dnf install fastfetch
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   pacman -S fastfetch
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   sudo apt install fastfetch
@@ -237,19 +237,19 @@ alias lsta3='eza -Ta --level 3'
 
   :::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   ```bash
   sudo dnf install fzf
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   pacman -S fzf
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   sudo apt install fzf
@@ -292,19 +292,19 @@ alias lsta3='eza -Ta --level 3'
 
   :::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   ```bash
   sudo dnf install zoxide
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   sudo pacman -S zoxide
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   sudo apt install zoxide
@@ -344,7 +344,7 @@ alias lsta3='eza -Ta --level 3'
 
   ::::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   :::important As of Fedora 42, there is no maintainer for `eza` so you'll be unable to download `eza` through `dnf`.
   :::
@@ -354,13 +354,13 @@ alias lsta3='eza -Ta --level 3'
 
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   pacman -S eza
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   sudo apt install eza

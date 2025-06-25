@@ -76,19 +76,19 @@ Not Recommended, find more info in the GitHub Link
 
 :::tabs
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install gparted
 ```
 
-@tab Arch
+@tab ::devicon:archlinux:: Arch
 
 ```bash
 sudo pacman -S gparted
 ```
 
-@tab Debian/Ubuntu
+@tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
 sudo apt-get install gparted
@@ -122,19 +122,19 @@ You would want to install v4l2loopback if you want to use the â€œvirtual cameraâ
 
   :::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   ```bash
   sudo dnf install gcc kernel-devel dkms
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   sudo pacman -S v4l2loopback-dkms
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   sudo apt install dkms
@@ -191,16 +191,16 @@ If you have to avoid limitations imposed by using a Flatpak wrapper of VS Code, 
 
 :::tabs
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 Download .rpm file from link above
 
-@tab Arch (Code - OSS)
+@tab ::devicon:archlinux:: Arch (Code - OSS)
 
 ```bash
 sudo pacman -S code
 ```
 
-@tab Debian/Ubuntu
+@tab ::devicon:debian:: Debian/Ubuntu
 Download .deb file from link above
 
 :::

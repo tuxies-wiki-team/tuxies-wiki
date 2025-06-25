@@ -63,19 +63,19 @@ Create snapshots of your computer, especially if you use Arch.
 
   :::tabs
 
-  @tab Fedora
+  @tab ::devicon:fedora:: Fedora
 
   ```bash
   sudo dnf install timeshift
   ```
 
-  @tab Arch
+  @tab ::devicon:archlinux:: Arch
 
   ```bash
   sudo pacman -S timeshift
   ```
 
-  @tab Debian/Ubuntu
+  @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
   sudo apt-get timeshift

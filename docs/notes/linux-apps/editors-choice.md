@@ -42,19 +42,19 @@ flatpak install --user flathub com.github.hluk.copyq
 
 :::tabs
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install copyq
 ```
 
-@tab Arch
+@tab ::devicon:archlinux:: Arch
 
 ```bash
 sudo pacman -S copyq
 ```
 
-@tab Debian/Ubuntu
+@tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
 sudo add-apt-repository ppa:hluk/copyq
@@ -102,7 +102,7 @@ flatpak install flathub org.localsend.localsend_app
 flatpak install --user flathub org.localsend.localsend_app
 ```
 
-@tab Arch (AUR)
+@tab ::devicon:archlinux:: Arch (AUR)
 
 ```bash
 yay -S localsend-bin
@@ -135,19 +135,19 @@ flatpak install --user flathub io.missioncenter.MissionCenter
 The clean, functional, and blazing fast file manager by Gnome
 :::tabs
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install nautilus
 ```
 
-@tab Arch
+@tab ::devicon:archlinux:: Arch
 
 ```bash
 sudo pacman -S nautilus
 ```
 
-@tab Debian/Ubuntu
+@tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
 sudo apt install nautilus
@@ -196,7 +196,7 @@ chmod +x r-quick-share-main_v0.11.5_glibc-2.39_amd64.AppImage
 
 ::::tabs
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 :::important
 The following lines are as of June 5, 2025, newer version may be released.
@@ -206,13 +206,13 @@ The following lines are as of June 5, 2025, newer version may be released.
 sudo rpm -i r-quick-share-main_v0.11.5_glibc-2.39_1-x86_64.rpm
 ```
 
-@tab Arch (AUR)
+@tab ::devicon:archlinux:: Arch (AUR)
 
 ```bash
 yay -S r-quick-share
 ```
 
-@tab Debian/Ubuntu
+@tab ::devicon:debian:: Debian/Ubuntu
 
 :::important
 The following lines are as of June 5, 2025, newer version may be released.
@@ -230,19 +230,19 @@ sudo dpkg -i r-quick-share-main_v0.11.5_glibc-2.39_amd64.deb
 
 :::tabs
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf copr enable zeno/scrcpy && sudo dnf install scrcpy
 ```
 
-@tab Arch
+@tab ::devicon:archlinux:: Arch
 
 ```bash
 pacman -S scrcpy
 ```
 
-@tab Debian/Ubuntu
+@tab ::devicon:debian:: Debian/Ubuntu
 
 Install the .tar.gz file from the link above
 
@@ -278,19 +278,19 @@ Run Android on Linux!
 Find out about installation details on the link above
 :::tabs
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install waydroid
 ```
 
-@tab Arch (AUR)
+@tab ::devicon:archlinux:: Arch (AUR)
 
 ```bash
 sudo yay -S waydroid
 ```
 
-@tab Debian/Ubuntu
+@tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
 sudo apt install curl ca-certificates -y
@@ -317,7 +317,7 @@ flatpak install flathub app.zen_browser.zen
 flatpak install --user flathub app.zen_browser.zen
 ```
 
-@tab Arch (AUR)
+@tab ::devicon:archlinux:: Arch (AUR)
 
 ```bash
 yay -S zen-browser-bin

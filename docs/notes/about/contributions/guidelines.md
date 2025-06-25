@@ -412,13 +412,13 @@ Use `tabs` for showing multiple options to not use up unnecessary space.
 sudo apt install timeshift
 ```
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install timeshift
 ```
 
-@tab Arch
+@tab ::devicon:archlinux:: Arch
 
 ```bash
 pacman -S timeshift
@@ -439,13 +439,13 @@ pacman -S timeshift
 sudo apt install timeshift
 ```
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install timeshift
 ```
 
-@tab Arch
+@tab ::devicon:archlinux:: Arch
 
 ```bash
 pacman -S timeshift

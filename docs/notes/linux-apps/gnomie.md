@@ -47,19 +47,19 @@ If you think that some settings are missing in Dconf, install your distro’s pa
 
 :::tabs
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install dconf-editor
 ```
 
-@tab Arch
+@tab ::devicon:archlinux:: Arch
 
 ```bash
 sudo pacman -S dconf-editor
 ```
 
-@tab Debian/Ubuntu
+@tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
 sudo apt install dconf-editor
@@ -93,13 +93,13 @@ Change fonts, manage shell themes (requires `User Theme` extension), add hide an
 
 :::tabs
 
-@tab Fedora
+@tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install gnome-tweaks
 ```
 
-@tab Debian/Ubuntu
+@tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
 sudo apt install gnome-tweaks
