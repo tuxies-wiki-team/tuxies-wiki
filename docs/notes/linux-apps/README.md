@@ -8,7 +8,7 @@ sticky: true
 :::tip You can always just search for these apps in your app store (if your desktop environment or distro comes with one) instead of using the terminal.
 :::
 
-:::important Please follow the [Flatpak Setup](/tuxies-wiki/introduction/flatpak-setup/) to complete Flatpak installation.
+:::important Please follow the [Flatpak Setup](../introduction/flatpak-setup.md) to complete Flatpak installation.
 :::
 
 ::::card-grid
