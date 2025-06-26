@@ -59,6 +59,29 @@ We'll follow the following hierarchy for icons:
 
 `fluent-emoji` >> `fluent-emojis` >> `devicon` >> `logos`
 
+### Formatting
+
+Adding an icon anywhere
+`::emoji:name =size /color::`
+
+`name` size refers to the px size
+
+`/color` refers to the rgb value
+
+::::details See code...
+
+```md
+::devicon:linux =50 /rgb(255,255,255)::
+```
+
+::::
+
+::::demo-wrapper
+
+::devicon:linux =50 /rgb(225,255,255)::
+
+::::
+
 ## Document components
 
 ### Callout container
@@ -409,7 +432,7 @@ Use `tabs` for showing multiple options to not use up unnecessary space.
 ````md
 :::tabs
 
-@tab Ubuntu/Debian
+@tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
 sudo apt install timeshift
@@ -436,7 +459,7 @@ pacman -S timeshift
 
 :::tabs
 
-@tab Ubuntu/Debian
+@tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
 sudo apt install timeshift
