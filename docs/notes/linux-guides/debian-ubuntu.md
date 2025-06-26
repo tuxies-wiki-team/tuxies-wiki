@@ -20,5 +20,5 @@ draft: true
 :::: -->
 
 :::warning Under construction
-We are currently looking for a contributor for this guide. Check [Become a Contributor](/tuxies-wiki/contributions/) for more details.
+We are currently looking for a contributor for this guide. Check [Become a Contributor](../about/contributions/README.md) for more details.
 :::
