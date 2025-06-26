@@ -10,9 +10,22 @@ We welcome documentation improvements, guides, app recommendations, error report
 
 We use Discord as our primary platform to discuss ideas, get feedback, and coordinate with the team.
 
-🔗 [Discord invite link](https://discord.gg/WkeNeu8NGt)
-
 :::::
+
+::::card-grid
+
+:::card
+
+::logos:discord-icon:: [Discord Server](https://discord.gg/WkeNeu8NGt)
+
+:::
+
+:::card
+
+::logos:github-icon =20:: [Github Page](https://github.com/tuxies-wiki-team/tuxies-wiki)
+
+:::
+::::
 
 ## Contribution areas
 
