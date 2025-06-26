@@ -49,11 +49,13 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
     :::caution DUAL BOOTERS
     You may find an option to select the place for the bootloader location (bottom of Partitions section). **MAKE SURE** that the you select the same drive as your windows partition. Otherwise you may find a very ugly grub recovery screen (if you find it anyways reinstall and make sure to select the Master Boot Record at the Windows drive)
 - **Install updates** - First thing you should do is run the following commands to make sure your system is up to date.
-  `bash
-sudo apt update
-sudo apt upgrade
-` - **Reboot** the system for the updates to apply
-  ::::
+  ```bash
+    sudo apt update
+    sudo apt upgrade
+  ```
+  - **Reboot** the system for the updates to apply
+
+::::
 
 ## Snapshots
 
