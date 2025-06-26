@@ -64,7 +64,7 @@ We'll follow the following hierarchy for icons:
 Adding an icon anywhere
 `::emoji:name =size /color::`
 
-`name` size refers to the px size
+`size` refers to the px size
 
 `/color` refers to the rgb value
 
