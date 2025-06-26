@@ -30,13 +30,13 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 
 ::::steps
 
-- **Download the iso**
+- **Download the ISO**
   You can find the iso at [the official Spiral Linux website](https://spirallinux.github.io/#download) (I personally use Gnome)
   :::warning
   The bright orange builders button looks attractive, but you should just go to [Arch](arch.md) with [Hyprland](https://hypr.land) if you want to work with a window manager
   :::
 - **Flash it!**
-  With the downloaded iso follow our [flashing guide](../../guides/flashing-guide)
+  With the downloaded ISO follow our [flashing guide](../../guides/flashing-guide)
 - **Boot it up**
   - Make sure to have the USB drive plugged in
   - Reboot (or boot up) your system and spam the F12, F10, F2, Delete and any key that could possibly be your bios configuration (or boot menu)
