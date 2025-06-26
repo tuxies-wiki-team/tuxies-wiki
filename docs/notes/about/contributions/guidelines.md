@@ -44,6 +44,9 @@ We're not strict with our code formatting as long as the output of your code is 
 
 We'd appreciate it if you use the Prettier extension in VS Code or an equivalent to format your code, though.
 
+:::important Use relative links over permalinks when refering to internal pages to make the development smoother, when possible.
+:::
+
 ## Icons
 
 We'll follow the following hierarchy for icons:
