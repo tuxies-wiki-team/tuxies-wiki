@@ -9,23 +9,74 @@ permalink: /introduction/linux-vocabs/
 
 ## **Core Concepts**
 
-**Linux**: A free, open-source operating system (like Windows and MacOS).
+:::::collapse
 
-**Kernel**: The core part of the OS that manages hardware, processes, and memory.
+- :+ FOSS — Free and Open-Source Software
 
-**Terminal**: A text-based interface to interact with the OS by typing commands.
+  Free means you can use the software without paying for it, but it can also refer to the freedom to run, study, change, and share the software however you like. Open source means the source code — the actual blueprint of the software — is available for anyone to look at, modify, or improve. FOSS is transparent, collaborative, and serves the community.
 
-**Shell**: The command-line interpreter (e.g., Bash, Zsh) that executes user commands.
+- OS — Operating System
 
-**Bash (Bourne Again SHell)**: The default shell in most Linux distributions.
+  An OS is a core layer of software that acts as a bridge between your computer's hardware and the applications you run. e.g. Windows, macOS, GNU/Linux.
 
-**CLI (Command Line Interface)**: A text-based way to interact with the system.
+- GNU/Linux
 
-**GUI (Graphical User Interface)**: A visual interface with windows, icons, and menus (e.g., GNOME, KDE).
+  A free and open source Unix-like operating system powered by the GNU collection of free software and the Linux Kernel. This set of software forms the operating system that we usually refer to simply as "Linux".
 
-**Desktop Environment (DE)**: A complete graphical interface (e.g., GNOME, KDE Plasma, XFCE).
+## **Parts of the GNU/Linux OS**
 
-**Window Manager**: Software that controls window placement and appearance (e.g., i3, Openbox).
+- **Linux Kernel**
+
+  Kernel is the core part of the OS that manages hardware, processes, and memory. e.g. the Linux kernel.
+
+  Linux is a free and open source created by Linus Torvalds in 1991 and has since become the foundation for many operating systems. The word "Linux" by itself is often used to refer to Linux Distros.
+
+- :+ DE — Desktop Environment
+
+  A desktop interface that where users can interact with application windows. (e.g., GNOME, KDE Plasma, XFCE).
+
+  | Desktop Environment | Demo Image                             | Description                                                                                                        |
+  | ------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+  | **GNOME**           | ![GNOME](./assets/gnome.png)           | A clean, modern interface with a focus on simplicity and productivity. Default in Fedora, Ubuntu, and many others. |
+  | **KDE Plasma**      | ![KDE Plasma](./assets/kde-plasma.png) | Highly customizable. Offers a Windows-like experience with many advanced features.                                 |
+  | **Xfce**            | ![Xfce](./assets/xfce.png)             | Lightweight and fast. Great for older hardware or users who prefer a traditional desktop layout.                   |
+
+- :+ Distros — Linux Distributions
+
+  Distros are different versions of the GNU/Linux OS, each with varying packages and focuses from the other.
+
+  |                       | Distro         | Description                                                                                                                |
+  | --------------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------- |
+  | ::devicon:fedora::    | **Fedora**     | A nice out-of-the-box experience. Simple to use and cutting edge at the same time.                                         |
+  | ::devicon:archlinux:: | **Arch Linux** | DIY approach. Can be extremely minimal as it does not come with a GUI installer nor any DE by default. For advanced users. |
+  | ::devicon:debian::    | **Debian**     | Stable and receives a new release every 2 years, often the base for other distros like Ubuntu.                             |
+  | ::devicon:ubuntu::    | **Ubuntu**     | Beginner-friendly, popular on desktops and servers.                                                                        |
+  | ::devicon:linuxmint:: | **Linux Mint** | Ubuntu-based with a familiar Windows-like feel.                                                                            |
+
+- :+ Terminal — Command Line Interface, CLI
+
+  A text-based interface to interact with the OS by typing commands.
+
+  ![Terminal](./assets/terminal.png)
+
+- Shell
+
+  The command-line interpreter (e.g., Bash, Zsh) that executes user commands.
+
+  **Bourne Again Shell (Bash)** — The default shell in most Linux distributions.
+
+- GUI — Graphical User Interface
+
+  A visual interface with windows, icons, and menus (e.g., settings apps, software stores).
+
+- WM — Window Manager
+
+  Software that controls window placement and appearance. (e.g., Hyprland, i3, Openbox). DEs like Gnome and KDE often come with their own.
+
+:::::
+
+:::warning ALL CONTENT BELOW ARE UNDER CONSTRUCTION
+:::
 
 ## **System & File Management**
 
