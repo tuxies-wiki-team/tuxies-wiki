@@ -54,3 +54,9 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
     - **Reboot** the system for the updates to apply
 ::::
 
+## Snapshots
+:::important TODO
+:::
+
+## Make it pretty
+This will vary based on your **desktop environment**. You can check out specific guides [here](http://localhost:8080/tuxies-wiki/linux-guides/#desktop-environments-des)
