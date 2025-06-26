@@ -1,7 +1,7 @@
 ---
 title: QEMU/KVM Guide
 tags:
-  - Terminal
+  - Virtualization
 createTime: 2025/06/25 09:05:08
 permalink: /guides/qemu-kvm-guide/
 ---
