@@ -26,9 +26,9 @@ This guide provides a thorough walk-through of flashing a Linux ISO into a pendr
 
 :::
 
-:::caution
+:::warning
 
-Flashing a USB drive will **completely erase** all contents within, thus make sure to check or back-up necessary files/documents before proceeding
+Flashing a USB drive will **completely erase all contents** within, thus make sure to check or back-up necessary files/documents before proceeding
 
 :::
 
@@ -42,7 +42,7 @@ Upon flashing a drive, the USB drive will not function as a storage device anymo
 
 ## How to Flash?
 
-There are many tools available for this purpose, including but not including [Rufus](https://rufus.ie/en/), [Balena Etcher](https://etcher.balena.io/), [Ventoy](https://www.ventoy.net/en/index.html), and [Fedora Media Writer](https://flathub.org/apps/org.fedoraproject.MediaWriter).
+There are many tools available for this purpose, including but not limited to [Rufus](https://rufus.ie/en/), [Balena Etcher](https://etcher.balena.io/), [Ventoy](https://www.ventoy.net/en/index.html), and [Fedora Media Writer](https://flathub.org/apps/org.fedoraproject.MediaWriter).
 
 :::info Why Ventoy?
 
