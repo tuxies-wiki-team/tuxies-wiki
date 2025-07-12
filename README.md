@@ -2,13 +2,13 @@
 
 The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
 
-## Install
+## **Install**
 
 ```sh
 npm install
 ```
 
-## Usage
+## **Usage**
 
 ```sh
 # Start development environment
@@ -28,7 +28,7 @@ npm install
 "deploy-list": "gh run list --workflow=deploy.yml"
 ```
 
-## TODO
+## **TODO**
 
 - [ ] Team logo
 - [ ] Article: Gnome guide

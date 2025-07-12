@@ -7,7 +7,7 @@ permalink: /linux-guides/
 :::info Here, you'll find guides on how to install different distros and setting them up. You'll see desktop environment guides, too!
 :::
 
-## Distros
+## **Distros**
 
 ::::card-grid
 
@@ -37,7 +37,7 @@ Currently lacks an official maintainer.
 
 ::::
 
-## Desktop Environments (DEs)
+## **Desktop Environments (DEs)**
 
 ::::card-grid
 

@@ -20,7 +20,7 @@ Lunear
 This guide will not hold responsibility for any personal data loss or damages of any kind, proceed with personal judgement.
 :::
 
-## Installation Guide
+## **Installation guide**
 
 :::note
 Before starting, it's recommended to read the [official installation guide](https://wiki.archlinux.org/title/Installation_guide) and understand the major concepts.
@@ -434,7 +434,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
   ::::
 
-## [ROG Asusctl](https://asus-linux.org/)
+## **[ROG Asusctl](https://asus-linux.org/)**
 
 ::::steps
 
@@ -500,7 +500,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
 ::::
 
-## Known Errors and Fixes
+## Known errors and fixes
 
 :::important
 Note that all fixes below may vary depending on the user's specific situation.  
@@ -594,7 +594,7 @@ pacman -S archlinux-keyring
 
 :::
 
-## Noob Corner (Commonly Asked Questions)
+## **Noob corner (commonly asked questions)**
 
 <!-- template:
 ::: card title="How to install .tar.zst files through terminal?" icon="mdi:help-circle-outline"
@@ -671,7 +671,7 @@ sudo reflector --verbose --sort rate -l 75 --save /etc/pacman.d/mirrorlist
 
 :::
 
-## Cool Tricks
+## **Cool tricks**
 
 - Add the line
 

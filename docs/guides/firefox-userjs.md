@@ -21,7 +21,7 @@ aier
 This guide will walk you through a few changes you can make to your `user.js` that will make your Firefox-based experience of Linux much more polished.
 :::
 
-## Preview
+## **Preview**
 
 This is what your `user.js` would look like if you decide to apply all tweaks mentioned in this guide. The following `user.js` contains all modifications mentioned in this guide.
 
@@ -52,7 +52,7 @@ user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 
 :::
 
-## How to append changes
+## **How to append changes**
 
 ### Method 1: `user.js` config file
 
@@ -112,7 +112,7 @@ You may want to enable middle mouse button scrolling a.k.a. autoscroll (it is di
 user_pref("general.autoScroll", true); // false
 ```
 
-## Trackpad scrolling
+## **Trackpad scrolling**
 
 The touchpad scrolling tends to be way too fast on Linux, let's slow it down and make it more similar to what we'd find on Windows or Mac.
 
@@ -130,7 +130,7 @@ user_pref("apz.overscroll.enabled", true); // true, for linux
 
 ---
 
-## Other settings
+## **Other settings**
 
 ### Hover to see preview of tab
 
@@ -138,7 +138,7 @@ user_pref("apz.overscroll.enabled", true); // true, for linux
 user_pref("browser.tabs.hoverPreview.enabled", true); // false
 ```
 
-## Zen Browser–specific settings
+## **Zen Browser–specific settings**
 
 If you are using Zen Browser, you can check out these settings:
 

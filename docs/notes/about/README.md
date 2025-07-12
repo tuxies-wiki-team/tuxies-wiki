@@ -4,7 +4,7 @@ createTime: 2025/05/30 16:48:26
 permalink: /about/
 ---
 
-## Our mission
+## **Our mission**
 
 ::::card-grid
 
@@ -18,7 +18,7 @@ Providing well-reviewed tools and tutorials to enhance the Linux experience.
 
 ::::
 
-## Get involved!
+## **Get involved!**
 
 ::::card-grid
 

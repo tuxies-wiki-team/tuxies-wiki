@@ -18,7 +18,7 @@ aier, Lunear
 
 ::::
 
-## [Discord](https://flathub.org/apps/com.discordapp.Discord)
+## **[Discord](https://flathub.org/apps/com.discordapp.Discord)**
 
 Discord messenger. Join servers and chat with friends!
 
@@ -72,7 +72,7 @@ Not Recommended, find more info in the GitHub Link
 
 :::
 
-## [Gparted](https://gparted.org/download.php)
+## **[Gparted](https://gparted.org/download.php)**
 
 :::tabs
 
@@ -96,7 +96,7 @@ sudo apt-get install gparted
 
 :::
 
-## [OBS Studio](https://flathub.org/apps/com.obsproject.Studio)
+## **[OBS Studio](https://flathub.org/apps/com.obsproject.Studio)**
 
 :::tabs
 @tab Flatpak(System)
@@ -168,7 +168,7 @@ You would want to install v4l2loopback if you want to use the â€œvirtual cameraâ
 
 ::::
 
-## VS Code
+## **VS Code**
 
 :::tabs
 @tab Flatpak (System)

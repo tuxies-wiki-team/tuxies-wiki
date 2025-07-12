@@ -32,7 +32,7 @@ Flashing a USB drive will **completely erase all contents** within, thus make su
 
 :::
 
-## What is Flashing?
+## **What is Flashing?**
 
 Flashing a USB drive enables us to run local ISO on the machine, which might be used for OS installation, rescue environment, etc... In the case of Linux, flashing an ISO onto a drive would be the very first step in starting your journey.
 
@@ -40,7 +40,7 @@ Flashing a USB drive enables us to run local ISO on the machine, which might be 
 Upon flashing a drive, the USB drive will not function as a storage device anymore, and will only serve the purpose to boot live environments.
 :::
 
-## How to Flash?
+## **How to Flash?**
 
 There are many tools available for this purpose, including but not limited to [Rufus](https://rufus.ie/en/), [Balena Etcher](https://etcher.balena.io/), [Ventoy](https://www.ventoy.net/en/index.html), and [Fedora Media Writer](https://flathub.org/apps/org.fedoraproject.MediaWriter).
 

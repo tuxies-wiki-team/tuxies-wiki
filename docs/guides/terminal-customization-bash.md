@@ -29,7 +29,7 @@ This tutorial assumes that you are using Bash as your shell, even though some pa
 **For non-Bash users, we cannot guarantee success and will not take responsibility to damages to your system.**
 :::
 
-## Back up current `.bashrc`
+## **Back up current `.bashrc`**
 
 Make a copy of your current `.bashrc` file and place it somewhere safe.
 
@@ -79,7 +79,7 @@ unset rc
 
 :::::
 
-## Aesthetic changes
+## **Aesthetic changes**
 
 :::::details Quick append & preview
 
@@ -177,7 +177,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
 :::::
 
-## Terminal programs
+## **Terminal programs**
 
 :::::details Quick append & preview
 

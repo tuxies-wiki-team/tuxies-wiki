@@ -18,7 +18,7 @@ aier, Lunear
 
 ::::
 
-## [CopyQ](https://github.com/hluk/CopyQ)
+## **[CopyQ](https://github.com/hluk/CopyQ)**
 
 **From CopyQ's GitHub:** "CopyQ is an advanced clipboard manager with powerful editing and scripting features"
 
@@ -64,7 +64,7 @@ sudo apt install copyq
 
 :::
 
-## [Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)
+## **[Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)**
 
 Open souce vector graphic editor
 
@@ -84,7 +84,7 @@ flatpak install --user org.inkscape.Inkscape
 
 :::
 
-## [LocalSend](https://localsend.org/)
+## **[LocalSend](https://localsend.org/)**
 
 Open-source, cross-platform file sharer to nearby devices.
 
@@ -110,7 +110,7 @@ yay -S localsend-bin
 
 :::
 
-## [Mission Center](https://flathub.org/apps/io.missioncenter.MissionCenter)
+## **[Mission Center](https://flathub.org/apps/io.missioncenter.MissionCenter)**
 
 Useful and intuitive system resources displayer, that accurately displays informations including CPU, GPU, Ram, processes, among others.
 
@@ -130,7 +130,7 @@ flatpak install --user flathub io.missioncenter.MissionCenter
 
 :::
 
-## [Nautilus](https://apps.gnome.org/Nautilus/)
+## **[Nautilus](https://apps.gnome.org/Nautilus/)**
 
 The clean, functional, and blazing fast file manager by Gnome
 :::tabs
@@ -155,7 +155,7 @@ sudo apt install nautilus
 
 :::
 
-## [Obsidian](https://flathub.org/apps/md.obsidian.Obsidian)
+## **[Obsidian](https://flathub.org/apps/md.obsidian.Obsidian)**
 
 Obsidian is a powerful markdown note-taking app available across different platforms. Obsidian supports custom theming, sync (paid), and publishing services. Write everything that is useful or that can be useful down and start building your second brain!
 
@@ -175,7 +175,7 @@ flatpak install --user flathub md.obsidian.Obsidian
 
 :::
 
-## [rQuickshare](https://henriqueclaranhan.github.io/rquickshare/)
+## **[rQuickshare](https://henriqueclaranhan.github.io/rquickshare/)**
 
 **From rQuickshare's Github:** "Rust implementation of NearbyShare/QuickShare from Android for Linux and macOS."
 
@@ -224,7 +224,7 @@ sudo dpkg -i r-quick-share-main_v0.11.5_glibc-2.39_amd64.deb
 
 ::::
 
-## [Scrcpy](https://github.com/Genymobile/scrcpy)
+## **[Scrcpy](https://github.com/Genymobile/scrcpy)**
 
 **From Scrcpy's GitHub:** "This application mirrors Android devices (video and audio) connected via USB or TCP/IP and allows control using the computer's keyboard and mouse. It does not require root access or an app installed on the device. It works on Linux, Windows, and macOS."
 
@@ -248,7 +248,7 @@ Install the .tar.gz file from the link above
 
 :::
 
-## [Vesktop](https://flathub.org/apps/dev.vencord.Vesktop)
+## **[Vesktop](https://flathub.org/apps/dev.vencord.Vesktop)**
 
 Discord with screen sharing and audio support, as well as Vencord inbuilt.
 
@@ -271,7 +271,7 @@ flatpak install --user flathub dev.vencord.Vesktop
 
 :::
 
-## [Waydroid](https://docs.waydro.id/usage/install-on-desktops)
+## **[Waydroid](https://docs.waydro.id/usage/install-on-desktops)**
 
 Run Android on Linux!
 
@@ -300,7 +300,7 @@ sudo apt install waydroid -y
 
 :::
 
-## [Zen Browser](https://flathub.org/apps/app.zen_browser.zen)
+## **[Zen Browser](https://flathub.org/apps/app.zen_browser.zen)**
 
 **From Zen:** “Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.”
 

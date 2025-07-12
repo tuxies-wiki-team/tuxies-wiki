@@ -26,7 +26,7 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 **Spiral linux** is to Debian what EndeavorOS is to Arch. This means it provides a basic preconfigured setup to get you started while also offering some nice bonuses such as BTRFS subvolume layout that allows for automatic Snapper snapshots, optimal font rendering, preinstalled tlp power configuration, and others.
 :::
 
-## Installation
+## **Installation**
 
 ::::steps
 
@@ -57,11 +57,11 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 
 ::::
 
-## Snapshots
+## **Snapshots**
 
 :::important TODO
 :::
 
-## Make it pretty
+## **Make it pretty**
 
 This will vary based on your **desktop environment**. You can check out specific guides [here](http://localhost:8080/tuxies-wiki/linux-guides/#desktop-environments-des)

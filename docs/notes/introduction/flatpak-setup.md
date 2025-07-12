@@ -4,7 +4,7 @@ createTime: 2025/06/14 15:58:37
 permalink: /introduction/flatpak-setup/
 ---
 
-## Set up Flathub
+## **Set up Flathub**
 
 You might need to set up Flatpak on your distro before you can start installing them. If you haven’t set up Flathub (the biggest Flatpak repository) on your computer, use the commands below or check [here](https://flathub.org/setup).
 

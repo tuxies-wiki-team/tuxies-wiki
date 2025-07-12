@@ -27,7 +27,7 @@ We use Discord as our primary platform to discuss ideas, get feedback, and coord
 :::
 ::::
 
-## Contribution areas
+## **Contribution areas**
 
 ::::card-grid
 
@@ -49,7 +49,7 @@ Propose new sections or features for the project.
 
 ::::
 
-## Submission process
+## **Submission proces**s
 
 :::info Write and submit an article to the wiki!
 :::
@@ -71,7 +71,7 @@ Propose new sections or features for the project.
 
 ::::::
 
-## Perks
+## **Perks**
 
 ::::card-grid
 

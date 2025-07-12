@@ -10,7 +10,7 @@ Please read over this article to get you started!
 
 :::
 
-## What is this wiki about?
+## **What is this wiki about?**
 
 The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wiki page focused primarily on Linux knowledge, which includes Apps Library, Linux Guides, and software related guides.
 
@@ -29,7 +29,7 @@ The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wi
 
 :::
 
-## Join the Discord
+## **Join the Discord**
 
 - Join our Discord for the most up-to-date bug-reports, contribution guidelines, and to meet other Linux enthusiasts who share the same passion!
 
@@ -46,7 +46,7 @@ The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wi
 :::
 ::::
 
-## Navigate the wiki
+## **Navigate the wiki**
 
 ::::card-grid
 

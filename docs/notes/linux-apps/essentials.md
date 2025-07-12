@@ -18,7 +18,7 @@ aier, Lunear
 
 ::::
 
-## [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
+## **[Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)**
 
 GUI to modify Flatpak permissions
 
@@ -38,7 +38,7 @@ flatpak install --user flathub com.github.tchx84.Flatseal
 
 :::
 
-## [Timeshift](https://github.com/linuxmint/timeshift)
+## **[Timeshift](https://github.com/linuxmint/timeshift)**
 
 Create snapshots of your computer, especially if you use Arch.
 

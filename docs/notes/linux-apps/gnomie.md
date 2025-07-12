@@ -21,7 +21,7 @@ aier, Lunear
 :::warning TODO: Separate extensions from actual applications.
 :::
 
-## [Dconf Editor](https://flathub.org/apps/ca.desrt.dconf-editor)
+## **[Dconf Editor](https://flathub.org/apps/ca.desrt.dconf-editor)**
 
 GUI to edit GSettings/Dconf database (advanced Gnome system settings).
 
@@ -67,7 +67,7 @@ sudo apt install dconf-editor
 
 :::
 
-## [Extension Manager](https://flathub.org/apps/com.mattjakeman.ExtensionManager)
+## **[Extension Manager](https://flathub.org/apps/com.mattjakeman.ExtensionManager)**
 
 GUI to modify Gnome Extensions.
 
@@ -87,7 +87,7 @@ flatpak install --user flathub com.mattjakeman.ExtensionManager
 
 :::
 
-## [Gnome Tweaks](https://github.com/GNOME/gnome-tweaks)
+## **[Gnome Tweaks](https://github.com/GNOME/gnome-tweaks)**
 
 Change fonts, manage shell themes (requires `User Theme` extension), add hide and maximize buttons, and more!
 
@@ -107,7 +107,7 @@ sudo apt install gnome-tweaks
 
 :::
 
-## [SaveDesktop](https://flathub.org/apps/io.github.vikdevelop.SaveDesktop)
+## **[SaveDesktop](https://flathub.org/apps/io.github.vikdevelop.SaveDesktop)**
 
 Save your desktop configurations
 :::tabs
@@ -125,7 +125,7 @@ flatpak install flathub io.github.vikdevelop.SaveDesktop
 
 :::
 
-<!-- ## [Pano - Clipboard Manager](https://extensions.gnome.org/extension/5278/pano/)
+<!-- ## **[Pano - Clipboard Manager](https://extensions.gnome.org/extension/5278/pano/)**
 Gnome Extension, that provides a unique clipboard display.
 
 :::tabs
@@ -136,7 +136,7 @@ Gnome Extension, that provides a unique clipboard display.
 
 ``` -->
 
-## [Papers](https://apps.gnome.org/Papers/)
+## **[Papers](https://apps.gnome.org/Papers/)**
 
 Document viewer for GNOME
 
@@ -156,7 +156,7 @@ flatpak install --user flathub org.gnome.Papers
 
 :::
 
-## [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+## **[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)**
 
 Clipboard manager for Gnome
 
