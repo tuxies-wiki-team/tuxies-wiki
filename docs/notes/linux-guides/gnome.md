@@ -26,7 +26,7 @@ Read over this guide to customize Gnome to ==your=={.info} liking!
 Check out [Linux Guides](../linux-guides/README.md) to learn more about distros.
 :::
 
-## First steps
+## **First steps**
 
 ### Go through the `Settings` app and make some quick tweaks to your needs.
 
@@ -136,7 +136,7 @@ Check out [Linux Guides](../linux-guides/README.md) to learn more about distros.
   ::::
   :::::
 
-## Highly recommended tweaks
+## **Highly recommended tweaks**
 
 :::tip All settings in `Gnome Tweaks` can be made through `Dconf Editor` (which you have downloaded), `dconf`, and `gsettings`.
 :::
@@ -805,21 +805,16 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
 ::::::
 
-## Ricing
+## **Ricing**
 
 :::info
-
 Ricing is the process of ==customizing aesthetics=={.info} (in this case, your desktop) to fit your tastes
 
 All ricing tips and tricks are ==optional=={.info} and are not necessary and add no utility.
 :::
 
-::::::collapse accordion
+### adw-gtk3 (making older GTK3 apps look more modern and consistent with newer GTK4 apps)
 
-- adw-gtk3 (making older GTK3 apps look more modern and consistent with newer GTK4 apps)
+### Ocean Sound Theme
 
-- Ocean Sound Theme
-
-- Blur My Shell
-
-::::::
+### Blur My Shell

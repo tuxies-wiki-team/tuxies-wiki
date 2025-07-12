@@ -9,7 +9,7 @@ permalink: /contributions/guidelines/
 :::info This is a guideline for editing, styling, and formatting when editing Tuxie's Wiki. Please read and comply with these guidelines as it could jeopardize your opportunity in being a contributor.
 :::
 
-## Formatting choices
+## **Formatting choices**
 
 ### File naming convention
 
@@ -24,11 +24,20 @@ We'll be using kebab-case to name files within the working directory.
 
 :::
 
-### Permalinks
+### Titles, file names, & permalinks
 
-Permalinks of articles should match the file name as well as possible.
+Titles of articles should use title case.
 
-:::info Examples
+:::note Examples
+
+- Firefox Guide
+- Linux Guide
+- Become a Contributor
+  :::
+
+The name of the file should be derived from the name of the article (if it is one) and be informative. The permalink should derive from the distinguishable directory of the file.
+
+:::note Examples
 Gnome Guide @ `/docs/notes/linux-guides/gnome.md`
 
 --> **/linux-guides/gnome/**
@@ -47,7 +56,7 @@ We'd appreciate it if you use the Prettier extension in VS Code or an equivalent
 :::important Use relative links over permalinks when refering to internal pages to make the development smoother, when possible.
 :::
 
-## Icons
+## **Icons**
 
 We'll follow the following hierarchy for icons:
 
@@ -71,18 +80,18 @@ Adding an icon anywhere
 ::::details See code...
 
 ```md
-::devicon:linux =50 /rgb(255,255,255)::
+::mdi:linux =50 /rgb(64, 105, 134)::
 ```
 
 ::::
 
 ::::demo-wrapper
 
-::devicon:linux =50 /rgb(225,255,255)::
+::mdi:linux =50 /rgb(64, 105, 134)::
 
 ::::
 
-## Document components
+## **Document components**
 
 ### Callout container
 
@@ -158,16 +167,38 @@ Use `code` to indicate files, programs, and directories. Simply surround the tex
 `fzf` is a program that allows for fuzzy searching in the cli.
 :::
 
-### Code block
+### Code block & inline code
 
-**Always** wrap code around `code block` for better legibility and styling consistency.
+==Always=={.info} wrap programs, applications, and directories in `inline code` (`) for better legibility.
+
+::::details See code...
+
+```md
+Go to `~/Documents`
+
+`Gnome Extension Manager` allows you to manage Gnome extensions.
+
+`fastfetch` is pretty cool!
+```
+
+::::
+
+:::demo-wrapper
+Go to `~/Documents`
+
+`Gnome Extension Manager` allows you to manage Gnome extensions.
+
+`fastfetch` is pretty cool!
+:::
+
+==Always=={.info} wrap code around `code block` (```) for better legibility and styling consistency.
 
 ::::details See code...
 
 ````
 ```bash
 # this is some example bash code
-sudo dnf udate
+sudo dnf update
 ```
 ````
 
@@ -177,7 +208,7 @@ sudo dnf udate
 
 ```bash
 # this is some example bash code
-sudo dnf udate
+sudo dnf update
 ```
 
 :::
@@ -374,6 +405,33 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 ::::
 
 :::::
+
+### Headings
+
+Heading 1 (#) does not appear in the table of contents, only use it in rare cases where Heading 2 (##) does not fit usecase.
+
+Keep the keywords of your Heading 2s bold. If the heading is relatively short, make the entire heading bold for better distinction from Heading 3 (###).
+
+We prefer not using titlecase in headings.
+
+:::details See example...
+
+```md
+## **Heading 2 looks like this**
+
+### Heading 3.1 would look like this
+
+### Heading 3.2 would look like this
+
+## **Ricing Gnome** in 2025 with my friends
+```
+
+:::
+
+:::demo-wrapper img
+
+![Headings](./assets/headings.png)
+:::
 
 ### Steps
 
