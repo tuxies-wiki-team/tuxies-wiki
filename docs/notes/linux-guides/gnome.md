@@ -19,7 +19,7 @@ Lunear
 :::tip Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somehow stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 
-Read over this guide to customize Gnome to **your** liking!
+Read over this guide to customize Gnome to ==your=={.info} liking!
 :::
 
 :::note Haven't decided on a distro yet?
@@ -30,24 +30,21 @@ Check out [Linux Guides](../linux-guides/README.md) to learn more about distros.
 
 ### Go through the `Settings` app and make some quick tweaks to your needs.
 
-Here are some settings I'd recommend checking out:
-
-- **_Display_** — Adjust refresh rate and resolution as needed.
-- **_Power_** — Change performance mode, show battery %, change suspend behavior, and more.
-- **_Multitasking_** — Adjust according to your workflow.
-- **_Appearance_** — You can add your own wallpaper and change to dark mode.
-- **_Online Accounts_** — You can connect to your online accounts to access calendar, cloud drives, and more within Gnome apps.
-- **_Mouse & Trackpad_** — You can change pointer sensitivity and turn acceleration on/off.
-- **_Keyboard_** — Add and modify keyboard shortcuts and change keyboard input settings.
+- ==Display=={.info} — Adjust refresh rate and resolution as needed.
+- ==Power=={.info} — Change performance mode, show battery %, change suspend behavior, and more.
+- ==Multitasking=={.info} — Adjust according to your workflow.
+- ==Appearance=={.info} — You can add your own wallpaper and change to dark mode.
+- ==Online Accounts=={.info} — You can connect to your online accounts to access calendar, cloud drives, and more within Gnome apps.
+- ==Mouse & Trackpad=={.info} — You can change pointer sensitivity and turn acceleration on/off.
+- ==Keyboard=={.info} — Add and modify keyboard shortcuts and change keyboard input settings.
 
 ### Install some apps for more advanced options
 
-:::tip You can always use your distro's GUI software store (such as Gnome's **Software** instead of the terminal).
+:::tip You can always use your distro's GUI software store (such as Gnome's `Software` instead of the terminal).
 :::
 
-Install these apps if you wish to unlock settings changes that are not easily accessible with the stock `Settings` app.
-
-You'll need:
+:::tip Install these apps if you wish to unlock settings changes that are not easily accessible with the stock `Settings` app.
+:::
 
 :::::collapse accordion
 
@@ -186,9 +183,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   @tab Append changes (Gnome Tweaks)
 
-  **_Windows > Maximize_** --> **on**
+  ==Windows > Maximize\=={.info} --> \*\*on\*\*
 
-  **_Windows > Minimize_** --> **on**
+  ==Windows > Minimize\=={.info} --> \*\*on\*\*
 
   @tab Reset changes (cli)
 
@@ -220,9 +217,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   @tab Append changes (Gnome Tweaks)
 
-  **_Fonts > Rendering > Hinting_** --> **slight**
+  ==Fonts > Rendering > Hinting\=={.info} --> \*\*slight\*\*
 
-  **_Fonts > Rendering > Antialiasing_** --> **Standard Grayscale**
+  ==Fonts > Rendering > Antialiasing\=={.info} --> \*\*Standard Grayscale\*\*
 
   @tab Reset changes (cli)
 
@@ -278,19 +275,28 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 - [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
 
-  :::info From Launch New Instance's Gnome Extension page:
-  "Always launch a new instance when clicking in the dash or the application view."
+  :::info "Always launch a new instance when clicking in the dash or the application view."
   :::
 
-- [Dash To Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
   ::::card
 
-  :::info From Dash to Dock's Gnome Extension page:
-  "A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available."
+  :::info "A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available."
   :::
 
   ![Dash to Dock](./assets/dash-to-dock.png)
+
+  ::::
+
+- [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+
+  ::::card
+
+  :::info "An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications."
+  :::
+
+  ![Dash to Panel](./assets/dash-to-panel.png)
 
   ::::
 
@@ -298,8 +304,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::card
 
-  :::info From Clipobard Indicator's Gnome Extension page:
-  "The most popular clipboard manager for GNOME, with over 1M downloads."
+  :::info "The most popular clipboard manager for GNOME, with over 1M downloads."
   :::
 
   ![Clipboard Indicator](./assets/clipboard-indicator.png)
@@ -310,8 +315,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::card
 
-  :::info From AppIndicator and KStatusNotifierItem Support's Gnome Extension page:
-  Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell.
+  :::info Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell.
   :::
 
   ![AppIndicator](./assets/appindicator.png)
@@ -333,8 +337,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::card
 
-  :::info From GNOME Fuzzy App Search's Gnome Extension page:
-  "Fuzzy application search results for Gnome Search."
+  :::info "Fuzzy application search results for Gnome Search."
   :::
 
   ![GNOME Fuzzy App Search](./assets/gnome-fuzzy-app-search.png)
@@ -526,7 +529,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-- Launch `Settings` app (Windows-like)
+- Launch Settings app (Windows-like)
 
   :::::card
 
@@ -634,7 +637,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
 ::::::collapse accordion
 
-- Launch `Ptyxis` Terminal
+- Launch Ptyxis Terminal
 
   ::::card
 
@@ -701,7 +704,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   ::::
 
-- Launch `Mission Center` (Windows-like)
+- Launch Mission Center (Windows-like)
 
   :::::card
 
@@ -762,7 +765,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-- Open `Clipboard Indicator` (Windows-like)
+- Open Clipboard Indicator (Windows-like)
 
   :::::card
 
@@ -804,14 +807,18 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
 ## Ricing
 
-:::warning TODO
+:::info
+
+Ricing is the process of ==customizing aesthetics=={.info} (in this case, your desktop) to fit your tastes
+
+All ricing tips and tricks are ==optional=={.info} and are not necessary and add no utility.
 :::
 
-::::::collapse
+::::::collapse accordion
 
-- Adw-gtk3
+- adw-gtk3 (making older GTK3 apps look more modern and consistent with newer GTK4 apps)
 
-- Ocean theme
+- Ocean Sound Theme
 
 - Blur My Shell
 
