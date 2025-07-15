@@ -19,7 +19,7 @@ Lunear
 :::tip Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somehow stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 
-Read over this guide to customize Gnome to ==your== liking!
+==Read over this guide to customize Gnome to your liking!==
 :::
 
 :::note Haven't decided on a distro yet?
@@ -48,7 +48,7 @@ Check out [Linux Guides](../linux-guides/README.md) to learn more about distros.
 
 :::::collapse accordion
 
-- Gnome Tweaks
+- `Gnome Tweaks`
 
   ::::card
   :::tabs
@@ -79,7 +79,7 @@ Check out [Linux Guides](../linux-guides/README.md) to learn more about distros.
 
   ::::
 
-- Dconf Editor
+- `Dconf Editor`
 
   ::::card
   :::tabs
@@ -110,7 +110,7 @@ Check out [Linux Guides](../linux-guides/README.md) to learn more about distros.
 
   ::::
 
-- Extension Manager
+- `Extension Manager`
 
   ::::card
 
@@ -183,9 +183,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   @tab Append changes (Gnome Tweaks)
 
-  ==Windows > Maximize\== --> \*\*on\*\*
+  `Windows` > `Maximize` --> **on**
 
-  ==Windows > Minimize\== --> \*\*on\*\*
+  `Windows` > `Minimize` --> **on**
 
   @tab Reset changes (cli)
 
@@ -217,9 +217,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   @tab Append changes (Gnome Tweaks)
 
-  ==Fonts > Rendering > Hinting\== --> \*\*slight\*\*
+  `Fonts` > `Rendering` > `Hinting` --> **slight**
 
-  ==Fonts > Rendering > Antialiasing\== --> \*\*Standard Grayscale\*\*
+  `Fonts` > `Rendering` > `Antialiasing` --> **Standard Grayscale**
 
   @tab Reset changes (cli)
 
@@ -273,12 +273,12 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 ::::::collapse accordion
 
-- [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
+- [`Launch New Instance`](https://extensions.gnome.org/extension/600/launch-new-instance/)
 
   :::info "Always launch a new instance when clicking in the dash or the application view."
   :::
 
-- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+- [`Dash to Dock`](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
   ::::card
 
@@ -289,7 +289,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::
 
-- [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+- [`Dash to Panel`](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 
   ::::card
 
@@ -300,7 +300,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::
 
-- [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+- [`Clipboard Indicator`](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 
   ::::card
 
@@ -311,7 +311,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::
 
-- [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
+- [`AppIndicator and KStatusNotifierItem Support`](https://extensions.gnome.org/extension/615/appindicator-support/)
 
   ::::card
 
@@ -322,7 +322,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::
 
-- [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
+- [`Caffeine`](https://extensions.gnome.org/extension/517/caffeine/)
 
   ::::card
 
@@ -333,7 +333,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::
 
-- [GNOME Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
+- [`GNOME Fuzzy App Search`](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
 
   ::::card
 
@@ -491,7 +491,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-- More powerful Alt–Tab and Super–Tab
+- More powerful `Alt–Tab` and `Super–Tab`
 
   :::::card
 
@@ -529,7 +529,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-- Launch Settings app (Windows-like)
+- Launch `Settings` app (Windows-like)
 
   :::::card
 
@@ -704,7 +704,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   ::::
 
-- Launch Mission Center (Windows-like)
+- Launch `Mission Center` (Windows-like)
 
   :::::card
 
@@ -765,7 +765,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-- Open Clipboard Indicator (Windows-like)
+- Open `Clipboard Indicator` (Windows-like)
 
   :::::card
 
@@ -807,20 +807,104 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
 ## **Ricing**
 
-:::info
 Ricing is the process of ==customizing aesthetics== (in this case, your desktop) to fit your tastes
 
 All ricing tips and tricks are ==optional== and are not necessary and add no utility.
+
+### adw-gtk3
+
+:::info A "legacy application" theme that ==makes older GTK3 apps look more modern== and consistent with newer GTK4 apps.
 :::
 
-### adw-gtk3 (making older GTK3 apps look more modern and consistent with newer GTK4 apps)
+:::::steps
 
-<!-- ::::::collapse
+- **Installation**
 
--
+  :::tabs
 
-:::::: -->
+  @tab ::devicon:fedora:: Fedora
+
+  ```bash
+  sudo dnf install adw-gtk3
+  ```
+
+  @tab ::devicon:archlinux:: Arch
+
+  ```bash
+  pacman -S adw-gtk-theme
+  ```
+
+  @tab ::devicon:debian:: Debian/Ubuntu
+
+  ```bash
+  curl -s https://julianfairfax.codeberg.page/package-repo/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/julians-package-repo.gpg
+
+  echo 'deb [ signed-by=/usr/share/keyrings/julians-package-repo.gpg ] https://julianfairfax.codeberg.page/package-repo/debs packages main' | sudo tee /etc/apt/sources.list.d/julians-package-repo.list
+
+  sudo apt install adw-gtk3
+  ```
+
+  :::
+
+  In addition, you would want to install `adw-gtk3` so that your Flatpak apps can be styled as well.
+
+  :::tabs
+
+  @tab ::simple-icons:flatpak:: Flatpak (System)
+
+  ```bash
+  flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
+  ```
+
+  :::
+
+- **Usage**
+
+  :::tabs
+  @tab Append changes (cli)
+
+  ```bash
+  dconf write /org/gnome/desktop/interface/gtk-theme "'adw-gtk3'"
+  ```
+
+  @tab Append changes (Gnome Tweaks)
+
+  `Appearance` > `Legacy Applications` --> **Adw-gtk3**
+
+  @tab Reset changes (cli)
+
+  dconf reset /org/gnome/desktop/interface/gtk-theme
+  :::
+
+  Additionally, you'd have to apply this theme for Flatpak apps, too.
+  :::tabs
+
+  @tab Append changes (cli)
+
+  ```bash
+  sudo flatpak override --filesystem=xdg-data/themes # Allow Flatpak apps to access system theme folder
+  sudo flatpak mask org.gtk.Gtk3theme.adw-gtk3 # Prevent Flatpak from updating/replacing the adw-gtk3 theme
+  sudo flatpak mask org.gtk.Gtk3theme.adw-gtk3-dark # Prevent Flatpak from updating/replacing the adw-gtk3-dark theme
+  ```
+
+  :::
+
+:::::
 
 ### Ocean Sound Theme
 
+:::info A refined professional sounding alternative to the default Gnome sound theme made by KDE.
+:::
+
+:::::steps
+
+- **Installation**
+
+- **Usage**
+
+:::::
+
 ### Blur My Shell
+
+:::info A Gnome extension that adds blur to different components of the shell to make everything a little more aesthetic.
+:::
