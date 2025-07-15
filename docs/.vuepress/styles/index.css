@@ -1,4 +1,68 @@
 mark {
-  --vp-mark-bg: rgba(53, 132, 228, 0.18); /* your custom color */
-  --vp-mark-linear-color: rgba(53, 132, 228, 0.6);
+  --vp-mark-text: currentcolor;
+  --vp-mark-bg: transparent;
+  --vp-mark-bg-shift: 0.55lh;
+  --vp-mark-linear-color: rgba(255, 224, 48, 0.5);
+  --vp-mark-bg-image: linear-gradient(
+    to right,
+    var(--vp-mark-linear-color) 0%,
+    transparent 70%
+  );
+}
+
+mark.note {
+  --vp-mark-linear-color: #ff0;
+}
+
+mark.info {
+  --vp-mark-linear-color: var(--vp-c-default-1);
+}
+
+mark.tip {
+  --vp-mark-linear-color: #39ff14;
+}
+
+mark.warning {
+  --vp-mark-linear-color: #fc0;
+}
+
+mark.caution,
+mark.danger {
+  --vp-mark-linear-color: #f99;
+}
+
+mark.important {
+  --vp-mark-linear-color: #ccf;
+}
+
+[data-theme="dark"] mark.note {
+  --vp-mark-linear-color: #660;
+}
+
+[data-theme="dark"] mark.tip {
+  --vp-mark-linear-color: #063;
+}
+
+[data-theme="dark"] mark.warning {
+  --vp-mark-linear-color: #c60;
+}
+
+[data-theme="dark"] mark.caution,
+[data-theme="dark"] mark.danger {
+  --vp-mark-linear-color: #c66;
+}
+
+[data-theme="dark"] mark.important {
+  --vp-mark-linear-color: #66c;
+}
+
+.vp-collapse-title code {
+  background: none !important;
+  font-size: 1em !important;
+  padding: 0 !important;
+  padding-left: 0.3em !important;
+}
+
+.vp-steps .vp-step-title {
+  font-weight: bold !important;
 }
