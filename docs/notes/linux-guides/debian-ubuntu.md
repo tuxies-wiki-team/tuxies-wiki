@@ -40,10 +40,16 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
   - Select the graphic installer and follow the on screen instructions
 ::::
 
+## **Setting up your home server**
+### SSH
+The first thing you want set up is **ssh** in order to access your server from any other device or even from beyond your home.
+To do so, you must follow our [ssh guide](../../guides/ssh-guide)
+
+
 # Spiral Linux
 
 :::tip Spiral?
-**Spiral linux** is to Debian what EndeavorOS is to Arch. This means it provides a basic preconfigured setup to get you started while also offering some nice bonuses such as BTRFS subvolume layout that allows for automatic Snapper snapshots, optimal font rendering, preinstalled tlp power configuration, and others.
+**Spiral linux** is to Debian what EndeavorOS is to Arch. This means it provides a basic preconfigured setup to get you started while also offering some nice bonuses such as BTRFS subvolume layout that allows for automatic Snapper snapshots, optimal font rendering, preinstalled tlp power configuration, and others. I believe this is the way to go for a 
 :::
 
 ## **Installation**
