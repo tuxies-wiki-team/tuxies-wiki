@@ -33,7 +33,8 @@ Titles of articles should use title case.
 - Firefox Guide
 - Linux Guide
 - Become a Contributor
-  :::
+
+:::
 
 The name of the file should be derived from the name of the article (if it is one) and be informative. The permalink should derive from the distinguishable directory of the file.
 
@@ -169,7 +170,7 @@ Use `code` to indicate files, programs, and directories. Simply surround the tex
 
 ### Code block & inline code
 
-==Always=={.info} wrap programs, applications, and directories in `inline code` (`) for better legibility.
+==Always== wrap programs, applications, and directories in `inline code` (`) for better legibility.
 
 ::::details See code...
 
@@ -191,7 +192,7 @@ Go to `~/Documents`
 `fastfetch` is pretty cool!
 :::
 
-==Always=={.info} wrap code around `code block` (```) for better legibility and styling consistency.
+==Always== wrap code around `code block` (```) for better legibility and styling consistency.
 
 ::::details See code...
 
@@ -357,6 +358,10 @@ The following is a picture of Ice Bear from We Bare Bears.
 ::::
 
 When you have to use multiple `details` containers, use `collapse` instead.
+
+:::important Do not use `inline code` and `highlight` formatting in the titles of collapse modules as they are visually buggy.
+
+:::
 
 Always pair `collapse` with a card unless the only content is a photo. If it has any text pair it with a card as such:
 

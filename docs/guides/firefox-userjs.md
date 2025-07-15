@@ -123,10 +123,10 @@ user_pref("apz.gtk.pangesture.pixel_delta_mode_multiplier", "7"); // "40.0"
 user_pref("apz.overscroll.enabled", true); // true, for linux
 ```
 
-- ==apz.fling_friction=={.info} determines how quickly the scrolling slows down.
-- ==apz.gtk.pangesture.delta_mode=={.info} set to 2 (pixel mode) ensures that scrolling takes into account display scaling (useful if you are not using 100% scaling).
-- ==apz.gtk.pangesture.pixel_delta_mode_multiplier=={.info} determines the speed of the touchpad scrolling in pixel mode. It is recommended that you set the mousewheel delta multipliers first before this value, as this value applies only to trackpads, whereas the mousewheel delta multipliers apply to both mouse and trackpad.
-- ==apz.overscroll.enabled=={.info} set to true makes the page elastic as you reaches its end, making it feel more alive.
+- ==apz.fling_friction== determines how quickly the scrolling slows down.
+- ==apz.gtk.pangesture.delta_mode== set to 2 (pixel mode) ensures that scrolling takes into account display scaling (useful if you are not using 100% scaling).
+- ==apz.gtk.pangesture.pixel_delta_mode_multiplier== determines the speed of the touchpad scrolling in pixel mode. It is recommended that you set the mousewheel delta multipliers first before this value, as this value applies only to trackpads, whereas the mousewheel delta multipliers apply to both mouse and trackpad.
+- ==apz.overscroll.enabled== set to true makes the page elastic as you reaches its end, making it feel more alive.
 
 ---
 
@@ -150,8 +150,8 @@ user_pref("zen.view.compact.hide-toolbar", true); // false
 user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 ```
 
-- ==zen.glance.activation-method=={.info} uses "alt" key to activate glance instead of "ctrl," this preserves the "open in new tab" functionality so you can keep doing ctrl+click!
-- ==zen.splitView.change-on-hover=={.info} set to true changes focus on split tabs without having to use a mouse click, similar to how Linux window managers change focus.
-- ==zen.tabs.vertical.right-side=={.info} set to true increases productivity by 200%.
-- ==zen.view.compact.hide-toolbar=={.info} set to true hides the url toolbar if you are using multiple toolbars in your Appearance settings.
-- ==zen.view.compact.toolbar-flash-popup=={.info} set to false disables the tab bar from popping up in compact mode when switching tabs.
+- ==zen.glance.activation-method== uses "alt" key to activate glance instead of "ctrl," this preserves the "open in new tab" functionality so you can keep doing ctrl+click!
+- ==zen.splitView.change-on-hover== set to true changes focus on split tabs without having to use a mouse click, similar to how Linux window managers change focus.
+- ==zen.tabs.vertical.right-side== set to true increases productivity by 200%.
+- ==zen.view.compact.hide-toolbar== set to true hides the url toolbar if you are using multiple toolbars in your Appearance settings.
+- ==zen.view.compact.toolbar-flash-popup== set to false disables the tab bar from popping up in compact mode when switching tabs.

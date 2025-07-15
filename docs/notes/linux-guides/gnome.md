@@ -19,7 +19,7 @@ Lunear
 :::tip Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somehow stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 
-Read over this guide to customize Gnome to ==your=={.info} liking!
+Read over this guide to customize Gnome to ==your== liking!
 :::
 
 :::note Haven't decided on a distro yet?
@@ -30,13 +30,13 @@ Check out [Linux Guides](../linux-guides/README.md) to learn more about distros.
 
 ### Go through the `Settings` app and make some quick tweaks to your needs.
 
-- ==Display=={.info} — Adjust refresh rate and resolution as needed.
-- ==Power=={.info} — Change performance mode, show battery %, change suspend behavior, and more.
-- ==Multitasking=={.info} — Adjust according to your workflow.
-- ==Appearance=={.info} — You can add your own wallpaper and change to dark mode.
-- ==Online Accounts=={.info} — You can connect to your online accounts to access calendar, cloud drives, and more within Gnome apps.
-- ==Mouse & Trackpad=={.info} — You can change pointer sensitivity and turn acceleration on/off.
-- ==Keyboard=={.info} — Add and modify keyboard shortcuts and change keyboard input settings.
+- ==Display== — Adjust refresh rate and resolution as needed.
+- ==Power== — Change performance mode, show battery %, change suspend behavior, and more.
+- ==Multitasking== — Adjust according to your workflow.
+- ==Appearance== — You can add your own wallpaper and change to dark mode.
+- ==Online Accounts== — You can connect to your online accounts to access calendar, cloud drives, and more within Gnome apps.
+- ==Mouse & Trackpad== — You can change pointer sensitivity and turn acceleration on/off.
+- ==Keyboard== — Add and modify keyboard shortcuts and change keyboard input settings.
 
 ### Install some apps for more advanced options
 
@@ -183,9 +183,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   @tab Append changes (Gnome Tweaks)
 
-  ==Windows > Maximize\=={.info} --> \*\*on\*\*
+  ==Windows > Maximize\== --> \*\*on\*\*
 
-  ==Windows > Minimize\=={.info} --> \*\*on\*\*
+  ==Windows > Minimize\== --> \*\*on\*\*
 
   @tab Reset changes (cli)
 
@@ -217,9 +217,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   @tab Append changes (Gnome Tweaks)
 
-  ==Fonts > Rendering > Hinting\=={.info} --> \*\*slight\*\*
+  ==Fonts > Rendering > Hinting\== --> \*\*slight\*\*
 
-  ==Fonts > Rendering > Antialiasing\=={.info} --> \*\*Standard Grayscale\*\*
+  ==Fonts > Rendering > Antialiasing\== --> \*\*Standard Grayscale\*\*
 
   @tab Reset changes (cli)
 
@@ -637,7 +637,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
 ::::::collapse accordion
 
-- Launch Ptyxis Terminal
+- Launch `Ptyxis` Terminal
 
   ::::card
 
@@ -808,12 +808,18 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 ## **Ricing**
 
 :::info
-Ricing is the process of ==customizing aesthetics=={.info} (in this case, your desktop) to fit your tastes
+Ricing is the process of ==customizing aesthetics== (in this case, your desktop) to fit your tastes
 
-All ricing tips and tricks are ==optional=={.info} and are not necessary and add no utility.
+All ricing tips and tricks are ==optional== and are not necessary and add no utility.
 :::
 
 ### adw-gtk3 (making older GTK3 apps look more modern and consistent with newer GTK4 apps)
+
+<!-- ::::::collapse
+
+-
+
+:::::: -->
 
 ### Ocean Sound Theme
 
