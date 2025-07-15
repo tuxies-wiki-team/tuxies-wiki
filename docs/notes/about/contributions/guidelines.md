@@ -61,11 +61,11 @@ We'd appreciate it if you use the Prettier extension in VS Code or an equivalent
 
 We'll follow the following hierarchy for icons:
 
-### Core website component
+### Core website components
 
 `mdi` >> `ic`
 
-### Card
+### Cards & Tabs
 
 `fluent-emoji` >> `fluent-emojis` >> `devicon` >> `logos`
 
