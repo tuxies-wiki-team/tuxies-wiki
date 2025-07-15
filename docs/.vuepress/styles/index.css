@@ -1,0 +1,4 @@
+mark {
+  --vp-mark-bg: rgba(53, 132, 228, 0.18); /* your custom color */
+  --vp-mark-linear-color: rgba(53, 132, 228, 0.6);
+}
