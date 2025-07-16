@@ -24,7 +24,7 @@ joseporcar
 ::::
 
 <!-- end of card grid -->
-:::tip Why use **SSH**
+:::tip Why use ==SSH==
 SSH is very useful if you wish to access your home computer when you are not at home. This can let you see the status of any program or run a new one. Doing so carefully is very important as in order to access it from beyond your home network special security measures must be enacted. 
 :::
 :::info Prerequisites
@@ -33,8 +33,10 @@ SSH is very useful if you wish to access your home computer when you are not at 
 :::
 ::::steps
 - **Setting up a static IP address for your home machine**
+
   This is rather simple thanks to the Advanced Network Manager that came with the distro. All you need is to open it (you can look it up in the search bar), click on your connection and go to to ipv4 section where you just have to set the toggle to manual and put your current ip and the router's ip for the gateway (you can get them from `ip r`. First line, the leftmost one is your routers and rightmost is your own). For gateway just type 255.255.255.0
 - **First time**
+
   On the client machine connected to the same network as the home computer you should run.
   ```bash
   ssh [server_username]@[server_ip]
@@ -44,6 +46,7 @@ SSH is very useful if you wish to access your home computer when you are not at 
   You can get your username from running whoami on the home server, and the ip is the one you set up for static ip
   :::
 - **Changing to more secure settings**
+
   Now, we are going to configure your home machine for more convenience and security. To do this run the following
   ```bash
   ssh-keygen -f ~/.ssh/[name_for_keys]; # Creates the client keys
@@ -58,6 +61,8 @@ SSH is very useful if you wish to access your home computer when you are not at 
   ```bash
   systemctl restart sshd
   ```
+- ==Setting up external security programs==
+- **Accessing from beyond local**
 
 
 ::::
