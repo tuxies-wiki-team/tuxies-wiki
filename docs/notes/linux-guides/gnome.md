@@ -807,6 +807,27 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
 ## **Ricing**
 
+:::tasks TODO List:
+
+**Extensions:**
+
+- [ ] Blur My Shell
+- [ ] User Theme
+
+**Legacy themes:**
+
+- [ ] adw-gtk3
+
+**Others:**
+
+- [ ] Sound
+- [ ] Cursor
+- [ ] Icons
+- [ ] Font
+- [ ] GTK4 theme
+
+:::
+
 Ricing is the process of ==customizing aesthetics== (in this case, your desktop) to fit your tastes
 
 All ricing tips and tricks are ==optional== and are not necessary and add no utility.
