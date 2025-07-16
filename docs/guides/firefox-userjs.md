@@ -54,7 +54,7 @@ user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 
 ## **How to append changes**
 
-### Method 1: `user.js` config file
+### **Method 1: `user.js` config file**
 
 ::::steps
 
@@ -68,7 +68,7 @@ user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 
 ::::
 
-### Method 2: "about:config"
+### **Method 2: "about:config"**
 
 ::::steps
 
@@ -90,9 +90,9 @@ Many Firefox users (us included), feel that the Firefox default scrolling is qui
 However you want your scrolling, hopefully you can customize the options we'll provide you to suit your needs.
 :::
 
-## Mousewheel scrolling
+## **Mousewheel scrolling**
 
-### Mousewheel speed
+### **Mousewheel speed**
 
 The mousewheel scrolling is too slow for our suiting, we can adjust this with the mousewheel delta multiplier.
 
@@ -104,7 +104,7 @@ user_pref("mousewheel.default.delta_multiplier_z", 200); // 100
 
 The default values of different flavors of Firefox may differ, but on default Firefox it is 100, and it tends to be quite slow. 200 fits our needs.
 
-### Autoscroll
+### **Autoscroll**
 
 You may want to enable middle mouse button scrolling a.k.a. autoscroll (it is disabled on Linux by default).
 
@@ -132,7 +132,7 @@ user_pref("apz.overscroll.enabled", true); // true, for linux
 
 ## **Other settings**
 
-### Hover to see preview of tab
+### **Hover to see preview of tab**
 
 ```js
 user_pref("browser.tabs.hoverPreview.enabled", true); // false
