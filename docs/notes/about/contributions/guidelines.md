@@ -9,9 +9,9 @@ permalink: /contributions/guidelines/
 :::info This is a guideline for editing, styling, and formatting when editing Tuxie's Wiki. Please read and comply with these guidelines as it could jeopardize your opportunity in being a contributor.
 :::
 
-## **Formatting choices**
+## **Formatting**
 
-### File naming convention
+### **File naming convention**
 
 We'll be using kebab-case to name files within the working directory.
 
@@ -24,7 +24,7 @@ We'll be using kebab-case to name files within the working directory.
 
 :::
 
-### Titles, file names, & permalinks
+### **Titles, file names, & permalinks**
 
 Titles of articles should use title case.
 
@@ -48,7 +48,7 @@ Terminal Customization (Bash) @ `/docs/guides/terminal-customization-bash.md`
 --> **/guides/terminal-customization-bash/**
 :::
 
-### Code formatting
+### **Code formatting**
 
 We're not strict with our code formatting as long as the output of your code is clean (i.e. the generated content is pretty).
 
@@ -57,40 +57,56 @@ We'd appreciate it if you use the Prettier extension in VS Code or an equivalent
 :::important Use relative links over permalinks when refering to internal pages to make the development smoother, when possible.
 :::
 
-## **Icons**
+### **Icons**
 
 We'll follow the following hierarchy for icons:
 
-### Core website components
+#### Core website components
 
-`mdi` >> `ic`
+`mdi` >> `ic` >> others
 
-### Cards & Tabs
+We prefer to keep navigational and core coponents clean, without colors.
 
-`fluent-emoji` >> `fluent-emojis` >> `devicon` >> `logos`
+#### Cards
 
-### Formatting
+`fluent-emoji` >> `fluent-emojis` >> `devicon` >> `logos` >> others
 
-Adding an icon anywhere
-`::emoji:name =size /color::`
+Cards would preferably be catchy and fun.
+
+#### Tabs
+
+`devicon` >> `logos` >> `mdi` >> `ic` >> others
+
+Similar to core components, they should be clean and informative; some color would be nice, though.
+
+::::::details How to add an icon...
+
+Format: `::emoji:name =size /color::`
 
 `size` refers to the px size
 
-`/color` refers to the rgb value
+`/color` refers to the hex value
 
 ::::details See code...
 
 ```md
-::mdi:linux =50 /rgb(64, 105, 134)::
+::mdi:linux =50 /#000000::
+
+::mdi:fedora =32 /#3f7ac3::
+
+::fluent-emoji:party-popper::
 ```
 
 ::::
 
 ::::demo-wrapper
+::mdi:linux =50 /#000000::
 
-::mdi:linux =50 /rgb(64, 105, 134)::
+::mdi:fedora =32 /#3f7ac3::
 
+::fluent-emoji:party-popper::
 ::::
+::::::
 
 ## **Document components**
 
@@ -413,22 +429,28 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
 ### Headings
 
-Heading 1 (#) does not appear in the table of contents, only use it in rare cases where Heading 2 (##) does not fit usecase.
+- Heading 1 (#) does not appear in the table of contents, only use it in rare cases where Heading 2 (##) does not fit usecase.
 
-Keep the keywords of your Heading 2s bold. If the heading is relatively short, make the entire heading bold for better distinction from Heading 3 (###).
+- Keep the keywords of Heading 2 (##) and 3 (###) bold. If the heading is relatively short, make the entire heading bold for better distinction from regular text and Heading 4 (####)
 
-We prefer not using titlecase in headings.
+- Heading 4 (####) does not appear on the table of contents, use it for minor titles/sections within larger topics
+
+- We prefer not using titlecase in headings.
 
 :::details See example...
 
 ```md
-## **Heading 2 looks like this**
+## **Heading 2**
 
-### Heading 3.1 would look like this
+### **Heading 3.1 would look like this**
 
-### Heading 3.2 would look like this
+### **Heading 3.2 would look like this**
 
 ## **Ricing Gnome** in 2025 with my friends
+
+### **Heading 3.1 would look like this** if it was super duper long and has a lot of text
+
+### **Heading 3.2 would look like this** if it was super duper long and has a lot of text
 ```
 
 :::
@@ -436,6 +458,20 @@ We prefer not using titlecase in headings.
 :::demo-wrapper img
 
 ![Headings](./assets/headings.png)
+:::
+
+### Highlighting
+
+Use highlighting (==) to emphasize text, especially in paragraphs.
+
+Do not use highlighting in titles such as haedings, step module titles, or collapse module titles.
+
+:::details See code...
+Linux is known for being ==flexible, secure, and stable==. It is ==open-source==, meaning its source code is freely available for anyone to view, modify, and distribute. This fosters a ==collaborative global community== that continuously improves the system.
+:::
+
+:::demo-wrapper
+Linux is known for being ==flexible, secure, and stable==. It is ==open-source==, meaning its source code is freely available for anyone to view, modify, and distribute. This fosters a ==collaborative global community== that continuously improves the system.
 :::
 
 ### Steps
