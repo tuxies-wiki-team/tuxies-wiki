@@ -103,7 +103,7 @@ PS1='------------------\n\[$(tput setaf 21)\][\[$(tput setaf 27)\]\u \[$(tput se
 
 :::::
 
-### Autorun `fastfetch` when you open the terminal
+### **Autorun `fastfetch`** when you open the terminal
 
 You can make your bash terminal autorun `fastfetch` to display system information every time it starts by appending the following at the bottom of your file.
 
@@ -223,7 +223,7 @@ alias lsta3='eza -Ta --level 3'
 
 :::::
 
-### Using `fzf` (Fuzzy Find)
+### **Using `fzf`** (Fuzzy Find)
 
 :::tip What is `fzf`?
 
@@ -279,7 +279,7 @@ alias lsta3='eza -Ta --level 3'
 
 ::::
 
-### Using `zoxide`
+### **Using `zoxide`**
 
 :::tip What is `zoxide`?
 `zoxide` is a terminal program that is like `cd` on steroids. It provides `cd`'s functionality with the addition of being able to jump to directories with short, fuzzy-matched commands.
@@ -331,7 +331,7 @@ alias lsta3='eza -Ta --level 3'
 
 ::::
 
-### Using `eza`
+### **Using `eza`**
 
 :::tip What is `eza`?
 `eza` is a modern alternative to the classic `ls`, it provides color-coding, tree-styled outputs, git integration, and more.
