@@ -1,3 +1,4 @@
+/* A fading highlighter style, default color yellow.  */
 mark {
   --vp-mark-text: currentcolor;
   --vp-mark-bg: transparent;
@@ -10,59 +11,10 @@ mark {
   );
 }
 
-mark.note {
-  --vp-mark-linear-color: #ff0;
-}
-
-mark.info {
-  --vp-mark-linear-color: var(--vp-c-default-1);
-}
-
-mark.tip {
-  --vp-mark-linear-color: #39ff14;
-}
-
-mark.warning {
-  --vp-mark-linear-color: #fc0;
-}
-
-mark.caution,
-mark.danger {
-  --vp-mark-linear-color: #f99;
-}
-
-mark.important {
-  --vp-mark-linear-color: #ccf;
-}
-
-[data-theme="dark"] mark.note {
-  --vp-mark-linear-color: #660;
-}
-
-[data-theme="dark"] mark.tip {
-  --vp-mark-linear-color: #063;
-}
-
-[data-theme="dark"] mark.warning {
-  --vp-mark-linear-color: #c60;
-}
-
-[data-theme="dark"] mark.caution,
-[data-theme="dark"] mark.danger {
-  --vp-mark-linear-color: #c66;
-}
-
-[data-theme="dark"] mark.important {
-  --vp-mark-linear-color: #66c;
-}
-
+/* Fixes weird visual bug in collapse module's title */
 .vp-collapse-title code {
   background: none !important;
   font-size: 1em !important;
   padding: 0 !important;
   padding-left: 0.3em !important;
-}
-
-.vp-steps .vp-step-title {
-  font-weight: bold !important;
 }
