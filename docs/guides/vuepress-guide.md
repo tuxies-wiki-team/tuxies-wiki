@@ -429,7 +429,7 @@ There are many choices for web deployment, Github Pages will be used in this gui
 
 ::::::
 
-### Automated Workflow Deployment
+### **Automated Workflow Deployment**
 
 :::important Create `.github/workflow/deploy.yml`
 :::
