@@ -21,15 +21,17 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 :::
 
 # Debian
+
 :::tip Slow and steady wins the race
-**Debian** is known for its great stability and resillience. In order to accomplish this, it does run older versions of many packages and has slower update times which could make it incompatible with the most bleeding edge of users. However, if you want to run a server at home (my use case), or just want a very reliable system, ==Debian== is the way to go. 
+**Debian** is known for its great stability and resillience. In order to accomplish this, it does run older versions of many packages and has slower update times which could make it incompatible with the most bleeding edge of users. However, if you want to run a server at home (my use case), or just want a very reliable system, ==Debian== is the way to go.
 :::
 
 ## **Installation**
+
 ::::steps
 
 - **Download the ISO**
-  You can get the ISO from [the debian website](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/). Just scroll to the bottom and click on the file ending in *.iso*. In case you have an arm processor follow from this section of [the debian website](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/)
+  You can get the ISO from [the debian website](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/). Just scroll to the bottom and click on the file ending in _.iso_. In case you have an arm processor follow from this section of [the debian website](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/)
 - **Flash it!**
   With the downloaded ISO follow our [flashing guide](../../guides/flashing-guide)
 - **Boot it up**
@@ -38,22 +40,24 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
   - Set your usb drive as the first in the boot menu and disable secure boot (if you don't know how then play around a bit until you find!)
   - Exit bios and save the changes
   - Select the graphic installer and follow the on screen instructions
-::::
+    ::::
 
 ## **Setting up your home server**
 
 ### SSH
+
 The first thing you want set up is ==SSH== in order to access your server from any other device or even from beyond your home.
 To do so, you must follow our [SSH guide](../../guides/ssh-guide)
 
 ### Rest: TODO
+
 :::important TODO
 :::
 
-# Spiral Linux
+## Spiral Linux
 
 :::tip Spiral?
-==Spiral linux== is to Debian what EndeavorOS is to Arch. This means it provides a basic preconfigured setup to get you started while also offering some nice bonuses such as BTRFS subvolume layout that allows for automatic Snapper snapshots, optimal font rendering, preinstalled tlp power configuration, and others. I believe this is the way to go for a 
+==Spiral linux== is to Debian what EndeavorOS is to Arch. This means it provides a basic preconfigured setup to get you started while also offering some nice bonuses such as BTRFS subvolume layout that allows for automatic Snapper snapshots, optimal font rendering, preinstalled tlp power configuration, and others. I believe this is the way to go for a
 :::
 
 ## **Installation**
