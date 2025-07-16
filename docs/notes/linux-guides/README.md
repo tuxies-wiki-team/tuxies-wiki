@@ -27,13 +27,23 @@ Includes a complete installation guide, ROG Linux setup, Nvidia drivers, and up-
 
 :::
 
-:::card title="Debian/Ubuntu" icon="devicon:debian"
+:::card title="Debian" icon="devicon:debian"
 
-[Classic!](./debian-ubuntu.md)
+[Classic!](./debian.md)
 
-Currently lacks an official maintainer.
+Complete guide including server setup! Maintained by **joseporcar**.
 
 :::
+
+:::card title="Spiral Linux" icon="devicon:debian"
+
+[Pre-built!](./spiral-linux.md)
+
+Ever wondered how it would feel to use a less bare-bones Debian? Here is Spiral Linux!. Maintained by **joseporcar**.
+
+:::
+
+
 
 ::::
 
