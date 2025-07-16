@@ -61,8 +61,16 @@ SSH is very useful if you wish to access your home computer when you are not at 
   ```bash
   systemctl restart sshd
   ```
-- ==Setting up external security programs==
+- **Setting up external security programs**
+
+    Next up, you want to set up fail2ban to block anyone who tries to spam your ssh connection
+    ```bash
+    apt install fail2ban;
+    echo "sshd_backend = systemd" >> /etc/fail2ban/paths-debian.conf;
+    systemctl restart fail2ban
+    ```
 - **Accessing from beyond local**
 
+    Finally, access your router settings and open up port 22 (or change the port in ssh settings at /etc/ssh/sshd_config). How to do this will depend greatly on your router brand, google specifics. 
 
 ::::
