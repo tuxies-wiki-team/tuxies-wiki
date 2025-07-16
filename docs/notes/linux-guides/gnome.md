@@ -811,9 +811,9 @@ Ricing is the process of ==customizing aesthetics== (in this case, your desktop)
 
 All ricing tips and tricks are ==optional== and are not necessary and add no utility.
 
-### adw-gtk3
+### Using `adw-gtk3`
 
-:::info A "legacy application" theme that ==makes older GTK3 apps look more modern== and consistent with newer GTK4 apps.
+:::info `adw-gtk3` is a theme that ==makes older GTK3 apps look more modern== and consistent with their newer GTK4 counterparts.
 :::
 
 :::::steps
@@ -838,11 +838,11 @@ All ricing tips and tricks are ==optional== and are not necessary and add no uti
 
   ```bash
   curl -s https://julianfairfax.codeberg.page/package-repo/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/julians-package-repo.gpg
-
   echo 'deb [ signed-by=/usr/share/keyrings/julians-package-repo.gpg ] https://julianfairfax.codeberg.page/package-repo/debs packages main' | sudo tee /etc/apt/sources.list.d/julians-package-repo.list
-
   sudo apt install adw-gtk3
   ```
+
+  @tab
 
   :::
 
@@ -882,6 +882,7 @@ All ricing tips and tricks are ==optional== and are not necessary and add no uti
   @tab Append changes (cli)
 
   ```bash
+  # Below are commands taken from the official adw-gtk3 GitHub Page
   sudo flatpak override --filesystem=xdg-data/themes # Allow Flatpak apps to access system theme folder
   sudo flatpak mask org.gtk.Gtk3theme.adw-gtk3 # Prevent Flatpak from updating/replacing the adw-gtk3 theme
   sudo flatpak mask org.gtk.Gtk3theme.adw-gtk3-dark # Prevent Flatpak from updating/replacing the adw-gtk3-dark theme
