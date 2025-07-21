@@ -1,7 +1,7 @@
 ---
-title: Better Text Rendering
+title: Better Text Rendering (Gnome Hi-DPI)
 createTime: 2025/07/18 20:31:18
-permalink: /guides/better-text-rendering/
+permalink: /guides/better-text-rendering-gnome-hi-dpi/
 draft: true
 ---
 
