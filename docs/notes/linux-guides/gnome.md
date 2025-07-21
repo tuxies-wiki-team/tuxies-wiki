@@ -136,30 +136,26 @@ Check out [Linux Guides](../linux-guides/README.md) to learn more about distros.
   ::::
   :::::
 
-## **Highly recommended tweaks**
+## **Basics**
 
-:::tip All settings in `Gnome Tweaks` can be made through `Dconf Editor` (which you have downloaded), `dconf`, and `gsettings`.
+:::tip All settings in `Gnome Tweaks` can be made through `Dconf Editor` (which you have downloaded), `dconf` (cli), or `gsettings` (cli).
 :::
 
 ::::details Quick append
 
 :::tabs
 
-@tab Append changes
+@tab Append changes (cli)
 
 ```bash
 dconf write /org/gnome/desktop/wm/preferences/button-layout "':minimize,maximize,close'"
-dconf write /org/gnome/desktop/interface/font-antialiasing "'grayscale'"
-dconf write /org/gnome/desktop/interface/font-hinting "'slight'"
 dconf write /org/gnome/desktop/sound/allow-volume-above-100-percent "true"
 ```
 
-@tab Reset changes
+@tab Reset changes (cli)
 
 ```bash
 dconf reset /org/gnome/desktop/wm/preferences/button-layout
-dconf reset /org/gnome/desktop/interface/font-antialiasing
-dconf reset /org/gnome/desktop/interface/font-hinting
 dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 ```
 
@@ -197,40 +193,6 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ![Gnome Tweaks Title Bar Settings](./assets/gnome-tweaks-title-bar-settings.png)
 
-  ::::
-
-- Better text rendering
-
-  ::::card
-
-  :::info Sets font hinting to "slight" and antialiasing to "standard".
-  :::
-
-  :::tabs
-
-  @tab Append changes (cli)
-
-  ```bash
-  dconf write /org/gnome/desktop/interface/font-antialiasing "'grayscale'"
-  dconf write /org/gnome/desktop/interface/font-hinting "'slight'"
-  ```
-
-  @tab Append changes (Gnome Tweaks)
-
-  `Fonts` > `Rendering` > `Hinting` --> **slight**
-
-  `Fonts` > `Rendering` > `Antialiasing` --> **Standard Grayscale**
-
-  @tab Reset changes (cli)
-
-  ```bash
-  dconf reset /org/gnome/desktop/interface/font-antialiasing
-  dconf reset /org/gnome/desktop/interface/font-hinting
-  ```
-
-  :::
-
-  ![Gnome Tweaks Font Redering Settings](./assets/gnome-tweaks-font-rendering-settings.png)
   ::::
 
 - Volume overamplification
@@ -357,7 +319,7 @@ Use the following to append all keyboard shortcuts covered in this section. Keep
 
 ::::tabs
 
-@tab Append changes
+@tab Append changes (cli)
 
 ```bash
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left']"
@@ -381,7 +343,7 @@ dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
 dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
 ```
 
-@tab Reset changes
+@tab Reset changes (cli)
 
 ```bash
 dconf reset /org/gnome/desktop/wm/keybindings/switch-to-workspace-left
@@ -480,7 +442,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   --> **\['\<Super\>bracketright'\]**
 
-  @tab Reset changes
+  @tab Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-left
@@ -807,7 +769,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
 ## **Ricing**
 
-:::tasks TODO List:
+:::warning TODO List:
 
 **Extensions:**
 

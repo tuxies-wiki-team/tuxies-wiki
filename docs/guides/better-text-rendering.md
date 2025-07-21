@@ -1,0 +1,48 @@
+---
+title: Better Text Rendering
+createTime: 2025/07/18 20:31:18
+permalink: /guides/better-text-rendering/
+draft: true
+---
+
+```bash
+dconf write /org/gnome/desktop/interface/font-antialiasing "'grayscale'"
+dconf write /org/gnome/desktop/interface/font-hinting "'slight'"
+```
+
+```bash
+dconf reset /org/gnome/desktop/interface/font-antialiasing
+dconf reset /org/gnome/desktop/interface/font-hinting
+```
+
+::::card
+
+:::info Sets font hinting to "slight" and antialiasing to "standard".
+:::
+
+:::tabs
+
+@tab Append changes (cli)
+
+```bash
+dconf write /org/gnome/desktop/interface/font-antialiasing "'grayscale'"
+dconf write /org/gnome/desktop/interface/font-hinting "'slight'"
+```
+
+@tab Append changes (Gnome Tweaks)
+
+`Fonts` > `Rendering` > `Hinting` **slight** -->
+
+`Fonts` > `Rendering` > `Antialiasing` **Standard Grayscale** -->
+
+@tab Reset changes (cli)
+
+```bash
+dconf reset /org/gnome/desktop/interface/font-antialiasing
+dconf reset /org/gnome/desktop/interface/font-hinting
+```
+
+:::
+
+![Gnome Tweaks Font Redering Settings](./assets/gnome-tweaks-font-rendering-settings.png)
+::::
