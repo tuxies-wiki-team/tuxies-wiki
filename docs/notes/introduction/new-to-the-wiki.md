@@ -14,7 +14,7 @@ Please read over this article to get you started!
 
 The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wiki page focused primarily on Linux knowledge, which includes Apps Library, Linux Guides, and software related guides.
 
-:::warning Tuxie's Wiki currently consists of 2 maintainers, thus there might be a slight delay to bug reports and other mainteinances.
+:::warning Tuxie's Wiki currently consists of 3 maintainers, thus there might be a slight delay to bug reports and other mainteinances.
 :::
 
 :::danger This wiki is NOT endoursed by the Linux Foundation and is not a source of official documentation for any Linux distros and softwares.
@@ -47,6 +47,9 @@ The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wi
 ::::
 
 ## **Navigate the wiki**
+
+:::info Use the ribbon located at the top of the page to navigate through different categories of the wiki!
+:::
 
 ::::card-grid
 
