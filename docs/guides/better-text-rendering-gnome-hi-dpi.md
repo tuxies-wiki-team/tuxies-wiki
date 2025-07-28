@@ -22,20 +22,20 @@ dconf reset /org/gnome/desktop/interface/font-hinting
 
 :::tabs
 
-@tab Append changes (cli)
+@tab ::mdi:terminal:: Append changes (cli)
 
 ```bash
 dconf write /org/gnome/desktop/interface/font-antialiasing "'grayscale'"
 dconf write /org/gnome/desktop/interface/font-hinting "'slight'"
 ```
 
-@tab Append changes (Gnome Tweaks)
+@tab ::mdi:puzzle:: Append changes (Gnome Tweaks)
 
 `Fonts` > `Rendering` > `Hinting` **slight** -->
 
 `Fonts` > `Rendering` > `Antialiasing` **Standard Grayscale** -->
 
-@tab Reset changes (cli)
+@tab ::mdi:reload:: Reset changes (cli)
 
 ```bash
 dconf reset /org/gnome/desktop/interface/font-antialiasing

@@ -126,7 +126,7 @@ export const enNavbar = defineNavbarConfig([
       },
       {
         text: "Our Team",
-        icon: "mdi:people-group-outline",
+        icon: "mdi:people-group",
         link: "/about/our-team/",
       },
       {
@@ -134,7 +134,7 @@ export const enNavbar = defineNavbarConfig([
         items: [
           {
             text: "Become a Contributor",
-            icon: "mdi:pencil-plus-outline",
+            icon: "mdi:pencil-plus",
             link: "/contributions/",
           },
           {
