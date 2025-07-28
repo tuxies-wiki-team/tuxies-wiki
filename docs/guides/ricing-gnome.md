@@ -5,6 +5,8 @@ permalink: /guides/ricing-gnome/
 draft: true
 ---
 
+:::warning This article is currently under construction!
+:::
 
 :::warning TODO List:
 
@@ -85,17 +87,17 @@ All ricing tips and tricks are ==optional== and are not necessary and add no uti
 - **Usage**
 
   :::tabs
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/desktop/interface/gtk-theme "'adw-gtk3'"
   ```
 
-  @tab Append changes (Gnome Tweaks)
+  @tab ::mdi:puzzle:: Append changes (Gnome Tweaks)
 
   `Appearance` > `Legacy Applications` --> **Adw-gtk3**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   dconf reset /org/gnome/desktop/interface/gtk-theme
   :::
@@ -103,7 +105,7 @@ All ricing tips and tricks are ==optional== and are not necessary and add no uti
   Additionally, you'd have to apply this theme for Flatpak apps, too.
   :::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   # Below are commands taken from the official adw-gtk3 GitHub Page
