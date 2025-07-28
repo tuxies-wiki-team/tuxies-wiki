@@ -597,10 +597,10 @@ pacman -S archlinux-keyring
 ## **Noob corner (commonly asked questions)**
 
 <!-- template:
-::: card title="How to install .tar.zst files through terminal?" icon="mdi:help-circle-outline"
+::: card title="How to install .tar.zst files through terminal?" icon="mdi:help-circle"
 ::: -->
 
-::: card title="How to install .tar.zst files through terminal?" icon="mdi:help-circle-outline"
+::: card title="How to install .tar.zst files through terminal?" icon="mdi:help-circle"
 
 ```bash
 sudo pacman -U <directory-of-extracted-package.pkg.tar.zst>
@@ -622,7 +622,7 @@ sudo pacman -Rsn package_name
 
 :::
 
-::: card title="How to revert pacman system update?" icon="mdi:help-circle-outline"
+::: card title="How to revert pacman system update?" icon="mdi:help-circle"
 
 Check for cached packages (old packages)
 
@@ -651,7 +651,7 @@ sudo pacman -U $(ls -t /var/cache/pacman/pkg/*.pkg.tar.zst | head -n 10)
 
 :::
 
-::: card title="How to improve download speed?" icon="mdi:help-circle-outline"
+::: card title="How to improve download speed?" icon="mdi:help-circle"
 
 Install [`reflector`](https://wiki.archlinux.org/title/Reflector) package
 
