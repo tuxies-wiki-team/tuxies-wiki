@@ -148,14 +148,14 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 
 :::tabs
 
-@tab Append changes (cli)
+@tab ::mdi:terminal:: Append changes (cli)
 
 ```bash
 dconf write /org/gnome/desktop/wm/preferences/button-layout "':minimize,maximize,close'"
 dconf write /org/gnome/desktop/sound/allow-volume-above-100-percent "true"
 ```
 
-@tab Reset changes (cli)
+@tab ::mdi:reload:: Reset changes (cli)
 
 ```bash
 dconf reset /org/gnome/desktop/wm/preferences/button-layout
@@ -174,19 +174,19 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   :::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/desktop/wm/preferences/button-layout "':minimize,maximize,close'"
   ```
 
-  @tab Append changes (Gnome Tweaks)
+  @tab ::mdi:puzzle:: Append changes (Gnome Tweaks)
 
   `Windows` > `Maximize` --> **on**
 
   `Windows` > `Minimize` --> **on**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/desktop/wm/preferences/button-layout
@@ -207,19 +207,19 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   :::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/desktop/sound/allow-volume-above-100-percent "true"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   `/org/gnome/desktop/sound/allow-volume-above-100-percent`
 
   --> **true**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
@@ -247,6 +247,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::card
 
+  :::tip We suggest you use either Dash to Dock ==OR== Dash to Panel, ==NOT BOTH==.
+  :::
+
   :::info "A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available."
   :::
 
@@ -257,6 +260,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 - [`Dash to Panel`](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 
   ::::card
+
+  :::tip We suggest you use either Dash to Dock ==OR== Dash to Panel, ==NOT BOTH==.
+  :::
 
   :::info "An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications."
   :::
@@ -302,7 +308,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::card
 
-  :::info "Fuzzy application search results for Gnome Search."
+  :::info Allows you to find results even without typing the exact terms.
   :::
 
   ![GNOME Fuzzy App Search](./assets/gnome-fuzzy-app-search.png)
@@ -322,7 +328,7 @@ Use the following to append all keyboard shortcuts covered in this section. Keep
 
 ::::tabs
 
-@tab Append changes (cli)
+@tab ::mdi:terminal:: Append changes (cli)
 
 ```bash
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left']"
@@ -346,7 +352,7 @@ dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
 dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
 ```
 
-@tab Reset changes (cli)
+@tab ::mdi:reload:: Reset changes (cli)
 
 ```bash
 dconf reset /org/gnome/desktop/wm/keybindings/switch-to-workspace-left
@@ -390,14 +396,14 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
   `Ctrl` + `Super` + `Arrow`
   :::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left']"
   dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right']"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   `/org/gnome/desktop/wm/keybindings/switch-to-workspace-left`
 
@@ -407,7 +413,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   --> **\['\<Control\>\<Super\>Right'\]**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/desktop/wm/keybindings/switch-to-workspace-left
@@ -428,14 +434,14 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   ::::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-left "['<Super>bracketleft']"
   dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-right "['<Super>bracketright']"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   `/org/gnome/desktop/wm/keybindings/move-to-workspace-left`
 
@@ -445,7 +451,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   --> **\['\<Super\>bracketright'\]**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-left
@@ -466,14 +472,14 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/desktop/wm/keybindings/switch-windows "['<Alt>Tab']"
   dconf write /org/gnome/desktop/wm/keybindings/switch-applications "['<Super>Tab']"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   `/org/gnome/desktop/wm/keybindings/switch-windows`
 
@@ -483,7 +489,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   --> **\['\<Super\>Tab'\]**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/desktop/wm/keybindings/switch-windows
@@ -506,19 +512,19 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   ::::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/settings-daemon/plugins/media-keys/control-center "['<Super>I', '<Super>semicolon']"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   `/org/gnome/settings-daemon/plugins/media-keys/control-center`
 
   --> **\['\<Super\>I', '\<Super\>semicolon'\]**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/settings-daemon/plugins/media-keys/control-center
@@ -540,19 +546,19 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   ::::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/settings-daemon/plugins/media-keys/home "['<Super>E']"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   `/org/gnome/settings-daemon/plugins/media-keys/home`
 
   --> **\['\<Super\>E'\]**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/settings-daemon/plugins/media-keys/home
@@ -570,19 +576,19 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/desktop/wm/keybindings/panel-run-dialog "['<Super>R']"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   `/org/gnome/desktop/wm/keybindings/panel-run-dialog`
 
   --> **\['\<Super\>R'\]**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
@@ -632,7 +638,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/','/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/']"
@@ -641,7 +647,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
   dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/name "'Launch Ptyxis'"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings`
 
@@ -659,7 +665,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   --> **\'Launch Ptyxis\'**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis
@@ -693,7 +699,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   ::::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/','/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/']"
@@ -702,7 +708,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
   dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/name "'Launch Mission Center'"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings`
 
@@ -720,7 +726,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   --> **'Launch Mission Center'**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center
@@ -736,18 +742,20 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   `Super` + `V`
 
-  Install in the [Gnome Extension](https://extensions.gnome.org/extension/779/clipboard-indicator/) page.
+  :::tip Clipboard Indicator extension is required for this shortcut to work.
+  Install in the [Gnome Extension](https://extensions.gnome.org/extension/779/clipboard-indicator/) page or through the `Extension Manager`.
+  :::
 
   :::tabs
 
-  @tab Append changes (cli)
+  @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
   dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
   dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
   ```
 
-  @tab Append changes (Dconf Editor)
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
 
   /org/gnome/shell/keybindings/toggle-message-tray
 
@@ -757,7 +765,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   --> **\['\<Super\>V'\]**
 
-  @tab Reset changes (cli)
+  @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/shell/keybindings/toggle-message-tray
