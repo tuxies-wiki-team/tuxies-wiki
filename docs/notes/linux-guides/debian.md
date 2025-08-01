@@ -22,6 +22,8 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 
 :::tip Slow and steady wins the race
 **Debian** is known for its great stability and resillience. In order to accomplish this, it does run older versions of many packages and has slower update times which could make it incompatible with the most bleeding edge of users. However, if you want to run a server at home (my use case), or just want a very reliable system, ==Debian== is the way to go.
+
+This guide will teach you how to start your own Debian home server machine from installation to sensation!
 :::
 
 ## **Installation**
@@ -42,13 +44,13 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 
 ## **Setting up your home server**
 
+### TailScale
+=TailScale= is a tool that will allow you to access your home server from any device that also has tailscale installed. We will use this to acces the machine. To set it up just follow the instructions from [the Tailscale website](https://tailscale.com/). This process should just take a few minutes. It is _that_ easy.
+
 ### SSH
 
-The first thing you want set up is ==SSH== in order to access your server from any other device or even from beyond your home.
+The next thing you want set up is ==SSH== in order to modify your server from any other device or even from beyond your home.
 To do so, you must follow our [SSH guide](../../guides/ssh-guide)
 
-### Rest: TODO
 
-:::important TODO
-:::
 

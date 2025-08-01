@@ -25,21 +25,26 @@ joseporcar
 SSH is very useful if you wish to access your home computer when you are not at home. This can let you see the status of any program or run a new one. Doing so carefully is very important as in order to access it from beyond your home network special security measures must be enacted.
 :::
 :::info Prerequisites
-This guide assumes you have OpenSSH installed and Gnome
+This guide assumes you have OpenSSH installed, and Gnome
 (or at least the Advanced Network Manager that comes with it on Debian)
 :::
+
+:::details Want a quick and dirty approach?
+  Just by installing  OpenSSH on both machines, you should be able to access ssh from your tailscale machine via port 22 via:
+  ```bash
+  ssh [server-username]@[server_ip] -p 22;
+  ```
+  This should be safe enough if you use a service like [Tailscale](https://tailscale.com/), but the rest of the guide will add some security settings that will help secure the machine for other usages.
+:::
+
 ::::steps
-
-- **Setting up a static IP address for your home machine**
-
-  This is rather simple thanks to the Advanced Network Manager that came with the distro. All you need is to open it (you can look it up in the search bar), click on your connection and go to to ipv4 section where you just have to set the toggle to manual and put your current ip and the router's ip for the gateway (you can get them from `ip r`. First line, the leftmost one is your routers and rightmost is your own). For gateway just type 255.255.255.0
 
 - **First time**
 
   On the client machine connected to the same network as the home computer you should run.
 
   ```bash
-  ssh [server_username]@[server_ip]
+  ssh [server_username]@[server_ip] -p 22
   ```
 
   You will be prompted for a password, enter the one in of your home machine
@@ -71,7 +76,7 @@ This guide assumes you have OpenSSH installed and Gnome
 
 - **Setting up external security programs**
 
-  Next up, you want to set up fail2ban to block anyone who tries to spam your ssh connection
+  Next up, you want to set up fail2ban to block anyone who tries to spam your ssh connection. This shouldn't really be necessary with Tailscale, but who knows maybe some day you accidentally open up the port, and this should protect you. 
 
   ```bash
   apt install fail2ban;
@@ -80,7 +85,11 @@ This guide assumes you have OpenSSH installed and Gnome
   ```
 
 - **Accessing from beyond local**
-
-  Finally, access your router settings and open up port 22 (or change the port in ssh settings at /etc/ssh/sshd_config). How to do this will depend greatly on your router brand, google specifics.
+  You should be able to access the server on your external machine by running the following. The server IP is best adquired via [Tailscale](https://tailscale.com/), but you can also open up port 22 in your router settings for a less secure approach: 
+  ```bash
+  eval `ssh-agent`;
+  ssh-add ~/.ssh/[name_for_keys]; # You defined the name a while back
+  ssh [server-username]@[server_ip] -p 22;
+  ```
 
 ::::

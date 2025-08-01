@@ -55,11 +55,6 @@ export const enNavbar = defineNavbarConfig([
             icon: "mdi:debian",
             link: "linux-guides/debian/",
           },
-          {
-            text: "Spiral Linux",
-            icon: "mdi:debian",
-            link: "linux-guides/spiral-linux/",
-          },
         ],
       },
       {
