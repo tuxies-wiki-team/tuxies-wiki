@@ -3,7 +3,7 @@ title: Spiral Linux Guide
 tags: 
   - Archive
 createTime: 2025/05/29 08:29:45
-permalink: /linux-guides/spiral-linux/
+permalink: /guides/spiral-linux/
 draft: true
 ---
 
