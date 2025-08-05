@@ -13,11 +13,11 @@ draft: true
 **Extensions:**
 
 - [ ] Blur My Shell
-- [ ] User Theme
+- [ ] User Theme (shell theme)
 
 **Legacy themes:**
 
-- [ ] adw-gtk3
+- [x] adw-gtk3
 
 **Others:**
 
