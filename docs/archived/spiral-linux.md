@@ -1,10 +1,9 @@
 ---
 title: Spiral Linux Guide
-tags: 
-  - Archive
+tags:
+  - Archived
 createTime: 2025/05/29 08:29:45
-permalink: /guides/spiral-linux/
-draft: true
+permalink: /archived/spiral-linux/
 ---
 
 ::::card-grid
@@ -21,7 +20,6 @@ joseporcar
 :::warning Under construction
 We are currently looking for a contributor for this guide. Check [Become a Contributor](../about/contributions/README.md) for more details.
 :::
-
 
 :::tip Spiral?
 ==Spiral linux== is to Debian what EndeavorOS is to Arch. This means it provides a basic preconfigured setup to get you started while also offering some nice bonuses such as BTRFS subvolume layout that allows for automatic Snapper snapshots, optimal font rendering, preinstalled tlp power configuration, and others. I believe this is the way to go for a
