@@ -60,10 +60,9 @@ This guide aims to set up and run Tuxie's Wiki locally to start drafting your co
 
   @tab ::devicon:windows11:: Windows
 
-  :::info
-  picture
-  :::
+  Select `Open in terminal`
 
+  ![Windows Screenshot](../hidden/assets/windows-setup.png)
   ::::
 
   - Run
