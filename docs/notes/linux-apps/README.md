@@ -53,12 +53,12 @@ A collection of apps tailored for Gnome enthusiasts.
 
   ::::card
 
-  - [ ] Bitwarden
-  - [ ] Blender
-  - [ ] Darktable
+  - [x] Bitwarden
+  - [x] Blender
+  - [x] Darktable
   - [ ] Drawing
   - [ ] Droidcam OBS
-  - [ ] Gradia
+  - [x] Gradia
   - [ ] KDE Connect
   - [ ] GSConnect
   - [x] Inkscape

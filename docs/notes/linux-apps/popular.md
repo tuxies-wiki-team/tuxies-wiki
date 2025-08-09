@@ -185,7 +185,7 @@ flatpak install --user flathub com.visualstudio.code
 
 :::
 
-### [VS Code Non-Flatpak Download](https://code.visualstudio.com/Download)
+### **[VS Code Non-Flatpak Download](https://code.visualstudio.com/Download)**
 
 If you have to avoid limitations imposed by using a Flatpak wrapper of VS Code, check the downloads methods below.
 
@@ -202,5 +202,25 @@ sudo pacman -S code
 
 @tab ::devicon:debian:: Debian/Ubuntu
 Download .deb file from link above
+
+:::
+
+## **[Blender](https://www.blender.org/download/)**
+
+3D creation suite for modeling, animation, visual effects, and video editing
+
+:::tabs
+
+@tab Flatpak (System)
+
+```bash
+flatpak install flathub org.blender.Blender
+```
+
+@tab Flatpak (User)
+
+```bash
+flatpak install --user flathub org.blender.Blender
+```
 
 :::
