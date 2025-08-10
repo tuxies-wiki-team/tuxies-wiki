@@ -324,3 +324,92 @@ yay -S zen-browser-bin
 ```
 
 :::
+
+## **[Bitwarden](https://bitwarden.com/)**
+
+Safe, trusted password manager.
+
+:::tabs
+
+@tab Flatpak (System)
+
+```bash
+flatpak install flathub com.bitwarden.desktop
+```
+
+@tab Flatpak (User)
+
+```bash
+flatpak install --user flathub com.bitwarden.desktop
+```
+
+:::
+
+Bitwarden is also offered as a browser extension
+
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?browser=firefox)
+[Chrome](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?browser=firefox)
+[Edge](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
+[Opera](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
+[Brave](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb?browser=brave)
+
+## **[Darktable](https://www.darktable.org/)**
+
+From Darktable: "darktable is an open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them."
+
+:::tabs
+
+@tab Flatpak (System)
+
+```bash
+flatpak install flathub org.darktable.Darktable
+```
+
+@tab Flatpak (User)
+
+```bash
+flatpak install --user flathub org.darktable.Darktable
+```
+
+:::
+
+### **Non-flatpak install**
+
+:::tabs
+
+@tab ::devicon:fedora:: Fedora
+
+```bash
+sudo dnf install darktable
+```
+
+@tab ::devicon:archlinux:: Arch
+
+```bash
+sudo pacman -S darktable
+```
+
+@tab ::devicon:debian::Debian/Ubuntu
+
+```bash
+sudo apt install darktable
+```
+
+**[Gradia](https://github.com/AlexanderVanhee/Gradia)**
+Screenshot application with annotation modes including text, arrow, and censor
+
+:::tabs
+
+@tab Flatpak (System)
+
+```bash
+flatpak install flathub be.alexandervanhee.gradia
+```
+
+@tab Flatpak (User)
+
+```bash
+flatpak install --user flathub be.alexandervanhee.gradia
+```
+
+:::

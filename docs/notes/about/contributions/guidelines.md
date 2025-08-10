@@ -57,6 +57,52 @@ We'd appreciate it if you use the Prettier extension in VS Code or an equivalent
 :::important Use relative links over permalinks when refering to internal pages to make the development smoother, when possible.
 :::
 
+### **Code Structure**
+
+In some we encounter usage of nested formatting tools such as [details](#details--collapse) and [steps](#steps) within one another. In similar cases, we should always follow the rule of adding an additional ":" to the outer tool. Below is an example illustrating this point.
+
+::::::details See code..
+
+```md
+<!-- ":::::" demo-wrapper-->
+
+::::: demo-wrapper
+
+<!-- "::::" for details-->
+
+::::details
+
+<!-- ":::" for steps-->
+
+:::steps
+
+- I use arch btw
+- I'm Lunear btw
+
+:::
+
+::::
+
+:::::
+```
+
+::::::
+
+::::: demo-wrapper
+
+::::details Example output
+
+:::steps
+
+- I use arch btw
+- I'm Lunear btw
+
+  :::
+
+::::
+
+:::::
+
 ### **Icons**
 
 We'll follow the following hierarchy for icons:

@@ -1,8 +1,9 @@
 ---
 title: Ricing (Gnome)
+tags:
+  - Ricing
 createTime: 2025/07/21 20:01:26
 permalink: /guides/ricing-gnome/
-draft: true
 ---
 
 :::warning This article is currently under construction!
