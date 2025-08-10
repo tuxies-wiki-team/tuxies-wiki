@@ -59,7 +59,7 @@ We'd appreciate it if you use the Prettier extension in VS Code or an equivalent
 
 ### **Code Structure**
 
-In some we encounter usage of multiple formatting tools such as [details](#details--collapse) and [steps](#steps) within one another. In similar cases, we should always follow the rule of adding an additional ":" to the outer tool. Below is an example illustrating this point.
+In some we encounter usage of nested formatting tools such as [details](#details--collapse) and [steps](#steps) within one another. In similar cases, we should always follow the rule of adding an additional ":" to the outer tool. Below is an example illustrating this point.
 
 ::::::details See code..
 
