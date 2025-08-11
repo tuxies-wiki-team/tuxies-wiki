@@ -26,7 +26,7 @@ groups:
         link: https://github.com/joseporcar
         avatar: https://github.com/joseporcar.png
         location: Eindhoven, Valencia
-        desc: Yet to be added
+        desc: EVROPA BEST COUNTRY IN THE WORLD RHAAA
 
       - name: otheriste
         link: https://github.com/Othersideofacoin
