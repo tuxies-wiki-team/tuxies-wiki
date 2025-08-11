@@ -24,13 +24,13 @@ GUI to modify Flatpak permissions
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub com.github.tchx84.Flatseal
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub com.github.tchx84.Flatseal

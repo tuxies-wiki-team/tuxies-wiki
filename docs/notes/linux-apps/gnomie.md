@@ -27,13 +27,13 @@ GUI to edit GSettings/Dconf database (advanced Gnome system settings).
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub ca.desrt.dconf-editor
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub ca.desrt.dconf-editor
@@ -73,13 +73,13 @@ GUI to modify Gnome Extensions.
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub com.mattjakeman.ExtensionManager
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub com.mattjakeman.ExtensionManager
@@ -109,15 +109,17 @@ sudo apt install gnome-tweaks
 
 ## **[SaveDesktop](https://flathub.org/apps/io.github.vikdevelop.SaveDesktop)**
 
-Save your desktop configurations
+Save your desktop
+
 :::tabs
-@tab Flatpak (System)
+
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub io.github.vikdevelop.SaveDesktop
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install flathub io.github.vikdevelop.SaveDesktop
@@ -142,13 +144,13 @@ Document viewer for GNOME
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub org.gnome.Papers
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub org.gnome.Papers

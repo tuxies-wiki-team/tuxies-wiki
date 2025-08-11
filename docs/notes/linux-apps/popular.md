@@ -23,13 +23,13 @@ aier, Lunear
 Discord messenger. Join servers and chat with friends!
 
 :::tabs
-@tabFlatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub com.discordapp.Discord
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub com.discordapp.Discord
@@ -99,13 +99,13 @@ sudo apt-get install gparted
 ## **[OBS Studio](https://flathub.org/apps/com.obsproject.Studio)**
 
 :::tabs
-@tab Flatpak(System)
+@tab ::simple-icons:flatpak:: Flatpak(System)
 
 ```bash
 flatpak install flathub com.obsproject.Studio
 ```
 
-@tab Flatpak(User)
+@tab ::simple-icons:flatpak:: Flatpak(User)
 
 ```bash
 flatpak install --user flathub com.obsproject.Studio
@@ -171,13 +171,13 @@ You would want to install v4l2loopback if you want to use the â€œvirtual cameraâ
 ## **VS Code**
 
 :::tabs
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub com.visualstudio.code
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub com.visualstudio.code
@@ -211,13 +211,13 @@ Download .deb file from link above
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub org.blender.Blender
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub org.blender.Blender

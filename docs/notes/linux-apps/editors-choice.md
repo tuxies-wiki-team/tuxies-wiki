@@ -24,13 +24,13 @@ aier, Lunear
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub com.github.hluk.copyq
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub com.github.hluk.copyq
@@ -70,13 +70,13 @@ Open souce vector graphic editor
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub org.inkscape.Inkscape
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user org.inkscape.Inkscape
@@ -90,13 +90,13 @@ Open-source, cross-platform file sharer to nearby devices.
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub org.localsend.localsend_app
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub org.localsend.localsend_app
@@ -116,13 +116,13 @@ Useful and intuitive system resources displayer, that accurately displays inform
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub io.missioncenter.MissionCenter
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub io.missioncenter.MissionCenter
@@ -161,13 +161,13 @@ Obsidian is a powerful markdown note-taking app available across different platf
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub md.obsidian.Obsidian
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub md.obsidian.Obsidian
@@ -257,13 +257,13 @@ Discord with screen sharing and audio support, as well as Vencord inbuilt.
 **If you do want DRP, check out [Vesktop’s Github Releases](https://github.com/Vencord/Vesktop/releases) and download the package for your respective distribution.**
 
 :::tabs
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub dev.vencord.Vesktop
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub dev.vencord.Vesktop
@@ -305,13 +305,13 @@ sudo apt install waydroid -y
 **From Zen:** “Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.”
 
 :::tabs
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub app.zen_browser.zen
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub app.zen_browser.zen
@@ -331,13 +331,13 @@ Safe, trusted password manager.
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub com.bitwarden.desktop
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub com.bitwarden.desktop
@@ -359,13 +359,13 @@ From Darktable: "darktable is an open source photography workflow application an
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub org.darktable.Darktable
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub org.darktable.Darktable
@@ -395,18 +395,21 @@ sudo pacman -S darktable
 sudo apt install darktable
 ```
 
-**[Gradia](https://github.com/AlexanderVanhee/Gradia)**
+:::
+
+## **[Gradia](https://github.com/AlexanderVanhee/Gradia)**
+
 Screenshot application with annotation modes including text, arrow, and censor
 
 :::tabs
 
-@tab Flatpak (System)
+@tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
 flatpak install flathub be.alexandervanhee.gradia
 ```
 
-@tab Flatpak (User)
+@tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
 flatpak install --user flathub be.alexandervanhee.gradia
