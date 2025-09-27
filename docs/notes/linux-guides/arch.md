@@ -32,7 +32,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
 ::::collapse accordion
 
-- Part 1: Preparation
+- **Part 1: Preparation**
 
   - **Prepare an unallocated free space for Arch (Recommended 80GB+)**
 
@@ -42,12 +42,12 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
   - **Install the Arch mirror ISO from the [official website](https://archlinux.org/download/), for country, selecting any mirror from the US**
 
-  - **Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB**
+  - **Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB. For reference, refer to [Flashing Guide](../../guides/flashing-guide.md).**
 
   - **Reboot into system BIOS System and boot into the USB.**
     **Note: Turn off secure boot**
 
-- Part 2. Connect to the Internet
+- **Part 2. Connect to the Internet**
 
   Use [iwctl tool](https://wiki.archlinux.org/title/Iwd#iwctl) for internet connection.
 
@@ -80,7 +80,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
   ping archlinux.org
   ```
 
-- Part 3. Partitioning
+- **Part 3. Partitioning**
 
   :::info
   Both [cfdisk](https://www.geeksforgeeks.org/cfdisk-command-in-linux-with-examples/) and [fdisk](https://wiki.archlinux.org/title/Fdisk) are available as tools for partitioning. In this guide, **cfdisk** would be used
@@ -182,7 +182,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
     ::::
 
-- Part 4. Installation
+- **Part 4. Installation**
 
   Run:
 
@@ -190,7 +190,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
   pacstrap -K /mnt base linux linux-firmware nano networkmanager
   ```
 
-- Part 5. System Configuration
+- **Part 5. System Configuration**
 
   ::::steps
 
@@ -258,7 +258,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
       `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
       ::::
 
-- Part 6. Network Configuration
+- **Part 6. Network Configuration**
 
   - Create the hostname file in /etc/hostname Eg. nano /etc/hostname
   - Add your host name
@@ -267,7 +267,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     systemctl enable NetworkManager
     ```
 
-- Part 7. Root Password
+- **Part 7. Root Password**
 
   ::::steps
 
@@ -301,7 +301,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
       For more information, reference to this [Youtube Video](https://www.youtube.com/watch?v=JRdYSGh-g3s&t=1361s) at minute 21:11
       :::
 
-- Part 8 Bootloader
+- **Part 8 Bootloader**
 
   ::::steps
 
@@ -353,7 +353,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
     ::::
 
-- Part 9. Reboot
+- **Part 9. Reboot**
 
   ::::steps
 
@@ -384,7 +384,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
     ::::
 
-- Part 10. Post Installation
+- **Part 10. Post Installation**
 
   ::::steps
 
@@ -436,9 +436,11 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
 ## **[ROG Asusctl](https://asus-linux.org/)**
 
+:::::collapse accordion
+
 ::::steps
 
-- **Repo:**
+- **Repo**
 
   ```bash
   sudo pacman-key --recv-keys 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
@@ -499,6 +501,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
   ```
 
 ::::
+:::::
 
 ## Known errors and fixes
 
