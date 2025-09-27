@@ -10,9 +10,9 @@ permalink: /linux-guides/gnome/
 aier
 :::
 
-:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
+<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
 Lunear
-:::
+::: -->
 
 ::::
 
@@ -27,6 +27,7 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 
 [Linux Guides Homepage](../linux-guides/README.md) to see more distros and desktop environments.
 
+[aier's Fedora](../../guides/aiers-fedora-gnome-reference-guide.md) after finishing this guide to make more out of Gnome's power user features. 
 :::
 
 ## **First steps**
