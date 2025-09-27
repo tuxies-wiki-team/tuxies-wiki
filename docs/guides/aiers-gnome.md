@@ -1,7 +1,7 @@
 ---
-title: aier's Fedora (Gnome and Other Setups)
+title: aier's Gnome (and Other Setups)
 createTime: 2025/09/26 18:26:21
-permalink: /guides/aiers-fedora-gnome-reference-guide/
+permalink: /guides/aiers-gnome/
 ---
 
 :::tip You might want to go through with setting up Gnome through [Gnome Guide](../notes/linux-guides/gnome.md) first...
