@@ -2,6 +2,11 @@
 title: aier's Gnome (and Other Setups)
 createTime: 2025/09/26 18:26:21
 permalink: /guides/aiers-gnome/
+tags: 
+  - Beginner's Linux
+  - Gnome
+  - Ricing
+
 ---
 
 :::tip You might want to go through with setting up Gnome through [Gnome Guide](../notes/linux-guides/gnome.md) first...
@@ -13,13 +18,14 @@ or just proceed! :\)
 
 ## Let's Add Some More Keyboard Shortcuts! 
 
-The keyboard shortcuts in the Gnome Guide are quite minimal. I personally have these shortcuts as well: 
+:::tip The keyboard shortcuts in the Gnome Guide are quite minimal. I personally have these shortcuts as well: 
 
 `<Super><Shift>Return` --> Center Window on the screen. 
 
 `<Super>F` --> Toggle full screen (even when `f11` doesn't work, unless the app doesn't support full screen mode, this shortcut will work). 
 
 `<Super>X` --> Close window (very ergonomic). 
+:::
 
 ```bash
 # <Super> + <Shift> + Return → Center window
@@ -32,9 +38,16 @@ gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Super>F']"
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
 ```
 
+
+## Facial Recognition with Howdy 
+
+:::tip This applies outside of Gnome as well. If your computer supports facial recognition, you can check the details to setting up Howdy from the [official GitHub page](https://github.com/boltgolt/howdy?tab=readme-ov-file). 
+:::
+
 ## GNOME Extensions
 
 ### Personal Essentials
+:::::card
 
 :::: collapse 
 
@@ -105,9 +118,10 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
   :::
 
 ::::
-
+:::::
 
 ### Quality of Life Additions
+:::::card
 
 ::::collapse
 
@@ -158,3 +172,4 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
   :::
 
 ::::
+:::::

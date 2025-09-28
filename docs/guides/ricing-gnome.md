@@ -2,6 +2,8 @@
 title: Ricing (Gnome)
 tags:
   - Ricing
+  - Gnome
+  - Beginner's Linux
 createTime: 2025/07/21 20:01:26
 permalink: /guides/ricing-gnome/
 ---
