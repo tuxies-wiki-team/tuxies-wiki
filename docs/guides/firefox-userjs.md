@@ -43,11 +43,11 @@ user_pref("apz.overscroll.enabled", true); // true, for linux
 // Other Settings
 user_pref("browser.tabs.hoverPreview.enabled", true); // false
 // Zen Browser–specific settings
-user_pref("zen.glance.activation-method", "alt"); // "ctrl"
 user_pref("zen.splitView.change-on-hover", true); // false
 user_pref("zen.view.compact.hide-toolbar", true); // false
 user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 user_pref("zen.view.show-newtab-button-top", false); // true
+user_pref("zen.workspaces.separate-essentials", false); // true
 ```
 
 :::
@@ -143,15 +143,15 @@ user_pref("browser.tabs.hoverPreview.enabled", true); // false
 If you are using Zen Browser, you can check out these settings:
 
 ```js
-user_pref("zen.glance.activation-method", "alt"); // "ctrl"
 user_pref("zen.splitView.change-on-hover", true); // false
 user_pref("zen.view.compact.hide-toolbar", true); // false
 user_pref("zen.view.compact.toolbar-flash-popup", false); // false
 user_pref("zen.view.show-newtab-button-top", false); // true
+user_pref("zen.workspaces.separate-essentials", false); // true
 ```
 
-- ==zen.glance.activation-method== uses "alt" key to activate glance instead of "ctrl," this preserves the "open in new tab" functionality so you can keep doing ctrl+click!
 - ==zen.splitView.change-on-hover== set to true changes focus on split tabs without having to use a mouse click, similar to how Linux window managers change focus.
 - ==zen.view.compact.hide-toolbar== set to true hides the url toolbar if you are using multiple toolbars in your Appearance settings.
 - ==zen.view.compact.toolbar-flash-popup== set to false disables the tab bar from popping up in compact mode when switching tabs.
 - ==zen.view.show-newtab-button-top== sets the new tabs button to be at the bottom of tabs instead of being fixed below pinned tabs. 
+- ==zen.workspaces.separate-essentials== allows essentials to be workspace independent (like how they used to be — you will see all your essentials regardless of what workspace you are in). 
