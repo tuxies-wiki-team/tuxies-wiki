@@ -76,6 +76,11 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
 
   :::tip My settings: 
   ```bash
+  # Hide top bar and only show in overview
+  dconf write /org/gnome/shell/extensions/just-perfection/panel false
+  dconf write /org/gnome/shell/extensions/just-perfection/panel-in-overview true
+
+  
   # Hide ripple box in hot corner
   dconf write /org/gnome/shell/extensions/just-perfection/ripple-box false
   
