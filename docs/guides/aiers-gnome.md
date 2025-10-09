@@ -75,6 +75,9 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
   :::
 
   :::tip My settings: 
+
+  ==Due to visual inconsistencies and bugs, I do not use the `hide-top-bar` extension, I rather simply hide the top bar and only have it show in the overview through `just-perfection`. 
+  
   ```bash
   # Hide top bar and only show in overview
   dconf write /org/gnome/shell/extensions/just-perfection/panel false
