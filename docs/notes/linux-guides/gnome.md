@@ -27,13 +27,14 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 
 [Linux Guides Homepage](../linux-guides/README.md) to see more distros and desktop environments.
 
-[aier's Fedora](../../guides/aiers-gnome.md) after finishing this guide to make more out of Gnome's power user features. 
+[aier's Gnome](../../guides/aiers-gnome.md) after finishing this guide to make more out of Gnome's power user features. 
 :::
 
 ## **First steps**
 
 ### Go through the `Settings` app and make some quick tweaks to your needs.
 
+:::card
 - ==Display== — Adjust refresh rate and resolution as needed.
 - ==Power== — Change performance mode, show battery %, change suspend behavior, and more.
 - ==Multitasking== — Adjust according to your workflow.
@@ -41,8 +42,11 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 - ==Online Accounts== — You can connect to your online accounts to access calendar, cloud drives, and more within Gnome apps.
 - ==Mouse & Trackpad== — You can change pointer sensitivity and turn acceleration on/off.
 - ==Keyboard== — Add and modify keyboard shortcuts and change keyboard input settings.
+:::
 
 ### Install some apps for more advanced options
+
+:::::::card
 
 :::tip You can always use your distro's GUI software store (such as Gnome's `Software` instead of the terminal).
 :::
@@ -140,7 +144,11 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
   ::::
   :::::
 
+:::::::
+
 ## **Basics**
+
+:::::::card 
 
 :::tip All settings in `Gnome Tweaks` can be made through `Dconf Editor` (which you have downloaded), `dconf` (cli), or `gsettings` (cli).
 :::
@@ -232,7 +240,11 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 ::::::
 
+:::::::
+
 ### Install useful extensions
+
+:::::::card
 
 :::tip You can install these extensions by following the link to the Gnome Extension website, or you can search these extensions in the `Extension Manager` app that you've downloaded.
 :::
@@ -318,14 +330,74 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::::
 
+:::::::
+
 ### Append useful keyboard shortcuts
+
+:::::::card 
 
 :::tip All following settings can be appended through `Dconf Editor`, `dconf`, and `gsettings`.
 :::
 
-:::::details Quick append & shortcut cheatsheet
+:::::details Quick append & shortcut cheatsheet (safe)
 
-Use the following to append all keyboard shortcuts covered in this section. Keep in mind that some shortcuts would not be valid as you may need to install dependencies.
+Use the following to append all keyboard shortcuts covered in this section. You would need to download the `clipboard-indicator` extension to activate access its shortcut. 
+
+::::tabs
+
+@tab ::mdi:terminal:: Append changes (cli)
+
+```bash
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right']"
+dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-left "['<Super>bracketleft']"
+dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-right "['<Super>bracketright']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-windows "['<Alt>Tab']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-applications "['<Super>Tab']"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/control-center "['<Super>I', '<Super>semicolon']"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/home "['<Super>E']"
+dconf write /org/gnome/desktop/wm/keybindings/panel-run-dialog "['<Super>R']"
+dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
+```
+
+@tab ::mdi:reload:: Reset changes (cli)
+
+```bash
+dconf reset /org/gnome/desktop/wm/keybindings/switch-to-workspace-left
+dconf reset /org/gnome/desktop/wm/keybindings/switch-to-workspace-right
+dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-left
+dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-right
+dconf reset /org/gnome/desktop/wm/keybindings/switch-windows
+dconf reset /org/gnome/desktop/wm/keybindings/switch-applications
+dconf reset /org/gnome/settings-daemon/plugins/media-keys/control-center
+dconf reset /org/gnome/settings-daemon/plugins/media-keys/home
+dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
+dconf reset /org/gnome/shell/keybindings/toggle-message-tray
+dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
+```
+
+::::
+
+| Keybinding                     | Shortcut                                     |
+| ------------------------------ | -------------------------------------------- |
+| `Ctrl` + `Super` + `Arrow`     | Switch workspaces                            |
+| `Super` + `Bracket`            | Move a window to the workspace left or right |
+| `Alt` + `Tab`                  | Switch windows                               |
+| `Super` + `Tab`                | Switch apps                                  |
+| `Super` + `I` or `Super` + `;` | Launch `Settings` app                        |
+| `Super` + `E`                  | Launch home folder                           |
+| `Super` + `R`                  | Run command dialog                           |
+| `Super` + `V`                  | Open `Clipboard Indicator`                   |
+
+:::::
+
+
+:::::details Quick append & shortcut cheatsheet (all)
+
+Use the following to append all keyboard shortcuts covered in this section. Keep in mind that some shortcuts would not be valid as you may need to install dependencies. 
+
+:::caution Quick append will erase ALL shortcuts you've appended in the custom section!
+:::
 
 ::::tabs
 
@@ -535,9 +607,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-  ```
 
-  ```
 
 - Launch home folder (Windows-like)
 
@@ -601,141 +671,10 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
 ::::::
 
-:::warning Below are some shortcuts that requires dependencies that you may not have depending on the distro. There will be instructions to download dependencies when you expand.
+:::warning All shortcuts below this message require dependencies that you may not have depending on the distro. There will be instructions to download dependencies when you expand.
 :::
 
-:::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section.
-:::
-
-::::::collapse accordion
-
-- Launch `Ptyxis` Terminal
-
-  ::::card
-
-  `Super` + `Return`
-
-  :::tabs
-
-  @tab ::devicon:fedora:: Fedora
-
-  ```bash
-  sudo dnf install ptyxis
-  ```
-
-  @tab ::devicon:archlinux:: Arch
-
-  ```bash
-  pacman -S ptyxis
-  ```
-
-  @tab ::devicon:debian:: Debian/Ubuntu
-
-  ```bash
-  sudo apt install ptyxis
-  ```
-
-  :::
-
-  :::tabs
-
-  @tab ::mdi:terminal:: Append changes (cli)
-
-  ```bash
-  dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/','/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/']"
-  dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/binding "'<Super>Return'"
-  dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/command "'ptyxis'"
-  dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/name "'Launch Ptyxis'"
-  ```
-
-  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
-
-  `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings`
-
-  --> **\['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/','/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/'\]**
-
-  `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/binding`
-
-  --> **\'\<Super\>Return\'**
-
-  `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/command`
-
-  --> **\'ptyxis\'**
-
-  `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/name`
-
-  --> **\'Launch Ptyxis\'**
-
-  @tab ::mdi:reload:: Reset changes (cli)
-
-  ```bash
-  dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis
-  ```
-
-  :::
-
-  ::::
-
-- Launch `Mission Center` (Windows-like)
-
-  :::::card
-
-  `Ctrl` + `Shft` + `Esc`
-
-  ::::tabs
-
-  @tab Flatpak (System)
-
-  ```bash
-  flatpak install flathub io.missioncenter.MissionCenter
-  ```
-
-  @tab Flatpak (User)
-
-  ```bash
-  flatpak install --user flathub io.missioncenter.MissionCenter
-  ```
-
-  ::::
-
-  ::::tabs
-
-  @tab ::mdi:terminal:: Append changes (cli)
-
-  ```bash
-  dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/','/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/']"
-  dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/binding "'<Control><Shift>Escape'"
-  dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/command "'flatpak run io.missioncenter.MissionCenter'"
-  dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/name "'Launch Mission Center'"
-  ```
-
-  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
-
-  `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings`
-
-  --> **\['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis/','/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/'\]**
-
-  `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/binding`
-
-  --> **'\<Control\>\<Shift\>Escape'**
-
-  `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/command`
-
-  --> **'flatpak run io.missioncenter.MissionCenter'**
-
-  `/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/name`
-
-  --> **'Launch Mission Center'**
-
-  @tab ::mdi:reload:: Reset changes (cli)
-
-  ```bash
-  dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center
-  ```
-
-  ::::
-
-  :::::
+::::::collapse
 
 - Open `Clipboard Indicator` (Windows-like)
 
@@ -774,6 +713,68 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
   ```
 
   :::
+
+  :::::
+::::::
+
+:::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section. ==It is suggested that you append them manually through the `Gnome Settings` app --> `Keyboard` -- `View and Customize Keyboard Shortcuts` section instead if you have existing custom shortcuts.== 
+:::
+
+::::::collapse accordion
+
+- Launch `Ptyxis` Terminal
+
+  ::::card
+
+  `Super` + `Return`
+
+  ==Install dependencies==
+
+  :::tabs
+
+  @tab ::devicon:fedora:: Fedora
+
+  ```bash
+  sudo dnf install ptyxis
+  ```
+
+  @tab ::devicon:archlinux:: Arch
+
+  ```bash
+  pacman -S ptyxis
+  ```
+
+  @tab ::devicon:debian:: Debian/Ubuntu
+
+  ```bash
+  sudo apt install ptyxis
+  ```
+
+  :::
+
+- Launch `Mission Center` (Windows-like)
+
+  :::::card
+
+  `Ctrl` + `Shft` + `Esc`
+
+  ==Install dependencies==
+
+  ::::tabs
+
+  @tab Flatpak (System)
+
+  ```bash
+  flatpak install flathub io.missioncenter.MissionCenter
+  ```
+
+  @tab Flatpak (User)
+
+  ```bash
+  flatpak install --user flathub io.missioncenter.MissionCenter
+  ```
+
+  ::::
 
   :::::
 
