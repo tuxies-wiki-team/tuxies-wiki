@@ -683,3 +683,34 @@ ILoveCandy
 ```
 
 under `/etc/pacman.conf` will give you a cooler download bar!
+
+## **System Maintainance**
+
+:::::collapse accordion
+
+- Clearing `pacman` cached files to free up file system space
+
+  ::::steps
+
+  - Refer to the [official ArchWiki](https://wiki.archlinux.org/title/Pacman#Cleaning_the_package_cache) for more details.
+
+    - Install `pacman-contrib` package
+
+    ```bash
+    sudo pacman -S pacman-contrib
+    ```
+
+    - Run
+
+    ```bash
+    # Removes all older unused packages
+    sudo paccache -r
+
+    # Removes all uninstalled packages
+    sudo pacman -Sc
+
+    ```
+
+    ::::
+
+:::::
