@@ -22,6 +22,7 @@ Lunear
 ## General Knowledge
 
 - **Base64 encoding:** transforms any binary data (like images or files) into a string of printable ASCII characters
+- **Steganography** method that hides information in a non-secret file such as an image, or audio. The existence of the hidden message is unobservable to the viewer. Some of the most common techniques used includes LSB (least significant bit).
 
 ## Forensics
 
@@ -30,7 +31,7 @@ Lunear
 - Tools
   - Image analysis:
     - `zsteg`: Package based on Ruby allows user to check metadata of images and steganography; specifically for `.png` and `,bmp` images. It analyzes images to detect hidden data and extract hiddien information on least significant and other steganography techniques.
-    - `steghide`: Steganography tool used to hide/reveal hidden data in images/audio files; mostly used with `.jpeg`, `.bmp`, `.wav`, and `.au` files
-    - `identify`: Tool from ImageMagick, used to analyze and display information about image files such as image format, dimensions, file size, medatadata and properties
+    - `steghide`: Steganography tool used to hide/reveal hidden data in images/audio files; mostly used with `.jpeg`, `.bmp`, `.wav`, and `.au` files.
+    - `identify`: Tool from ImageMagick, used to analyze and display information about image files such as image format, dimensions, file size, medatadata and properties.
 
 :::::
