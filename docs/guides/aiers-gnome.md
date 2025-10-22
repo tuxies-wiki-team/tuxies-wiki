@@ -79,9 +79,11 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
 
   ```bash
   # Hide top bar and only show in overview
-  dconf write /org/gnome/shell/extensions/just-perfection/panel false
-  dconf write /org/gnome/shell/extensions/just-perfection/panel-in-overview true
+  # dconf write /org/gnome/shell/extensions/just-perfection/panel false
+  # dconf write /org/gnome/shell/extensions/just-perfection/panel-in-overview true
 
+  # Make top bar thinner
+  dconf write /org/gnome/shell/extensions/just-perfection/panel-size 28
 
   # Hide ripple box in hot corner
   dconf write /org/gnome/shell/extensions/just-perfection/ripple-box false
@@ -121,13 +123,6 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
 
   ::: info Prevents screen dimming and suspension on demand.
   ![Caffeine Demonstation](./assets/caffeine-demonstation.png)
-  :::
-
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-
-  ::: info Allows loading and applying custom GNOME Shell themes from your home directory.
-
-  ![User Shell Demonstration](./assets/user-shell-demonstration.png)
   :::
 
 - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
@@ -187,6 +182,13 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
 
   ::: info Shows Caps Lock and Num Lock status in the top panel.
   ![Lock Keys Demonstration](./assets/lock-keys-demonstration.png)
+  :::
+
+- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+
+  ::: info Allows loading and applying custom GNOME Shell themes from your home directory.
+
+  ![User Shell Demonstration](./assets/user-shell-demonstration.png)
   :::
 
 ::::
