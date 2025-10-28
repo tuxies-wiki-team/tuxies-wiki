@@ -9,8 +9,8 @@ groups:
     desc: The ones who have seen the birth of Tuxie's Wiki 🤍
     list:
       - name: aier
-        link: https://github.com/aier9500
-        avatar: https://github.com/aier9500.png
+        link: https://www.linkedin.com/in/eugenio-wu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+        avatar: https://media.licdn.com/dms/image/v2/D4D03AQESqVmOJg1srQ/profile-displayphoto-crop_800_800/B4DZnQjd2lGQAI-/0/1760140585061?e=1762992000&v=beta&t=kD1qJCzH_yq2IhvGokViKTjYc4hRCmHE3E1O5UyCFY8
         location: Boston, NYC, Valencia
         desc: I LOVE LINUX. I LOVE LINUX. I LOVE LINUX!!!
 
