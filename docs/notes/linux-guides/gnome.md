@@ -6,7 +6,7 @@ permalink: /linux-guides/gnome/
 
 ::::card-grid
 
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
+:::card title="Author" icon="fluent-emoji:writing-hand"
 aier
 :::
 
@@ -16,18 +16,24 @@ Lunear
 
 ::::
 
-:::tip Why Gnome?
+::: note Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somewhat stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 
 ==Read over this guide to customize Gnome to your liking!==
 :::
 
-:::note You may be looking for:
-[Ricing (Gnome)](../../guides/ricing-gnome.md) for ricing (aesthetic customization) guide.
+::: important CHECK THIS OUT!
 
+Do you want to check out ==more extensions, settings, and tips== to make more out of the Gnome Desktop? aier's has your back:
+
+[aier's Gnome](../../guides/aiers-gnome.md)
+:::
+
+::: info You may have been looking for:
 [Linux Guides Homepage](../linux-guides/README.md) to see more distros and desktop environments.
 
-[aier's Gnome](../../guides/aiers-gnome.md) after finishing this guide to make more out of Gnome's power user features. 
+<!-- [Ricing (Gnome)](../../guides/ricing-gnome.md) for ricing (aesthetic customization) guide. -->
+
 :::
 
 ## **First steps**
@@ -35,6 +41,7 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 ### Go through the `Settings` app and make some quick tweaks to your needs.
 
 :::card
+
 - ==Display== — Adjust refresh rate and resolution as needed.
 - ==Power== — Change performance mode, show battery %, change suspend behavior, and more.
 - ==Multitasking== — Adjust according to your workflow.
@@ -42,7 +49,7 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 - ==Online Accounts== — You can connect to your online accounts to access calendar, cloud drives, and more within Gnome apps.
 - ==Mouse & Trackpad== — You can change pointer sensitivity and turn acceleration on/off.
 - ==Keyboard== — Add and modify keyboard shortcuts and change keyboard input settings.
-:::
+  :::
 
 ### Install some apps for more advanced options
 
@@ -148,7 +155,7 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 
 ## **Basics**
 
-:::::::card 
+:::::::card
 
 :::tip All settings in `Gnome Tweaks` can be made through `Dconf Editor` (which you have downloaded), `dconf` (cli), or `gsettings` (cli).
 :::
@@ -334,14 +341,14 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 ### Append useful keyboard shortcuts
 
-:::::::card 
+:::::::card
 
 :::tip All following settings can be appended through `Dconf Editor`, `dconf`, and `gsettings`.
 :::
 
 :::::details Quick append & shortcut cheatsheet (safe)
 
-Use the following to append all keyboard shortcuts covered in this section. You would need to download the `clipboard-indicator` extension to activate access its shortcut. 
+Use the following to append all keyboard shortcuts covered in this section. You would need to download the `clipboard-indicator` extension to activate access its shortcut.
 
 ::::tabs
 
@@ -391,10 +398,9 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
 :::::
 
-
 :::::details Quick append & shortcut cheatsheet (all)
 
-Use the following to append all keyboard shortcuts covered in this section. Keep in mind that some shortcuts would not be valid as you may need to install dependencies. 
+Use the following to append all keyboard shortcuts covered in this section. Keep in mind that some shortcuts would not be valid as you may need to install dependencies. Finish reading this section to learn more.
 
 :::caution Quick append will erase ALL shortcuts you've appended in the custom section!
 :::
@@ -607,8 +613,6 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-
-
 - Launch home folder (Windows-like)
 
   :::::card
@@ -715,9 +719,9 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
   :::
 
   :::::
-::::::
+  ::::::
 
-:::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section. ==It is suggested that you append them manually through the `Gnome Settings` app --> `Keyboard` -- `View and Customize Keyboard Shortcuts` section instead if you have existing custom shortcuts.== 
+:::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section. ==It is suggested that you append them manually through the `Gnome Settings` app --> `Keyboard` -- `View and Customize Keyboard Shortcuts` section instead if you have existing custom shortcuts.==
 :::
 
 ::::::collapse accordion

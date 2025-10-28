@@ -23,7 +23,7 @@ aier
 or just proceed! :\)
 :::
 
-:::note Just a heads up, this guide is not going to be as polished as the ones released in the main series as I am in college (my career is 100% unrelated to CS). I apologize ahead of times and thank you for reading!
+:::note Just a heads up, this guide is not going to be as polished as the ones released in the main series as I am in university (my career is 100% unrelated to CS). I apologize ahead of times and thank you for reading!
 :::
 
 ## Let's Add Some More Keyboard Shortcuts!
@@ -32,7 +32,7 @@ or just proceed! :\)
 
 `<Super><Shift>Return` --> Center Window on the screen.
 
-`<Super>F` --> Toggle full screen (even when `f11` doesn't work, unless the app doesn't support full screen mode, this shortcut will work).
+`<Super>F` --> Toggle full screen (even when `F11` doesn't work, unless the app doesn't support full screen mode, this shortcut will work).
 
 `<Super>X` --> Close window (very ergonomic).
 :::
@@ -75,13 +75,7 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
 
   :::tip My settings:
 
-  ==Due to visual inconsistencies and bugs, I do not use the `hide-top-bar` extension, I rather simply hide the top bar and only have it show in the overview through `just-perfection`.
-
   ```bash
-  # Hide top bar and only show in overview
-  # dconf write /org/gnome/shell/extensions/just-perfection/panel false
-  # dconf write /org/gnome/shell/extensions/just-perfection/panel-in-overview true
-
   # Make top bar thinner
   dconf write /org/gnome/shell/extensions/just-perfection/panel-size 28
 
@@ -107,16 +101,19 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
 
   :::
 
-- [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
-
-  ::: info
-  Always opens a new app instance from the dash or app grid.
-  :::
-
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 
   ::: info Provides a clipboard history and quick paste menu in the top panel.
   ![Clipboard Indicdator Demonstration](./assets/clipboard-indicator-demonstation.png)
+  :::
+
+  ::: tip Windows-like `<Super>v` keyboard shortcut
+
+  ```bash
+  dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
+  dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
+  ```
+
   :::
 
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
@@ -172,6 +169,9 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
   ![Emoji Copy Demonstration](./assets/emoji-copy-demonstration.png)
   :::
 
+  :::tip The default `<Super>.` keybinding for Emoji Copy sometimes interferes with the ibus emoji shortcut, I simply remapped it to `<Super><Shift>v`.
+  :::
+
 - [GNOME Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
 
   ::: info Enables fuzzy matching in Activities search to find apps without exact names.
@@ -184,6 +184,24 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
   ![Lock Keys Demonstration](./assets/lock-keys-demonstration.png)
   :::
 
+::::
+:::::
+
+### Previously in My Setup
+
+::::::card
+::::: collapse
+
+- [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
+
+  ::: info
+  Always opens a new app instance from the dash or app grid.
+  :::
+
+  ::: note
+  I no longer use this extension because you can simply do control enter when searching an app to open a new instance. With this said, you'd gain back the default ability to switch to an app through the overview search.
+  :::
+
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 
   ::: info Allows loading and applying custom GNOME Shell themes from your home directory.
@@ -191,5 +209,5 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
   ![User Shell Demonstration](./assets/user-shell-demonstration.png)
   :::
 
-::::
 :::::
+::::::
