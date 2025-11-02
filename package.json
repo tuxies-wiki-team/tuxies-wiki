@@ -23,13 +23,13 @@
     "deploy-list": "gh run list --workflow=deploy.yml"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.23",
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.89.0",
     "typescript": "^5.8.3",
     "vue": "^3.5.14",
     "vuepress": "^2.0.0-rc.26",
-    "vuepress-theme-plume": "2.0.0-rc.26"
+    "vuepress-theme-plume": "1.0.0-rc.175"
   },
   "dependencies": {
     "gh": "^2.8.9"
