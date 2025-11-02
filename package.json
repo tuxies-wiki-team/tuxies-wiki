@@ -30,5 +30,8 @@
     "vue": "^3.5.14",
     "vuepress": "2.0.0-rc.23",
     "vuepress-theme-plume": "1.0.0-rc.152"
+  },
+  "dependencies": {
+    "gh": "^2.5.0"
   }
 }
