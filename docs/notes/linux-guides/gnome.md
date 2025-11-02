@@ -360,10 +360,13 @@ dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Cont
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-left "['<Super>bracketleft']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-right "['<Super>bracketright']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-windows "['<Alt>Tab']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-windows-backward "['<Alt><Shift>Tab']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-applications "['<Super>Tab']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-applications-backward "['<Super><Shift>Tab']"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/control-center "['<Super>I', '<Super>semicolon']"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/home "['<Super>E']"
 dconf write /org/gnome/desktop/wm/keybindings/panel-run-dialog "['<Super>R']"
+dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
 dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
 ```
 
@@ -375,7 +378,9 @@ dconf reset /org/gnome/desktop/wm/keybindings/switch-to-workspace-right
 dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-left
 dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-right
 dconf reset /org/gnome/desktop/wm/keybindings/switch-windows
+dconf reset /org/gnome/desktop/wm/keybindings/switch-windows-backward
 dconf reset /org/gnome/desktop/wm/keybindings/switch-applications
+dconf reset /org/gnome/desktop/wm/keybindings/switch-applications-backward
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/control-center
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/home
 dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
@@ -415,7 +420,9 @@ dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Cont
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-left "['<Super>bracketleft']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-right "['<Super>bracketright']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-windows "['<Alt>Tab']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-windows-backward "['<Alt><Shift>Tab']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-applications "['<Super>Tab']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-applications-backward "['<Super><Shift>Tab']"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/control-center "['<Super>I', '<Super>semicolon']"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/home "['<Super>E']"
 dconf write /org/gnome/desktop/wm/keybindings/panel-run-dialog "['<Super>R']"
@@ -439,7 +446,9 @@ dconf reset /org/gnome/desktop/wm/keybindings/switch-to-workspace-right
 dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-left
 dconf reset /org/gnome/desktop/wm/keybindings/move-to-workspace-right
 dconf reset /org/gnome/desktop/wm/keybindings/switch-windows
+dconf reset /org/gnome/desktop/wm/keybindings/switch-windows-backward
 dconf reset /org/gnome/desktop/wm/keybindings/switch-applications
+dconf reset /org/gnome/desktop/wm/keybindings/switch-applications-backward
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/control-center
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/home
 dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
@@ -555,7 +564,9 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   ```bash
   dconf write /org/gnome/desktop/wm/keybindings/switch-windows "['<Alt>Tab']"
+  dconf write /org/gnome/desktop/wm/keybindings/switch-windows-backward "['<Alt><Shift>Tab']"
   dconf write /org/gnome/desktop/wm/keybindings/switch-applications "['<Super>Tab']"
+  dconf write /org/gnome/desktop/wm/keybindings/switch-applications-backward "['<Super><Shift>Tab']"
   ```
 
   @tab ::mdi:file-settings:: Append changes (Dconf Editor)
@@ -564,15 +575,25 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   --> **\['\<Alt\>Tab'\]**
 
+  `/org/gnome/desktop/wm/keybindings/switch-windows-backward`
+
+  --> **\['\<Alt\>\<Shift\>Tab'\]**
+
   `/org/gnome/desktop/wm/keybindings/switch-applications`
 
   --> **\['\<Super\>Tab'\]**
+
+  `/org/gnome/desktop/wm/keybindings/switch-applications-backward`
+
+  --> **\['\<Super\>\<Shift\>Tab'\]**
 
   @tab ::mdi:reload:: Reset changes (cli)
 
   ```bash
   dconf reset /org/gnome/desktop/wm/keybindings/switch-windows
+  dconf reset /org/gnome/desktop/wm/keybindings/switch-windows-backward
   dconf reset /org/gnome/desktop/wm/keybindings/switch-applications
+  dconf reset /org/gnome/desktop/wm/keybindings/switch-applications-backward
   ```
 
   :::
