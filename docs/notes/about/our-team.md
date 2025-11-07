@@ -10,9 +10,9 @@ groups:
     list:
       - name: aier
         link: https://www.linkedin.com/in/eugenio-wu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-        avatar: https://media.licdn.com/dms/image/v2/D4D03AQESqVmOJg1srQ/profile-displayphoto-crop_800_800/B4DZnQjd2lGQAI-/0/1760140585061?e=1762992000&v=beta&t=kD1qJCzH_yq2IhvGokViKTjYc4hRCmHE3E1O5UyCFY8
+        avatar: https://media.licdn.com/dms/image/v2/D4D03AQESqVmOJg1srQ/profile-displayphoto-scale_400_400/B4DZnQjd2lGQAg-/0/1760140585153?e=1764201600&v=beta&t=nAb-ZzyQ4QAFTboDysS_1pzeqfd1WlEJLpdA3Mhovnc
         location: Boston, NYC, Valencia
-        desc: Tech, Finance, & BA ❤️‍🔥
+        desc: I am pursuing Finance but I do a bit of tech on the side ❤️‍🔥
 
       - name: Lunear
         link: https://github.com/Lunear01
