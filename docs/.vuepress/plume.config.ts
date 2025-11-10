@@ -12,7 +12,6 @@
 
 import { defineThemeConfig } from "vuepress-theme-plume";
 import { enNavbar } from "./navbar";
-import { enNotes } from "./notes";
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -78,7 +77,6 @@ export default defineThemeConfig({
       ],
 
       navbar: enNavbar,
-      notes: enNotes,
 
       /**
        * 公告板 — Bulletin board

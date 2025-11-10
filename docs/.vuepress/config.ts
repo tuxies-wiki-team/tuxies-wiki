@@ -1,8 +1,6 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
-import { defineNoteConfig, plumeTheme } from "vuepress-theme-plume";
-
-
+import { plumeTheme } from "vuepress-theme-plume";
 
 export default defineUserConfig({
   base: "/tuxies-wiki/",
@@ -15,7 +13,7 @@ export default defineUserConfig({
     },
   },
 
-    head: [
+  head: [
     [
       "link",
       {
@@ -24,8 +22,17 @@ export default defineUserConfig({
         href: "https://theme-plume.vuejs.press/favicon-32x32.png",
       },
     ],
-    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-1LB2LGSPR9' }],
-    ['script', {}, `
+    [
+      "script",
+      {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-1LB2LGSPR9",
+      },
+    ],
+    [
+      "script",
+      {},
+      `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -35,7 +42,8 @@ export default defineUserConfig({
         cookie_expires: 63072000,
         cookie_prefix: 'tuxies_'
       });
-    `],
+    `,
+    ],
   ],
   bundler: viteBundler(),
   shouldPrefetch: false,
@@ -56,19 +64,6 @@ export default defineUserConfig({
       mode: "inline",
     },
     changelog: true,
-
-    /**
-     * Blog
-     * @see https://theme-plume.vuejs.press/config/basic/#blog
-     */
-    blog: {
-      postList: true, // 是否启用文章列表页
-      tags: true, // 是否启用标签页
-      archives: true, // 是否启用归档页
-      categories: true, // 是否启用分类页
-      postCover: "right", // 文章封面位置
-      pagination: 15, // 每页显示文章数量
-    },
 
     /* article prefix URL */
     article: "/article/",
@@ -121,7 +116,7 @@ export default defineUserConfig({
      */
     markdown: {
       collapse: true,
-      codeTree: true
+      codeTree: true,
       //   abbr: true,         // 启用 abbr 语法  *[label]: content
       //   annotation: true,   // 启用 annotation 语法  [+label]: content
       //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
@@ -159,6 +154,24 @@ export default defineUserConfig({
       //   include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
       //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
     },
+
+    // 使用 collections 配置
+    collections: [
+      {
+        type: "post", // 替代原博客功能
+        dir: "guides", // 指向 docs/blog 目录
+        title: "Guides", // 集合显示名称
+        // 原博客配置继续保留
+        // ...
+      },
+      {
+        type: "doc", // 替代原笔记功能
+        dir: "typescript", // 指向 docs/typescript 目录
+        title: "TypeScriptNotes",
+        linkPrefix: "/typescript/", // 页面链接前缀、侧边栏判断依据
+        sidebar: "auto", // 自动生成侧边栏
+      },
+    ],
 
     /**
      * 水印

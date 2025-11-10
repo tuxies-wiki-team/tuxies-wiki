@@ -103,7 +103,7 @@ export const enNavbar = defineNavbarConfig([
   {
     text: "Other Articles",
     icon: "mdi:newspaper-variant",
-    link: "/blog/",
+    link: "/guides/",
   },
   // {
   //   text: "Sort",
