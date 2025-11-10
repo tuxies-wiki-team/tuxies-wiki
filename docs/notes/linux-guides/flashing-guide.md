@@ -1,9 +1,7 @@
 ---
 title: Flashing Guide
-tags:
-  - Beginner's Linux
 createTime: 2025/06/26 09:05:08
-permalink: /guides/flashing-guide/
+permalink: /linux-guides/flashing-guide/
 ---
 
 ::::card-grid
