@@ -368,6 +368,44 @@ npm run docs:build # Build the website
 There are many choices for web deployment, Github Pages will be used in this guide as it's free and facilitates collaboration
 :::
 
+:::info Two Options
+1. Using `gh-pages` (Recommanded for its stableness)
+2. Using `gh` and workflow for compiling and push/deploy the pages
+:::
+
+### **Option 1: (Recommanded): Using `gh-pages`**
+
+  ::::steps
+  - Install ``gh-pages``
+      ```bash
+      npm install gh-pages
+    ```
+  - Edit package.json to add a new command
+  :::code-tabs
+
+    @tab package.json
+
+    ```json
+    // Code omitted above...
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+      "docs:build": "vuepress build docs --clean-cache --clean-temp",
+      "docs:preview": "http-server docs/.vuepress/dist",
+      "docs:vp-update": "npx vp-update",
+      // [!code ++] [!code focus]
+      "deploy": "npm run build &&  gh-pages -d directory/of/your/build/files -b gh-pages",
+    },
+    // Code omitted below...
+
+    ```
+
+    :::
+  ::::
+
+
+### **Option 2 Using `gh`**
+
 ::::::steps
 
 - Install `gh` or `github-cli` from the official repository
@@ -429,14 +467,9 @@ There are many choices for web deployment, Github Pages will be used in this gui
 
   :::
 
-::::::
+  :::important Create `.github/workflow/deploy.yml`
+  :::
 
-### **Automated Workflow Deployment**
-
-:::important Create `.github/workflow/deploy.yml`
-:::
-
-::::::steps
 
 - Edit `deploy.yml`
 
@@ -521,8 +554,8 @@ There are many choices for web deployment, Github Pages will be used in this gui
 
   ```
 
-  :::
-
+    :::
+  ::::
 ::::::
 
 :::card title="Done!" icon="fluent-emoji:party-popper"

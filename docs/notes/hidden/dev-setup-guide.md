@@ -2,7 +2,7 @@
 title: Dev Setup Guide
 createTime: 2025/08/09 08:29:45
 permalink: /hidden/dev-setup-guide/
-draft: true
+draft: false
 ---
 
 :::info
