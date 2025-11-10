@@ -3,8 +3,9 @@ title: aier's Gnome (and Other Setups)
 createTime: 2025/09/26 18:26:21
 permalink: /guides/aiers-gnome/
 tags:
-  - Beginner's Linux
+  - Beginner
   - Gnome
+  - Productivity
   - Ricing
 ---
 

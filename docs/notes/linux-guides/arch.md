@@ -42,7 +42,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
   - **Install the Arch mirror ISO from the [official website](https://archlinux.org/download/), for country, selecting any mirror from the US**
 
-  - **Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB. For reference, refer to [Flashing Guide](../../guides/flashing-guide.md).**
+  - **Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB. For reference, refer to [Flashing Guide](../../notes/linux-guides/flashing-guide.md).**
 
   - **Reboot into system BIOS System and boot into the USB.**
     **Note: Turn off secure boot**

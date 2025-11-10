@@ -1,6 +1,7 @@
 ---
 title: Accumulated CTF knowledge and tools
 tags:
+  - Advanced
   - Lunear's Notebook
   - CTF
 createTime: 2025/10/18 20:31:18

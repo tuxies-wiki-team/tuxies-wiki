@@ -1,6 +1,7 @@
 ---
 title: Terminal Customization (Bash)
 tags:
+  - Beginner
   - Terminal
   - Ricing
 createTime: 2025/05/22 09:05:08

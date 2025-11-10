@@ -1,8 +1,8 @@
 ---
 title: SSH Guide
 tags:
-  - Beginner's Linux
-  - Network
+  - Beginner
+  - Productivity
 createTime: 2025/07/14 18:18:12
 permalink: /guides/ssh-guide/
 ---
@@ -30,11 +30,13 @@ This guide assumes you have OpenSSH installed, and Gnome
 :::
 
 :::details Want a quick and dirty approach?
-  Just by installing  OpenSSH on both machines, you should be able to access ssh from your tailscale machine via port 22 via:
-  ```bash
-  ssh [server-username]@[server_ip] -p 22;
-  ```
-  This should be safe enough if you use a service like [Tailscale](https://tailscale.com/), but the rest of the guide will add some security settings that will help secure the machine for other usages.
+Just by installing OpenSSH on both machines, you should be able to access ssh from your tailscale machine via port 22 via:
+
+```bash
+ssh [server-username]@[server_ip] -p 22;
+```
+
+This should be safe enough if you use a service like [Tailscale](https://tailscale.com/), but the rest of the guide will add some security settings that will help secure the machine for other usages.
 :::
 
 ::::steps
@@ -76,7 +78,7 @@ This guide assumes you have OpenSSH installed, and Gnome
 
 - **Setting up external security programs**
 
-  Next up, you want to set up fail2ban to block anyone who tries to spam your ssh connection. This shouldn't really be necessary with Tailscale, but who knows maybe some day you accidentally open up the port, and this should protect you. 
+  Next up, you want to set up fail2ban to block anyone who tries to spam your ssh connection. This shouldn't really be necessary with Tailscale, but who knows maybe some day you accidentally open up the port, and this should protect you.
 
   ```bash
   apt install fail2ban;
@@ -85,7 +87,7 @@ This guide assumes you have OpenSSH installed, and Gnome
   ```
 
 - **Accessing from beyond local**
-  You should be able to access the server on your external machine by running the following. The server IP is best adquired via [Tailscale](https://tailscale.com/), but you can also open up port 22 in your router settings for a less secure approach: 
+  You should be able to access the server on your external machine by running the following. The server IP is best adquired via [Tailscale](https://tailscale.com/), but you can also open up port 22 in your router settings for a less secure approach:
   ```bash
   eval `ssh-agent`;
   ssh-add ~/.ssh/[name_for_keys]; # You defined the name a while back

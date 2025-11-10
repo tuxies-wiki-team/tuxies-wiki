@@ -1,8 +1,9 @@
 ---
 title: Better Text Rendering (Gnome Hi-DPI)
 tags:
+  - Beginner
   - Gnome
-  - Beginner's Linux
+  - Fixes
 createTime: 2025/07/18 20:31:18
 permalink: /guides/better-text-rendering-gnome-hi-dpi/
 ---

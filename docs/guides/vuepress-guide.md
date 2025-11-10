@@ -1,6 +1,8 @@
 ---
 title: Vuepress Guide
 tags:
+  - Advanced
+  - Wiki
   - Web Dev
 createTime: 2025/06/08 01:20:38
 permalink: /guides/vuepress-guide/
