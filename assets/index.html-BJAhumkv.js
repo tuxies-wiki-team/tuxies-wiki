@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n}from"./app-Cv-bQzDq.js";const a={};function o(r,l){return n(),t("div")}const s=e(a,[["render",o]]),i=JSON.parse('{"path":"/blog/","title":"Blog","lang":"en","frontmatter":{"lang":"en","title":"Blog","draft":true},"readingTime":{"minutes":0,"words":0},"git":{},"filePathRelative":null,"headers":[],"type":"blog"}');export{s as comp,i as data};
