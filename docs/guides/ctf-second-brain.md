@@ -11,7 +11,7 @@ permalink: /guides/ctf-second-brain/
 ::::card-grid
 
 :::card title="Author(s)" icon="fluent-emoji:writing-hand"
-Lunear
+Lunear dfg
 :::
 ::::
 
