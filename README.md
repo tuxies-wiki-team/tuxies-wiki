@@ -22,10 +22,10 @@ npm install
 "preview": "http-server docs/.vuepress/dist",
 # Vuepress update
 "vp-update": "npx vp-update",
-# Deploy website to GH Pages
-"deploy": "npm run build && gh workflow run deploy",
-# List deployments
-"deploy-list": "gh run list --workflow=deploy.yml"
+# Update dependencies
+"update-deps": "npx npm-check-updates -u && npm install",
+# Build and deploy website to GH Pages
+"deploy": "npm run build && gh-pages -d docs/.vuepress/dist -b gh-pages"
 ```
 
 ## **TODO**

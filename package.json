@@ -8,16 +8,12 @@
     "node": "^20.6.0 || >=22.0.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "docs:build": "vuepress build docs --clean-cache --clean-temp",
-    "docs:vp-update": "npx vp-update",
     "dev": "vuepress dev docs",
     "start": "vuepress dev docs",
     "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "build": "vuepress build docs --clean-cache --clean-temp",
-    "preview": "http-server docs/.vuepress/dist",
     "vp-update": "npx vp-update",
+    "update-deps": "npx npm-check-updates -u && npm install",
     "deploy": "npm run build && gh-pages -d docs/.vuepress/dist -b gh-pages"
   },
   "devDependencies": {
