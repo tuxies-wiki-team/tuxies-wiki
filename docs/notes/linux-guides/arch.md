@@ -512,7 +512,7 @@ Note that all fixes below may vary depending on the user's specific situation.
 :::
 
 ::::collapse accordion
-- ::mdi:error::**Yay Error: error while loading shared libraries**
+- ::mdi:error:: `Yay Error: error while loading shared libraries`
 
   - This happens when your Yay repo is very outdated compared to your system, usually happens after a system update, to fix this, simply reinstall yay:
 
@@ -531,7 +531,7 @@ Note that all fixes below may vary depending on the user's specific situation.
   rm -rf yay-bin
   ```
 
-- ::mdi:error::**Pacman Error: mirror not responding**
+- ::mdi:error:: `Pacman Error: mirror not responding`
 
   - This happens when your list of mirrors are too slow or are outdated, this can be fixed by regenerating a list of faster mirrors under the `/etc/pacman.d/mirrorlist` file.
   - This can be done by `reflector`, a package that automatically sorts and gneerates the mirrors by rates and saves on the `/etc/pacman.d/mirrorlist` file.
@@ -547,7 +547,7 @@ Note that all fixes below may vary depending on the user's specific situation.
   sudo reflector --verbose --sort rate -l 75 --save /etc/pacman.d/mirrorlist
   ```
 
-- ::mdi:error:: **Signature from "" is unknown trust**
+- ::mdi:error:: `Signature from "" is unknown trust`
 
   ```bash
   # Example fail message:
@@ -575,13 +575,13 @@ Note that all fixes below may vary depending on the user's specific situation.
   sudo pacman-key --populate
   ```
 
-- ::mdi:error:: **Pacman Error: failed to synchronize all databases (unable to lock database)**
+- ::mdi:error:: `Pacman Error: failed to synchronize all databases (unable to lock database)`
 
   ```bash
   sudo rm /var/lib/pacman/db.lck
   ```
 
-- ::mdi:error:: **Pacman Error: failed to commit transaction (invalid or corrupted package)**
+- ::mdi:error:: `Pacman Error: failed to commit transaction (invalid or corrupted package)`
 
   - This happens when the keyring is outdated due to the lack of use or update of the system. The cause of this error is that it fails to check the package integrity using the PGP signature. To fix this error, simply update the keyrings by:
 
@@ -594,7 +594,7 @@ Note that all fixes below may vary depending on the user's specific situation.
 
 ::::collapse accordion
 
-- ::mdi:help-circle:: **How to install .tar.zst files through terminal?** 
+- ::mdi:help-circle:: **How to install `.tar.zst` files through terminal?** 
 
   ```bash
   sudo pacman -U <directory-of-extracted-package.pkg.tar.zst>
