@@ -389,7 +389,8 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
   ::::steps
 
   - **[Desktop Environment](https://wiki.archlinux.org/title/Desktop_environment):**
-    - [Gnome](https://www.gnome.org/)
+    - [Gnome](https://www.gnome.org/) 
+      - Checkout our [Gnome Guide](../../notes/linux-guides/gnome.md)
       ```bash
       sudo pacman -S gnome
       ```
@@ -510,179 +511,156 @@ Note that all fixes below may vary depending on the user's specific situation.
 **Make sure to identify the error before copying the commands listed under.**
 :::
 
-:::caution **Yay Error: error while loading shared libraries**
+::::collapse accordion
+- ::mdi:error::**Yay Error: error while loading shared libraries**
 
-- This happens when your Yay repo is very outdated compared to your system, usually happens after a system update, to fix this, simply reinstall yay:
+  - This happens when your Yay repo is very outdated compared to your system, usually happens after a system update, to fix this, simply reinstall yay:
 
-```bash
-# Remove yay for update
-sudo pacman -R yay
+  ```bash
+  # Remove yay for update
+  sudo pacman -R yay
 
-# Install yay from git
-cd /tmp
-git clone https://aur.archlinux.org/yay-bin.git
-cd yay bin
-makepkg -si
-cd ..
+  # Install yay from git
+  cd /tmp
+  git clone https://aur.archlinux.org/yay-bin.git
+  cd yay bin
+  makepkg -si
+  cd ..
 
-# Clean /tmp folder
-rm -rf yay-bin
-```
+  # Clean /tmp folder
+  rm -rf yay-bin
+  ```
 
-:::
+- ::mdi:error::**Pacman Error: mirror not responding**
 
-:::caution **Pacman Error: mirror not responding**
+  - This happens when your list of mirrors are too slow or are outdated, this can be fixed by regenerating a list of faster mirrors under the `/etc/pacman.d/mirrorlist` file.
+  - This can be done by `reflector`, a package that automatically sorts and gneerates the mirrors by rates and saves on the `/etc/pacman.d/mirrorlist` file.
 
-- This happens when your list of mirrors are too slow or are outdated, this can be fixed by regenerating a list of faster mirrors under the `/etc/pacman.d/mirrorlist` file.
-- This can be done by `reflector`, a package that automatically sorts and gneerates the mirrors by rates and saves on the `/etc/pacman.d/mirrorlist` file.
+  ```bash
+  # Install reflector
+  sudo pacman -S reflector
 
-```bash
-# Install reflector
-sudo pacman -S reflector
+  # Example Template:
+  sudo reflector --country <country_name> --latest <number of servers from the latest>  --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
-# Example Template:
-sudo reflector --country <country_name> --latest <number of servers from the latest>  --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+  # Example Use:
+  sudo reflector --verbose --sort rate -l 75 --save /etc/pacman.d/mirrorlist
+  ```
 
-# Example Use:
-sudo reflector --verbose --sort rate -l 75 --save /etc/pacman.d/mirrorlist
-```
+- ::mdi:error:: **Signature from "" is unknown trust**
 
-:::
+  ```bash
+  # Example fail message:
+  error: PackageName: signature from "User <email@archlinux.org>" is invalid
+  error: failed to commit transaction (invalid or corrupted package (PGP signature))
+  Errors occurred, no packages were upgraded.
+  ```
 
-:::caution **Signature from "" is unknown trust**
+  - "This occurs because the packager's key used in the package package-name is not present and/or not trusted in the local pacman-key gpg database" - archlinux.org
 
-```bash
-# Example fail message:
-error: PackageName: signature from "User <email@archlinux.org>" is invalid
-error: failed to commit transaction (invalid or corrupted package (PGP signature))
-Errors occurred, no packages were upgraded.
-```
+  Fix can be done by:
 
-- "This occurs because the packager's key used in the package package-name is not present and/or not trusted in the local pacman-key gpg database" - archlinux.org
+  ```bash
+  pacman-key refresh-keys
+  ```
 
-Fix can be done by:
+  - If error persists, try regenerating the list of keys by the following:
 
-```bash
-pacman-key refresh-keys
-```
+  ```bash
+  # Remove the keys
+  sudo pacman -rm -rf /etc/pacman.d/gnupg
 
-- If error persists, try regenerating the list of keys by the following:
+  # Re-add the default keys
+  sudo pacman-key --init
+  sudo pacman-key --populate
+  ```
 
-```bash
-# Remove the keys
-sudo pacman -rm -rf /etc/pacman.d/gnupg
+- ::mdi:error:: **Pacman Error: failed to synchronize all databases (unable to lock database)**
 
-# Re-add the default keys
-sudo pacman-key --init
-sudo pacman-key --populate
-```
+  ```bash
+  sudo rm /var/lib/pacman/db.lck
+  ```
 
-:::
+- ::mdi:error:: **Pacman Error: failed to commit transaction (invalid or corrupted package)**
 
-:::caution **Pacman Error: failed to synchronize all databases (unable to lock database)**
+  - This happens when the keyring is outdated due to the lack of use or update of the system. The cause of this error is that it fails to check the package integrity using the PGP signature. To fix this error, simply update the keyrings by:
 
-```bash
-sudo rm /var/lib/pacman/db.lck
-```
-
-:::
-
-:::caution **Pacman Error: failed to commit transaction (invalid or corrupted package)**
-
-- This happens when the keyring is outdated due to the lack of use or update of the system. The cause of this error is that it fails to check the package integrity using the PGP signature. To fix this error, simply update the keyrings by:
-
-```bash
-pacman -S archlinux-keyring
-```
-
-:::
+  ```bash
+  pacman -S archlinux-keyring
+  ```
 
 ## **Noob corner (commonly asked questions)**
 
-<!-- template:
-::: card title="How to install .tar.zst files through terminal?" icon="mdi:help-circle"
-::: -->
 
-::: card title="How to install .tar.zst files through terminal?" icon="mdi:help-circle"
+::::collapse accordion
 
-```bash
-sudo pacman -U <directory-of-extracted-package.pkg.tar.zst>
-```
+- ::mdi:help-circle:: **How to install .tar.zst files through terminal?** 
 
-**Uninstall:**
+  ```bash
+  sudo pacman -U <directory-of-extracted-package.pkg.tar.zst>
+  ```
 
-```bash
-# Search for package name
-pacman -Q | grep "<package_name>"
+  **Uninstall:**
 
-# Removing while keeping depedencies (recommended)
-sudo pacman -R package_name
+  ```bash
+  # Search for package name
+  pacman -Q | grep "<package_name>"
 
-# Removing unused dependencies
-sudo pacman -Rsn package_name
+  # Removing while keeping depedencies (recommended)
+  sudo pacman -R package_name
 
-```
+  # Removing unused dependencies
+  sudo pacman -Rsn package_name
 
-:::
+  ```
 
-::: card title="How to revert pacman system update?" icon="mdi:help-circle"
+- ::mdi:help-circle:: **How to revert pacman system update?**
+  
+  Check for cached packages (old packages)
 
-Check for cached packages (old packages)
+  ```bash
+  ls /var/cache/pacman/pkg/ | grep <package-name>
+  ```
 
-```bash
-ls /var/cache/pacman/pkg/ | grep <package-name>
-```
+  Downgrade specific packages
 
-Downgrade specific packages
+  ```bash
+  sudo pacman -U /var/cache/pacman/pkg/<package-name>-<old-version>.pkg.tar.zst
+  ```
 
-```bash
-sudo pacman -U /var/cache/pacman/pkg/<package-name>-<old-version>.pkg.tar.zst
-```
+  If cache was cleared, use downgrade from aur
 
-If cache was cleared, use downgrade from aur
+  ```bash
+  yay -S downgrade
+  sudo downgrade <package-name>
+  ```
 
-```bash
-yay -S downgrade
-sudo downgrade <package-name>
-```
+  Last resort, revert all recent updates. The following line reverts the last 10 packages being updated
 
-Last resort, revert all recent updates. The following line reverts the last 10 packages being updated
+  ```bash
+  sudo pacman -U $(ls -t /var/cache/pacman/pkg/*.pkg.tar.zst | head -n 10)
+  ```
 
-```bash
-sudo pacman -U $(ls -t /var/cache/pacman/pkg/*.pkg.tar.zst | head -n 10)
-```
 
-:::
+- ::mdi:help-circle:: **How to improve download speed?**
 
-::: card title="How to improve download speed?" icon="mdi:help-circle"
+  Install [`reflector`](https://wiki.archlinux.org/title/Reflector) package
 
-Install [`reflector`](https://wiki.archlinux.org/title/Reflector) package
+  ```bash
+  sudo pacman -S reflector
+  ```
 
-```bash
-sudo pacman -S reflector
-```
+  Reflector is a package designed to filter and replace existing pacman mirrorlists
 
-Reflector is a package designed to filter and replace existing pacman mirrorlists
+  ```bash
+  # Example Template:
+  sudo reflector --country <country_name> --latest <number of servers from the latest>  --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
-```bash
-# Example Template:
-sudo reflector --country <country_name> --latest <number of servers from the latest>  --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+  # Example Use:
+  sudo reflector --verbose --sort rate -l 75 --save /etc/pacman.d/mirrorlist
+  ```
 
-# Example Use:
-sudo reflector --verbose --sort rate -l 75 --save /etc/pacman.d/mirrorlist
-```
-
-:::
-
-## **Cool tricks**
-
-- Add the line
-
-```bash
-ILoveCandy
-```
-
-under `/etc/pacman.conf` will give you a cooler download bar!
+::::
 
 ## **System Maintainance**
 
@@ -714,3 +692,13 @@ under `/etc/pacman.conf` will give you a cooler download bar!
     ::::
 
 :::::
+
+## **Cool tricks**
+
+- Add the line
+
+```bash
+ILoveCandy
+```
+
+under `/etc/pacman.conf` will give you a cooler download bar!
