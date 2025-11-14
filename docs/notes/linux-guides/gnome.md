@@ -22,7 +22,7 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 ==Read over this guide to customize Gnome to your liking!==
 :::
 
-::: important CHECK THIS OUT!
+::: tip CHECK THIS OUT!
 
 Do you want to check out ==more extensions, settings, and tips== to make more out of the Gnome Desktop? aier's has your back:
 
