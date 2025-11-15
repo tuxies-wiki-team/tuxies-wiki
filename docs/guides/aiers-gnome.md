@@ -1,5 +1,5 @@
 ---
-title: aier's Gnome (and Other Setups)
+title: aier's Gnome (and Other Desktop-Related Setups)
 createTime: 2025/09/26 18:26:21
 permalink: /guides/aiers-gnome/
 tags:
@@ -7,6 +7,7 @@ tags:
   - Gnome
   - Productivity
   - Ricing
+sticky: 5
 ---
 
 ::::card-grid
@@ -24,12 +25,12 @@ aier
 or just proceed! :\)
 :::
 
-:::note Just a heads up, this guide is not going to be as polished as the ones released in the main series as I am in university (my career is 100% unrelated to CS). I apologize ahead of times and thank you for reading!
+:::note Just a heads up, this guide is not going to be as detailed as the ones released in the main series as its content updates much more often as newer versions of Gnome and new extensions come out.
 :::
 
 ## Let's Add Some More Keyboard Shortcuts!
 
-:::tip The keyboard shortcuts in the Gnome Guide are quite minimal. I personally have these shortcuts as well:
+:::tip The keyboard shortcuts in the Gnome Guide are great, but I have these shortcuts as well:
 
 `<Super><Shift>Return` --> Center Window on the screen.
 
