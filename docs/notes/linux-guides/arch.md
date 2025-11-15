@@ -45,7 +45,8 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
   - **Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB. For reference, refer to [Flashing Guide](../../notes/linux-guides/flashing-guide.md).**
 
   - **Reboot into system BIOS System and boot into the USB.**
-    **Note: Turn off secure boot**
+    :::info Note: **Turn off secure boot**
+    :::
 
 - **Part 2. Connect to the Internet**
 
@@ -256,7 +257,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
       LANG=en_US.UTF-8
       ```
       `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
-      ::::
+    ::::
 
 - **Part 6. Network Configuration**
 
@@ -309,7 +310,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
     ```bash
     # For Intel CPU:
-    pacman -S amd-ucode
+    pacman -S intel-ucode
 
     # For AMD CPU:
     pacman -S amd-ucode
@@ -335,7 +336,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     grub-install --target=x86_64-efi --efi-directory= <EFI_partition_mount_directory> --bootloader-id=Arch
     ```
 
-    **Note: Make sure that the EFI partition have enough storage, you can delete unwanted bootloaders by:**
+    :::important Make sure that the EFI partition have enough storage, you can delete unwanted bootloaders by:
 
     ```bash
     ls /boot
