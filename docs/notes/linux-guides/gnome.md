@@ -355,8 +355,8 @@ Use the following to append all keyboard shortcuts covered in this section. You 
 @tab ::mdi:terminal:: Append changes (cli)
 
 ```bash
-dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left']"
-dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left', '<Super>Page_Up']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right', '<Super>Page_Down']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-left "['<Super>bracketleft']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-right "['<Super>bracketright']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-windows "['<Alt>Tab']"
@@ -415,8 +415,8 @@ Use the following to append all keyboard shortcuts covered in this section. Keep
 @tab ::mdi:terminal:: Append changes (cli)
 
 ```bash
-dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left']"
-dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left', '<Super>Page_Up']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right', '<Super>Page_Down']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-left "['<Super>bracketleft']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-right "['<Super>bracketright']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-windows "['<Alt>Tab']"
@@ -487,8 +487,11 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
   @tab ::mdi:terminal:: Append changes (cli)
 
   ```bash
-  dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left']"
-  dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right']"
+  # Also preserving the original keybinding
+  # <Super>Page_Up/Page_Down here because it is
+  # quite useful on a full sized keyboard.
+  dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left', '<Super>Page_Up']"
+  dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right', '<Super>Page_Down']"
   ```
 
   @tab ::mdi:file-settings:: Append changes (Dconf Editor)
