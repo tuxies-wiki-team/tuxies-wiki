@@ -133,6 +133,11 @@ export const enNavbar = defineNavbarConfig([
             link: "/contributions/",
           },
           {
+            text: "Dev Setup Guide",
+            icon: "mdi:dev-to",
+            link: "/contributions/dev-setup-guide/",
+          },
+          {
             text: "Contribution Guidelines",
             icon: "mdi:script",
             link: "/contributions/guidelines/",

@@ -1,7 +1,7 @@
 ---
 title: Dev Setup Guide
 createTime: 2025/08/09 08:29:45
-permalink: /hidden/dev-setup-guide/
+permalink: /contributions/dev-setup-guide/
 draft: false
 ---
 
@@ -62,7 +62,7 @@ This guide aims to set up and run Tuxie's Wiki locally to start drafting your co
 
   Select `Open in terminal`
 
-  ![Windows Screenshot](../hidden/assets/windows-setup.png)
+  ![Windows Screenshot](./assets/windows-setup.png)
   ::::
 
   - Run

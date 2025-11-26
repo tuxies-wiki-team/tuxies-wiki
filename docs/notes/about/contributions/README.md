@@ -8,7 +8,7 @@ permalink: /contributions/
 
 We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.
 
-Learn how to get started locally on your machine [Dev Setup Guide](../../hidden/dev-setup-guide.md)
+Learn how to get started locally on your machine [Dev Setup Guide](./dev-setup-guide.md)
 
 We use Discord as our primary platform to discuss ideas, get feedback, and coordinate with the team.
 
