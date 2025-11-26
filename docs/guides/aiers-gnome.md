@@ -8,18 +8,9 @@ tags:
   - Productivity
   - Ricing
 sticky: 5
+contributors:
+  - aier
 ---
-
-::::card-grid
-
-:::card title="Author" icon="fluent-emoji:writing-hand"
-aier
-:::
-
-<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-::: -->
-
-::::
 
 :::tip You might want to go through with setting up Gnome through [Gnome Guide](../notes/linux-guides/gnome.md) first...
 or just proceed! :\)
