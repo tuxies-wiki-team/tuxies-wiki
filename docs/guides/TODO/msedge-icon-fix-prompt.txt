@@ -1,0 +1,11 @@
+Refactor .desktop files for all Microsoft Edge web apps running on Wayland by updating the StartupWMClass line.
+
+Current line format:
+StartupWMClass=crx__APPID
+
+Replace it with the Wayland-compatible format:
+StartupWMClass=msedge-_APPID-Default
+
+For each .desktop file, dynamically extract APPID from the Exec line’s --app-id argument.
+
+Ensure this fix applies to all Microsoft Edge web apps to enable separate window grouping and distinct icons on Wayland.

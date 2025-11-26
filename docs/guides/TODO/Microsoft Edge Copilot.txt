@@ -1,0 +1,13 @@
+the flatpak install of edge is missing a config file. once this file is added, copilot will work. copilot is an essential part of why people use edge.
+
+dont feel bad, other edge installers for linux also somehow do not include this file in the config
+
+the file that is missing is called HubApps, and it can be copied from any edge install, on windows it would be here:
+
+AppData/Local/Microsoft/Edge/User Data/Default/HubApps
+
+this file needs to be copied to
+
+.var/app/com.microsoft.Edge/config/microsoft-edge/Default/
+
+and restart edge, then copilot will work.
