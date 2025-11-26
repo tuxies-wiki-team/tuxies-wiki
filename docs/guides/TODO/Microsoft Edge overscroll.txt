@@ -1,9 +1,5 @@
-# Go to 
-# /usr/share/applications/microsoft-edge.desktop
-# 
-# and modify the exec line by adding the 
-# following flag:
-# 
-# --enable-features=TouchpadOverscrollHistoryNavigation
+Go to ~/.var/app/com.microsoft.Edge/config/edge-flags.conf
 
-Exec=/usr/bin/microsoft-edge-stable %U --enable-features=TouchpadOverscrollHistoryNavigation
+and write
+
+--enable-features=TouchpadOverscrollHistoryNavigation
