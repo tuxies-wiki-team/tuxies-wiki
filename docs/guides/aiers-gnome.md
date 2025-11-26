@@ -28,9 +28,9 @@ or just proceed! :\)
 :::note Just a heads up, this guide is not going to be as detailed as the ones released in the main series as its content updates much more often as newer versions of Gnome and new extensions come out.
 :::
 
-## Let's Add Some More Keyboard Shortcuts!
+## Let's add more keyboard shortcuts!
 
-:::tip The keyboard shortcuts in the Gnome Guide are great, but I have these shortcuts as well:
+:::tip The keyboard shortcuts in the Gnome Guide are great, I have these shortcuts as well:
 
 `<Super><Shift>Return` --> Center Window on the screen.
 
@@ -41,19 +41,56 @@ or just proceed! :\)
 
 ```bash
 # <Super> + <Shift> + Return → Center window
-gsettings set org.gnome.desktop.wm.keybindings move-to-center "['<Super><Shift>Return']"
+dconf write /org/gnome/desktop/wm/keybindings/move-to-center "['<Super><Shift>Return']"
 
 # <Super> + F → Toggle fullscreen
-gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Super>F']"
+dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscreen "['<Super>F']"
 
 # <Super> + X → Close window
-gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
+dconf write /org/gnome/desktop/wm/keybindings/close "['<Super>X', '<Alt>F4']"
 ```
 
-## Facial Recognition with Howdy
+## Facial recognition with Howdy
 
 :::tip This applies outside of Gnome as well. If your computer supports facial recognition, you can check the details to setting up Howdy from the [official GitHub page](https://github.com/boltgolt/howdy?tab=readme-ov-file).
 :::
+
+## Better-looking Fonts
+
+:::tip The Adwaita series font is pretty good, but I find the IBM Plex series to be more modern and pleasing.
+:::
+
+:::tabs
+
+@tab ::devicon:fedora:: Fedora
+
+```bash
+sudo dnf install ibm-plex-fonts-all
+```
+
+@tab ::devicon:archlinux:: Arch
+
+```bash
+sudo pacman -S ttf-ibm-plex
+```
+
+@tab ::devicon:debian:: Debian/Ubuntu
+
+```bash
+sudo apt install fonts-ibm-plex
+```
+
+:::
+
+```bash
+dconf write /org/gnome/desktop/interface/font-name "'IBM Plex Sans 11'"
+dconf write /org/gnome/desktop/interface/document-font-name "'IBM Plex Sans 12'"
+dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'"
+```
+
+<!-- dconf reset /org/gnome/desktop/interface/font-name  -->
+<!-- dconf reset /org/gnome/desktop/interface/document-font-name  -->
+<!-- dconf reset /org/gnome/desktop/interface/monospace-font-name  -->
 
 ## GNOME Extensions
 
@@ -130,6 +167,57 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
   ![Blur My Shell Demonstration](./assets/blur-my-shell-demonstration.png)
   :::
 
+- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+
+  ::: info Moves the dash out of overview into a dock for quicker app launching and window switching.
+  ![Dash to Dock Demonstration](./assets/dash-to-dock-demonstration.png)
+  :::
+
+  :::tip My settings:
+  Go to the extension's settings --> Appearances, turn on `Shrink the dash` to make the dash smaller and slicker.
+  :::
+
+- [Kiwi is not Apple](https://extensions.gnome.org/extension/8276/kiwi-is-not-apple/)
+
+  ::: info Offers many UI changes to make Gnome more Mac-like. I use it for the window title, lock key indicator, and transparent window move function.
+  :::
+
+  ```bash
+  # aier's Kiwi settings
+
+  # Disable (for consistency):
+  # This feature stylizes titlebuttons to look
+  # like traffic lights. They can be inconsistent.
+  dconf write /org/gnome/shell/extensions/kiwi/enable-app-window-buttons "false"
+  dconf write /org/gnome/shell/extensions/kiwi/show-window-controls "false"
+
+  # Enable (for aesthetics):
+  # Stylize the keyboard layout indicator
+  dconf write /org/gnome/shell/extensions/kiwi/keyboard-indicator "true"
+
+  # Enable (for utility):
+  # Great utility; allows you to see lock keys
+  # status on the top bar. This replaces the lock
+  # keys extension that used to be in my setup.
+  dconf write /org/gnome/shell/extensions/kiwi/lock-icon "true"
+
+  # Disable (for personal preference):
+  # This feature moves the clock to the right and
+  # moves notifications to the quick settings.
+  # I prefer the original Gnome layout.
+  dconf write /org/gnome/shell/extensions/kiwi/move-calendar-right "false"
+
+  # Disable (due to buginess & personal preference)
+  # I personally don't like this behavior as I
+  # prefer manual window and workspace management.
+  dconf write /org/gnome/shell/extensions/kiwi/move-window-to-new-workspace "false"
+
+  # Enable (for aesthetic & utility)
+  # This fills up empty space on the left side and
+  # you can click on it for additional functionality.
+  dconf write /org/gnome/shell/extensions/kiwi/show-window-title "true"
+  ```
+
 ::::
 :::::
 
@@ -155,16 +243,6 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
   ![Custom Reboot Demonstration](./assets/custom-reboot-demonstration.png)
   :::
 
-- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
-
-  ::: info Moves the dash out of overview into a dock for quicker app launching and window switching.
-  ![Dash to Dock Demonstration](./assets/dash-to-dock-demonstration.png)
-  :::
-
-  :::tip My settings:
-  Go to the extension's settings --> Appearances, turn on `Shrink the dash` to make the dash smaller and slicker.
-  :::
-
 - [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/)
 
   ::: info Adds an emoji picker to search and copy emojis quickly.
@@ -180,10 +258,9 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
   ![Gnome Fuzzy App Search Demonstration](./assets/gnome-fuzzy-app-search-demonstration.png)
   :::
 
-- [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/)
+- [Auto Power Profile](https://extensions.gnome.org/extension/6583/auto-power-profile/)
 
-  ::: info Shows Caps Lock and Num Lock status in the top panel.
-  ![Lock Keys Demonstration](./assets/lock-keys-demonstration.png)
+  ::: info Changes power profile based on AC status and battery percentage.
   :::
 
 ::::
@@ -202,6 +279,15 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>X', '<Alt>F4']"
 
   ::: note
   I no longer use this extension because you can simply do control enter when searching an app to open a new instance. With this said, you'd gain back the default ability to switch to an app through the overview search.
+  :::
+
+- [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/)
+
+  ::: info Shows Caps Lock and Num Lock status in the top panel.
+  ![Lock Keys Demonstration](./assets/lock-keys-demonstration.png)
+  :::
+
+  ::: note Archived because kiwi has this feature built in.
   :::
 
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
