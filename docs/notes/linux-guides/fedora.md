@@ -117,5 +117,5 @@ We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you
 
 From this point on, customization for your Fedora installation would mainly be based on the DE that you are using.
 
-- [Gnome Guide](./gnome.md)
-- [aier's Gnome](../../guides/aiers-gnome.md)
+- [Gnome Guide](/linux-guides/gnome/)
+- [aier's Gnome](/guides/aiers-gnome/)

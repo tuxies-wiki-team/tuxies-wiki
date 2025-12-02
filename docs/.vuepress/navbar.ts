@@ -38,6 +38,11 @@ export const enNavbar = defineNavbarConfig([
         link: "/linux-guides/",
       },
       {
+        text: "Flashing Guide",
+        icon: "mdi:usb-flash-drive",
+        link: "/linux-guides/flashing-guide/",
+      },
+      {
         text: "Distro Guides",
         items: [
           {
@@ -131,6 +136,11 @@ export const enNavbar = defineNavbarConfig([
             text: "Become a Contributor",
             icon: "mdi:pencil-plus",
             link: "/contributions/",
+          },
+          {
+            text: "Dev Setup Guide",
+            icon: "mdi:dev-to",
+            link: "/contributions/dev-setup-guide/",
           },
           {
             text: "Contribution Guidelines",

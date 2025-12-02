@@ -4,21 +4,11 @@ tags:
   - Archived
 createTime: 2025/05/29 08:29:45
 permalink: /archived/spiral-linux/
+contributors: Jose Porcar
 ---
 
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-joseporcar
-:::
-
-<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-::: -->
-
-::::
-
 :::warning Under construction
-We are currently looking for a contributor for this guide. Check [Become a Contributor](../about/contributions/README.md) for more details.
+We are currently looking for a contributor for this guide. Check [Become a Contributor](/contributions/) for more details.
 :::
 
 :::tip Spiral?
@@ -32,10 +22,10 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 - **Download the ISO**
   You can find the iso at [the official Spiral Linux website](https://spirallinux.github.io/#download) (I personally use Gnome)
   :::warning
-  The bright orange builders button looks attractive, but you should just go to [Arch](arch.md) with [Hyprland](https://hypr.land) if you want to work with a window manager
+  The bright orange builders button looks attractive, but you should just go to [Arch](/linux-guides/arch/) with [Hyprland](https://hypr.land) if you want to work with a window manager
   :::
 - **Flash it!**
-  With the downloaded ISO follow our [flashing guide](../notes/linux-guides/flashing-guide.md)
+  With the downloaded ISO follow our [flashing guide](/linux-guides/flashing-guide/)
 - **Boot it up**
   - Make sure to have the USB drive plugged in
   - Reboot (or boot up) your system and spam the F12, F10, F2, Delete and any key that could possibly be your bios configuration (or boot menu)
@@ -63,4 +53,4 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 
 ## **Make it pretty**
 
-This will vary based on your ==desktop environment==. You can check out specific guides [here](http://localhost:8080/tuxies-wiki/linux-guides/#desktop-environments-des)
+This will vary based on your ==desktop environment==. You can check out specific guides [here](/linux-guides/#desktop-environments-des)
