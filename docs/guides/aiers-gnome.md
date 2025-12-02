@@ -12,7 +12,7 @@ contributors:
   - aier
 ---
 
-:::tip You might want to go through with setting up Gnome through [Gnome Guide](../notes/linux-guides/gnome.md) first.
+:::tip You might want to go through with setting up Gnome through [Gnome Guide](/linux-guides/gnome/) first.
 :::
 
 :::important This guide is not going to be as detailed as the ones released in the main series as its content updates much more often as newer versions of Gnome and new extensions come out.
