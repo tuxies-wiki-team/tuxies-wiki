@@ -164,7 +164,7 @@ Extensions are programs installed onto Gnome to allow extra functionality.
 In this section, the following extensions are purely for ricing.
 
 They're installed using the application "Extension Manager."
-Refer to our [Apps-Library](../notes/linux-apps/gnomie.md) for installation.
+Refer to our [Apps-Library](/linux-apps/gnomie/) for installation.
 :::
 
 ### Blur My Shell
@@ -175,7 +175,7 @@ Refer to our [Apps-Library](../notes/linux-apps/gnomie.md) for installation.
 This extension allows Gnome to install themes downloaded online to make your desktop environment have a different aesthetic.
 :::
 
-:::note You will need to install [Gnome-Tweaks](../notes/linux-apps/gnomie.md) to select the themes later
+:::note You will need to install [Gnome-Tweaks](/linux-apps/gnomie/#gnome-tweaks) to select the themes later.
 :::
 
 :::::: collapse

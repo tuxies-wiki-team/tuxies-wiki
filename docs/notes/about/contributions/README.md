@@ -8,7 +8,7 @@ permalink: /contributions/
 
 We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.
 
-Learn how to get started locally on your machine [Dev Setup Guide](./dev-setup-guide.md)
+Learn how to get started locally on your machine [Dev Setup Guide](/contributions/dev-setup-guide/).
 
 We use Discord as our primary platform to discuss ideas, get feedback, and coordinate with the team.
 
@@ -51,25 +51,25 @@ Propose new sections or features for the project.
 
 ::::
 
-## **Submission proces**s
+## **Submission process**
 
 :::info Write and submit an article to the wiki!
 :::
 
 ::::::steps
 
-- **Discuss** your idea in `#contributions`
+- **Discuss** your idea in `#contributions` and/or **open an issue** on GitHub.
 
-- [**Check out contribution guidelines**](./guidelines.md)
+- [**Check out contribution guidelines.**](/contributions/guidelines/)
 
-- **Start editing**
+- **Start editing.**
 
   There are two main ways you can edit and submit:
 
   - You can fork the website and edit articles and see them live in your own machine.
   - You can write a text document, whether in plain text, plain markdown, or in Vuepress markdown used for the wiki.
 
-- **Submit via** GitHub PR or `#submissions`
+- **Submit via** GitHub PR or `#submissions`.
 
 ::::::
 

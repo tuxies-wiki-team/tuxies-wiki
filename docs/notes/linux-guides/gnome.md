@@ -26,19 +26,17 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 
 Do you want to check out ==more extensions, settings, and tips== to make more out of the Gnome Desktop? aier's has your back:
 
-[aier's Gnome](../../guides/aiers-gnome.md)
+[aier's Gnome](/guides/aiers-gnome/)
 :::
 
 ::: info You may have been looking for:
-[Linux Guides Homepage](../linux-guides/README.md) to see more distros and desktop environments.
-
-<!-- [Ricing (Gnome)](../../guides/ricing-gnome.md) for ricing (aesthetic customization) guide. -->
+[Linux Guides Homepage](/linux-guides/) to see more distros and desktop environments.
 
 :::
 
 ## **First steps**
 
-### Go through the `Settings` app and make some quick tweaks to your needs.
+### **Go through the `Settings` app and make some quick tweaks to your needs.**
 
 :::card
 
@@ -51,7 +49,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 - ==Keyboard== — Add and modify keyboard shortcuts and change keyboard input settings.
   :::
 
-### Install some apps for more advanced options
+### **Install some apps for more advanced options**
 
 :::::::card
 
@@ -90,7 +88,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
   ![Gnome Tweaks](./assets/gnome-tweaks.png)
 
-  [More details...](../linux-apps/gnomie.md#gnome-tweaks)
+  [More details...](/linux-apps/gnomie/#gnome-tweaks)
 
   ::::
 
@@ -121,7 +119,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
   ![Dconf Editor](./assets/dconf-editor.png)
 
-  [More details...](../linux-apps/gnomie.md#dconf-editor)
+  [More details...](/linux-apps/gnomie/#dconf-editor)
 
   ::::
 
@@ -147,7 +145,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
   ![Extension Manager](./assets/extension-manager.png)
 
-  [More details...](../linux-apps/gnomie.md#extension-manager)
+  [More details...](/linux-apps/gnomie/#extension-manager)
   ::::
   :::::
 
@@ -249,7 +247,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 :::::::
 
-### Install useful extensions
+### **Install useful extensions**
 
 :::::::card
 
@@ -339,7 +337,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 :::::::
 
-### Append useful keyboard shortcuts
+### **Append useful keyboard shortcuts**
 
 :::::::card
 

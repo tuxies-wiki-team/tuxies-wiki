@@ -1,5 +1,0 @@
-Go to ~/.var/app/com.microsoft.Edge/config/edge-flags.conf
-
-and write
-
---enable-features=TouchpadOverscrollHistoryNavigation

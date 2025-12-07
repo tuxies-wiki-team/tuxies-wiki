@@ -17,7 +17,7 @@ joseporcar
 ::::
 
 :::warning Under construction
-We are currently looking for a contributor for this guide. Check [Become a Contributor](../about/contributions/README.md) for more details.
+We are currently looking for a contributor for this guide. Check [Become a Contributor](/contributions/) for more details.
 :::
 
 :::tip Slow and steady wins the race
@@ -33,7 +33,7 @@ This guide will teach you how to start your own Debian home server machine from 
 - **Download the ISO**
   You can get the ISO from [the debian website](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/). Just scroll to the bottom and click on the file ending in _.iso_. In case you have an arm processor follow from this section of [the debian website](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/)
 - **Flash it!**
-  With the downloaded ISO follow our [flashing guide](../../notes/linux-guides/flashing-guide)
+  With the downloaded ISO follow our [flashing guide](/linux-guides/flashing-guide/)
 - **Boot it up**
   - Make sure to have the USB drive plugged in
   - Reboot (or boot up) your system and spam the F12, F10, F2, Delete and any key that could possibly be your bios configuration (or boot menu)
@@ -51,4 +51,4 @@ This guide will teach you how to start your own Debian home server machine from 
 ### SSH
 
 The next thing you want set up is ==SSH== in order to modify your server from any other device or even from beyond your home.
-To do so, you must follow our [SSH guide](../../guides/ssh-guide)
+To do so, you must follow our [SSH guide](/guides/ssh-guide/)

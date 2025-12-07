@@ -13,7 +13,7 @@ permalink: /linux-guides/
 
 :::card title="Fedora" icon="devicon:fedora"
 
-[_Tips hat_](./fedora.md)
+[_Tips hat_](/linux-guides/fedora/)
 
 Offers a high-quality out-of-the-box experience while remaining highly flexible. Maintained by **aier**.
 
@@ -21,7 +21,7 @@ Offers a high-quality out-of-the-box experience while remaining highly flexible.
 
 :::card title="Arch" icon="devicon:archlinux"
 
-[Welcome to the bleeding edge!](./arch.md)
+[Welcome to the bleeding edge!](/linux-guides/arch/)
 
 Includes a complete installation guide, ROG Linux setup, Nvidia drivers, and up-to-date error reports. Maintained by **Lunear**.
 
@@ -29,13 +29,11 @@ Includes a complete installation guide, ROG Linux setup, Nvidia drivers, and up-
 
 :::card title="Debian" icon="devicon:debian"
 
-[Classic!](./debian.md)
+[Classic!](/linux-guides/debian/)
 
 Complete guide including server setup! Maintained by **joseporcar**.
 
 :::
-
-
 
 ::::
 
