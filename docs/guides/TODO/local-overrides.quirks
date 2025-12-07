@@ -1,12 +1,8 @@
+# Libinput Local Quirks
+# Save as /etc/libinput/local-override.quirks
+
 [Recognize Keyd as Internal Keyboard]
 
 MatchUdevType=keyboard
 MatchName=keyd*keyboard
 AttrKeyboardIntegration=internal
-
-[Touchpad Scroll Speed Fix]
-MatchUdevType=touchpad
-# 10 is usually the default.
-# Higher value (e.g. 30) = SLOWER scrolling (finger must move further)
-# Lower value (e.g. 5) = FASTER scrolling (finger moves less)
-AttrScrollDistance=25
