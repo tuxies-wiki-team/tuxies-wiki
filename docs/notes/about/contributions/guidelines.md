@@ -510,14 +510,26 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
 Use highlighting (==) to emphasize text, especially in paragraphs.
 
-Do not use highlighting in titles such as haedings, step module titles, or collapse module titles.
+Do not use highlighting in titles such as headings, step module titles, or collapse module titles.
 
 :::details See code...
-Linux is known for being ==flexible, secure, and stable==. It is ==open-source==, meaning its source code is freely available for anyone to view, modify, and distribute. This fosters a ==collaborative global community== that continuously improves the system.
+
+```md
+Linux is known for being ==flexible, secure, and stable==.
+
+It is ==open-source==, meaning its source code is freely available for anyone to view, modify, and distribute.
+
+This fosters a ==collaborative global community== that continuously improves the system.
+```
+
 :::
 
 :::demo-wrapper
-Linux is known for being ==flexible, secure, and stable==. It is ==open-source==, meaning its source code is freely available for anyone to view, modify, and distribute. This fosters a ==collaborative global community== that continuously improves the system.
+Linux is known for being ==flexible, secure, and stable==.
+
+It is ==open-source==, meaning its source code is freely available for anyone to view, modify, and distribute.
+
+This fosters a ==collaborative global community== that continuously improves the system.
 :::
 
 ### Steps

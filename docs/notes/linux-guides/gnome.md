@@ -36,7 +36,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
 ## **First steps**
 
-### Go through the `Settings` app and make some quick tweaks to your needs.
+### **Go through the `Settings` app and make some quick tweaks to your needs.**
 
 :::card
 
@@ -49,7 +49,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 - ==Keyboard== — Add and modify keyboard shortcuts and change keyboard input settings.
   :::
 
-### Install some apps for more advanced options
+### **Install some apps for more advanced options**
 
 :::::::card
 
@@ -247,7 +247,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 :::::::
 
-### Install useful extensions
+### **Install useful extensions**
 
 :::::::card
 
@@ -337,7 +337,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 :::::::
 
-### Append useful keyboard shortcuts
+### **Append useful keyboard shortcuts**
 
 :::::::card
 

@@ -28,9 +28,6 @@ config:
 
 
         Join us to Linux learning accessible, fun, and collaborative!
-
-
-        We only accept applications under the basis that you'll be able to communicate through Discord.
       image: tux.svg
       actions:
         # - theme: brand
