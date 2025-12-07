@@ -26,13 +26,11 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 
 Do you want to check out ==more extensions, settings, and tips== to make more out of the Gnome Desktop? aier's has your back:
 
-[aier's Gnome](../../guides/aiers-gnome.md)
+[aier's Gnome](/guides/aiers-gnome/)
 :::
 
 ::: info You may have been looking for:
-[Linux Guides Homepage](../linux-guides/README.md) to see more distros and desktop environments.
-
-<!-- [Ricing (Gnome)](../../guides/ricing-gnome.md) for ricing (aesthetic customization) guide. -->
+[Linux Guides Homepage](/linux-guides/) to see more distros and desktop environments.
 
 :::
 
@@ -90,7 +88,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
   ![Gnome Tweaks](./assets/gnome-tweaks.png)
 
-  [More details...](../linux-apps/gnomie.md#gnome-tweaks)
+  [More details...](/linux-apps/gnomie/#gnome-tweaks)
 
   ::::
 
@@ -121,7 +119,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
   ![Dconf Editor](./assets/dconf-editor.png)
 
-  [More details...](../linux-apps/gnomie.md#dconf-editor)
+  [More details...](/linux-apps/gnomie/#dconf-editor)
 
   ::::
 
@@ -147,7 +145,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
   ![Extension Manager](./assets/extension-manager.png)
 
-  [More details...](../linux-apps/gnomie.md#extension-manager)
+  [More details...](/linux-apps/gnomie/#extension-manager)
   ::::
   :::::
 

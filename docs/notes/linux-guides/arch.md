@@ -42,7 +42,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
   - **Install the Arch mirror ISO from the [official website](https://archlinux.org/download/), for country, selecting any mirror from the US**
 
-  - **Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB. For reference, refer to [Flashing Guide](../../notes/linux-guides/flashing-guide.md).**
+  - **Write the ISO into a bootable USB using [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) for multiple ISOs on the same USB. For reference, refer to [Flashing Guide](/linux-guides/flashing-guide/).**
 
   - **Reboot into system BIOS System and boot into the USB.**
     :::info Note: **Turn off secure boot**
@@ -257,7 +257,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
       LANG=en_US.UTF-8
       ```
       `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
-    ::::
+      ::::
 
 - **Part 6. Network Configuration**
 
@@ -390,8 +390,8 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
   ::::steps
 
   - **[Desktop Environment](https://wiki.archlinux.org/title/Desktop_environment):**
-    - [Gnome](https://www.gnome.org/) 
-      - Checkout our [Gnome Guide](../../notes/linux-guides/gnome.md)
+    - [Gnome](https://www.gnome.org/)
+      - Checkout our [Gnome Guide](/linux-guides/gnome/)
       ```bash
       sudo pacman -S gnome
       ```
@@ -513,6 +513,7 @@ Note that all fixes below may vary depending on the user's specific situation.
 :::
 
 ::::collapse accordion
+
 - ::mdi:error:: `Yay Error: error while loading shared libraries`
 
   - This happens when your Yay repo is very outdated compared to your system, usually happens after a system update, to fix this, simply reinstall yay:
@@ -592,10 +593,9 @@ Note that all fixes below may vary depending on the user's specific situation.
 
 ## **Noob corner (commonly asked questions)**
 
-
 ::::collapse accordion
 
-- ::mdi:help-circle:: **How to install `.tar.zst` files through terminal?** 
+- ::mdi:help-circle:: **How to install `.tar.zst` files through terminal?**
 
   ```bash
   sudo pacman -U <directory-of-extracted-package.pkg.tar.zst>
@@ -616,7 +616,7 @@ Note that all fixes below may vary depending on the user's specific situation.
   ```
 
 - ::mdi:help-circle:: **How to revert pacman system update?**
-  
+
   Check for cached packages (old packages)
 
   ```bash
@@ -641,7 +641,6 @@ Note that all fixes below may vary depending on the user's specific situation.
   ```bash
   sudo pacman -U $(ls -t /var/cache/pacman/pkg/*.pkg.tar.zst | head -n 10)
   ```
-
 
 - ::mdi:help-circle:: **How to improve download speed?**
 
