@@ -44,11 +44,11 @@ This guide will teach you how to start your own Debian home server machine from 
 
 ## **Setting up your home server**
 
-### TailScale
+### **TailScale**
 
-=TailScale= is a tool that will allow you to access your home server from any device that also has tailscale installed. We will use this to acces the machine. To set it up just follow the instructions from [the Tailscale website](https://tailscale.com/). This process should just take a few minutes. It is _that_ easy.
+==TailScale== is a tool that will allow you to access your home server from any device that also has tailscale installed. We will use this to acces the machine. To set it up just follow the instructions from [the Tailscale website](https://tailscale.com/). This process should just take a few minutes. It is _that_ easy.
 
-### SSH
+### **SSH**
 
 The next thing you want set up is ==SSH== in order to modify your server from any other device or even from beyond your home.
 To do so, you must follow our [SSH guide](/guides/ssh-guide/)
