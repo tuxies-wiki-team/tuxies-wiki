@@ -7,21 +7,10 @@ tags:
 draft: true
 createTime: 2025/07/21 20:01:26
 permalink: /guides/ricing-gnome/
+contributors:
+  - aier
+  - othariste
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-aier, othariste
-:::
-
-<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-
-::: -->
-
-::::
-
-<!-- end of card grid -->
 
 :::warning This article is currently under construction!
 :::

@@ -6,19 +6,10 @@ tags:
   - Ricing
 createTime: 2025/05/22 09:05:08
 permalink: /guides/terminal-customization-bash/
+contributors:
+  - aier
+  - Lunear
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-aier
-:::
-
-:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-Lunear
-:::
-
-::::
 
 :::info
 This guide will walk you through customizing your Bash prompt, how to run `fastfetch` on start in your terminal, and a few useful terminal programs.

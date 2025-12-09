@@ -6,18 +6,9 @@ tags:
 title: Firefox Advanced Settings Tweaks (user.js)
 createTime: 2025/05/22 09:05:08
 permalink: /guides/firefox-userjs/
+contributors:
+  - aier
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-aier
-:::
-
-<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-::: -->
-
-::::
 
 :::tip
 This guide will walk you through a few changes you can make to your `user.js` that will make your Firefox-based experience of Linux much more polished.

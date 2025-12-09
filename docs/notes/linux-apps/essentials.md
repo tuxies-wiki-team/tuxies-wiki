@@ -2,21 +2,10 @@
 title: Essentials
 createTime: 2025/05/29 08:29:45
 permalink: /linux-apps/essentials/
+contributors:
+  - aier
+  - Lunear
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-aier, Lunear
-:::
-
-:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-
-<!-- add name here -->
-
-:::
-
-::::
 
 ## **[Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)**
 

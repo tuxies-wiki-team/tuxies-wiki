@@ -2,21 +2,10 @@
 title: Editor's Choice
 createTime: 2025/05/22 09:05:08
 permalink: /linux-apps/editors-choice/
+contributors:
+  - aier
+  - Lunear
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-aier, Lunear
-:::
-
-:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-
-<!-- add name here -->
-
-:::
-
-::::
 
 ## **[CopyQ](https://github.com/hluk/CopyQ)**
 

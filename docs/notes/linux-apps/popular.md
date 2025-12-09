@@ -2,21 +2,10 @@
 title: Popular
 createTime: 2025/05/29 08:29:45
 permalink: /linux-apps/popular/
+contributors:
+  - aier
+  - Lunear
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-aier, Lunear
-:::
-
-:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-
-<!-- add name here -->
-
-:::
-
-::::
 
 ## **[Discord](https://flathub.org/apps/com.discordapp.Discord)**
 
