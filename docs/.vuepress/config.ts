@@ -59,9 +59,9 @@ export default defineUserConfig({
 
     /* 页内信息 */
     // editLink: true,
-    // lastUpdated: true,
+    lastUpdated: true,
     contributors: {
-      mode: "inline",
+      mode: "block",
     },
     changelog: true,
 
