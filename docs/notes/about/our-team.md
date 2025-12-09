@@ -1,15 +1,15 @@
 ---
 pageLayout: "friends"
 title: Our Team
-description: Thank you for making this wiki possible!
+description: Thank you for making this wiki possible! Click on their profile to learn more!
 createTime: 2025/06/04 08:02:42
 permalink: /about/our-team/
 groups:
   - title: OGs 🤍
-    desc: Click on their profile to learn more!
+    desc: The founders of Tuxie's Wiki.
     list:
       - name: aier
-        link: https://www.linkedin.com/in/eugenio-wu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+        link: https://www.linkedin.com/in/eugenio-wu/
         avatar: https://media.licdn.com/dms/image/v2/D4D03AQG1nvUKCLi4UQ/profile-displayphoto-scale_400_400/B4DZpcQCj6HwAg-/0/1762484300629?e=1766620800&v=beta&t=H5aOJjnoboHukTc19HYlpy400W5N8wK1J08mWvQzlzw
         location: Boston, NYC, Valencia
         desc: I am pursuing Finance but I do a bit of tech on the side ❤️‍🔥
@@ -20,7 +20,7 @@ groups:
         location: Toronto, Valencia
         desc: I use arch btw.
   - title: Contributors
-    desc: The ones who have made Tuxie's Wiki possible 🤍
+    desc: All who have made Tuxie's Wiki possible 🤍
     list:
       - name: joseporcar
         link: https://github.com/joseporcar
@@ -32,5 +32,5 @@ groups:
         link: https://github.com/Othersideofacoin
         avatar: https://github.com/Othersideofacoin.png
         location: Boston, NYC
-        desc: Yet to be added
+        desc:
 ---
