@@ -5,21 +5,9 @@ tags:
   - Productivity
 createTime: 2025/07/14 18:18:12
 permalink: /guides/ssh-guide/
+contributors:
+  - joseporcar
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-joseporcar
-:::
-
-<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-
-::: -->
-
-::::
-
-<!-- end of card grid -->
 
 :::tip Why use ==SSH==
 SSH is very useful if you wish to access your home computer when you are not at home. This can let you see the status of any program or run a new one. Doing so carefully is very important as in order to access it from beyond your home network special security measures must be enacted.

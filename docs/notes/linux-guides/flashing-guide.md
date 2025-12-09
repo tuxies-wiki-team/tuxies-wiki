@@ -2,21 +2,9 @@
 title: Flashing Guide
 createTime: 2025/06/26 09:05:08
 permalink: /linux-guides/flashing-guide/
+contributors:
+  - Lunear
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-Lunear
-:::
-
-<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-
-::: -->
-
-::::
-
-<!-- end of card grid -->
 
 :::info
 

@@ -2,19 +2,9 @@
 title: Gnome Guide
 createTime: 2025/06/07 16:35:26
 permalink: /linux-guides/gnome/
+contributors:
+  - aier
 ---
-
-::::card-grid
-
-:::card title="Author" icon="fluent-emoji:writing-hand"
-aier
-:::
-
-<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-Lunear
-::: -->
-
-::::
 
 ::: note Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somewhat stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
@@ -256,10 +246,10 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 ::::::collapse accordion
 
-- [`Launch New Instance`](https://extensions.gnome.org/extension/600/launch-new-instance/)
+<!-- - [`Launch New Instance`](https://extensions.gnome.org/extension/600/launch-new-instance/)
 
   :::info "Always launch a new instance when clicking in the dash or the application view."
-  :::
+  ::: -->
 
 - [`Dash to Dock`](https://extensions.gnome.org/extension/307/dash-to-dock/)
 

@@ -3,18 +3,9 @@ title: Arch Guide
 createTime: 2025/05/29 08:29:45
 permalink: /linux-guides/arch/
 draft: false
+contributors:
+  - Lunear
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-Lunear
-:::
-
-<!-- :::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-::: -->
-
-::::
 
 :::caution DISCLAIMER
 This guide will not hold responsibility for any personal data loss or damages of any kind, proceed with personal judgement.

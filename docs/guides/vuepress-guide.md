@@ -6,21 +6,10 @@ tags:
   - Web Dev
 createTime: 2025/06/08 01:20:38
 permalink: /guides/vuepress-guide/
+contributors:
+  - Lunear
+  - aier
 ---
-
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-Lunear
-:::
-
-:::card title="Co-author(s)" icon="fluent-emoji:two-hearts"
-
-aier
-
-:::
-
-::::
 
 <!-- end of card grid -->
 
@@ -369,40 +358,41 @@ There are many choices for web deployment, Github Pages will be used in this gui
 :::
 
 :::info Two Options
+
 1. Using `gh-pages` (Recommanded for its stableness)
 2. Using `gh` and workflow for compiling and push/deploy the pages
-:::
+   :::
 
 ### **Option 1: (Recommanded): Using `gh-pages`**
 
-  ::::steps
-  - Install ``gh-pages``
-      ```bash
-      npm install gh-pages
-    ```
-  - Edit package.json to add a new command
+::::steps
+
+- Install `gh-pages`
+  ```bash
+  npm install gh-pages
+  ```
+- Edit package.json to add a new command
   :::code-tabs
 
-    @tab package.json
+  @tab package.json
 
-    ```json
-    // Code omitted above...
-    "scripts": {
-      "docs:dev": "vuepress dev docs",
-      "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-      "docs:build": "vuepress build docs --clean-cache --clean-temp",
-      "docs:preview": "http-server docs/.vuepress/dist",
-      "docs:vp-update": "npx vp-update",
-      // [!code ++] [!code focus]
-      "deploy": "npm run build &&  gh-pages -d directory/of/your/build/files -b gh-pages",
-    },
-    // Code omitted below...
+  ```json
+  // Code omitted above...
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "docs:vp-update": "npx vp-update",
+    // [!code ++] [!code focus]
+    "deploy": "npm run build &&  gh-pages -d directory/of/your/build/files -b gh-pages",
+  },
+  // Code omitted below...
 
-    ```
+  ```
 
-    :::
+  :::
   ::::
-
 
 ### **Option 2 Using `gh`**
 
@@ -469,7 +459,6 @@ There are many choices for web deployment, Github Pages will be used in this gui
 
   :::important Create `.github/workflow/deploy.yml`
   :::
-
 
 - Edit `deploy.yml`
 
@@ -554,9 +543,10 @@ There are many choices for web deployment, Github Pages will be used in this gui
 
   ```
 
-    :::
+      :::
+
   ::::
-::::::
+  ::::::
 
 :::card title="Done!" icon="fluent-emoji:party-popper"
 Now, your Github page will have two branches, the `main` branch with all the `.md` files and the `gh-pages` with the Vuepress compiled `.html` files.

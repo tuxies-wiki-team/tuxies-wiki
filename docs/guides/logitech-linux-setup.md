@@ -8,15 +8,9 @@ tags:
   - Peripherals
   - Productivity
   - Fixes
+contributors:
+  - aier
 ---
-
-::::card-grid
-
-:::card title="Author" icon="fluent-emoji:writing-hand"
-aier
-:::
-
-::::
 
 :::tip Your Logitech peripherals have many features enabled by software on Windows and Mac, here's how to get them back on Linux!
 :::

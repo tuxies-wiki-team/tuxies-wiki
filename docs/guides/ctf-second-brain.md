@@ -6,14 +6,10 @@ tags:
   - CTF
 createTime: 2025/10/18 20:31:18
 permalink: /guides/ctf-second-brain/
+contributors:
+  - Lunear
 ---
 
-::::card-grid
-
-:::card title="Author(s)" icon="fluent-emoji:writing-hand"
-Lunear
-:::
-::::
 
 ## Resources
 
