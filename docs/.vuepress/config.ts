@@ -59,7 +59,9 @@ export default defineUserConfig({
 
     /* 页内信息 */
     // editLink: true,
-    lastUpdated: true,
+    lastUpdated: {
+      formatOptions: { dateStyle: "long", timeStyle: "long" },
+    },
     contributors: {
       mode: "block",
     },
