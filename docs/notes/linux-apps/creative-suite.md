@@ -50,3 +50,23 @@ sudo apt install darktable
 ```
 
 :::
+
+## **[Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)**
+
+Open souce vector graphic editor
+
+:::tabs
+
+@tab ::simple-icons:flatpak:: Flatpak (System)
+
+```bash
+flatpak install flathub org.inkscape.Inkscape
+```
+
+@tab ::simple-icons:flatpak:: Flatpak (User)
+
+```bash
+flatpak install --user org.inkscape.Inkscape
+```
+
+:::

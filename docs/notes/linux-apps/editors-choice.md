@@ -10,7 +10,7 @@ contributors:
 ## **[LocalSend](https://localsend.org/)**
 
 :::details Open-source, cross-platform file sharer to nearby devices.
-![Localsend](./assets/editors-choice/localsend-demo.png)
+![Localsend Demo](./assets/editors-choice/localsend-demo.png)
 :::
 
 :::tabs
@@ -35,71 +35,60 @@ yay -S localsend-bin
 
 :::
 
-## **[CopyQ](https://github.com/hluk/CopyQ)**
+## **[Zen Browser](https://flathub.org/apps/app.zen_browser.zen)**
 
-**From CopyQ's GitHub:** "CopyQ is an advanced clipboard manager with powerful editing and scripting features"
+:::details A feature-rich, Firefox based browser that just works with smooth animations and QoL features.
+![Zen Demo](./assets/editors-choice/zen-demo.png)
+:::
+
+:::tabs
+@tab ::simple-icons:flatpak:: Flatpak (System)
+
+```bash
+flatpak install flathub app.zen_browser.zen
+```
+
+@tab ::simple-icons:flatpak:: Flatpak (User)
+
+```bash
+flatpak install --user flathub app.zen_browser.zen
+```
+
+@tab ::devicon:archlinux:: Arch (AUR)
+
+```bash
+yay -S zen-browser-bin
+```
+
+:::
+
+## **[Bitwarden](https://bitwarden.com/)**
+
+Safe, trusted password manager.
 
 :::tabs
 
 @tab ::simple-icons:flatpak:: Flatpak (System)
 
 ```bash
-flatpak install flathub com.github.hluk.copyq
+flatpak install flathub com.bitwarden.desktop
 ```
 
 @tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
-flatpak install --user flathub com.github.hluk.copyq
+flatpak install --user flathub com.bitwarden.desktop
 ```
 
 :::
 
-**For Non-Flatpak Downloads:**
+Bitwarden is also offered as a browser extension
 
-:::tabs
-
-@tab ::devicon:fedora:: Fedora
-
-```bash
-sudo dnf install copyq
-```
-
-@tab ::devicon:archlinux:: Arch
-
-```bash
-sudo pacman -S copyq
-```
-
-@tab ::devicon:debian:: Debian/Ubuntu
-
-```bash
-sudo add-apt-repository ppa:hluk/copyq
-sudo apt update
-sudo apt install copyq
-```
-
-:::
-
-## **[Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)**
-
-Open souce vector graphic editor
-
-:::tabs
-
-@tab ::simple-icons:flatpak:: Flatpak (System)
-
-```bash
-flatpak install flathub org.inkscape.Inkscape
-```
-
-@tab ::simple-icons:flatpak:: Flatpak (User)
-
-```bash
-flatpak install --user org.inkscape.Inkscape
-```
-
-:::
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?browser=firefox)
+[Chrome](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?browser=firefox)
+[Edge](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
+[Opera](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
+[Brave](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb?browser=brave)
 
 ## **[Mission Center](https://flathub.org/apps/io.missioncenter.MissionCenter)**
 
@@ -117,31 +106,6 @@ flatpak install flathub io.missioncenter.MissionCenter
 
 ```bash
 flatpak install --user flathub io.missioncenter.MissionCenter
-```
-
-:::
-
-## **[Nautilus](https://apps.gnome.org/Nautilus/)**
-
-The clean, functional, and blazing fast file manager by Gnome
-:::tabs
-
-@tab ::devicon:fedora:: Fedora
-
-```bash
-sudo dnf install nautilus
-```
-
-@tab ::devicon:archlinux:: Arch
-
-```bash
-sudo pacman -S nautilus
-```
-
-@tab ::devicon:debian:: Debian/Ubuntu
-
-```bash
-sudo apt install nautilus
 ```
 
 :::
@@ -241,59 +205,6 @@ sudo apt install waydroid -y
 ```
 
 :::
-
-## **[Zen Browser](https://flathub.org/apps/app.zen_browser.zen)**
-
-**From Zen:** “Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.”
-
-:::tabs
-@tab ::simple-icons:flatpak:: Flatpak (System)
-
-```bash
-flatpak install flathub app.zen_browser.zen
-```
-
-@tab ::simple-icons:flatpak:: Flatpak (User)
-
-```bash
-flatpak install --user flathub app.zen_browser.zen
-```
-
-@tab ::devicon:archlinux:: Arch (AUR)
-
-```bash
-yay -S zen-browser-bin
-```
-
-:::
-
-## **[Bitwarden](https://bitwarden.com/)**
-
-Safe, trusted password manager.
-
-:::tabs
-
-@tab ::simple-icons:flatpak:: Flatpak (System)
-
-```bash
-flatpak install flathub com.bitwarden.desktop
-```
-
-@tab ::simple-icons:flatpak:: Flatpak (User)
-
-```bash
-flatpak install --user flathub com.bitwarden.desktop
-```
-
-:::
-
-Bitwarden is also offered as a browser extension
-
-[Firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?browser=firefox)
-[Chrome](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?browser=firefox)
-[Edge](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
-[Opera](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
-[Brave](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb?browser=brave)
 
 ## **[Gradia](https://github.com/AlexanderVanhee/Gradia)**
 
