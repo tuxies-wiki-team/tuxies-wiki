@@ -31,7 +31,8 @@ This guide will teach you how to start your own Debian home server machine from 
   - Set your usb drive as the first in the boot menu and disable secure boot (if you don't know how then play around a bit until you find!)
   - Exit bios and save the changes
   - Select the graphic installer and follow the on screen instructions
-    ::::
+
+::::
 
 ## **Setting up your home server**
 
