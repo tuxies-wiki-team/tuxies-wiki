@@ -14,10 +14,10 @@ Please read over this article to get you started!
 
 The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wiki page focused primarily on Linux knowledge, which includes Apps Library, Linux Guides, and software related guides.
 
-:::warning Tuxie's Wiki currently consists of 3 maintainers, thus there might be a slight delay to bug reports and other mainteinances.
+:::warning Tuxie's Wiki is currently a small team, thus there might be a slight delay to bug reports and other maintainances.
 :::
 
-:::danger This wiki is NOT endoursed by the Linux Foundation and is not a source of official documentation for any Linux distros and softwares.
+:::warning This wiki is NOT endoursed by the Linux Foundation and is not a source of official documentation for any Linux distros and softwares.
 :::
 
 :::danger PLEASE
@@ -25,17 +25,15 @@ The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wi
 - Read all instructions within the guide carefully.
 - Do not blindly copy/paste code without understanding its function and potencial effects.
 
-**We DO NOT take any responsibilities for personal losses incured due to the lack of personal judgement.**
-
 :::
 
 ## **Join the Discord**
 
-- Join our Discord for the most up-to-date bug-reports, contribution guidelines, and to meet other Linux enthusiasts who share the same passion!
+- Join our Discord for discussions and to meet other Linux enthusiasts who share the same passion!
 
 - We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.
 
-- We use Discord as our primary platform to discuss ideas, get feedback, and coordinate with the team.
+- We use Discord (along with GitHub) as our primary platform to discuss ideas, get feedback, and coordinate with the team.
 
 ::::card-grid
 
