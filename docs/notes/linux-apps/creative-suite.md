@@ -1,7 +1,7 @@
 ---
 Title: Creative Suite
 createTime: 2025/12/10 15:07:59
-permalink: /linux-apps/editors-choice/
+permalink: /linux-apps/creative-suite/
 contributors:
   - aier
   - Lunear
