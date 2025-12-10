@@ -361,7 +361,8 @@ There are many choices for web deployment, Github Pages will be used in this gui
 
 1. Using `gh-pages` (Recommanded for its stableness)
 2. Using `gh` and workflow for compiling and push/deploy the pages
-   :::
+
+:::
 
 ### **Option 1: (Recommanded): Using `gh-pages`**
 
