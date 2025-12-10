@@ -74,16 +74,17 @@ A collection of apps tailored for Gnome enthusiasts.
 
   ::::
 
-- Delisted
+- Delisted (most recent on top)
 
   ::::card
 
-  - **Floorp**: Function rich browser, replaced by Zen Browser.
-  - **Gradience**: GTK3 theming app, unmaintained.
-  - **Resources**: System resource monitor, replaced by Mission Center.
-  - **WhatsApp Desktop (io.github.mimbrero.WhatsAppDesktop)**: WhatsApp client, delisted from Flathub.
-  - **Pano**: Unsupported as of GNOME 48
-  - **Spotube**: Got sued for using Spotify API
+  - **rQuickshare:** Quickshare compatibility layer for Linux, replaced by Packet.
+  - **Floorp:** Function rich browser, replaced by Zen Browser.
+  - **Gradience:** GTK3 theming app, unmaintained.
+  - **Resources:** System resource monitor, replaced by Mission Center.
+  - **WhatsApp Desktop (io.github.mimbrero.WhatsAppDesktop):** WhatsApp client, delisted from Flathub.
+  - **Pano:** Unsupported as of GNOME 48
+  - **Spotube:** Got sued for using Spotify API
 
   ::::
 

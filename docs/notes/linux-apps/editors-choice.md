@@ -7,6 +7,34 @@ contributors:
   - Lunear
 ---
 
+## **[LocalSend](https://localsend.org/)**
+
+:::details Open-source, cross-platform file sharer to nearby devices.
+![Localsend](./assets/editors-choice/localsend-demo.png)
+:::
+
+:::tabs
+
+@tab ::simple-icons:flatpak:: Flatpak (System)
+
+```bash
+flatpak install flathub org.localsend.localsend_app
+```
+
+@tab ::simple-icons:flatpak:: Flatpak (User)
+
+```bash
+flatpak install --user flathub org.localsend.localsend_app
+```
+
+@tab ::devicon:archlinux:: Arch (AUR)
+
+```bash
+yay -S localsend-bin
+```
+
+:::
+
 ## **[CopyQ](https://github.com/hluk/CopyQ)**
 
 **From CopyQ's GitHub:** "CopyQ is an advanced clipboard manager with powerful editing and scripting features"
@@ -69,32 +97,6 @@ flatpak install flathub org.inkscape.Inkscape
 
 ```bash
 flatpak install --user org.inkscape.Inkscape
-```
-
-:::
-
-## **[LocalSend](https://localsend.org/)**
-
-Open-source, cross-platform file sharer to nearby devices.
-
-:::tabs
-
-@tab ::simple-icons:flatpak:: Flatpak (System)
-
-```bash
-flatpak install flathub org.localsend.localsend_app
-```
-
-@tab ::simple-icons:flatpak:: Flatpak (User)
-
-```bash
-flatpak install --user flathub org.localsend.localsend_app
-```
-
-@tab ::devicon:archlinux:: Arch (AUR)
-
-```bash
-yay -S localsend-bin
 ```
 
 :::
@@ -163,55 +165,6 @@ flatpak install --user flathub md.obsidian.Obsidian
 ```
 
 :::
-
-## **[rQuickshare](https://henriqueclaranhan.github.io/rquickshare/)**
-
-**From rQuickshare's Github:** "Rust implementation of NearbyShare/QuickShare from Android for Linux and macOS."
-
-::::tabs
-
-@tab AppImage (No Root Required)
-
-:::important
-The following lines are as of June 5, 2025, newer version may be released.
-:::
-
-```bash
-# Install the AppImage from the link above and give exec permission by the line below
-chmod +x r-quick-share-main_v0.11.5_glibc-2.39_amd64.AppImage
-```
-
-::::
-
-::::tabs
-
-@tab ::devicon:fedora:: Fedora
-
-:::important
-The following lines are as of June 5, 2025, newer version may be released.
-:::
-
-```bash
-sudo rpm -i r-quick-share-main_v0.11.5_glibc-2.39_1-x86_64.rpm
-```
-
-@tab ::devicon:archlinux:: Arch (AUR)
-
-```bash
-yay -S r-quick-share
-```
-
-@tab ::devicon:debian:: Debian/Ubuntu
-
-:::important
-The following lines are as of June 5, 2025, newer version may be released.
-:::
-
-```bash
-sudo dpkg -i r-quick-share-main_v0.11.5_glibc-2.39_amd64.deb
-```
-
-::::
 
 ## **[Scrcpy](https://github.com/Genymobile/scrcpy)**
 
@@ -341,50 +294,6 @@ Bitwarden is also offered as a browser extension
 [Edge](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
 [Opera](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
 [Brave](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb?browser=brave)
-
-## **[Darktable](https://www.darktable.org/)**
-
-From Darktable: "darktable is an open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them."
-
-:::tabs
-
-@tab ::simple-icons:flatpak:: Flatpak (System)
-
-```bash
-flatpak install flathub org.darktable.Darktable
-```
-
-@tab ::simple-icons:flatpak:: Flatpak (User)
-
-```bash
-flatpak install --user flathub org.darktable.Darktable
-```
-
-:::
-
-### **Non-flatpak install**
-
-:::tabs
-
-@tab ::devicon:fedora:: Fedora
-
-```bash
-sudo dnf install darktable
-```
-
-@tab ::devicon:archlinux:: Arch
-
-```bash
-sudo pacman -S darktable
-```
-
-@tab ::devicon:debian::Debian/Ubuntu
-
-```bash
-sudo apt install darktable
-```
-
-:::
 
 ## **[Gradia](https://github.com/AlexanderVanhee/Gradia)**
 
