@@ -193,23 +193,3 @@ sudo pacman -S code
 Download .deb file from link above
 
 :::
-
-## **[Blender](https://www.blender.org/download/)**
-
-3D creation suite for modeling, animation, visual effects, and video editing
-
-:::tabs
-
-@tab ::simple-icons:flatpak:: Flatpak (System)
-
-```bash
-flatpak install flathub org.blender.Blender
-```
-
-@tab ::simple-icons:flatpak:: Flatpak (User)
-
-```bash
-flatpak install --user flathub org.blender.Blender
-```
-
-:::

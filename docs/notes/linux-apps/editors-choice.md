@@ -64,7 +64,9 @@ yay -S zen-browser-bin
 
 ## **[Bitwarden](https://bitwarden.com/)**
 
-Safe, trusted password manager.
+:::details Safe, trusted password manager.
+![Bitwarden Demo](./assets/editors-choice/bitwarden-demo.png)
+:::
 
 :::tabs
 
@@ -82,8 +84,7 @@ flatpak install --user flathub com.bitwarden.desktop
 
 :::
 
-Bitwarden is also offered as a browser extension
-
+Bitwarden is also offered as a browser extension:
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?browser=firefox)
 [Chrome](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?browser=firefox)
 [Edge](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh)
@@ -92,7 +93,9 @@ Bitwarden is also offered as a browser extension
 
 ## **[Mission Center](https://flathub.org/apps/io.missioncenter.MissionCenter)**
 
-Useful and intuitive system resources displayer, that accurately displays informations including CPU, GPU, Ram, processes, among others.
+:::details Useful and intuitive system resources monitor that accurately displays informations including CPU, GPU, RAM, processes, among others.
+![Mission Center Demo](./assets/editors-choice/mission-center-demo.png)
+:::
 
 :::tabs
 
@@ -112,7 +115,9 @@ flatpak install --user flathub io.missioncenter.MissionCenter
 
 ## **[Obsidian](https://flathub.org/apps/md.obsidian.Obsidian)**
 
-Obsidian is a powerful markdown note-taking app available across different platforms. Obsidian supports custom theming, sync (paid), and publishing services. Write everything that is useful or that can be useful down and start building your second brain!
+::: details Obsidian is a powerful markdown note-taking app available across different platforms. Obsidian supports custom theming, sync (paid), and publishing services. Write everything that is useful or that can be useful down and start building your second brain!
+![Obsidian Demo](./assets/editors-choice/obsidian-demo.png)
+:::
 
 :::tabs
 
@@ -206,9 +211,11 @@ sudo apt install waydroid -y
 
 :::
 
-## **[Gradia](https://github.com/AlexanderVanhee/Gradia)**
+## **[Gradia](https://flathub.org/en/apps/be.alexandervanhee.gradia)**
 
-Screenshot application with annotation modes including text, arrow, and censor
+:::details Screenshot application with annotation modes including text, arrow, and censor
+![Gradia Demo](./assets/editors-choice/gradia-demo.png)
+:::
 
 :::tabs
 

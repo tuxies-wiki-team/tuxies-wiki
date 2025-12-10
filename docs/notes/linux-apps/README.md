@@ -37,6 +37,14 @@ Your favorite apps from Windows/Mac, but on Linux!
 
 :::
 
+:::card title="Creative Software" icon="fluent-color:design-ideas-16"
+
+[Unleash your creativity!](/linux-apps/creative-software/)
+
+A list of creative software that allow work done on Linux.
+
+:::
+
 :::card title="Gnomie" icon="fluent-emoji:desktop-computer"
 
 [For the Gnome fans!](/linux-apps/gnomie/)
@@ -53,14 +61,13 @@ A collection of apps tailored for Gnome enthusiasts.
 
   ::::card
 
+  - [ ] Packet
+  - [ ] KDE Connect
+  - [ ] GSConnect
   - [x] Bitwarden
   - [x] Blender
   - [x] Darktable
-  - [ ] Drawing
-  - [ ] Droidcam OBS
   - [x] Gradia
-  - [ ] KDE Connect
-  - [ ] GSConnect
   - [x] Inkscape
   - [x] copyq
   - [x] clipboard indicator
