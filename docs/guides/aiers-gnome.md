@@ -93,13 +93,13 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Battery Health Charging](https://extensions.gnome.org/extension/5724/battery-health-charging/)
 
   ::: info Lets you set charging thresholds to preserve battery health.
-  ![Battery Health Limit Demonstation](./assets/battery-health-limit-demonstration.png)
+  ![Battery Health Limit Demonstation](./assets/aiers-gnome/battery-health-limit-demonstration.png)
   :::
 
 - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
 
   ::: info Tweaks or hides nearly every GNOME Shell UI element for fine‑grained control.
-  ![Just Perfection Demonstration](./assets/blur-my-shell-demonstration.png)
+  ![Just Perfection Demonstration](./assets/aiers-gnome/blur-my-shell-demonstration.png)
   :::
 
   :::tip My settings:
@@ -133,7 +133,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 
   ::: info Provides a clipboard history and quick paste menu in the top panel.
-  ![Clipboard Indicdator Demonstration](./assets/clipboard-indicator-demonstation.png)
+  ![Clipboard Indicdator Demonstration](./assets/aiers-gnome/clipboard-indicator-demonstation.png)
   :::
 
   ::: tip Windows-like `<Super>v` keyboard shortcut
@@ -148,19 +148,13 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 
   ::: info Prevents screen dimming and suspension on demand.
-  ![Caffeine Demonstation](./assets/caffeine-demonstation.png)
-  :::
-
-- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-
-  ::: info Adds customizable blur effects to GNOME Shell elements for a polished look.
-  ![Blur My Shell Demonstration](./assets/blur-my-shell-demonstration.png)
+  ![Caffeine Demonstation](./assets/aiers-gnome/caffeine-demonstation.png)
   :::
 
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
   ::: info Moves the dash out of overview into a dock for quicker app launching and window switching.
-  ![Dash to Dock Demonstration](./assets/dash-to-dock-demonstration.png)
+  ![Dash to Dock Demonstration](./assets/aiers-gnome/dash-to-dock-demonstration.png)
   :::
 
   :::tip My settings:
@@ -208,7 +202,14 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   dconf write /org/gnome/shell/extensions/kiwi/show-window-title "true"
   ```
 
+- [Tinted Shell](https://extensions.gnome.org/extension/8906/tinted-shell/)
+
+  :::info Tints Gnome Shell elements to match with accent color.
+  ![Tinted Shell Demonstration](./assets/aiers-gnome/tinted-shell-demonstration.png)
+  :::
+
 ::::
+
 :::::
 
 ### Quality of Life Additions
@@ -220,7 +221,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
 
   ::: info Sorts the app grid alphabetically to make apps easier to find.
-  ![Alphabetical App Grid Demonstration](./assets/alphabetical-app-grid-demonstration.png)
+  ![Alphabetical App Grid Demonstration](./assets/aiers-gnome/alphabetical-app-grid-demonstration.png)
   :::
 
   :::tip My settings:
@@ -230,13 +231,13 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Custom Reboot](https://extensions.gnome.org/extension/5542/custom-reboot/)
 
   ::: info Adds “Reboot to…” options for booting into another OS or firmware.
-  ![Custom Reboot Demonstration](./assets/custom-reboot-demonstration.png)
+  ![Custom Reboot Demonstration](./assets/aiers-gnome/custom-reboot-demonstration.png)
   :::
 
 - [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/)
 
   ::: info Adds an emoji picker to search and copy emojis quickly.
-  ![Emoji Copy Demonstration](./assets/emoji-copy-demonstration.png)
+  ![Emoji Copy Demonstration](./assets/aiers-gnome/emoji-copy-demonstration.png)
   :::
 
   :::tip The default `<Super>.` keybinding for Emoji Copy sometimes interferes with the ibus emoji shortcut, I simply remapped it to `<Super><Shift>v`.
@@ -245,12 +246,17 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [GNOME Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
 
   ::: info Enables fuzzy matching in Activities search to find apps without exact names.
-  ![Gnome Fuzzy App Search Demonstration](./assets/gnome-fuzzy-app-search-demonstration.png)
+  ![Gnome Fuzzy App Search Demonstration](./assets/aiers-gnome/gnome-fuzzy-app-search-demonstration.png)
   :::
 
 - [Auto Power Profile](https://extensions.gnome.org/extension/6583/auto-power-profile/)
 
   ::: info Changes power profile based on AC status and battery percentage.
+  :::
+
+- [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
+
+  ::: info Switcher between light and dark theme depending on sunrise/sunset.
   :::
 
 ::::
@@ -260,6 +266,20 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
 ::::::card
 ::::: collapse
+
+- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+
+  ::: info
+  Always opens a new app instance from the dash or app grid.
+  :::
+
+  ::: info Adds customizable blur effects to GNOME Shell elements for a polished look.
+  ![Blur My Shell Demonstration](./assets/aiers-gnome/blur-my-shell-demonstration.png)
+  :::
+
+  ::: note
+  I have replaced Blur My Shell's functionalities with the Kiwi extension.
+  :::
 
 - [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
 
@@ -274,7 +294,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/)
 
   ::: info Shows Caps Lock and Num Lock status in the top panel.
-  ![Lock Keys Demonstration](./assets/lock-keys-demonstration.png)
+  ![Lock Keys Demonstration](./assets/aiers-gnome/lock-keys-demonstration.png)
   :::
 
   ::: note Archived because kiwi has this feature built in.
@@ -284,7 +304,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   ::: info Allows loading and applying custom GNOME Shell themes from your home directory.
 
-  ![User Shell Demonstration](./assets/user-shell-demonstration.png)
+  ![User Shell Demonstration](./assets/aiers-gnome/user-shell-demonstration.png)
   :::
 
 :::::
