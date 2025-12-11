@@ -24,7 +24,7 @@ config:
       name: Become a contributor
       tagline: >
 
-        We will soon start accepting contributors. 
+        We are accepting contributors! 
 
 
         Join us to Linux learning accessible, fun, and collaborative!
