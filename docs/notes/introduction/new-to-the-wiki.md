@@ -19,17 +19,19 @@ The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wi
 
 :::warning This wiki is NOT endorsed by the Linux Foundation and is not a source of official documentation for any Linux distros and software.
 :::
+==If you want to find something, `Ctrl` + `K`! We might have a guide somewhere, and if we don't, bring it up to us!==
 
 :::danger PLEASE
 
 - Read all instructions within the guide carefully.
 - Do not blindly copy/paste code without understanding its function and potential effects.
 
+==This wiki is NOT endoursed by the Linux Foundation and is not a source of official documentation for any Linux distros and softwares.==
 :::
 
 ## **Join the Discord**
 
-- Join our Discord for discussions and to meet other Linux enthusiasts who share the same passion!
+- Discuss and to meet other Linux enthusiasts who share the same passion!
 
 - We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.
 
@@ -47,6 +49,9 @@ The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wi
 ## **Navigate the wiki**
 
 :::info Use the ribbon located at the top of the page to navigate through different categories of the wiki!
+:::
+
+:::tip Use to table of content on the right side of the page.
 :::
 
 ::::card-grid

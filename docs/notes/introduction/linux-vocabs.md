@@ -75,9 +75,6 @@ permalink: /introduction/linux-vocabs/
 
 :::::
 
-:::warning ALL CONTENT BELOW ARE UNDER CONSTRUCTION
-:::
-
 ## **System & File Management**
 
 **Root**: The user with full system control (root user, /root directory).

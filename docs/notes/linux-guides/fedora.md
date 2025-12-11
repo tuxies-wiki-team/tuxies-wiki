@@ -48,9 +48,6 @@ Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-
 
 ## **Create snapshots/backups** for your computer
 
-:::important This is highly recommended unless your disk space is limited.
-:::
-
 We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you like.
 
 ::::steps
@@ -99,6 +96,15 @@ We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you
   :::details Choose the snapshot you wish to restore and voila!
 
   ![Timeshift Restore Snapshot!](./assets/timeshift-restore-snapshot.png)
+
+  :::
+
+  :::note If you are restoring snapshots in RSYNC mode, you may encounter file mislabeling errors or "permission denied" errors. You may perform the following. Be patient with the reboot as the system takes its time to relabel files.
+
+  ```bash
+  sudo touch /.autorelabel
+  reboot
+  ```
 
   :::
 

@@ -1,49 +1,17 @@
 # Tuxie's Wiki
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
+Tuxie's Wiki tries to be a newcomer friendly source of documentation for all things Linux related. From common troubleshooting to cool programs that makes Linux fun, we try to improve Tuxie's Wiki so that it can be a newcomer's "go-to".
 
-## **Install**
+## The different series Tuxie's Wiki
 
-```sh
-npm install
-```
+### [Linux Guides](https://tuxies-wiki-team.github.io/tuxies-wiki/linux-guides/)
 
-## **Usage**
+In this series, we offer distro and desktop environment setup guides/tips. If you are fresh installing Linux into your computer, we hope that this series can give you a jumpstart, too!
 
-```sh
-# Start development environment
-"dev": "vuepress dev docs",
-"start": "vuepress dev docs",
-# Start clean development environment
-"dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-# Build website
-"build": "vuepress build docs --clean-cache --clean-temp",
-# Preview build
-"preview": "http-server docs/.vuepress/dist",
-# Vuepress update
-"vp-update": "npx vp-update",
-# Update dependencies
-"update-deps": "npx npm-check-updates -u && npm install",
-# Build and deploy website to GH Pages
-"deploy": "npm run build && gh-pages -d docs/.vuepress/dist -b gh-pages"
-```
+### [Apps Library](https://tuxies-wiki-team.github.io/tuxies-wiki/linux-apps/)
 
-## **TODO**
+A collection of apps separated into the "Editor's Choice," "Essentials," "Popular," and "Gnomie" categories worth checking out either they are useful, or fun (or most likely both!).
 
-- [ ] Team logo
-- [ ] Article: Gnome guide
-  - [x] Setup
-  - [ ] Ricing Section
-- [x] Category & article: New to the Wiki?
-  - [x] Article: Linux vocabularies
-    - [x] Outline
-    - [x] Simplifying vocabs
-  - [x] Article: Set up Flatpak
-    - [x] Outline
-    - [x] Detailed setup + user setup
-    - [x] Mirror changes in Apps Library README
-- [ ] Set up Discord server
-  - [ ] Channels
-  - [ ] Roles
-  - [ ] Testing
-- [ ] Test and publish
+### [Other Articles](https://tuxies-wiki-team.github.io/tuxies-wiki/guides/)
+
+This is where everything else written by Tuxie's Wiki Team lives ranging from how to make your Firefox scroll to your likings on laptop—to how to how to make your terminal look cooler—to set up your Logitech peripherals to maximize their usability (Logitech Guide coming soon!).
