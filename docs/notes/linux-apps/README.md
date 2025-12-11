@@ -77,7 +77,7 @@ A collection of apps tailored for Gnome enthusiasts.
   - [x] Pano
   - [x] Papers
   - [x] rQuickshare
-  - [x] Scrpy
+  - [x] Scrcpy
 
   ::::
 

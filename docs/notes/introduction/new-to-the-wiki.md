@@ -14,12 +14,17 @@ Please read over this article to get you started!
 
 The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wiki page focused primarily on Linux knowledge, which includes Apps Library, Linux Guides, and software related guides.
 
+:::warning Tuxie's Wiki is currently a small team, thus there might be a slight delay to bug reports and other maintainance.
+:::
+
+:::warning This wiki is NOT endorsed by the Linux Foundation and is not a source of official documentation for any Linux distros and software.
+:::
 ==If you want to find something, `Ctrl` + `K`! We might have a guide somewhere, and if we don't, bring it up to us!==
 
 :::danger PLEASE
 
 - Read all instructions within the guide carefully.
-- Do not blindly copy/paste code without understanding its function and potencial effects.
+- Do not blindly copy/paste code without understanding its function and potential effects.
 
 ==This wiki is NOT endoursed by the Linux Foundation and is not a source of official documentation for any Linux distros and softwares.==
 :::
@@ -62,7 +67,7 @@ Consists of Fedora guide, Arch guide, and Debian/Ubuntu guide (maintainer wanted
 
 ### ::fluent-emoji:books:: [Linux App Library](/linux-apps/)
 
-Consists of all recommended Linux apps tested by maintainers and categorized in Editor's Choice, Essentials, Popular, and Gnomie. Includes descriptions of the applications and its appropiate installations.
+Consists of all recommended Linux apps tested by maintainers and categorized in Editor's Choice, Essentials, Popular, and Gnomie. Includes descriptions of the applications and its appropriate installations.
 :::
 
 :::card

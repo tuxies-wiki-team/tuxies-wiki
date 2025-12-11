@@ -16,7 +16,7 @@ Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-
 
 - **Install Fedora onto your machine**
 
-  :::warning TODO: A video step to step installation.
+  :::warning TODO: A video step-by-step installation.
   :::
 
   - [How to Install Fedora Step by Step](https://www.linuxtechi.com/how-to-install-fedora-workstation/) by Pradeep Kumar from Linux Techi.
@@ -51,6 +51,31 @@ Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-
 We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you like.
 
 ::::steps
+
+- **SELinux compatibility**
+
+  Fedora Workstation and many other spins enforce SELinux by default.
+
+  If you want to use Timeshift with SELinux, you might want to set SELinux mode from “enforcing” to “permissive” to enable proper function among kernel versions.
+
+  :::code-tabs
+
+  @tab /etc/selinux/config
+
+  ```bash
+  # [!code --]
+  SELINUX=enforcing
+  # [!code ++]
+  SELINUX=permissive
+  ```
+
+  :::
+
+  Restart your computer after the modification.
+
+  ```bash
+  reboot
+  ```
 
 - **Install Timeshift**
 

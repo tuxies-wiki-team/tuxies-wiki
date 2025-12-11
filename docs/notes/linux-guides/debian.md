@@ -12,7 +12,7 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 :::
 
 :::tip Slow and steady wins the race
-**Debian** is known for its great stability and resillience. In order to accomplish this, it does run older versions of many packages and has slower update times which could make it incompatible with the most bleeding edge of users. However, if you want to run a server at home (my use case), or just want a very reliable system, ==Debian== is the way to go.
+**Debian** is known for its great stability and resilience. In order to accomplish this, it does run older versions of many packages and has slower update times which could make it incompatible with the most bleeding edge of users. However, if you want to run a server at home (my use case), or just want a very reliable system, ==Debian== is the way to go.
 
 This guide will teach you how to start your own Debian home server machine from installation to sensation!
 :::
@@ -22,7 +22,7 @@ This guide will teach you how to start your own Debian home server machine from 
 ::::steps
 
 - **Download the ISO**
-  You can get the ISO from [the debian website](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/). Just scroll to the bottom and click on the file ending in _.iso_. In case you have an arm processor follow from this section of [the debian website](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/)
+  You can get the ISO from [the debian website](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/). Just scroll to the bottom and click on the file ending in _.iso_. In case you have an arm processor follow instructions in this section of [the debian website](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/)
 - **Flash it!**
   With the downloaded ISO follow our [flashing guide](/linux-guides/flashing-guide/)
 - **Boot it up**
@@ -38,7 +38,7 @@ This guide will teach you how to start your own Debian home server machine from 
 
 ### **TailScale**
 
-==TailScale== is a tool that will allow you to access your home server from any device that also has tailscale installed. We will use this to acces the machine. To set it up just follow the instructions from [the Tailscale website](https://tailscale.com/). This process should just take a few minutes. It is _that_ easy.
+==TailScale== is a tool that will allow you to access your home server from any device that also has tailscale installed. We will use this to access the machine. To set it up just follow the instructions from [the Tailscale website](https://tailscale.com/). This process should just take a few minutes. It is _that_ easy.
 
 ### **SSH**
 

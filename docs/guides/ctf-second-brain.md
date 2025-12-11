@@ -33,7 +33,7 @@ contributors:
 
   - Image analysis:
 
-    - `zsteg`: Package based on Ruby allows user to check metadata of images and steganography; specifically for `.png` and `,bmp` images. It analyzes images to detect hidden data and extract hiddien information on least significant and other steganography techniques.
+    - `zsteg`: Package based on Ruby allows user to check metadata of images and steganography; specifically for `.png` and `,bmp` images. It analyzes images to detect hidden data and extract hidden information on least significant and other steganography techniques.
     - `steghide`: Steganography tool used to hide/reveal hidden data in images/audio files; mostly used with `.jpeg`, `.bmp`, `.wav`, and `.au` files.
     - `identify`: Tool from ImageMagick, used to analyze and display information about image files such as image format, dimensions, file size, medatadata and properties.
 
@@ -49,7 +49,7 @@ contributors:
 
 ## Cryptography
 
-- **Hash:** Hash encryption generates a unique hashcode for each piece of data. It is often used to check file integrity by comparing the hash value of the package being installed and the original package to prevent potential modifications from unauthorized parties. Given a hashed value, to try to get the original value, we can use wordlist and word maps and try all different cobinations to get their hashcode and comparing to the given hashed value. This is called bruceforce attacking/guess and checking.
+- **Hash:** Hash encryption generates a unique hashcode for each piece of data. It is often used to check file integrity by comparing the hash value of the package being installed and the original package to prevent potential modifications from unauthorized parties. Given a hashed value, to try to get the original value, we can use wordlist and word maps and try all different combinations to get their hashcode and comparing to the given hashed value. This is called bruteforce attacking/guess and checking.
 - **RSA Encryption:** Asymmetric encryption that involves the encrypted message (C), the original message (M), public key (e, n), and private key (d, n). Where `d` and `e` are prime of the product `n`. 
   - Mathematical relationships are:
     - Encryption C ≡ Mᵉ (mod n)
@@ -123,8 +123,8 @@ contributors:
 :::::collapse accordion
 
 - Tools
-  - Hashcracking:
-    - `hashcat`: GPU-accelerated tool for hashcracking such as SHA1, SHA2-256, MD5, bcrypt.
+  - Hash-cracking:
+    - `hashcat`: GPU-accelerated tool for hash-cracking such as SHA1, SHA2-256, MD5, bcrypt.
       ```bash
       hashcat -m (hashtype: 0 = MD5, 100 = SHA1, 1400 = SHA2-256, 3200 = bcrypt) -a 0 (hashed text) (wordlist path)
       ```
