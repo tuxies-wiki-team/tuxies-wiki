@@ -91,7 +91,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     - Run:
 
       ```bash
-      cfdisk /dev/primary <Hard drive name>
+      cfdisk /dev/<primary-hard-drive-name>
 
       # Example
       cfdisk /dev/nvme0n1.
@@ -157,13 +157,13 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     - To mount the EFI partition run:
 
     ```bash
-    mount /dev/efi_partition /mnt/boot
+    mount /dev/efi_partition /mnt/boot/efi
     ```
 
     **If directory does not exist make the directory:**
 
     ```bash
-    mkdir /mnt/boot
+    mkdir /mnt/boot/efi
     ```
 
     - To enable the Swap partition run:
@@ -225,6 +225,9 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
       ```bash
       # Example: (Note: nano is an editor)
       nano /etc/locale.conf
+
+      # Run to generate the locales
+      locale-gen
       ```
       `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
   - **Initramfs:**
