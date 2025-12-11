@@ -37,7 +37,7 @@ This should be safe enough if you use a service like [Tailscale](https://tailsca
   ssh [server_username]@[server_ip] -p 22
   ```
 
-  You will be prompted for a password, enter the one in of your home machine
+  You will be prompted for a password, enter the one of your home machine
   :::tip How do I get those values exactly?
   You can get your username from running whoami on the home server, and the ip is the one you set up for static ip
   :::
@@ -58,7 +58,7 @@ This should be safe enough if you use a service like [Tailscale](https://tailsca
   PasswordAuthentication no
   ```
 
-  After this run the followign for your changes to take effect
+  After this run the following for your changes to take effect
 
   ```bash
   systemctl restart sshd
@@ -75,7 +75,7 @@ This should be safe enough if you use a service like [Tailscale](https://tailsca
   ```
 
 - **Accessing from beyond local**
-  You should be able to access the server on your external machine by running the following. The server IP is best adquired via [Tailscale](https://tailscale.com/), but you can also open up port 22 in your router settings for a less secure approach:
+  You should be able to access the server on your external machine by running the following. The server IP is best acquired via [Tailscale](https://tailscale.com/), but you can also open up port 22 in your router settings for a less secure approach:
   ```bash
   eval `ssh-agent`;
   ssh-add ~/.ssh/[name_for_keys]; # You defined the name a while back

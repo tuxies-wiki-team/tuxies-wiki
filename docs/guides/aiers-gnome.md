@@ -93,7 +93,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Battery Health Charging](https://extensions.gnome.org/extension/5724/battery-health-charging/)
 
   ::: info Lets you set charging thresholds to preserve battery health.
-  ![Battery Health Limit Demonstation](./assets/aiers-gnome/battery-health-limit-demonstration.png)
+  ![Battery Health Limit Demonstration](./assets/aiers-gnome/battery-health-limit-demonstration.png)
   :::
 
 - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
@@ -133,7 +133,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 
   ::: info Provides a clipboard history and quick paste menu in the top panel.
-  ![Clipboard Indicdator Demonstration](./assets/aiers-gnome/clipboard-indicator-demonstation.png)
+  ![Clipboard Indicator Demonstration](./assets/aiers-gnome/clipboard-indicator-demonstration.png)
   :::
 
   ::: tip Windows-like `<Super>v` keyboard shortcut
@@ -148,7 +148,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 
   ::: info Prevents screen dimming and suspension on demand.
-  ![Caffeine Demonstation](./assets/aiers-gnome/caffeine-demonstation.png)
+  ![Caffeine Demonstration](./assets/aiers-gnome/caffeine-demonstration.png)
   :::
 
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)

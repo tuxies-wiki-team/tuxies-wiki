@@ -206,7 +206,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ::::card
 
-  :::info Allows volume from your desktop to be amplified beyond 100% at the cost of distorsion.
+  :::info Allows volume from your desktop to be amplified beyond 100% at the cost of distortion.
   :::
 
   :::tabs
@@ -458,7 +458,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 | `Super` + `E`                  | Launch home folder                           |
 | `Super` + `R`                  | Run command dialog                           |
 | `Super` + `Return`             | Launch `Ptyxis` terminal                     |
-| `Ctrl` + `Shft` + `Esc`        | Launch `Mission Center`                      |
+| `Ctrl` + `Shift` + `Esc`        | Launch `Mission Center`                      |
 | `Super` + `V`                  | Open `Clipboard Indicator`                   |
 
 :::::
@@ -591,7 +591,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-- Launch `Settings` app (Windows-like)
+- Launch ``Settings`` app (Windows-like)
 
   :::::card
 

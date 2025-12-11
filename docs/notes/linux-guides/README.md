@@ -4,7 +4,7 @@ createTime: 2025/06/03 10:54:12
 permalink: /linux-guides/
 ---
 
-:::info Here, you'll find guides on how to install different distros and setting them up. You'll see desktop environment guides, too!
+:::info Here, you'll find guides on how to install and set up different distros. You'll see desktop environment guides, too!
 :::
 
 ## **Distros**

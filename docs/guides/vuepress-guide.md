@@ -17,14 +17,14 @@ contributors:
 :::
 
 :::card title="What is Vuepress?" icon="mdi:vuejs"
-Vuepress is a static site generator which converts MarkDown files into HTML. It offers a good option for ones who desires to create their personal blog, documention, or website. Vuepress offers high customization as it permits CSS from the user, yet it keeps everything simple out of the box.
+Vuepress is a static site generator which converts MarkDown files into HTML. It offers a good option for one who desires to create their personal blog, documentation, or website. Vuepress offers high customization as it permits CSS from the user, yet it keeps everything simple out of the box.
 :::
 
 ## **Installation**
 
 - Prerequisite: [Install Node.js](https://nodejs.org/en)
   :::note
-  There are many community based themes with many built functionalities. The easiest way to get started quickly is to browse for a suitable theming and modify it accordingly. For example, this website is built upon [plume theme](https://theme-plume.vuejs.press/en/).
+  There are many community-based themes with many built functionalities. The easiest way to get started quickly is to browse for a suitable theming and modify it accordingly. For example, this website is built upon [plume theme](https://theme-plume.vuejs.press/en/).
   :::
 
 ## **Folder Structure**
@@ -359,12 +359,12 @@ There are many choices for web deployment, Github Pages will be used in this gui
 
 :::info Two Options
 
-1. Using `gh-pages` (Recommanded for its stableness)
+1. Using `gh-pages` (Recommended for its stability)
 2. Using `gh` and workflow for compiling and push/deploy the pages
 
 :::
 
-### **Option 1: (Recommanded): Using `gh-pages`**
+### **Option 1: (Recommended): Using `gh-pages`**
 
 ::::steps
 

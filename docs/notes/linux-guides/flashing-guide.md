@@ -43,12 +43,12 @@ Other great options for this purpose would be [Rufus](https://rufus.ie/en/) (onl
 - Download Ventoy from the [official website](https://www.ventoy.net/en/download.html)
 
   - For Windows, install `.zip` file and unzip the file
-  - For Linux, install `tar.gz` file and unzip the file
+  - For Linux, install `tar.gz` file and extract the file
 
 - Installation
   - For Windows, locate `Ventoy2Disk.exe` and run it.
   - For Linux, locate `VentoyGUI.x86_64` and run it.
-  - After executing the files, a GUI should appear. Select the correct disk to format, and Install.
+  - After executing the program, a GUI should appear. Select the correct disk to format, and Install.
 
 ::::
 

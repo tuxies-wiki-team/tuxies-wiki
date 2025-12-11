@@ -88,6 +88,12 @@ Change fonts, manage shell themes (requires `User Theme` extension), add hide an
 sudo dnf install gnome-tweaks
 ```
 
+@tab ::devicon:archlinux:: Arch
+
+```bash
+sudo pacman -S gnome-tweaks
+```
+
 @tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
@@ -111,7 +117,7 @@ flatpak install flathub io.github.vikdevelop.SaveDesktop
 @tab ::simple-icons:flatpak:: Flatpak (User)
 
 ```bash
-flatpak install flathub io.github.vikdevelop.SaveDesktop
+flatpak install --user flathub io.github.vikdevelop.SaveDesktop
 ```
 
 :::

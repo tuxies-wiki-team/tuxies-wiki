@@ -55,7 +55,7 @@ sudo apt install copyq
 
 ## **[Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)**
 
-Open souce vector graphic editor
+Open-source vector graphic editor
 
 :::tabs
 
@@ -101,7 +101,7 @@ yay -S localsend-bin
 
 ## **[Mission Center](https://flathub.org/apps/io.missioncenter.MissionCenter)**
 
-Useful and intuitive system resources displayer, that accurately displays informations including CPU, GPU, Ram, processes, among others.
+Useful and intuitive system resources displayer, that accurately displays information including CPU, GPU, RAM, processes, among others.
 
 :::tabs
 

@@ -67,7 +67,7 @@ Create snapshots of your computer, especially if you use Arch.
   @tab ::devicon:debian:: Debian/Ubuntu
 
   ```bash
-  sudo apt-get timeshift
+  sudo apt-get install timeshift
   ```
 
   :::

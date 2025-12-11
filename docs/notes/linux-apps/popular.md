@@ -131,7 +131,7 @@ You would want to install v4l2loopback if you want to use the â€œvirtual cameraâ
 
   :::
 
-- Ins**tall Module & Run:**
+- **Install Module & Run:**
 
   ```bash
   git clone https://github.com/umlaeute/v4l2loopback
