@@ -211,7 +211,7 @@ This extension allows Gnome to install themes downloaded online to make your des
       In the case that the "themes" folder doesn't exist, create one yourself inside ~/.local/share/
       :::
       :::note Why?
-      The reason we put it in ~/.local/share/themes is because linux is built off file systems, everything is a file. We put the theme file in here so linux knows of the exsistence of these theme files.
+      The reason we put it in ~/.local/share/themes is because linux is built off file systems, everything is a file. We put the theme file in here so linux knows of the existence of these theme files.
       :::
 
   - **Selecting Theme using Gnome-Tweaks**

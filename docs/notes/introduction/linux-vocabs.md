@@ -113,7 +113,7 @@ permalink: /introduction/linux-vocabs/
 
 Linux: A free, open-source Unix-like operating system (like Windows and MacOS), often used to cover the entirety of different distributions e.g., Debian, Ubuntu, Fedora, Arch.
 
-Kernel: The intermidiate part or a bridge that links software applications and hardware. It manages system resources including CPU, memory, disks, processes, device drivers, etc.
+Kernel: The intermediate part or a bridge that links software applications and hardware. It manages system resources including CPU, memory, disks, processes, device drivers, etc.
 
 Terminal: A text-based interface to control the operating system.
 
@@ -141,7 +141,7 @@ Partition:
 
 Basic Input/Output System (BIOS):
 
-Unified Extensible Firmwawre Interface (UEFI):
+Unified Extensible Firmware Interface (UEFI):
 
 Initramfs:
 

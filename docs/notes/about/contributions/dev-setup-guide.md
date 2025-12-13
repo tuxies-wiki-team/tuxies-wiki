@@ -13,9 +13,9 @@ This guide aims to set up and run Tuxie's Wiki locally to start drafting your co
 
 :::::steps
 
-- Install [Nodejs](https://nodejs.org/en)
-  :::info What is Nodejs?
-  Nodejs is a JavaScript runtime environment that allows developers to create servers, scripts, etc. For our case, it's mainly used to run local web servers for development and scripts. Nodejs provides a package manager [npm](https://www.npmjs.com/).
+- Install [Node.js](https://nodejs.org/en)
+  :::info What is Node.js?
+  Node.js is a JavaScript runtime environment that allows developers to create servers, scripts, etc. For our case, it's mainly used to run local web servers for development and scripts. Node.js provides a package manager [npm](https://www.npmjs.com/).
   :::
 
 - Install [git](https://git-scm.com/)

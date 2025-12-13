@@ -54,7 +54,7 @@ We're not strict with our code formatting as long as the output of your code is 
 
 We'd appreciate it if you use the Prettier extension in VS Code or an equivalent to format your code, though.
 
-:::important Use relative links over permalinks when refering to internal pages to make the development smoother, when possible.
+:::important Use relative links over permalinks when referring to internal pages to make the development smoother, when possible.
 :::
 
 ### **Code Structure**
@@ -111,7 +111,7 @@ We'll follow the following hierarchy for icons:
 
 `mdi` >> `ic` >> others
 
-We prefer to keep navigational and core coponents clean, without colors.
+We prefer to keep navigational and core components clean, without colors.
 
 #### Cards
 
@@ -163,7 +163,7 @@ If the content you will be putting in the `callout container` is relatively shor
 ::::details See code...
 
 ```md
-:::important This is an annoucement for everybody: I love Linux!
+:::important This is an announcement for everybody: I love Linux!
 :::
 
 :::tip Everybody loves some pro tips :\)
@@ -293,9 +293,9 @@ Use `code tabs` to:
 ```java
 public class Hello {
 
-  public static void main(string[] args) {
+  public static void main(String[] args) {
 
-    Public.out.println("Hello world");
+    System.out.println("Hello world");
   }
 }
 ```
@@ -475,7 +475,7 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
 ### Headings
 
-- Heading 1 (#) does not appear in the table of contents, only use it in rare cases where Heading 2 (##) does not fit usecase.
+- Heading 1 (#) does not appear in the table of contents, only use it in rare cases where Heading 2 (##) does not fit use-case.
 
 - Keep the keywords of Heading 2 (##) and 3 (###) bold. If the heading is relatively short, make the entire heading bold for better distinction from regular text and Heading 4 (####)
 

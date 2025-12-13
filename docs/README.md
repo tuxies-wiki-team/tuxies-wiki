@@ -45,7 +45,7 @@ config:
         details: Linux can be daunting, we try to provide resources to make it easier.
       - title: Beginner-friendly
         icon: ❤️
-        details: We have started off this project as new Linux users, so we are very aware in taking that into account. We want newcomers to be able to enjoy Linux just like how we do.
+        details: We have started off this project as new Linux users, so we are very aware of taking that into account. We want newcomers to be able to enjoy Linux just like how we do.
       - title: Explanations as we go
         icon: 📖
         details: We try to write our wiki to be educational so that you can apply the knowledge on your own.

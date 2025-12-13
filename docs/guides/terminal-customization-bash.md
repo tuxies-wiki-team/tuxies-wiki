@@ -71,7 +71,7 @@ unset rc
 
 :::::
 
-## **Aesthetic changes**
+## **Aesthetic Changes**
 
 :::::details Quick append & preview
 

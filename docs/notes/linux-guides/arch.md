@@ -43,14 +43,14 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
 
   Use [iwctl tool](https://wiki.archlinux.org/title/Iwd#iwctl) for internet connection.
 
-  - To ensure that the network adaptor is successfully detected by the system, list the network devices available using
+  - To ensure that the network adapter is successfully detected by the system, list the network devices available using
 
   ```bash
   device list
   ```
 
   :::important
-  If not network adaptor is shown, force shutdown and reboot. If problem persist, Arch is not for you.
+  If not network adapter is shown, force shutdown and reboot. If problem persists, Arch is not for you.
   :::
 
   - Proceed with station scanning:
@@ -91,7 +91,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     - Run:
 
       ```bash
-      cfdisk /dev/primary <Hard drive name>
+      cfdisk /dev/<primary-hard-drive-name>
 
       # Example
       cfdisk /dev/nvme0n1.
@@ -112,7 +112,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
       - Computer Ram + 4 = Swap Partition Size. E.g. 16 GB ram + 4 = 20 GB
         - Press **t** for choosing the type of partition and select **Linux Swap**
 
-    - **Root Parition: Two Options**
+    - **Root Partition: Two Options**
       1.  Leave the rest of the partition for root partition
           - Press **t** for choosing the type of partition and select **Linux x86-64 root (/)**
       2.  Leave at least 30 GB for root and the rest for home
@@ -157,13 +157,13 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     - To mount the EFI partition run:
 
     ```bash
-    mount /dev/efi_partition /mnt/boot
+    mount /dev/efi_partition /mnt/boot/efi
     ```
 
     **If directory does not exist make the directory:**
 
     ```bash
-    mkdir /mnt/boot
+    mkdir /mnt/boot/efi
     ```
 
     - To enable the Swap partition run:
@@ -225,6 +225,9 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
       ```bash
       # Example: (Note: nano is an editor)
       nano /etc/locale.conf
+
+      # Run to generate the locales
+      locale-gen
       ```
       `Ctrl + o` and enter to save the changes and `Ctrl + x` to exit
   - **Initramfs:**
@@ -280,12 +283,12 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     - Make user a superuser:
 
       ```bash
-      pacman -S Sudo
-      usermod -aG wheel,storage,power user-name
+      pacman -S sudo
+      usermod -aG wheel,storage,power <user-name>
       EDITOR=nano visudo
       ```
 
-      **Uncomment** `%wheel ALL-(ALL) ALL` **and add** `Defaults timestamp_timeout=0` **directly under**
+      **Uncomment** `%wheel ALL=(ALL) ALL` **and add** `Defaults timestamp_timeout=0` **directly under**
 
       `Ctrl + o` and enter to save the changes and `Ctrl + x` to
 
@@ -332,7 +335,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     ```bash
     ls /boot
     ls /boot/EFI
-    ls rm -rf /boot/<directory-of-bootloader>
+    rm -rf /boot/<directory-of-bootloader>
     ```
 
   - **Now we want to create a config inside file the installed grub entry called “Arch” in the previous step**
@@ -355,7 +358,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
     # Show local network interface
     nmcli device
 
-    # List nearby WIFI netoworks
+    # List nearby WIFI networks
     nmcli <device> wifi list
 
     # Connect to a WIFI network
@@ -527,7 +530,7 @@ Note that all fixes below may vary depending on the user's specific situation.
 - ::mdi:error:: `Pacman Error: mirror not responding`
 
   - This happens when your list of mirrors are too slow or are outdated, this can be fixed by regenerating a list of faster mirrors under the `/etc/pacman.d/mirrorlist` file.
-  - This can be done by `reflector`, a package that automatically sorts and gneerates the mirrors by rates and saves on the `/etc/pacman.d/mirrorlist` file.
+  - This can be done by `reflector`, a package that automatically sorts and generates the mirrors by rates and saves on the `/etc/pacman.d/mirrorlist` file.
 
   ```bash
   # Install reflector
@@ -561,7 +564,7 @@ Note that all fixes below may vary depending on the user's specific situation.
 
   ```bash
   # Remove the keys
-  sudo pacman -rm -rf /etc/pacman.d/gnupg
+  sudo rm -r /etc/pacman.d/gnupg
 
   # Re-add the default keys
   sudo pacman-key --init
@@ -598,7 +601,7 @@ Note that all fixes below may vary depending on the user's specific situation.
   # Search for package name
   pacman -Q | grep "<package_name>"
 
-  # Removing while keeping depedencies (recommended)
+  # Removing while keeping dependencies (recommended)
   sudo pacman -R package_name
 
   # Removing unused dependencies

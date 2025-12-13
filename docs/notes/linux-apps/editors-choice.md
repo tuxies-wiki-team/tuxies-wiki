@@ -35,6 +35,23 @@ yay -S localsend-bin
 
 :::
 
+## **[Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)**
+
+Open-source vector graphic editor
+
+:::tabs
+
+@tab ::simple-icons:flatpak:: Flatpak (System)
+
+```bash
+flatpak install flathub org.inkscape.Inkscape
+```
+
+@tab ::simple-icons:flatpak:: Flatpak (User)
+
+```bash
+flatpak install --user org.inkscape.Inkscape
+```
 ## **[Zen Browser](https://flathub.org/apps/app.zen_browser.zen)**
 
 :::details A feature-rich, Firefox based browser that just works with smooth animations and QoL features.
@@ -64,6 +81,7 @@ yay -S zen-browser-bin
 
 ## **[Bitwarden](https://bitwarden.com/)**
 
+Useful and intuitive system resources displayer, that accurately displays information including CPU, GPU, RAM, processes, among others.
 :::details Safe, trusted password manager.
 ![Bitwarden Demo](./assets/editors-choice/bitwarden-demo.png)
 :::
