@@ -3,7 +3,6 @@ mark {
   --vp-mark-text: currentcolor;
   --vp-mark-bg: transparent;
   --vp-mark-bg-shift: 0.75lh;
-  --vp-mark-linear-color: rgba(255, 224, 48, 0.5);
 }
 
 /* Fixes weird visual bug in collapse module's title */
