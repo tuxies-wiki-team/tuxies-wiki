@@ -458,7 +458,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 | `Super` + `E`                  | Launch home folder                           |
 | `Super` + `R`                  | Run command dialog                           |
 | `Super` + `Return`             | Launch `Ptyxis` terminal                     |
-| `Ctrl` + `Shift` + `Esc`        | Launch `Mission Center`                      |
+| `Ctrl` + `Shift` + `Esc`       | Launch `Mission Center`                      |
 | `Super` + `V`                  | Open `Clipboard Indicator`                   |
 
 :::::
@@ -591,7 +591,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-- Launch ``Settings`` app (Windows-like)
+- Launch `Settings` app (Windows-like)
 
   :::::card
 
