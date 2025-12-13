@@ -38,7 +38,10 @@ contributors:
 
 :::
 
-:::card title="Introduction"
+:::card
+
+## **Introduction**
+
 When you first installed Gnome, does everything feel off? Icons are weird, notifications are centered, where are my apps? In this article, we will introduce the concept of ==ricing== to make Gnome feel as comfy and beautiful as you want.
 :::
 

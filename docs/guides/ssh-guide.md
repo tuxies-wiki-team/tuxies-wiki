@@ -9,7 +9,7 @@ contributors:
   - joseporcar
 ---
 
-:::tip Why use ==SSH==
+:::tip Why use SSH
 SSH is very useful if you wish to access your home computer when you are not at home. This can let you see the status of any program or run a new one. Doing so carefully is very important as in order to access it from beyond your home network special security measures must be enacted.
 :::
 :::info Prerequisites

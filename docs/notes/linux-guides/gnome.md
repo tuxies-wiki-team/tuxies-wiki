@@ -733,7 +733,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
   :::::
   ::::::
 
-:::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section. ==It is suggested that you append them manually through the `Gnome Settings` app --> `Keyboard` --> `View and Customize Keyboard Shortcuts` section instead if you have existing custom shortcuts.==
+:::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section. It is suggested that you append them manually through the `Gnome Settings` app --> `Keyboard` --> `View and Customize Keyboard Shortcuts` section instead if you have existing custom shortcuts.
 :::
 
 ::::::collapse accordion
