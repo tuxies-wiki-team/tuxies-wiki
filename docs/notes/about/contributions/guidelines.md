@@ -514,6 +514,20 @@ Use highlighting (==) to emphasize text, especially in paragraphs.
 
 Do not use highlighting in titles such as headings, step module titles, or collapse module titles.
 
+Linux is known for being ==flexible, secure, and stable==.
+
+It is ==open-source=={.important}, meaning its source code is freely available for anyone to view, modify, and distribute.
+
+This fosters a ==collaborative global community== that continuously improves the system.
+
+==Default==  
+==Info=={.info}  
+==Note=={.note}  
+==Tip=={.tip}  
+==Warning=={.warning}  
+==Danger=={.danger}  
+==Important=={.important}
+
 :::details See code...
 
 ```md
@@ -528,8 +542,7 @@ This fosters a ==collaborative global community== that continuously improves the
 ==Note=={.note}  
 ==Tip=={.tip}  
 ==Warning=={.warning}  
-==Danger=={.danger}  
-==Caution=={.caution}  
+==Danger=={.danger}   
 ==Important=={.important}
 ```
 
@@ -538,7 +551,6 @@ This fosters a ==collaborative global community== that continuously improves the
 :::demo-wrapper img
 ![Highlighting-Demo](./assets/highlighting-demo.png)
 :::
-
 ### Steps
 
 Use "-" to auto-generate `steps` instead of manually numbering them. It helps maintenance and editing much easier.
