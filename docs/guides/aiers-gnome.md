@@ -192,7 +192,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   dconf write /org/gnome/shell/extensions/kiwi/move-calendar-right "false"
 
   # Disable (due to buginess & personal preference)
-  # I personally don't like this behavior as I
+  # I personally dislike this behavior as I
   # prefer manual window and workspace management.
   dconf write /org/gnome/shell/extensions/kiwi/move-window-to-new-workspace "false"
 
@@ -200,6 +200,9 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   # This fills up empty space on the left side and
   # you can click on it for additional functionality.
   dconf write /org/gnome/shell/extensions/kiwi/show-window-title "true"
+
+  # Disable (due to buginess & personal preference)
+  dconf write /org/gnome/shell/extensions/kiwi/transparent-move "false"
   ```
 
 - [Tinted Shell](https://extensions.gnome.org/extension/8906/tinted-shell/)
