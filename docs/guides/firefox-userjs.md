@@ -47,7 +47,7 @@ user_pref("zen.workspaces.separate-essentials", false); // true
 
 ## **How to append changes**
 
-### **Method 1: `user.js` config file**
+### **Method 1: `user.js` config file (faster)**
 
 ::::steps
 
@@ -78,7 +78,7 @@ user_pref("zen.workspaces.separate-essentials", false); // true
 ---
 
 :::note Improving Scrolling
-Many Firefox users (us included), feel that the Firefox default scrolling is quite slow on the mousewheel, or too fast on the trackpad, or not smooth enough, or not dynamic enough.
+Many Firefox users (us included) feel that the Firefox default scrolling is quite slow on the mousewheel, or too fast on the trackpad, or not smooth enough, or not dynamic enough.
 
 However you want your scrolling, hopefully you can customize the options we'll provide you to suit your needs.
 :::
@@ -147,4 +147,4 @@ user_pref("zen.workspaces.separate-essentials", false); // true
 - ==zen.view.compact.hide-toolbar== set to true hides the url toolbar if you are using multiple toolbars in your Appearance settings.
 - ==zen.view.compact.toolbar-flash-popup== set to false disables the tab bar from popping up in compact mode when switching tabs.
 - ==zen.view.show-newtab-button-top== sets the new tabs button to be at the bottom of tabs instead of being fixed below pinned tabs.
-- ==zen.workspaces.separate-essentials== allows essentials to be workspace independent (like how they used to be — you will see all your essentials regardless of what workspace you are in).
+- ==zen.workspaces.separate-essentials== allows essentials to be workspace independent (like how they used to be—you will see all your essentials regardless of what workspace you are in).
