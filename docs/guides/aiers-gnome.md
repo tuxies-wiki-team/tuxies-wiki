@@ -64,11 +64,11 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
 ### Personal Essentials
 
-:::::card
+::::::card
 
-:::: collapse
+::::: collapse
 
-- [`AppIndicator and KStatusNotifierItem Support`](https://extensions.gnome.org/extension/615/appindicator-support/)
+- [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
 
   ::::card
 
@@ -194,9 +194,9 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   dconf write /org/gnome/shell/extensions/kiwi/transparent-move "false"
   ```
 
-::::
-
 :::::
+
+::::::
 
 ### Quality of Life Additions
 
