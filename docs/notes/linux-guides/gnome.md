@@ -355,6 +355,9 @@ dconf write /org/gnome/settings-daemon/plugins/media-keys/control-center "['<Sup
 dconf write /org/gnome/settings-daemon/plugins/media-keys/home "['<Super>E']"
 dconf write /org/gnome/desktop/wm/keybindings/panel-run-dialog "['<Super>R']"
 dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
+dconf write /org/gnome/desktop/wm/keybindings/move-to-center "['<Super><Shift>Return']"
+dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscreen "['<Super>F']"
+dconf write /org/gnome/desktop/wm/keybindings/close "['<Super>X', '<Alt>F4']"
 dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
 ```
 
@@ -373,6 +376,9 @@ dconf reset /org/gnome/settings-daemon/plugins/media-keys/control-center
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/home
 dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
 dconf reset /org/gnome/shell/keybindings/toggle-message-tray
+dconf reset /org/gnome/desktop/wm/keybindings/move-to-center
+dconf reset /org/gnome/desktop/wm/keybindings/toggle-fullscreen
+dconf reset /org/gnome/desktop/wm/keybindings/close
 dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 ```
 
@@ -387,6 +393,9 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 | `Super` + `I` or `Super` + `;` | Launch `Settings` app                        |
 | `Super` + `E`                  | Launch home folder                           |
 | `Super` + `R`                  | Run command dialog                           |
+| `Super` + `Shift` + `Return`   | Center window                                |
+| `Super` + `F`                  | Fullscreen window                            |
+| `Super` + `X`                  | Close window                                 |
 | `Super` + `V`                  | Open `Clipboard Indicator`                   |
 
 :::::
@@ -423,6 +432,9 @@ dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/lau
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/command "'flatpak run io.missioncenter.MissionCenter'"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/name "'Launch Mission Center'"
 dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
+dconf write /org/gnome/desktop/wm/keybindings/move-to-center "['<Super><Shift>Return']"
+dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscreen "['<Super>F']"
+dconf write /org/gnome/desktop/wm/keybindings/close "['<Super>X', '<Alt>F4']"
 dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
 ```
 
@@ -443,6 +455,9 @@ dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center
 dconf reset /org/gnome/shell/keybindings/toggle-message-tray
+dconf reset /org/gnome/desktop/wm/keybindings/move-to-center
+dconf reset /org/gnome/desktop/wm/keybindings/toggle-fullscreen
+dconf reset /org/gnome/desktop/wm/keybindings/close
 dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 ```
 
@@ -459,6 +474,9 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 | `Super` + `R`                  | Run command dialog                           |
 | `Super` + `Return`             | Launch `Ptyxis` terminal                     |
 | `Ctrl` + `Shift` + `Esc`       | Launch `Mission Center`                      |
+| `Super` + `Shift` + `Return`   | Center window                                |
+| `Super` + `F`                  | Fullscreen window                            |
+| `Super` + `X`                  | Close window                                 |
 | `Super` + `V`                  | Open `Clipboard Indicator`                   |
 
 :::::
@@ -679,6 +697,76 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   ```bash
   dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
+  ```
+
+  :::
+
+- Center window
+
+  :::::card
+
+  `Super` + `Shift` + `Return`
+
+  :::tabs
+
+  @tab ::mdi:terminal:: Append changes (cli)
+
+  ```bash
+  dconf write /org/gnome/desktop/wm/keybindings/move-to-center "['<Super><Shift>Return']"
+  ```
+
+  @tab ::mdi:reload:: Reset changes (cli)
+
+  ```bash
+  dconf reset /org/gnome/desktop/wm/keybindings/move-to-center
+  ```
+
+  :::
+
+  :::::
+
+- Toggle fullscreen (universal)
+
+  :::::card
+
+  `Super` + `F`
+
+  :::tabs
+
+  @tab ::mdi:terminal:: Append changes (cli)
+
+  ```bash
+  dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscreen "['<Super>F']"
+  ```
+
+  @tab ::mdi:reload:: Reset changes (cli)
+
+  ```bash
+  dconf reset /org/gnome/desktop/wm/keybindings/toggle-fullscreen
+  ```
+
+  :::
+
+  :::::
+
+- Close window (ergonomic)
+
+  :::::card
+
+  `Super` + `X`
+
+  :::tabs
+
+  @tab ::mdi:terminal:: Append changes (cli)
+
+  ```bash
+  dconf write /org/gnome/desktop/wm/keybindings/close "['<Super>X', '<Alt>F4']"
+  ```
+
+  @tab ::mdi:reload:: Reset changes (cli)
+
+  ```bash
+  dconf reset /org/gnome/desktop/wm/keybindings/close
   ```
 
   :::

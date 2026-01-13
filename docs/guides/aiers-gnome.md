@@ -18,28 +18,6 @@ contributors:
 :::important This guide is not going to be as detailed as the ones released in the main series as its content updates much more often as newer versions of Gnome and new extensions come out.
 :::
 
-## Let's add more keyboard shortcuts!
-
-:::tip The keyboard shortcuts in the Gnome Guide are great, I have these shortcuts as well:
-
-`<Super><Shift>Return` --> Center Window on the screen.
-
-`<Super>F` --> Toggle full screen (even when `F11` doesn't work, unless the app doesn't support full screen mode, this shortcut will work).
-
-`<Super>X` --> Close window (very ergonomic).
-:::
-
-```bash
-# <Super> + <Shift> + Return → Center window
-dconf write /org/gnome/desktop/wm/keybindings/move-to-center "['<Super><Shift>Return']"
-
-# <Super> + F → Toggle fullscreen
-dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscreen "['<Super>F']"
-
-# <Super> + X → Close window
-dconf write /org/gnome/desktop/wm/keybindings/close "['<Super>X', '<Alt>F4']"
-```
-
 ## Facial recognition with Howdy
 
 :::tip This applies outside of Gnome as well. If your computer supports facial recognition, you can check the details to setting up Howdy from the [official GitHub page](https://github.com/boltgolt/howdy?tab=readme-ov-file).
