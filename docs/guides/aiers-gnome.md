@@ -90,10 +90,52 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
 :::: collapse
 
+- [`AppIndicator and KStatusNotifierItem Support`](https://extensions.gnome.org/extension/615/appindicator-support/)
+
+  ::::card
+
+  :::info Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell.
+  :::
+
+  ![AppIndicator](./assets/aiers-gnome/appindicator.png)
+
+  ::::
+
 - [Battery Health Charging](https://extensions.gnome.org/extension/5724/battery-health-charging/)
 
   ::: info Lets you set charging thresholds to preserve battery health.
   ![Battery Health Limit Demonstration](./assets/aiers-gnome/battery-health-limit-demonstration.png)
+  :::
+
+- [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
+
+  ::: info Prevents screen dimming and suspension on demand.
+  ![Caffeine Demonstration](./assets/aiers-gnome/caffeine-demonstration.png)
+  :::
+
+- [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+
+  ::: info Provides a clipboard history and quick paste menu in the top panel.
+  ![Clipboard Indicator Demonstration](./assets/aiers-gnome/clipboard-indicator-demonstration.png)
+  :::
+
+  ::: tip Windows-like `<Super>v` keyboard shortcut
+
+  ```bash
+  dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
+  dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
+  ```
+
+  :::
+
+- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+
+  ::: info Moves the dash out of overview into a dock for quicker app launching and window switching.
+  ![Dash to Dock Demonstration](./assets/aiers-gnome/dash-to-dock-demonstration.png)
+  :::
+
+  :::tip My settings:
+  Go to the extension's settings --> Appearances, turn on `Shrink the dash` to make the dash smaller and slicker.
   :::
 
 - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
@@ -128,37 +170,6 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   dconf write /org/gnome/shell/extensions/just-perfection/workspace-switcher-size 13
   ```
 
-  :::
-
-- [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-
-  ::: info Provides a clipboard history and quick paste menu in the top panel.
-  ![Clipboard Indicator Demonstration](./assets/aiers-gnome/clipboard-indicator-demonstration.png)
-  :::
-
-  ::: tip Windows-like `<Super>v` keyboard shortcut
-
-  ```bash
-  dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
-  dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
-  ```
-
-  :::
-
-- [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
-
-  ::: info Prevents screen dimming and suspension on demand.
-  ![Caffeine Demonstration](./assets/aiers-gnome/caffeine-demonstration.png)
-  :::
-
-- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
-
-  ::: info Moves the dash out of overview into a dock for quicker app launching and window switching.
-  ![Dash to Dock Demonstration](./assets/aiers-gnome/dash-to-dock-demonstration.png)
-  :::
-
-  :::tip My settings:
-  Go to the extension's settings --> Appearances, turn on `Shrink the dash` to make the dash smaller and slicker.
   :::
 
 - [Kiwi is not Apple](https://extensions.gnome.org/extension/8276/kiwi-is-not-apple/)
@@ -204,12 +215,6 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   # Disable (due to buginess & personal preference)
   dconf write /org/gnome/shell/extensions/kiwi/transparent-move "false"
   ```
-
-- [Tinted Shell](https://extensions.gnome.org/extension/8906/tinted-shell/)
-
-  :::info Tints Gnome Shell elements to match with accent color.
-  ![Tinted Shell Demonstration](./assets/aiers-gnome/tinted-shell-demonstration.png)
-  :::
 
 ::::
 
@@ -301,6 +306,12 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   :::
 
   ::: note Archived because kiwi has this feature built in.
+  :::
+
+- [Tinted Shell](https://extensions.gnome.org/extension/8906/tinted-shell/)
+
+  :::info Tints Gnome Shell elements to match with accent color.
+  ![Tinted Shell Demonstration](./assets/aiers-gnome/tinted-shell-demonstration.png)
   :::
 
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
