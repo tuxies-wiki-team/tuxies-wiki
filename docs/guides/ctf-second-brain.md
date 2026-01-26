@@ -14,43 +14,73 @@ contributors:
 ## Resources
 
 - [Picoctf](https://picoctf.org/): CMU founded CTF training and learning platform great for "learn as you go."
+- [HackTheBox](https://www.hackthebox.com/): Best for beginners, offers certified courses and learning paths along with hands-on labs in combination to theory. 
 - [CyberChief](https://gchq.github.io/CyberChef/): For Encryption/Decryption and Encode/Decode
 
 ## General Knowledge
+::::details Terminal
 - `grep`
 - `strings`
 - `|` (pipe)
+::::
 
+::::details TCP/IP Protocol
 
+- Most common type of networking protocol that focuses on reliability, achived through 3 way handshake before establishing a network connection and a 4 way handshake terminating the connection.
+  - 3-way handshake (establishing):
+    - ==SYN flagged packet== is being sent from host machine to target machine/server 
+      - "Hello are you available to connect?"
+    - ==SYN-ACK flagged packet== is returned from the target machine/server back to the host, acknowledging availability through an extra ACK flag 
+      - "Hello, yes! I'm able to connect"
+    - ==ACK flagged packet== is sent again from the host machine to the target machine/server, officially estabilishing a connection 
+      - "Awesome let's share the formula of koka-kola here"
+  - 4-way handshake (terminating):
+    - ==FIN flagged packet== is sent from the host to the target machine/server
+      - "Yo bro imma dip."
+    - ==ACK flagged packet== is sent from the target machine/server back to the host, notifiying the host that the connection is close on its end
+      - "Aight bruh I gotchu, lemme send you this last thing."
+    - ==FIN flagged packet== is sent from the target machine/server to the host, indicating its finalization to the connection
+      - "Alright, now I'm actually done too."
+    - ==ACK flagged packet== is sent from the host machine to the target machine/server, officially closing the connection
+      - (Cool, *hangs up the call)
+::::
+
+::::details OSI Model
+:::warning Under Construction
+:::
+::::
 ## Forensics
 
-- **Base64 encoding:** transforms any binary data (like images or files) into a string of printable ASCII characters
-- **Steganography:** method that hides information in a non-secret file such as an image, or audio. The existence of the hidden message is unobservable to the viewer. Some of the most common techniques used includes LSB (least significant bit).
+- ==Base64 encoding:== transforms any binary data (like images or files) into a string of printable ASCII characters
+- ==Steganography:== method that hides information in a non-secret file such as an image, or audio. The existence of the hidden message is unobservable to the viewer. Some of the most common techniques used includes LSB (least significant bit).
+- ==Network Protocol Analysis:==
 
 :::::collapse accordion
 
 - Tools
-
-  - Image analysis:
-
+  ::::details Image Analysis
     - `zsteg`: Package based on Ruby allows user to check metadata of images and steganography; specifically for `.png` and `,bmp` images. It analyzes images to detect hidden data and extract hidden information on least significant and other steganography techniques.
     - `steghide`: Steganography tool used to hide/reveal hidden data in images/audio files; mostly used with `.jpeg`, `.bmp`, `.wav`, and `.au` files.
     - `identify`: Tool from ImageMagick, used to analyze and display information about image files such as image format, dimensions, file size, medatadata and properties.
-
-  - Skills:
-
+    
+    ==Skills:==
     - Converting files to `base64` and to an image file
-    - ```bash
-      # -d stands for decode
-      cat file.txt | base64 -d > file.jpeg
-      ```
+     ```bash
+    # -d stands for decode
+    cat file.txt | base64 -d > file.jpeg
+    ```
+  ::::
 
+  :::: details Networking
+    - [Wireshark](https://www.wireshark.org/): Tool for network package analysis for `pcap` and `pcapng`files. It breaksdown the networking traffic and displays a wide range of information, including network protocols, destination IP address and target addresses, file uploads, etc... 
+  ::::
 :::::
 
 ## Cryptography
 
-- **Hash:** Hash encryption generates a unique hashcode for each piece of data. It is often used to check file integrity by comparing the hash value of the package being installed and the original package to prevent potential modifications from unauthorized parties. Given a hashed value, to try to get the original value, we can use wordlist and word maps and try all different combinations to get their hashcode and comparing to the given hashed value. This is called bruteforce attacking/guess and checking.
-- **RSA Encryption:** Asymmetric encryption that involves the encrypted message (C), the original message (M), public key (e, n), and private key (d, n). Where `d` and `e` are prime of the product `n`. 
+- ==Hash:== Hash encryption generates a unique hashcode for each piece of data. It is often used to check file integrity by comparing the hash value of the package being installed and the original package to prevent potential modifications from unauthorized parties. Given a hashed value, to try to get the original value, we can use wordlist and word maps and try all different combinations to get their hashcode and comparing to the given hashed value. This is called bruteforce attacking/guess and checking.
+
+- ==RSA Encryption:== Asymmetric encryption that involves the encrypted message (C), the original message (M), public key (e, n), and private key (d, n). Where `d` and `e` are prime of the product `n`. 
   - Mathematical relationships are:
     - Encryption C ≡ Mᵉ (mod n)
     - Decryption M ≡ Cᵈ (mod n)
@@ -123,10 +153,11 @@ contributors:
 :::::collapse accordion
 
 - Tools
-  - Hash-cracking:
+  ::::details Hack-cracking
     - `hashcat`: GPU-accelerated tool for hash-cracking such as SHA1, SHA2-256, MD5, bcrypt.
       ```bash
       hashcat -m (hashtype: 0 = MD5, 100 = SHA1, 1400 = SHA2-256, 3200 = bcrypt) -a 0 (hashed text) (wordlist path)
       ```
+  ::::
 
 :::::
