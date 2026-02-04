@@ -14,7 +14,7 @@ This guide provides a thorough walk-through of flashing a Linux ISO into a pendr
 
 :::warning
 
-Flashing a USB drive will **completely erase all contents** within, thus make sure to check or back-up necessary files/documents before proceeding
+Flashing a USB drive will ==completely erase all contents== within, thus make sure to check or back-up necessary files/documents before proceeding
 
 :::
 

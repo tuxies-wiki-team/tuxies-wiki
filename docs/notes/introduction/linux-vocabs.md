@@ -63,7 +63,7 @@ permalink: /introduction/linux-vocabs/
 
   The command-line interpreter (e.g., Bash, Zsh) that executes user commands.
 
-  **Bourne Again Shell (Bash)** — The default shell in most Linux distributions.
+  ==Bourne Again Shell (Bash)== — The default shell in most Linux distributions.
 
 - GUI — Graphical User Interface
 
@@ -76,6 +76,9 @@ permalink: /introduction/linux-vocabs/
 :::::
 
 ## **System & File Management**
+
+:::warning Under Construction
+:::
 
 **Root**: The user with full system control (root user, /root directory).
 

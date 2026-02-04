@@ -113,7 +113,7 @@ All ricing tips and tricks are ==optional== and are not necessary and add no uti
 
   @tab ::mdi:puzzle:: Append changes (Gnome Tweaks)
 
-  `Appearance` > `Legacy Applications` --> **Adw-gtk3**
+  `Appearance` > `Legacy Applications` --> ==Adw-gtk3==
 
   @tab ::mdi:reload:: Reset changes (cli)
 
