@@ -514,20 +514,6 @@ Use highlighting (==) to emphasize text, especially in paragraphs.
 
 Do not use highlighting in titles such as headings, step module titles, or collapse module titles.
 
-Linux is known for being ==flexible, secure, and stable==.
-
-It is ==open-source=={.important}, meaning its source code is freely available for anyone to view, modify, and distribute.
-
-This fosters a ==collaborative global community== that continuously improves the system.
-
-==Default==  
-==Info=={.info}  
-==Note=={.note}  
-==Tip=={.tip}  
-==Warning=={.warning}  
-==Danger=={.danger}  
-==Important=={.important}
-
 :::details See code...
 
 ```md
