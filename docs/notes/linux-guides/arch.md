@@ -660,11 +660,17 @@ Note that all fixes below may vary depending on the user's specific situation.
 
 :::::collapse accordion
 
-- Clearing `pacman` cached files to free up file system space
+- Clearing unused/cache files 
 
+  - [ncdu](https://man.archlinux.org/man/ncdu.1) is a useful tui tool that scans storage usage in the provided directory
+  ```bash
+  # Example usage: Scan everything starting from /
+  # -x flag prevents ncdu from crossing into other mount points
+  sudo ncdu -x /
+  ```
   ::::steps
-
-  - Refer to the [official ArchWiki](https://wiki.archlinux.org/title/Pacman#Cleaning_the_package_cache) for more details.
+  - Clearing `pacman` cache
+    - Refer to the [official ArchWiki](https://wiki.archlinux.org/title/Pacman#Cleaning_the_package_cache) for more details.
 
     - Install `pacman-contrib` package
 
@@ -675,15 +681,44 @@ Note that all fixes below may vary depending on the user's specific situation.
     - Run
 
     ```bash
-    # Removes all older unused packages
-    sudo paccache -r
+    # Removes all older unused packages and keep 1 version in cache
+    sudo paccache -rk1
 
     # Removes all uninstalled packages
     sudo pacman -Sc
 
     ```
+  - Clearing unused `flatpak` runtimes and extension
+  
 
-    ::::
+    - You can check what exactly is using up spaces but running
+
+    ```bash
+    flatpak list --columns=name,application,size
+    ```
+
+    - Run 
+
+    ```bash
+    flatpak uninstall --unused
+    ```
+
+  - Clearing `pip` cache
+    - You can check how much cache `pip` is using by running: 
+    ```bash
+    pip cache info
+    ```
+
+    - To clear the entire cache: 
+    ```bash
+    pip cache purge
+    ```
+    - :::info Clearing global `pip` cache will not affect existing `.venv` environments
+  
+  - Clearing old `docker`overlay layers
+    ```bash
+    docker system prune -a --volumes
+    ```
 
 :::::
 
