@@ -45,9 +45,30 @@ contributors:
       - (Cool, *hangs up the call)
 ::::
 
-::::details OSI Model
+::::details OSI Model & TCP/IP Model
 :::warning Under Construction
 :::
+  - OSI Model is the detailed version of TCP/IP, OSI consists of ==7 layers== while TCP/IP combines some of the layers into one, resulting in ==4 layers==
+    - ==Layer 1: Physical==
+      - This is the layer of ==hardware==, where physical wires and ports are connected
+    - ==Layer 2: Data Link== 
+      - This is the layer involving ==switches==, a devices that allows multiple wires to be plugged in to a single source creating a local network. ==MAC addresses== are handled through the switch to ensure that data are sent from the right machine to the right machine, where the switch has a "table" mapping each machine connected to each port to its MAC address.
+
+      :::info MAC addresses are analogous to your SIN, ==unique in each machine==
+      :::
+
+    - ==Layer 3: Network==
+      - This is the layer involving ==routers==, allows connections of multiple networks be connected into a single-big network. ==IP address== are used in a router to indicate which network the packet is being sent to, which then is processed by the switch to locate the destination machine through MAC address. This transition from layer 3 to layer 2 is done through ==ARP(Address Resolution Protocol)==
+
+      :::info Why IP address? 
+      What is the purpose of using IP address if we already have MAC addresses? As mentioned in layer 2, switches are handles MAC addresses by having an ==internal map== that stores the port with the machine being pointed. Now imagine you have the entire world's network connection depending on MAC address, this quickly becomes a problem as adding/removing will have to update the internal map of ==each and every switch==. IP address solves this issue by simply directing the packet from one network to another and leave the MAC address work to a specific switch.
+      :::
+    - ==Layer 4: Transport==
+      - This layer is concerned about how the data is being transported, here is where ==TCP (Transmission Control Protocol) and UDP (User Datagram Protocol)== comes into play. ==TCP prioritizes reliability==, whether the packet is successfully delivered (Amazon Prime Pro Max), and ==UDP prioritizes speed==, where packets are pass send constantly through the network to everyone. 
+    - ==Layer 5: Session==
+    - ==Layer 6: Presentation==
+    - ==Layer 7: Application==
+
 ::::
 ## Forensics
 
