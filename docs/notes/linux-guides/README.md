@@ -15,7 +15,7 @@ permalink: /linux-guides/
 
 [_Tips hat_](/linux-guides/fedora/)
 
-Offers a high-quality out-of-the-box experience while remaining highly flexible. Maintained by **aier**.
+Offers a high-quality out-of-the-box experience while remaining highly flexible. Maintained by ==aier==.
 
 :::
 
@@ -23,7 +23,7 @@ Offers a high-quality out-of-the-box experience while remaining highly flexible.
 
 [Welcome to the bleeding edge!](/linux-guides/arch/)
 
-Includes a complete installation guide, ROG Linux setup, Nvidia drivers, and up-to-date error reports. Maintained by **Lunear**.
+Includes a complete installation guide, ROG Linux setup, Nvidia drivers, and up-to-date error reports. Maintained by ==Lunear==.
 
 :::
 
@@ -31,7 +31,7 @@ Includes a complete installation guide, ROG Linux setup, Nvidia drivers, and up-
 
 [Classic!](/linux-guides/debian/)
 
-Complete guide including server setup! Maintained by **joseporcar**.
+Complete guide including server setup! Maintained by ==joseporcar==.
 
 :::
 
@@ -47,7 +47,7 @@ Complete guide including server setup! Maintained by **joseporcar**.
 
 The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 
-Maintained by **aier**.
+Maintained by ==aier==.
 
 :::
 

@@ -86,7 +86,7 @@ contributors:
     - Decryption M ≡ Cᵈ (mod n)
     :::info Note
     `≡` indicates congruence, where under the context of `A ≡ B (mod n)`, 
-    it means **A and B have the same remainder when divided by n.**
+    it means ==A and B have the same remainder when divided by n.==
     ::: 
 
     ::::::collapse accordion
