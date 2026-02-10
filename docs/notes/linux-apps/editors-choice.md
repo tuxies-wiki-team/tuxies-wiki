@@ -155,7 +155,7 @@ flatpak install --user flathub md.obsidian.Obsidian
 
 ## **[Scrcpy](https://github.com/Genymobile/scrcpy)**
 
-**From Scrcpy's GitHub:** "This application mirrors Android devices (video and audio) connected via USB or TCP/IP and allows control using the computer's keyboard and mouse. It does not require root access or an app installed on the device. It works on Linux, Windows, and macOS."
+==From Scrcpy's GitHub:== "This application mirrors Android devices (video and audio) connected via USB or TCP/IP and allows control using the computer's keyboard and mouse. It does not require root access or an app installed on the device. It works on Linux, Windows, and macOS."
 
 :::tabs
 
@@ -181,9 +181,9 @@ Install the .tar.gz file from the link above
 
 Discord with screen sharing and audio support, as well as Vencord inbuilt.
 
-**If you do not care about Discord Rich Presence (DRP), proceed with the Flatpak installation.**
+=If you do not care about Discord Rich Presence (DRP), proceed with the Flatpak installation.==
 
-**If you do want DRP, check out [Vesktop’s Github Releases](https://github.com/Vencord/Vesktop/releases) and download the package for your respective distribution.**
+==If you do want DRP, check out [Vesktop’s Github Releases](https://github.com/Vencord/Vesktop/releases) and download the package for your respective distribution.==
 
 :::tabs
 @tab ::simple-icons:flatpak:: Flatpak (System)
