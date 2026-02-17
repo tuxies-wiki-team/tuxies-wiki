@@ -192,6 +192,10 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   # Disable (due to buginess & personal preference)
   dconf write /org/gnome/shell/extensions/kiwi/transparent-move "false"
+
+  # Disable and use blur from Blur My Shell
+  dconf write /org/gnome/shell/extensions/kiwi/overview-wallpaper-background "false"
+  dconf write /org/gnome/shell/extensions/kiwi/panel-transparency "false"
   ```
 
 :::::
@@ -229,6 +233,12 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   :::tip The default `<Super>.` keybinding for Emoji Copy sometimes interferes with the ibus emoji shortcut, I simply remapped it to `<Super><Shift>v`.
   :::
 
+- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+
+  ::: info Adds customizable blur effects to GNOME Shell elements for a polished look.
+  ![Blur My Shell Demonstration](./assets/aiers-gnome/blur-my-shell-demonstration.png)
+  :::
+
 - [GNOME Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
 
   ::: info Enables fuzzy matching in Activities search to find apps without exact names.
@@ -252,20 +262,6 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
 ::::::card
 ::::: collapse
-
-- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-
-  ::: info
-  Always opens a new app instance from the dash or app grid.
-  :::
-
-  ::: info Adds customizable blur effects to GNOME Shell elements for a polished look.
-  ![Blur My Shell Demonstration](./assets/aiers-gnome/blur-my-shell-demonstration.png)
-  :::
-
-  ::: note
-  I have replaced Blur My Shell's functionalities with the Kiwi extension.
-  :::
 
 - [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
 
