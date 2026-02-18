@@ -215,7 +215,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   :::
 
   :::tip My settings:
-  **Position of ordered folders --> Start**, to make folders appear before apps.
+  ==Position of ordered folders --> Start==, to make folders appear before apps.
   :::
 
 - [Custom Reboot](https://extensions.gnome.org/extension/5542/custom-reboot/)

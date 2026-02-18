@@ -7,7 +7,7 @@ contributors:
 ---
 
 :::tip Why Fedora?
-Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-the-box experience while remaining highly flexible. It is stable, yet it has up-to-date and cutting edge packages.
+Fedora is the preferred distro of ==aier==. Fedora offers a high-quality out-of-the-box experience while remaining highly flexible. It is stable, yet it has up-to-date and cutting edge packages.
 :::
 
 ## **Installation**
@@ -48,7 +48,7 @@ Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-
 
 ## **Create snapshots/backups** for your computer
 
-We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you like.
+We'll be using ==Timeshift==, but you can use whichever snapshot/backup tool you like.
 
 ::::steps
 
