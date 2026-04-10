@@ -60,9 +60,10 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 <!-- dconf reset /org/gnome/desktop/interface/document-font-name  -->
 <!-- dconf reset /org/gnome/desktop/interface/monospace-font-name  -->
 
-## GNOME Extensions
+## GNOME Extensions (universal)
 
-### Personal Essentials
+:::info My setup's extensions change frequently, but the core ones are listed as below that have relatively universal benefits.
+:::
 
 ::::::card
 
@@ -83,6 +84,12 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   ::: info Lets you set charging thresholds to preserve battery health.
   ![Battery Health Limit Demonstration](./assets/aiers-gnome/battery-health-limit-demonstration.png)
+  :::
+
+- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+
+  ::: info Adds customizable blur effects to GNOME Shell elements for a polished look.
+  ![Blur My Shell Demonstration](./assets/aiers-gnome/blur-my-shell-demonstration.png)
   :::
 
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
@@ -106,14 +113,19 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::
 
-- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+- [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/)
 
-  ::: info Moves the dash out of overview into a dock for quicker app launching and window switching.
-  ![Dash to Dock Demonstration](./assets/aiers-gnome/dash-to-dock-demonstration.png)
+  ::: info Adds an emoji picker to search and copy emojis quickly.
+  ![Emoji Copy Demonstration](./assets/aiers-gnome/emoji-copy-demonstration.png)
   :::
 
-  :::tip My settings:
-  Go to the extension's settings --> Appearances, turn on `Shrink the dash` to make the dash smaller and slicker.
+  :::tip The default `<Super>.` keybinding for Emoji Copy sometimes interferes with the ibus emoji shortcut, I simply remapped it to `<Super><Shift>v`.
+  :::
+
+- [GNOME Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
+
+  ::: info Enables fuzzy matching in Activities search to find apps without exact names.
+  ![Gnome Fuzzy App Search Demonstration](./assets/aiers-gnome/gnome-fuzzy-app-search-demonstration.png)
   :::
 
 - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
@@ -125,9 +137,6 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   :::tip My settings:
 
   ```bash
-  # Make top bar thinner
-  dconf write /org/gnome/shell/extensions/just-perfection/panel-size 28
-
   # Hide ripple box in hot corner
   dconf write /org/gnome/shell/extensions/just-perfection/ripple-box false
 
@@ -150,7 +159,12 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::
 
-- [Kiwi is not Apple](https://extensions.gnome.org/extension/8276/kiwi-is-not-apple/)
+- [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
+
+  ::: info Switcher between light and dark theme depending on sunrise/sunset.
+  :::
+
+<!-- - [Kiwi is not Apple](https://extensions.gnome.org/extension/8276/kiwi-is-not-apple/)
 
   ::: info Offers many UI changes to make Gnome more Mac-like. I use it for the window title, lock key indicator, and transparent window move function.
   :::
@@ -196,17 +210,15 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   # Disable and use blur from Blur My Shell
   dconf write /org/gnome/shell/extensions/kiwi/overview-wallpaper-background "false"
   dconf write /org/gnome/shell/extensions/kiwi/panel-transparency "false"
-  ```
+  ``` -->
 
 :::::
-
 ::::::
 
-### Quality of Life Additions
+### My workflow specific
 
-:::::card
-
-::::collapse
+::::::card
+::::: collapse
 
 - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
 
@@ -218,81 +230,47 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   **Position of ordered folders --> Start**, to make folders appear before apps.
   :::
 
-- [Custom Reboot](https://extensions.gnome.org/extension/5542/custom-reboot/)
+- [App Icons Taskbar](https://extensions.gnome.org/extension/4944/app-icons-taskbar/)
 
-  ::: info Adds “Reboot to…” options for booting into another OS or firmware.
-  ![Custom Reboot Demonstration](./assets/aiers-gnome/custom-reboot-demonstration.png)
+  :::info Windows-styled taskbar
   :::
 
-- [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/)
+  :::tip My settings
 
-  ::: info Adds an emoji picker to search and copy emojis quickly.
-  ![Emoji Copy Demonstration](./assets/aiers-gnome/emoji-copy-demonstration.png)
+  ```bash
+  dconf write /org/gnome/shell/extensions/aztaskbar/clock-font-size "(true, 12)"
+  dconf write /org/gnome/shell/extensions/aztaskbar/clock-position-in-panel "'RIGHT'"
+  dconf write /org/gnome/shell/extensions/aztaskbar/icon-size "24"
+  dconf write /org/gnome/shell/extensions/aztaskbar/indicator-color-use-system-accent-color "true"
+  dconf write /org/gnome/shell/extensions/aztaskbar/indicator-location "'BOTTOM'"
+  dconf write /org/gnome/shell/extensions/aztaskbar/main-panel-height "(true, 40)"
+  dconf write /org/gnome/shell/extensions/aztaskbar/override-panel-clock-format "(true, '%a %R\\n%F')"
+  dconf write /org/gnome/shell/extensions/aztaskbar/panel-location "'BOTTOM'"
+  dconf write /org/gnome/shell/extensions/aztaskbar/show-apps-button "(true, 0)"
+  ```
+
   :::
 
-  :::tip The default `<Super>.` keybinding for Emoji Copy sometimes interferes with the ibus emoji shortcut, I simply remapped it to `<Super><Shift>v`.
-  :::
+- [GTK4 Desktop Icon NG](https://extensions.gnome.org/extension/5263/gtk4-desktop-icons-ng-ding/) TODO
 
-- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+- [Kando Integration](https://extensions.gnome.org/extension/7068/kando-integration/) TODO
 
-  ::: info Adds customizable blur effects to GNOME Shell elements for a polished look.
-  ![Blur My Shell Demonstration](./assets/aiers-gnome/blur-my-shell-demonstration.png)
-  :::
+  :::::
+  ::::::
 
-- [GNOME Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
-
-  ::: info Enables fuzzy matching in Activities search to find apps without exact names.
-  ![Gnome Fuzzy App Search Demonstration](./assets/aiers-gnome/gnome-fuzzy-app-search-demonstration.png)
-  :::
-
-- [Auto Power Profile](https://extensions.gnome.org/extension/6583/auto-power-profile/)
-
-  ::: info Changes power profile based on AC status and battery percentage.
-  :::
-
-- [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
-
-  ::: info Switcher between light and dark theme depending on sunrise/sunset.
-  :::
-
-::::
-:::::
-
-### Previously in My Setup
+### Not in my setup, but you may like:
 
 ::::::card
 ::::: collapse
 
-- [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
+- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
-  ::: info
-  Always opens a new app instance from the dash or app grid.
+  ::: info Moves the dash out of overview into a dock for quicker app launching and window switching.
+  ![Dash to Dock Demonstration](./assets/aiers-gnome/dash-to-dock-demonstration.png)
   :::
 
-  ::: note
-  I no longer use this extension because you can simply do control enter when searching an app to open a new instance. With this said, you'd gain back the default ability to switch to an app through the overview search.
-  :::
-
-- [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/)
-
-  ::: info Shows Caps Lock and Num Lock status in the top panel.
-  ![Lock Keys Demonstration](./assets/aiers-gnome/lock-keys-demonstration.png)
-  :::
-
-  ::: note Archived because kiwi has this feature built in.
-  :::
-
-- [Tinted Shell](https://extensions.gnome.org/extension/8906/tinted-shell/)
-
-  :::info Tints Gnome Shell elements to match with accent color.
-  ![Tinted Shell Demonstration](./assets/aiers-gnome/tinted-shell-demonstration.png)
-  :::
-
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-
-  ::: info Allows loading and applying custom GNOME Shell themes from your home directory.
-
-  ![User Shell Demonstration](./assets/aiers-gnome/user-shell-demonstration.png)
+  :::tip My settings:
+  Go to the extension's settings --> Appearances, turn on `Shrink the dash` to make the dash smaller and slicker.
   :::
 
 :::::
