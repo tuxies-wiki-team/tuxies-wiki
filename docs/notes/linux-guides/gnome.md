@@ -9,7 +9,7 @@ contributors:
 ::: note Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somewhat stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 
-==Read over this guide to customize Gnome to your liking!==
+==Read over this guide to customise Gnome to your liking!==
 :::
 
 ::: tip CHECK THIS OUT!
@@ -172,7 +172,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 ::::::collapse accordion
 
-- Enable maximize and minimize title bar buttons
+- Enable maximise and minimise title bar buttons
 
   ::::card
 
@@ -186,9 +186,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   @tab ::mdi:puzzle:: Append changes (Gnome Tweaks)
 
-  `Windows` > `Maximize` --> **on**
+  `Windows` > `Maximise` --> **on**
 
-  `Windows` > `Minimize` --> **on**
+  `Windows` > `Minimise` --> **on**
 
   @tab ::mdi:reload:: Reset changes (cli)
 
@@ -495,7 +495,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
   ```bash
   # Also preserving the original keybinding
   # <Super>Page_Up/Page_Down here because it is
-  # quite useful on a full sized keyboard.
+  # quite useful on a full-sized keyboard.
   dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-left "['<Control><Super>Left', '<Super>Page_Up']"
   dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-right "['<Control><Super>Right', '<Super>Page_Down']"
   ```
@@ -821,7 +821,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
   :::::
   ::::::
 
-:::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section. It is suggested that you append them manually through the `Gnome Settings` app --> `Keyboard` --> `View and Customize Keyboard Shortcuts` section instead if you have existing custom shortcuts.
+:::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section. It is suggested that you append them manually through the `Gnome Settings` app --> `Keyboard` --> `View and Customise Keyboard Shortcuts` section instead if you have existing custom shortcuts.
 :::
 
 ::::::collapse accordion

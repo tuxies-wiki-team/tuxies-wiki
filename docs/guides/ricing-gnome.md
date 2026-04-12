@@ -176,9 +176,7 @@ This extension allows Gnome to install themes downloaded online to make your des
 
   :::::card title
   :::: steps
-
   - **Downloading User-Themes extension**
-
     - lorem
       :::note Why?
     - This enables Gnome to install themes
@@ -190,9 +188,7 @@ This extension allows Gnome to install themes downloaded online to make your des
 
   :::::card title="Installing themes"
   ::::steps
-
   - **Download theme file**
-
     - Download themes from the [Pling Website](https://www.gnome-look.org/browse?cat=134&ord=latest)
     - Click on desired theme
     - On the upper right hand side, click download and select desired color of the theme
@@ -201,14 +197,12 @@ This extension allows Gnome to install themes downloaded online to make your des
       :::
 
   - **Extract the file**
-
     - In your file manager(Nautilus), right click on the tar.gz file you just downloaded and click on "extract."
       :::note Why?
       This decompresses the files from the tar.gz file format
       :::
 
   - **Move files into ~/.local/share/themes folder**
-
     - Go into the extracted folder, select all the folders inside, move them to ~/.local/share/themes
       :::warning
       In the case that the "themes" folder doesn't exist, create one yourself inside ~/.local/share/
@@ -218,12 +212,11 @@ This extension allows Gnome to install themes downloaded online to make your des
       :::
 
   - **Selecting Theme using Gnome-Tweaks**
-
     - Open Gnome-Tweaks.
     - Navigate into these tabs/headings: Appearance tab->Styles->Shell.
     - Under the ==shell drop-down== you will see options for the themes you just extracted and moved. Select the theme you want.
       :::note
-      These theme options are present because the theme files were put into the directory linux recognizes as the place to look for themes.
+      These theme options are present because the theme files were put into the directory linux recognises as the place to look for themes.
       :::
 
   ::::

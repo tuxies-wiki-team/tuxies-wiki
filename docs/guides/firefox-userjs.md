@@ -80,7 +80,7 @@ user_pref("zen.workspaces.separate-essentials", false); // true
 :::note Improving Scrolling
 Many Firefox users (us included) feel that the Firefox default scrolling is quite slow on the mousewheel, or too fast on the trackpad, or not smooth enough, or not dynamic enough.
 
-However you want your scrolling, hopefully you can customize the options we'll provide you to suit your needs.
+However you want your scrolling, hopefully you can customise the options we'll provide you to suit your needs.
 :::
 
 ## **Mousewheel scrolling**

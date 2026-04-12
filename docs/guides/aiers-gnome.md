@@ -173,13 +173,13 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   # aier's Kiwi settings
 
   # Disable (for consistency):
-  # This feature stylizes titlebuttons to look
+  # This feature stylises titlebuttons to look
   # like traffic lights. They can be inconsistent.
   dconf write /org/gnome/shell/extensions/kiwi/enable-app-window-buttons "false"
   dconf write /org/gnome/shell/extensions/kiwi/show-window-controls "false"
 
   # Enable (for aesthetics):
-  # Stylize the keyboard layout indicator
+  # Stylise the keyboard layout indicator
   dconf write /org/gnome/shell/extensions/kiwi/keyboard-indicator "true"
 
   # Enable (for utility):
@@ -238,6 +238,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   :::tip My settings
 
   ```bash
+  # Stylise panel into Windows-styled task bar
   dconf write /org/gnome/shell/extensions/aztaskbar/clock-font-size "(true, 12)"
   dconf write /org/gnome/shell/extensions/aztaskbar/clock-position-in-panel "'RIGHT'"
   dconf write /org/gnome/shell/extensions/aztaskbar/icon-size "24"
@@ -248,6 +249,9 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   dconf write /org/gnome/shell/extensions/aztaskbar/override-panel-clock-format "(true, '%a %R\\n%F')"
   dconf write /org/gnome/shell/extensions/aztaskbar/panel-location "'BOTTOM'"
   dconf write /org/gnome/shell/extensions/aztaskbar/show-apps-button "(true, 0)"
+
+  # Requires Just Perfection extension; moves notifications to bottom right to match with task bar
+  dconf write /org/gnome/shell/extensions/just-perfection/notification-banner-position "5"
   ```
 
   :::

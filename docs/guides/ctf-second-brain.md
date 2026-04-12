@@ -64,7 +64,7 @@ contributors:
       What is the purpose of using IP address if we already have MAC addresses? As mentioned in layer 2, switches are handles MAC addresses by having an ==internal map== that stores the port with the machine being pointed. Now imagine you have the entire world's network connection depending on MAC address, this quickly becomes a problem as adding/removing will have to update the internal map of ==each and every switch==. IP address solves this issue by simply directing the packet from one network to another and leave the MAC address work to a specific switch.
       :::
     - ==Layer 4: Transport==
-      - This layer is concerned about how the data is being transported, here is where ==TCP (Transmission Control Protocol) and UDP (User Datagram Protocol)== comes into play. ==TCP prioritizes reliability==, whether the packet is successfully delivered (Amazon Prime Pro Max), and ==UDP prioritizes speed==, where packets are pass send constantly through the network to everyone. 
+      - This layer is concerned about how the data is being transported, here is where ==TCP (Transmission Control Protocol) and UDP (User Datagram Protocol)== comes into play. ==TCP prioritises reliability==, whether the packet is successfully delivered (Amazon Prime Pro Max), and ==UDP prioritises speed==, where packets are pass send constantly through the network to everyone. 
     - ==Layer 5: Session==
     - ==Layer 6: Presentation==
     - ==Layer 7: Application==

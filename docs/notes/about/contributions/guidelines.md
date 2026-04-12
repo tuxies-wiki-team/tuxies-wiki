@@ -6,7 +6,7 @@ createTime: 2025/06/09 11:25:08
 permalink: /contributions/guidelines/
 ---
 
-:::info This is a guideline for editing, styling, and formatting when editing Tuxie's Wiki. Please read and comply with these guidelines as it could jeopardize your opportunity in being a contributor.
+:::info This is a guideline for editing, styling, and formatting when editing Tuxie's Wiki. Please read and comply with these guidelines as it could jeopardise your opportunity in being a contributor.
 :::
 
 ## **Formatting**
@@ -508,7 +508,7 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
 ### Highlighting
 
-Use highlighting (==) to emphasize text, especially in paragraphs.
+Use highlighting (==) to emphasise text, especially in paragraphs.
 
 ==Highlights will replace bolding entirely.==
 
@@ -528,7 +528,7 @@ This fosters a ==collaborative global community== that continuously improves the
 ==Note=={.note}  
 ==Tip=={.tip}  
 ==Warning=={.warning}  
-==Danger=={.danger}   
+==Danger=={.danger}  
 ==Important=={.important}
 ```
 
@@ -537,6 +537,7 @@ This fosters a ==collaborative global community== that continuously improves the
 :::demo-wrapper img
 ![Highlighting-Demo](./assets/highlighting-demo.png)
 :::
+
 ### Steps
 
 Use "-" to auto-generate `steps` instead of manually numbering them. It helps maintenance and editing much easier.

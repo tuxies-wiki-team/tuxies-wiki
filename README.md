@@ -14,4 +14,4 @@ A collection of apps separated into the "Editor's Choice," "Essentials," "Popula
 
 ### [Other Articles](https://tuxies-wiki-team.github.io/tuxies-wiki/guides/)
 
-This is where everything else written by Tuxie's Wiki Team lives ranging from how to make your Firefox scroll to your likings on laptop—to how to how to make your terminal look cooler—to set up your Logitech peripherals to maximize their usability (Logitech Guide coming soon!).
+This is where everything else written by Tuxie's Wiki Team lives ranging from how to make your Firefox scroll to your likings on laptop—to how to how to make your terminal look cooler—to set up your Logitech peripherals to maximise their usability (Logitech Guide coming soon!).
