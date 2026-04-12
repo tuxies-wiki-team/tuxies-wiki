@@ -42,7 +42,7 @@ contributors:
 
 ## **Introduction**
 
-When you first installed Gnome, does everything feel off? Icons are weird, notifications are centered, where are my apps? In this article, we will introduce the concept of ==ricing== to make Gnome feel as comfy and beautiful as you want.
+When you first installed Gnome, does everything feel off? Icons are weird, notifications are centred, where are my apps? In this article, we will introduce the concept of ==ricing== to make Gnome feel as comfy and beautiful as you want.
 :::
 
 :::info
@@ -191,7 +191,7 @@ This extension allows Gnome to install themes downloaded online to make your des
   - **Download theme file**
     - Download themes from the [Pling Website](https://www.gnome-look.org/browse?cat=134&ord=latest)
     - Click on desired theme
-    - On the upper right hand side, click download and select desired color of the theme
+    - On the upper right hand side, click download and select desired colour of the theme
       :::note Why?
       These theme files contain the code for how the theme looks
       :::

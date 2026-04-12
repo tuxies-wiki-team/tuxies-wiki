@@ -1,4 +1,4 @@
-/* A fading highlighter style, default color yellow.  */
+/* A fading highlighter style, default colour yellow.  */
 mark {
   --vp-mark-text: currentcolor;
   --vp-mark-bg: transparent;

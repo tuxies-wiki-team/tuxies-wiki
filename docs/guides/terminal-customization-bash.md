@@ -323,7 +323,7 @@ alias lsta3='eza -Ta --level 3'
 ### **Using `eza`**
 
 :::tip What is `eza`?
-`eza` is a modern alternative to the classic `ls`, it provides color-coding, tree-styled outputs, git integration, and more.
+`eza` is a modern alternative to the classic `ls`, it provides colour-coding, tree-styled outputs, git integration, and more.
 :::
 
 :::::steps

@@ -111,7 +111,7 @@ We'll follow the following hierarchy for icons:
 
 `mdi` >> `ic` >> others
 
-We prefer to keep navigational and core components clean, without colors.
+We prefer to keep navigational and core components clean, without colours.
 
 #### Cards
 
@@ -123,7 +123,7 @@ Cards would preferably be catchy and fun.
 
 `devicon` >> `logos` >> `mdi` >> `ic` >> `simple-icons` >> others
 
-Similar to core components, they should be clean and informative; some color would be nice, though.
+Similar to core components, they should be clean and informative; some colour would be nice, though.
 
 ::::::details How to add an icon...
 

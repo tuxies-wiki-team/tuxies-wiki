@@ -393,7 +393,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 | `Super` + `I` or `Super` + `;` | Launch `Settings` app                        |
 | `Super` + `E`                  | Launch home folder                           |
 | `Super` + `R`                  | Run command dialog                           |
-| `Super` + `Shift` + `Return`   | Center window                                |
+| `Super` + `Shift` + `Return`   | Centre window                                |
 | `Super` + `F`                  | Fullscreen window                            |
 | `Super` + `X`                  | Close window                                 |
 | `Super` + `V`                  | Open `Clipboard Indicator`                   |
@@ -474,7 +474,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 | `Super` + `R`                  | Run command dialog                           |
 | `Super` + `Return`             | Launch `Ptyxis` terminal                     |
 | `Ctrl` + `Shift` + `Esc`       | Launch `Mission Center`                      |
-| `Super` + `Shift` + `Return`   | Center window                                |
+| `Super` + `Shift` + `Return`   | Centre window                                |
 | `Super` + `F`                  | Fullscreen window                            |
 | `Super` + `X`                  | Close window                                 |
 | `Super` + `V`                  | Open `Clipboard Indicator`                   |
@@ -701,7 +701,7 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::
 
-- Center window
+- Centre window
 
   :::::card
 
