@@ -18,7 +18,7 @@ This guide will walk you through customizing your Bash prompt, how to run `fastf
 :::danger
 This tutorial assumes that you are using Bash as your shell, even though some part of the tutorial may apply to non-Bash shells.
 
-**For non-Bash users, we cannot guarantee success and will not take responsibility to damages to your system.**
+==For non-Bash users, we cannot guarantee success and will not take responsibility to damages to your system.==
 :::
 
 ## **Back up current `.bashrc`**
