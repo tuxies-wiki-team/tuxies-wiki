@@ -38,7 +38,7 @@ permalink: /introduction/linux-vocabs/
   | Desktop Environment | Demo Image                             | Description                                                                                                        |
   | ------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
   | **GNOME**           | ![GNOME](./assets/gnome.png)           | A clean, modern interface with a focus on simplicity and productivity. Default in Fedora, Ubuntu, and many others. |
-  | **KDE Plasma**      | ![KDE Plasma](./assets/kde-plasma.png) | Highly customizable. Offers a Windows-like experience with many advanced features.                                 |
+  | **KDE Plasma**      | ![KDE Plasma](./assets/kde-plasma.png) | Highly customisable. Offers a Windows-like experience with many advanced features.                                 |
   | **Xfce**            | ![Xfce](./assets/xfce.png)             | Lightweight and fast. Great for older hardware or users who prefer a traditional desktop layout.                   |
 
 - :+ Distros — Linux Distributions
@@ -167,4 +167,4 @@ Root:
 
 Path:
 
-Virtualization: -->
+Virtualisation: -->

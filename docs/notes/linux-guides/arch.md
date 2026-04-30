@@ -220,7 +220,7 @@ This guide only works with UEFI/GPT Systems. For BIOS/MBR Systems, this guide wi
       **This command assumes the hardware clock is set to UTC**
       :::
 
-  - **Localization:**
+  - **Localisation:**
     - edit `/etc/locale.gen` and uncomment `en_US.UTF-8 UTF-8` and other needed UTF-8 locales
       ```bash
       # Example: (Note: nano is an editor)

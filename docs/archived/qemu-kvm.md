@@ -1,7 +1,7 @@
 ---
 title: QEMU/KVM Guide
 tags:
-  - Virtualization
+  - Virtualisation
   - Archived
 createTime: 2025/06/25 09:05:08
 permalink: /archived/qemu-kvm-guide/

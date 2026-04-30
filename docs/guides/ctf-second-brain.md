@@ -39,7 +39,7 @@ contributors:
       - "Yo bro imma dip."
     - ==ACK flagged packet== is sent from the target machine/server back to the host, notifiying the host that the connection is close on its end
       - "Aight bruh I gotchu, lemme send you this last thing."
-    - ==FIN flagged packet== is sent from the target machine/server to the host, indicating its finalization to the connection
+    - ==FIN flagged packet== is sent from the target machine/server to the host, indicating its finalisation to the connection
       - "Alright, now I'm actually done too."
     - ==ACK flagged packet== is sent from the host machine to the target machine/server, officially closing the connection
       - (Cool, *hangs up the call)

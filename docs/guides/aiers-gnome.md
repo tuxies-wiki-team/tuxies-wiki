@@ -88,7 +88,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
 - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 
-  ::: info Adds customizable blur effects to GNOME Shell elements for a polished look.
+  ::: info Adds customisable blur effects to GNOME Shell elements for a polished look.
   ![Blur My Shell Demonstration](./assets/aiers-gnome/blur-my-shell-demonstration.png)
   :::
 
