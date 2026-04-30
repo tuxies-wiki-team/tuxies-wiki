@@ -436,6 +436,7 @@ dconf write /org/gnome/desktop/wm/keybindings/move-to-center "['<Super><Shift>Re
 dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscreen "['<Super>F']"
 dconf write /org/gnome/desktop/wm/keybindings/close "['<Super>X', '<Alt>F4']"
 dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
+flatpak install io.missioncenter.MissionCenter -y
 ```
 
 @tab ::mdi:reload:: Reset changes (cli)
