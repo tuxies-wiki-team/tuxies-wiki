@@ -4,26 +4,26 @@ createTime: 2025/06/14 15:58:30
 permalink: /introduction/linux-vocabs/
 ---
 
-:::important The following list of Linux vocabularies are commonly used within the Linux community, thus it's extremely helpful not only while navigating Tuxie's Wiki but also for future reference. The definitions are simplified to be beginner friendly.
+:::info
+
+The following list of Linux vocabularies are commonly used within the Linux community, thus it's extremely helpful not only while navigating Tuxie's Wiki but also for future reference.
+
+The definitions are simplified to be beginner friendly.
 :::
 
 ## **Core Concepts**
 
-:::::collapse
+**FOSS (Free and Open-Source Software):** Free means you can use, study, change, and share the software however you like with no cost. Open source means the source code (the blueprint of the software) is available for anyone to look at, modify, or improve.
 
-- :+ FOSS — Free and Open-Source Software
+==FOSS is transparent, collaborative, and serves the community.==
 
-  Free means you can use the software without paying for it, but it can also refer to the freedom to run, study, change, and share the software however you like. Open source means the source code — the actual blueprint of the software — is available for anyone to look at, modify, or improve. FOSS is transparent, collaborative, and serves the community.
+**OS (Operating System):** An OS is a core layer of software that acts as a bridge between your computer's hardware and the applications you run. e.g. Windows, macOS, GNU/Linux.
 
-- OS — Operating System
-
-  An OS is a core layer of software that acts as a bridge between your computer's hardware and the applications you run. e.g. Windows, macOS, GNU/Linux.
-
-- GNU/Linux
-
-  A free and open source Unix-like operating system powered by the GNU collection of free software and the Linux Kernel. This set of software forms the operating system that we usually refer to simply as "Linux".
+**GNU/Linux:** A free and open source Unix-like operating system powered by the GNU collection of free software and the Linux Kernel. This set of software forms the operating system that we usually refer to simply as 'Linux'.
 
 ## **Parts of the GNU/Linux OS**
+
+:::::collapse
 
 - **Linux Kernel**
 
