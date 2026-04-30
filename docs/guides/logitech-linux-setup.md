@@ -2,7 +2,7 @@
 title: Logitech Linux Setup
 createTime: 2025/11/10 11:33:19
 permalink: /guides/logitech-linux-setup/
-draft: true
+draft: false
 tags:
   - Beginner
   - Peripherals
@@ -63,7 +63,7 @@ sudo apt install solaar
 
   Click your receiver in the left panel and select **Pair new device**, then follow the on-screen prompt. Bluetooth devices appear automatically if system Bluetooth is active.
 
-  ![Solaar Pair New Device](./assets/logitech-linux-setup/solaar-pair-new-device.png)
+  ![Solaar Pair New Device](/assets/logitech-linux-setup/solaar-pair-new-device.png)
 
 - **Adjust device settings**
 
@@ -79,7 +79,7 @@ The ==Rules Editor== is Solaar's equivalent of Logi Options+ key redirection. Ru
 
 - **Open the Rules Editor**
 
-  ![Solaar Rules Editor](./assets/logitech-linux-setup/solaar-rules-editor.png)
+  ![Solaar Rules Editor](/assets/logitech-linux-setup/solaar-rules-editor.png)
 
 - **Create a new rule**
 
@@ -138,7 +138,7 @@ sudo dpkg -i kando-*.deb
 
   Click **Add Menu** in the left sidebar. Give it a descriptive name — e.g., 'Productivity' — and confirm.
 
-  ![Kando Add New Menu](./assets/logitech-linux-setup/kando-add-new-menu.png)
+  ![Kando Add New Menu](/assets/logitech-linux-setup/kando-add-new-menu.png)
 
 - **Add items to the ring**
 
