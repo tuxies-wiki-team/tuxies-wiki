@@ -76,7 +76,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
   :::
 
-  ![Gnome Tweaks](./assets/gnome-tweaks.png)
+  ![Gnome Tweaks](/assets/gnome/gnome-tweaks.png)
 
   [More details...](/linux-apps/gnomie/#gnome-tweaks)
 
@@ -107,7 +107,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
   :::
 
-  ![Dconf Editor](./assets/dconf-editor.png)
+  ![Dconf Editor](/assets/gnome/dconf-editor.png)
 
   [More details...](/linux-apps/gnomie/#dconf-editor)
 
@@ -133,7 +133,7 @@ Do you want to check out ==more extensions, settings, and tips== to make more ou
 
   :::
 
-  ![Extension Manager](./assets/extension-manager.png)
+  ![Extension Manager](/assets/gnome/extension-manager.png)
 
   [More details...](/linux-apps/gnomie/#extension-manager)
   ::::
@@ -198,7 +198,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   :::
 
-  ![Gnome Tweaks Title Bar Settings](./assets/gnome-tweaks-title-bar-settings.png)
+  ![Gnome Tweaks Title Bar Settings](/assets/gnome/gnome-tweaks-title-bar-settings.png)
 
   ::::
 
@@ -261,7 +261,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
   :::info "A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available."
   :::
 
-  ![Dash to Dock](./assets/dash-to-dock.png)
+  ![Dash to Dock](/assets/gnome/dash-to-dock.png)
 
   ::::
 
@@ -275,7 +275,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
   :::info "An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications."
   :::
 
-  ![Dash to Panel](./assets/dash-to-panel.png)
+  ![Dash to Panel](/assets/gnome/dash-to-panel.png)
 
   ::::
 
@@ -286,7 +286,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
   :::info "The most popular clipboard manager for GNOME, with over 1M downloads."
   :::
 
-  ![Clipboard Indicator](./assets/clipboard-indicator.png)
+  ![Clipboard Indicator](/assets/gnome/clipboard-indicator.png)
 
   ::::
 
@@ -297,7 +297,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
   :::info Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell.
   :::
 
-  ![AppIndicator](./assets/appindicator.png)
+  ![AppIndicator](/assets/gnome/appindicator.png)
 
   ::::
 
@@ -308,7 +308,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
   :::info An extension that allows you to stop your screen from turning off and suspending, on demand!
   :::
 
-  ![Caffeine](./assets/caffeine.png)
+  ![Caffeine](/assets/gnome/caffeine.png)
 
   ::::
 
@@ -319,7 +319,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
   :::info Allows you to find results even without typing the exact terms.
   :::
 
-  ![GNOME Fuzzy App Search](./assets/gnome-fuzzy-app-search.png)
+  ![GNOME Fuzzy App Search](/assets/gnome/gnome-fuzzy-app-search.png)
 
   ::::
 

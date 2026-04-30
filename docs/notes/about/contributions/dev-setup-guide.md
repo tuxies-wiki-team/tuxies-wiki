@@ -47,7 +47,6 @@ This guide aims to set up and run Tuxie's Wiki locally to start drafting your co
   :::
 
 - Clone [Github repository](https://github.com/tuxies-wiki-team/tuxies-wiki)
-
   - Create a directory/folder
   - Open terminal with the path of the created directory/folder
 
@@ -62,9 +61,8 @@ This guide aims to set up and run Tuxie's Wiki locally to start drafting your co
 
   Select `Open in terminal`
 
-  ![Windows Screenshot](./assets/windows-setup.png)
+  ![Windows Screenshot](/assets/dev-setup-guide/windows-setup.png)
   ::::
-
   - Run
 
   ```bash

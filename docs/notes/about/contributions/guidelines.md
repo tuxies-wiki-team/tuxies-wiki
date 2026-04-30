@@ -381,14 +381,14 @@ Content text...
 
 ```md
 :::demo-wrapper img
-![Tuxie's Wiki](./assets/tuxies-wiki.png)
+![Tuxie's Wiki](/assets/guidelines/tuxies-wiki.png)
 :::
 ```
 
 :::::
 
 :::demo-wrapper img
-![Tuxie's Wiki](./assets/tuxies-wiki.png)
+![Tuxie's Wiki](/assets/guidelines/tuxies-wiki.png)
 :::
 
 ### Details & collapse
@@ -401,7 +401,7 @@ Use `details` to collapse content that you don't want taking up a large amount o
 :::details
 
 The following is a picture of Ice Bear from We Bare Bears.
-![Ice Bear](./assets/ice-bear.jpg)
+![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
 :::
 ```
@@ -413,7 +413,7 @@ The following is a picture of Ice Bear from We Bare Bears.
 :::details
 
 The following is a picture of Ice Bear from We Bare Bears.
-![Ice Bear](./assets/ice-bear.jpg)
+![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
 :::
 
@@ -438,13 +438,13 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
   The following is a picture of Ice Bear from We Bare Bears.
 
-  ![Ice Bear](./assets/ice-bear.jpg)
+  ![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
   :::
 
 - Card can be omitted in the case of a singular image.
 
-  ![Ice Bear](./assets/ice-bear.jpg)
+  ![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
 ::::
 ```
@@ -461,13 +461,13 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
   The following is a picture of Ice Bear from We Bare Bears.
 
-  ![Ice Bear](./assets/ice-bear.jpg)
+  ![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
   :::
 
 - Card can be omitted in the case of a singular image.
 
-  ![Ice Bear](./assets/ice-bear.jpg)
+  ![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
 ::::
 
@@ -503,7 +503,7 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
 :::demo-wrapper img
 
-![Headings](./assets/headings.png)
+![Headings](/assets/guidelines/headings.png)
 :::
 
 ### Highlighting
@@ -535,7 +535,7 @@ This fosters a ==collaborative global community== that continuously improves the
 :::
 
 :::demo-wrapper img
-![Highlighting-Demo](./assets/highlighting-demo.png)
+![Highlighting-Demo](/assets/guidelines/highlighting-demo.png)
 :::
 
 ### Steps

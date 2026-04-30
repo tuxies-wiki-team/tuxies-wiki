@@ -35,11 +35,11 @@ The definitions are simplified to be beginner friendly.
 
   A desktop interface that where users can interact with application windows. (e.g., GNOME, KDE Plasma, XFCE).
 
-  | Desktop Environment | Demo Image                             | Description                                                                                                        |
-  | ------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-  | **GNOME**           | ![GNOME](./assets/gnome.png)           | A clean, modern interface with a focus on simplicity and productivity. Default in Fedora, Ubuntu, and many others. |
-  | **KDE Plasma**      | ![KDE Plasma](./assets/kde-plasma.png) | Highly customisable. Offers a Windows-like experience with many advanced features.                                 |
-  | **Xfce**            | ![Xfce](./assets/xfce.png)             | Lightweight and fast. Great for older hardware or users who prefer a traditional desktop layout.                   |
+  | Desktop Environment | Demo Image                                         | Description                                                                                                        |
+  | ------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+  | **GNOME**           | ![GNOME](/assets/linux-vocabs/gnome.png)           | A clean, modern interface with a focus on simplicity and productivity. Default in Fedora, Ubuntu, and many others. |
+  | **KDE Plasma**      | ![KDE Plasma](/assets/linux-vocabs/kde-plasma.png) | Highly customisable. Offers a Windows-like experience with many advanced features.                                 |
+  | **Xfce**            | ![Xfce](/assets/linux-vocabs/xfce.png)             | Lightweight and fast. Great for older hardware or users who prefer a traditional desktop layout.                   |
 
 - :+ Distros — Linux Distributions
 
@@ -57,7 +57,7 @@ The definitions are simplified to be beginner friendly.
 
   A text-based interface to interact with the OS by typing commands.
 
-  ![Terminal](./assets/terminal.png)
+  ![Terminal](/assets/linux-vocabs/terminal.png)
 
 - Shell
 

@@ -43,7 +43,7 @@ Complete guide including server setup! Maintained by **joseporcar**.
 
 :::card title="Gnome" icon="mdi:gnome"
 
-[So many extensions 🤩🤩🤩](./gnome.md)
+[So many extensions 🤩🤩🤩](/linux-guides/gnome/)
 
 The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 

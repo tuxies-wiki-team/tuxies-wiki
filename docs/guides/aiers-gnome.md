@@ -76,32 +76,32 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   :::info Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell.
   :::
 
-  ![AppIndicator](./assets/aiers-gnome/appindicator.png)
+  ![AppIndicator](/assets/aiers-gnome/appindicator.png)
 
   ::::
 
 - [Battery Health Charging](https://extensions.gnome.org/extension/5724/battery-health-charging/)
 
   ::: info Lets you set charging thresholds to preserve battery health.
-  ![Battery Health Limit Demonstration](./assets/aiers-gnome/battery-health-limit-demonstration.png)
+  ![Battery Health Limit Demonstration](/assets/aiers-gnome/battery-health-limit-demonstration.png)
   :::
 
 - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 
   ::: info Adds customisable blur effects to GNOME Shell elements for a polished look.
-  ![Blur My Shell Demonstration](./assets/aiers-gnome/blur-my-shell-demonstration.png)
+  ![Blur My Shell Demonstration](/assets/aiers-gnome/blur-my-shell-demonstration.png)
   :::
 
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 
   ::: info Prevents screen dimming and suspension on demand.
-  ![Caffeine Demonstration](./assets/aiers-gnome/caffeine-demonstration.png)
+  ![Caffeine Demonstration](/assets/aiers-gnome/caffeine-demonstration.png)
   :::
 
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 
   ::: info Provides a clipboard history and quick paste menu in the top panel.
-  ![Clipboard Indicator Demonstration](./assets/aiers-gnome/clipboard-indicator-demonstration.png)
+  ![Clipboard Indicator Demonstration](/assets/aiers-gnome/clipboard-indicator-demonstration.png)
   :::
 
   ::: tip Windows-like `<Super>v` keyboard shortcut
@@ -116,7 +116,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/)
 
   ::: info Adds an emoji picker to search and copy emojis quickly.
-  ![Emoji Copy Demonstration](./assets/aiers-gnome/emoji-copy-demonstration.png)
+  ![Emoji Copy Demonstration](/assets/aiers-gnome/emoji-copy-demonstration.png)
   :::
 
   :::tip The default `<Super>.` keybinding for Emoji Copy sometimes interferes with the ibus emoji shortcut, I simply remapped it to `<Super><Shift>v`.
@@ -125,13 +125,13 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [GNOME Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
 
   ::: info Enables fuzzy matching in Activities search to find apps without exact names.
-  ![Gnome Fuzzy App Search Demonstration](./assets/aiers-gnome/gnome-fuzzy-app-search-demonstration.png)
+  ![Gnome Fuzzy App Search Demonstration](/assets/aiers-gnome/gnome-fuzzy-app-search-demonstration.png)
   :::
 
 - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
 
   ::: info Tweaks or hides nearly every GNOME Shell UI element for fine‑grained control.
-  ![Just Perfection Demonstration](./assets/aiers-gnome/blur-my-shell-demonstration.png)
+  ![Just Perfection Demonstration](/assets/aiers-gnome/blur-my-shell-demonstration.png)
   :::
 
   :::tip My settings:
@@ -223,7 +223,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
 
   ::: info Sorts the app grid alphabetically to make apps easier to find.
-  ![Alphabetical App Grid Demonstration](./assets/aiers-gnome/alphabetical-app-grid-demonstration.png)
+  ![Alphabetical App Grid Demonstration](/assets/aiers-gnome/alphabetical-app-grid-demonstration.png)
   :::
 
   :::tip My settings:
@@ -271,7 +271,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
   ::: info Moves the dash out of overview into a dock for quicker app launching and window switching.
-  ![Dash to Dock Demonstration](./assets/aiers-gnome/dash-to-dock-demonstration.png)
+  ![Dash to Dock Demonstration](/assets/aiers-gnome/dash-to-dock-demonstration.png)
   :::
 
   :::tip My settings:

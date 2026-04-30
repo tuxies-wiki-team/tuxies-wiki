@@ -91,7 +91,7 @@ PS1='------------------\n\[$(tput setaf 21)\][\[$(tput setaf 27)\]\u \[$(tput se
 
 :::
 
-![Aesthetic Terminal](./assets/terminal-customisation-bash/aesthetic-terminal.png)
+![Aesthetic Terminal](/assets/terminal-customisation-bash/aesthetic-terminal.png)
 
 :::::
 
@@ -141,7 +141,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
   and here is what it looks like:
 
   :::demo-wrapper img
-  ![fastfetch](./assets/terminal-customisation-bash/fastfetch.png)
+  ![fastfetch](/assets/terminal-customisation-bash/fastfetch.png)
   :::
 
 - **Changing the look of the prompt (`PS1`)**
@@ -161,7 +161,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   and here is what it looks like:
 
-  ![Custom PS1](./assets/terminal-customisation-bash/custom-ps1.png)
+  ![Custom PS1](/assets/terminal-customisation-bash/custom-ps1.png)
 
 - **More resources**
   - [`PS1` customisation by Rahul from tecadmin.net](https://tecadmin.net/how-to-customize-bash-prompt-ps1-in-linux/)
