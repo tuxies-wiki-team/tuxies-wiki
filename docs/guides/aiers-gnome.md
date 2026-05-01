@@ -80,11 +80,11 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   ::::
 
-- [Battery Health Charging](https://extensions.gnome.org/extension/5724/battery-health-charging/)
+<!-- - [Battery Health Charging](https://extensions.gnome.org/extension/5724/battery-health-charging/)
 
   ::: info Lets you set charging thresholds to preserve battery health.
   ![Battery Health Limit Demonstration](/assets/aiers-gnome/battery-health-limit-demonstration.png)
-  :::
+  ::: -->
 
 - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 
@@ -113,14 +113,31 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::
 
-- [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/)
+- [Copyous](https://extensions.gnome.org/extension/8834/copyous/) _(alternative to Clipboard Indicator)_
+
+  ::: info A modern clipboard manager with support for text, code, images, files, links, characters, and colours.
+  :::
+
+  ::: tip Windows-like `<Super>v` keyboard shortcut
+
+  ```bash
+  dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
+  dconf write /org/gnome/shell/extensions/copyous/open-clipboard-dialog-shortcut "['<Super>V']"
+  dconf write /org/gnome/shell/extensions/copyous/clipboard-history "'keep-all'"
+  dconf write /org/gnome/shell/extensions/copyous/clipboard-position-vertical "'bottom'"
+
+  ```
+
+  :::
+
+<!-- - [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/)
 
   ::: info Adds an emoji picker to search and copy emojis quickly.
   ![Emoji Copy Demonstration](/assets/aiers-gnome/emoji-copy-demonstration.png)
   :::
 
   :::tip The default `<Super>.` keybinding for Emoji Copy sometimes interferes with the ibus emoji shortcut, I simply remapped it to `<Super><Shift>v`.
-  :::
+  ::: -->
 
 - [GNOME Fuzzy App Search](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
 
@@ -256,9 +273,24 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::
 
-- [GTK4 Desktop Icon NG](https://extensions.gnome.org/extension/5263/gtk4-desktop-icons-ng-ding/) TODO
+- [GTK4 Desktop Icon NG](https://extensions.gnome.org/extension/5263/gtk4-desktop-icons-ng-ding/)
 
-- [Kando Integration](https://extensions.gnome.org/extension/7068/kando-integration/) TODO
+  :::info Allows for links, folders, and files in the desktop.
+  ![DING4 Demo](/assets/aiers-gnome/ding4-demo.png)
+  :::
+
+  ```bash
+  dconf write /org/gnome/desktop/wm/keybindings/show-desktop "['<Super>d']" # Super + D to show desktop
+  ```
+
+- [Kando Integration](https://extensions.gnome.org/extension/7068/kando-integration/)
+
+  :::info Allows you to use the Kando Menu in Gnome Wayland sessions.
+  :::
+
+  :::demo-wrapper
+  <video src="/assets/aiers-gnome/kando-marking-mode.mp4" autoplay loop muted playsinline></video>
+  :::
 
   :::::
   ::::::
