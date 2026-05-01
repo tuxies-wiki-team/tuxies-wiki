@@ -127,7 +127,10 @@ sudo dpkg -i kando-*.deb
 
 :::
 
-:::tip `Kando` runs as a background process and must be started at login to be available. Add it to your desktop environment's autostart (on Gnome, you can do this in `Tweaks`)
+:::tip `Kando` runs as a background process and must be started at login to be available. Add it to your desktop environment's autostart (on Gnome, you can do this in `Tweaks`).
+:::
+
+:::important You must download the [Kando Integration](https://extensions.gnome.org/extension/7068/kando-integration/) extension in order to use Kando in Gnome.
 :::
 
 ### **Creating your first menu**
