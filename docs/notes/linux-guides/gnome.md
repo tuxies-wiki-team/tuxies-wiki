@@ -6,23 +6,25 @@ contributors:
   - aier
 ---
 
-::: note Why Gnome?
+<!-- ::: note Why Gnome?
 Gnome is clean and highly functional (though it follows quite a strict and somewhat stubborn philosophy). The Gnome workflow may be quite different compared what you are used to, but once you have gotten the hang of it, you may just fall in love.
 
 ==Read over this guide to customise Gnome to your liking!==
-:::
+::: -->
 
-::: tip CHECK THIS OUT!
-
-Do you want to check out ==more extensions, settings, and tips== to make more out of the Gnome Desktop? aier's has your back:
+::::card-grid
+:::card title="Read after this" icon="fluent-emoji-flat:open-book"
 
 [aier's Gnome](/guides/aiers-gnome/)
-:::
 
-::: info You may have been looking for:
+Check out ==more extensions, settings, and tips== to make more out of Gnome!
+:::
+::::
+
+<!-- ::: info You may have been looking for:
 [Linux Guides Homepage](/linux-guides/) to see more distros and desktop environments.
 
-:::
+::: -->
 
 ## **First steps**
 
@@ -237,96 +239,6 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 :::::::
 
-### **Install useful extensions**
-
-:::::::card
-
-:::tip You can install these extensions by following the link to the Gnome Extension website, or you can search these extensions in the `Extension Manager` app that you've downloaded.
-:::
-
-::::::collapse accordion
-
-<!-- - [`Launch New Instance`](https://extensions.gnome.org/extension/600/launch-new-instance/)
-
-  :::info "Always launch a new instance when clicking in the dash or the application view."
-  ::: -->
-
-- [`Dash to Dock`](https://extensions.gnome.org/extension/307/dash-to-dock/)
-
-  ::::card
-
-  :::tip We suggest you use either Dash to Dock ==OR== Dash to Panel, ==NOT BOTH==.
-  :::
-
-  :::info "A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available."
-  :::
-
-  ![Dash to Dock](/assets/gnome/dash-to-dock.png)
-
-  ::::
-
-- [`Dash to Panel`](https://extensions.gnome.org/extension/1160/dash-to-panel/)
-
-  ::::card
-
-  :::tip We suggest you use either Dash to Dock ==OR== Dash to Panel, ==NOT BOTH==.
-  :::
-
-  :::info "An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications."
-  :::
-
-  ![Dash to Panel](/assets/gnome/dash-to-panel.png)
-
-  ::::
-
-- [`Clipboard Indicator`](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-
-  ::::card
-
-  :::info "The most popular clipboard manager for GNOME, with over 1M downloads."
-  :::
-
-  ![Clipboard Indicator](/assets/gnome/clipboard-indicator.png)
-
-  ::::
-
-- [`AppIndicator and KStatusNotifierItem Support`](https://extensions.gnome.org/extension/615/appindicator-support/)
-
-  ::::card
-
-  :::info Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell.
-  :::
-
-  ![AppIndicator](/assets/gnome/appindicator.png)
-
-  ::::
-
-- [`Caffeine`](https://extensions.gnome.org/extension/517/caffeine/)
-
-  ::::card
-
-  :::info An extension that allows you to stop your screen from turning off and suspending, on demand!
-  :::
-
-  ![Caffeine](/assets/gnome/caffeine.png)
-
-  ::::
-
-- [`GNOME Fuzzy App Search`](https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/)
-
-  ::::card
-
-  :::info Allows you to find results even without typing the exact terms.
-  :::
-
-  ![GNOME Fuzzy App Search](/assets/gnome/gnome-fuzzy-app-search.png)
-
-  ::::
-
-  ::::::
-
-:::::::
-
 ### **Append useful keyboard shortcuts**
 
 :::::::card
@@ -336,7 +248,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
 :::::details Quick append & shortcut cheatsheet (safe)
 
-Use the following to append all keyboard shortcuts covered in this section. You would need to download the `clipboard-indicator` extension to activate access its shortcut.
+Use the following to append all keyboard shortcuts covered in this section.
 
 ::::tabs
 
@@ -354,11 +266,9 @@ dconf write /org/gnome/desktop/wm/keybindings/switch-applications-backward "['<S
 dconf write /org/gnome/settings-daemon/plugins/media-keys/control-center "['<Super>I', '<Super>semicolon']"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/home "['<Super>E']"
 dconf write /org/gnome/desktop/wm/keybindings/panel-run-dialog "['<Super>R']"
-dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-center "['<Super><Shift>Return']"
 dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscreen "['<Super>F']"
 dconf write /org/gnome/desktop/wm/keybindings/close "['<Super>X', '<Alt>F4']"
-dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
 ```
 
 @tab ::mdi:reload:: Reset changes (cli)
@@ -375,11 +285,9 @@ dconf reset /org/gnome/desktop/wm/keybindings/switch-applications-backward
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/control-center
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/home
 dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
-dconf reset /org/gnome/shell/keybindings/toggle-message-tray
 dconf reset /org/gnome/desktop/wm/keybindings/move-to-center
 dconf reset /org/gnome/desktop/wm/keybindings/toggle-fullscreen
 dconf reset /org/gnome/desktop/wm/keybindings/close
-dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 ```
 
 ::::
@@ -396,7 +304,6 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 | `Super` + `Shift` + `Return`   | Centre window                                |
 | `Super` + `F`                  | Fullscreen window                            |
 | `Super` + `X`                  | Close window                                 |
-| `Super` + `V`                  | Open `Clipboard Indicator`                   |
 
 :::::
 
@@ -431,11 +338,9 @@ dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings "['
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/binding "'<Control><Shift>Escape'"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/command "'flatpak run io.missioncenter.MissionCenter'"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center/name "'Launch Mission Center'"
-dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-center "['<Super><Shift>Return']"
 dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscreen "['<Super>F']"
 dconf write /org/gnome/desktop/wm/keybindings/close "['<Super>X', '<Alt>F4']"
-dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
 flatpak install io.missioncenter.MissionCenter -y
 ```
 
@@ -455,11 +360,9 @@ dconf reset /org/gnome/settings-daemon/plugins/media-keys/home
 dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dialog
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-ptyxis
 dconf reset /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/launch-mission-center
-dconf reset /org/gnome/shell/keybindings/toggle-message-tray
 dconf reset /org/gnome/desktop/wm/keybindings/move-to-center
 dconf reset /org/gnome/desktop/wm/keybindings/toggle-fullscreen
 dconf reset /org/gnome/desktop/wm/keybindings/close
-dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 ```
 
 ::::
@@ -478,7 +381,6 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 | `Super` + `Shift` + `Return`   | Centre window                                |
 | `Super` + `F`                  | Fullscreen window                            |
 | `Super` + `X`                  | Close window                                 |
-| `Super` + `V`                  | Open `Clipboard Indicator`                   |
 
 :::::
 
@@ -774,52 +676,6 @@ dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
 
   :::::
 
-::::::
-
-:::warning All shortcuts below this message require dependencies that you may not have depending on the distro. There will be instructions to download dependencies when you expand.
-:::
-
-::::::collapse
-
-- Open `Clipboard Indicator` (Windows-like)
-
-  :::::card
-
-  `Super` + `V`
-
-  :::tip Clipboard Indicator extension is required for this shortcut to work.
-  Install in the [Gnome Extension](https://extensions.gnome.org/extension/779/clipboard-indicator/) page or through the `Extension Manager`.
-  :::
-
-  :::tabs
-
-  @tab ::mdi:terminal:: Append changes (cli)
-
-  ```bash
-  dconf write /org/gnome/shell/keybindings/toggle-message-tray "['<Super>M']"
-  dconf write /org/gnome/shell/extensions/clipboard-indicator/toggle-menu "['<Super>V']"
-  ```
-
-  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
-
-  /org/gnome/shell/keybindings/toggle-message-tray
-
-  --> **\['\<Super\>M'\]**
-
-  /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
-
-  --> **\['\<Super\>V'\]**
-
-  @tab ::mdi:reload:: Reset changes (cli)
-
-  ```bash
-  dconf reset /org/gnome/shell/keybindings/toggle-message-tray
-  dconf reset /org/gnome/shell/extensions/clipboard-indicator/toggle-menu
-  ```
-
-  :::
-
-  :::::
   ::::::
 
 :::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section. It is suggested that you append them manually through the `Gnome Settings` app --> `Keyboard` --> `View and Customise Keyboard Shortcuts` section instead if you have existing custom shortcuts.
