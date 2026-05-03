@@ -246,16 +246,6 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 ::::::card
 ::::: collapse
 
-- [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
-
-  ::: info Sorts the app grid alphabetically to make apps easier to find.
-  ![Alphabetical App Grid Demonstration](/assets/aiers-gnome/alphabetical-app-grid-demonstration.png)
-  :::
-
-  :::tip My settings:
-  **Position of ordered folders --> Start**, to make folders appear before apps.
-  :::
-
 - [App Icons Taskbar](https://extensions.gnome.org/extension/4944/app-icons-taskbar/)
 
   :::info Windows-styled taskbar
@@ -317,6 +307,16 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::tip My settings:
   Go to the extension's settings --> Appearances, turn on `Shrink the dash` to make the dash smaller and slicker.
+  :::
+
+- [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
+
+  ::: info Sorts the app grid alphabetically to make apps easier to find.
+  ![Alphabetical App Grid Demonstration](/assets/aiers-gnome/alphabetical-app-grid-demonstration.png)
+  :::
+
+  :::tip My settings:
+  **Position of ordered folders --> Start**, to make folders appear before apps.
   :::
 
 :::::
