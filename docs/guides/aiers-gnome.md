@@ -62,10 +62,10 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
 ## GNOME Extensions (universal)
 
+::::::card
+
 :::info My setup's extensions change frequently, but the core ones are listed as below that have relatively universal benefits.
 :::
-
-::::::card
 
 ::::: collapse
 
@@ -116,6 +116,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 - [Copyous](https://extensions.gnome.org/extension/8834/copyous/) _(elegant alternative to Clipboard Indicator)_
 
   ::: info A modern clipboard manager with support for text, code, images, files, links, characters, and colours.
+  ![Copyous Demo](/assets/aiers-gnome/copyous-demo.png)
   :::
 
   ::: tip Windows-like `<Super>v` keyboard shortcut
@@ -125,7 +126,6 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   dconf write /org/gnome/shell/extensions/copyous/open-clipboard-dialog-shortcut "['<Super>V']"
   dconf write /org/gnome/shell/extensions/copyous/clipboard-history "'keep-all'"
   dconf write /org/gnome/shell/extensions/copyous/clipboard-position-vertical "'bottom'"
-
   ```
 
   :::
@@ -181,10 +181,13 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   ::: info Switcher between light and dark theme depending on sunrise/sunset.
   :::
 
+  :::tip Make the light mode shell light.
+
   ```bash
   dconf write /org/gnome/shell/extensions/nightthemeswitcher/commands/enabled 'true'
   dconf write /org/gnome/shell/extensions/nightthemeswitcher/commands/sunrise "\"dconf write /org/gnome/desktop/interface/color-scheme \\\"'prefer-light'\\\"\""
   dconf write /org/gnome/shell/extensions/nightthemeswitcher/commands/sunset "\"dconf write /org/gnome/desktop/interface/color-scheme \\\"'prefer-dark'\\\"\""
+  :::
   ```
 
 <!-- - [Kiwi is not Apple](https://extensions.gnome.org/extension/8276/kiwi-is-not-apple/)
