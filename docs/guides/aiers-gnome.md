@@ -278,9 +278,18 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   ![DING4 Demo](/assets/aiers-gnome/ding4-demo.png)
   :::
 
+- [Show Desktop Plus](https://extensions.gnome.org/extension/9756/show-desktop-plus/) _(QoL additions to GTK4 Desktop Icons NG)_
+
+  :::info A button that shows your desktop, hiding all other windows. (Just like clicking the bottom right corner or `Super` + `D` in Windows)
+
+  <video src="/assets/aiers-gnome/show-desktop-plus-demo.mp4" autoplay loop muted playsinline></video>
+
   ```bash
-  dconf write /org/gnome/desktop/wm/keybindings/show-desktop "['<Super>d']" # Super + D to show desktop
+  dconf write /org/gnome/shell/extensions/show-desktop-plus/button-position "'right-end'"
+  dconf write /org/gnome/shell/extensions/show-desktop-plus/enable-hotkey true # Super + D to show desktop
   ```
+
+  :::
 
 - [Kando Integration](https://extensions.gnome.org/extension/7068/kando-integration/)
 
