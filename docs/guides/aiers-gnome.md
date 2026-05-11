@@ -18,12 +18,12 @@ contributors:
 :::important This guide is not going to be as detailed as the ones released in the main series as its content updates much more often as newer versions of Gnome and new extensions come out.
 :::
 
-## Facial recognition with Howdy
+## Facial Recognition With Howdy
 
 :::tip This applies outside of Gnome as well. If your computer supports facial recognition, you can check the details to setting up Howdy from the [official GitHub page](https://github.com/boltgolt/howdy?tab=readme-ov-file).
 :::
 
-## Better-looking Fonts
+## Better-Looking Fonts
 
 :::tip The Adwaita series font is pretty good, but I find the IBM Plex series to be more modern and pleasing.
 :::
@@ -60,13 +60,9 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 <!-- dconf reset /org/gnome/desktop/interface/document-font-name  -->
 <!-- dconf reset /org/gnome/desktop/interface/monospace-font-name  -->
 
-## GNOME Extensions (universal)
+## GNOME Extensions (Universal Benefits)
 
 ::::::card
-
-:::info My setup's extensions change frequently, but the core ones are listed as below that have relatively universal benefits.
-:::
-
 ::::: collapse
 
 - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
