@@ -18,9 +18,9 @@ Fedora is the preferred distro of **aier**. Fedora offers a high-quality out-of-
 
   :::warning TODO: A video step-by-step installation.
   :::
-  - [How to Install Fedora Step by Step](https://www.linuxtechi.com/how-to-install-fedora-workstation/) by Pradeep Kumar from Linux Techi.
+  - [Installing Fedora in the Simplest Possible Way](https://itsfoss.com/install-fedora/) by Abhishek Prakash from It's FOSS.
 
-  - [NVIDIA Drivers Guide](https://rpmfusion.org/Howto/NVIDIA#Current_GeForce.2FQuadro.2FTesla) by Official RPM Fusion.
+  - [NVIDIA Drivers Guide](https://rpmfusion.org/Howto/NVIDIA) by Official RPM Fusion.
 
   - [Fedora on MacBook](https://asahilinux.org/fedora/) by Official Asahi Linux.
 
@@ -102,6 +102,9 @@ We'll be using **Timeshift**, but you can use whichever snapshot/backup tool you
 
   ```bash
   sudo touch /.autorelabel
+  ```
+
+  ```bash
   reboot
   ```
 

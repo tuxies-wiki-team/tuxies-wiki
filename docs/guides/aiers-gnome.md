@@ -172,6 +172,11 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::
 
+- [Shotzy](https://extensions.gnome.org/extension/9707/shotzy/)
+
+  :::info Image search on Google Lens, OCR and QR scan directly from the built-in GNOME Screenshot tool.
+  :::
+
 - [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
 
   ::: info Switcher between light and dark theme depending on sunrise/sunset.
@@ -237,7 +242,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 :::::
 ::::::
 
-### My workflow specific
+### Workflow specific
 
 ::::::card
 ::::: collapse
