@@ -1,0 +1,174 @@
+---
+title: Key Remapping with keyd
+createTime: 2026/05/12 16:12:27
+permalink: /guides/key-remapping-with-keyd/
+tags:
+  - beginner
+  - peripherals
+  - productivity
+  - fixes
+  - testing-needed
+---
+
+::: info What is ==keyd?==
+`keyd` is a key remapping daemon for Linux that works at the kernel level. `keyd` remaps keys before any application sees them, making it one of the most reliable remapping solutions available on Linux.
+
+This guide walks you through installing keyd from source, writing a basic configuration, and optionally running the setup script to apply a preset configuration and register keyd as an internal keyboard.
+:::
+
+## **Prerequisites**
+
+:::warning Before starting, make sure `make` and a C compiler (`cc`) are installed on your system. These are build dependencies required to compile keyd from source.
+:::
+
+:::tabs#distro
+@tab ::devicon:fedora:: Fedora
+
+```bash
+sudo dnf install make gcc
+```
+
+@tab ::devicon:debian:: Debian/Ubuntu
+
+```bash
+sudo apt install make gcc
+```
+
+@tab ::devicon:archlinux:: Arch
+
+```bash
+sudo pacman -S make gcc
+```
+
+:::
+
+## **Installing keyd**
+
+`keyd` is not available in most distribution repositories, so it is installed by compiling from its GitHub source.
+
+:::: steps
+
+- **Clone and build**
+
+  Create a directory for your installations and clone the repository into it:
+
+  ```bash
+  mkdir -p ~/Installations && cd ~/Installations
+  git clone https://github.com/rvaiya/keyd
+  cd keyd
+  ```
+
+  Then compile and install:
+
+  ```bash
+  make && sudo make install
+  ```
+
+- **Enable the keyd service**
+
+  keyd runs as a `systemd` service. Enable and start it in one command:
+
+  ```bash
+  sudo systemctl enable --now keyd
+  ```
+
+  The `--now` flag both enables the service on boot and starts it immediately. You can verify it is running with:
+
+  ```bash
+  sudo systemctl status keyd
+  ```
+
+::::
+
+## **Cofiguring keyd**
+
+keyd reads its configuration from files placed in `/etc/keyd/`. The main configuration file is `/etc/keyd/default.conf`, and it applies to all keyboards by default.
+
+### **Configuration file structure**
+
+A keyd config file has two required sections:
+
+- `[ids]` — Specifies which keyboards the config applies to. Put a `*` to apply to all keyboards.
+- `[main]` — Defines your key remappings and layers.
+
+Here is a minimal example that demonstrates common remaps:
+
+:::tabs
+
+@tab /etc/keyd/default.conf
+
+```conf
+# Keyd remap Copilot Key to Right Control and Double Shift to CAP
+# place in /etc/keyd/
+
+[ids]
+*
+
+[main]
+capslock = backspace
+leftshift+rightshift = capslock
+leftshift+leftmeta+f23 = layer(control)
+```
+
+:::
+
+| Mapping                                   | What it does                                                      |
+| ----------------------------------------- | ----------------------------------------------------------------- |
+| `capslock = backspace`                    | Remaps Caps Lock to Backspace                                     |
+| `leftshift+rightshift = capslock`         | Press both Shifts together to toggle Caps Lock                    |
+| `leftshift+leftmeta+f23 = layer(control)` | Remaps a custom key combo (e.g. Copilot key) to act as Right Ctrl |
+
+:::tip
+You can find a full list of valid key names in the keyd man page:
+
+```bash
+man keyd
+```
+
+:::
+
+### Applying a configuration
+
+After writing your config, reload keyd to apply it immediately — no reboot needed:
+
+```bash
+sudo keyd reload
+```
+
+To verify the config was written correctly:
+
+```bash
+sudo cat /etc/keyd/default.conf
+```
+
+## Registering keyd as an Internal Keyboard
+
+:::info ==This step is optional for desktops.== It is primarily useful on laptops where you want palm rejection and other libinput heuristics to work with your remapped keyboard.
+:::
+
+Create the directory if it does not exist, then write the quirks file:
+
+```bash
+sudo mkdir -p /etc/libinput
+sudo nano /etc/libinput/local-overrides.quirks
+```
+
+Paste the following content:
+
+:::tabs
+@tab /etc/libinput/local-overrides.quirks
+
+```conf
+# Libinput Local Quirks
+# Save as /etc/libinput/local-overrides.quirks
+
+[Recognise Keyd as Internal Keyboard]
+
+MatchUdevType=keyboard
+MatchName=keyd*keyboard
+AttrKeyboardIntegration=internal
+```
+
+:::
+
+Save and close the file (`Ctrl`+`O`, `Enter`, `Ctrl`+`X` in nano).
