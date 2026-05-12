@@ -188,9 +188,9 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   @tab ::mdi:puzzle:: Append changes (Gnome Tweaks)
 
-  `Windows` > `Maximise` --> **on**
+  `Windows` > `Maximise` --> ==on==
 
-  `Windows` > `Minimise` --> **on**
+  `Windows` > `Minimise` --> ==on==
 
   @tab ::mdi:reload:: Reset changes (cli)
 
@@ -223,7 +223,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   `/org/gnome/desktop/sound/allow-volume-above-100-percent`
 
-  --> **true**
+  --> ==true==
 
   @tab ::mdi:reload:: Reset changes (cli)
 
@@ -407,11 +407,11 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   `/org/gnome/desktop/wm/keybindings/switch-to-workspace-left`
 
-  --> **\['\<Control\>\<Super\>Left'\]**
+  --> ==\['\<Control\>\<Super\>Left'\]==
 
   `/org/gnome/desktop/wm/keybindings/switch-to-workspace-right`
 
-  --> **\['\<Control\>\<Super\>Right'\]**
+  --> ==\['\<Control\>\<Super\>Right'\]==
 
   @tab ::mdi:reload:: Reset changes (cli)
 
@@ -445,11 +445,11 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   `/org/gnome/desktop/wm/keybindings/move-to-workspace-left`
 
-  --> **\['\<Super\>bracketleft'\]**
+  --> ==\['\<Super\>bracketleft'\]==
 
   `/org/gnome/desktop/wm/keybindings/move-to-workspace-right`
 
-  --> **\['\<Super\>bracketright'\]**
+  --> ==\['\<Super\>bracketright'\]==
 
   @tab ::mdi:reload:: Reset changes (cli)
 
@@ -485,19 +485,19 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   `/org/gnome/desktop/wm/keybindings/switch-windows`
 
-  --> **\['\<Alt\>Tab'\]**
+  --> ==\['\<Alt\>Tab'\]==
 
   `/org/gnome/desktop/wm/keybindings/switch-windows-backward`
 
-  --> **\['\<Alt\>\<Shift\>Tab'\]**
+  --> ==\['\<Alt\>\<Shift\>Tab'\]==
 
   `/org/gnome/desktop/wm/keybindings/switch-applications`
 
-  --> **\['\<Super\>Tab'\]**
+  --> ==\['\<Super\>Tab'\]==
 
   `/org/gnome/desktop/wm/keybindings/switch-applications-backward`
 
-  --> **\['\<Super\>\<Shift\>Tab'\]**
+  --> ==\['\<Super\>\<Shift\>Tab'\]==
 
   @tab ::mdi:reload:: Reset changes (cli)
 
@@ -534,7 +534,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   `/org/gnome/settings-daemon/plugins/media-keys/control-center`
 
-  --> **\['\<Super\>I', '\<Super\>semicolon'\]**
+  --> ==\['\<Super\>I', '\<Super\>semicolon'\]==
 
   @tab ::mdi:reload:: Reset changes (cli)
 
@@ -564,7 +564,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   `/org/gnome/settings-daemon/plugins/media-keys/home`
 
-  --> **\['\<Super\>E'\]**
+  --> ==\['\<Super\>E'\]==
 
   @tab ::mdi:reload:: Reset changes (cli)
 
@@ -594,7 +594,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   `/org/gnome/desktop/wm/keybindings/panel-run-dialog`
 
-  --> **\['\<Super\>R'\]**
+  --> ==\['\<Super\>R'\]==
 
   @tab ::mdi:reload:: Reset changes (cli)
 
