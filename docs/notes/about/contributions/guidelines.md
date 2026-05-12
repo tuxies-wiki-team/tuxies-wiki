@@ -1,6 +1,9 @@
 ---
 tags:
-  - Contributions
+  - Advanced
+  - Vuepress
+  - Web-Dev
+  - Wiki
 title: Contribution Guidelines
 createTime: 2025/06/09 11:25:08
 permalink: /contributions/guidelines/
@@ -41,20 +44,54 @@ The name of the file should be derived from the name of the article (if it is on
 :::note Examples
 Gnome Guide @ `/docs/notes/linux-guides/gnome.md`
 
---> **/linux-guides/gnome/**
+--> ==/linux-guides/gnome/==
 
 Terminal Customisation (Bash) @ `/docs/guides/terminal-customisation-bash.md`
 
---> **/guides/terminal-customisation-bash/**
+--> ==/guides/terminal-customisation-bash/==
 :::
+
+### **Article tagging**
+
+Articles are tagged in the yaml header of each .md file to dynamically categorise them.
+
+```md
+---
+tags:
+  - Advanced
+  - Firefox
+  - Browser
+  - Productivity
+# ... code omitted ...
+---
+```
+
+:::note Use the following as a rough guideline of how to tag your article. It is recommended you do not exceed 4 tags.
+
+==Recommended level:== Beginner, Intermediate, Advanced.
+
+==Specific program:== e.g. Gnome, Firefox, virt-manager, bash.
+
+==Category of program:== e.g. Browser, OS, VM, Terminal.
+​​
+==​​​​Category of guide:== ​​​​​Fixes, Ricing, Productivity, Web-Dev, Wiki.
+:::
+
+### **Language**
+
+English guides are written in non-Oxford Standard GB English (en-gb). Keep in mind the universal language standard for code is US English despite the guides being in Standard GB English.
+
+Use ==professional, concise, and effective language== that avoids unnecessary complexity. Our mission is to effectively transfer information and convey ideas, not write for high academia.
+
+Use 'we' in universal articles. Use 'I' in blogs.
 
 ### **Code formatting**
 
-We're not strict with our code formatting as long as the output of your code is clean (i.e. the generated content is pretty).
+Formatting is not strictly monitored as long as the output is clean (i.e. the generated content is pretty).
 
-We'd appreciate it if you use the Prettier extension in VS Code or an equivalent to format your code, though.
+The use of the Prettier extension in VS Code or an equivalent would be appreciated.
 
-:::important Use relative links over permalinks when referring to internal pages to make the development smoother, when possible.
+:::important Use article permalinks when referring to internal pages and assets (placed in the .public folder). This makes project structuring more maintainable.
 :::
 
 ### **Code Structure**
@@ -481,7 +518,7 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
 - Heading 4 (####) does not appear on the table of contents, use it for minor titles/sections within larger topics
 
-- We prefer not using titlecase in headings.
+- We prefer titlecase for Heading 2 (implicitly Heading 1), and NOT using titlecase in lower headings.
 
 :::details See example...
 
