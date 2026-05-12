@@ -15,7 +15,7 @@ Gnome is clean and highly functional (though it follows quite a strict and somew
 ::::card-grid
 :::card title="Read after this" icon="fluent-emoji-flat:open-book"
 
-[aier's Gnome](/guides/aiers-gnome/)
+[aier's Gnome (In-Depth Tips and Tricks)](/guides/aiers-gnome/)
 
 Check out ==more extensions, settings, and tips== to make more out of Gnome!
 :::
