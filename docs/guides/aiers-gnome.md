@@ -1,5 +1,5 @@
 ---
-title: aier's Gnome (and Other Desktop-Related Setups)
+title: aier's Gnome (In-Depth Tips and Tricks)
 createTime: 2025/09/26 18:26:21
 permalink: /guides/aiers-gnome/
 tags:
@@ -20,7 +20,7 @@ contributors:
 
 ## Facial Recognition With Howdy
 
-:::tip This applies outside of Gnome as well. If your computer supports facial recognition, you can check the details to setting up Howdy from the [official GitHub page](https://github.com/boltgolt/howdy?tab=readme-ov-file).
+:::tip This applies outside of Gnome as well. If your computer supports facial recognition, you can check the details to setting up Howdy from the [official GitHub page](https://github.com/boltgolt/howdy?tab=readme-ov-file). For Fedora 43-44 users, check [Getting Howdy to Run on Fedora](https://mtillmann.blog/posts/howdy-on-fedora-43.html) by Martin's Blog.
 :::
 
 ## Better-Looking Fonts
