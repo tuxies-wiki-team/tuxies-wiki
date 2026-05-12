@@ -1,5 +1,6 @@
 ---
 tags:
+  - Beginner
   - Fixes
 title: Razer Blade 14 2023 Fedora
 createTime: 2026/05/05 17:50:44
@@ -23,7 +24,7 @@ sudo nano /usr/bin/fix-wifi.sh
 ```bash
 #!/bin/bash
 
-modprobe -r ath11k_pci 
+modprobe -r ath11k_pci
 modprobe ath11k_pci disable_11ax=1
 ```
 
@@ -74,7 +75,7 @@ Try speedtest.
 The fix is essentially these two lines:
 
 ```bash
-modprobe -r ath11k_pci 
+modprobe -r ath11k_pci
 modprobe ath11k_pci disable_11ax=1
 ```
 
