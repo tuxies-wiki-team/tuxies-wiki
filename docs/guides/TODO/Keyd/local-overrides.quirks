@@ -1,8 +1,0 @@
-# Libinput Local Quirks
-# Save as /etc/libinput/local-override.quirks
-
-[Recognise Keyd as Internal Keyboard]
-
-MatchUdevType=keyboard
-MatchName=keyd*keyboard
-AttrKeyboardIntegration=internal
