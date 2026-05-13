@@ -162,6 +162,7 @@ sudo dpkg -i kando-*.deb
 :::
 
 :::note Follow [this](https://github.com/tuxies-wiki-team/tuxies-wiki/tree/master/resources/dotfiles/kando) link to download configuration files to achieve the effect in the above video.
+:::
 
 ### **Binding menus to shortcuts**
 
