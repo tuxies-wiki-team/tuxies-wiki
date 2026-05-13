@@ -12,7 +12,7 @@ contributors:
   - aier
 ---
 
-:::info This guide covers Logitech devices connecting via Unifying, Bolt, Nano, or Bluetooth receivers. It replicates Logi Options+ **key reassignment** and the **Actions Ring** using `Solaar` and `Kando` respectively.
+:::info This guide covers Logitech devices connecting via Unifying, Bolt, Nano, or Bluetooth receivers. It replicates `Logi Options+` ==key reassignment== and the ==Actions Ring== using `Solaar` and `Kando` respectively.
 :::
 
 ## **Part 1: Solaar — Key Reassignment**
@@ -59,7 +59,7 @@ sudo apt install solaar
 
 - **Pair a new device**
 
-  Click your receiver in the left panel and select **Pair new device**, then follow the on-screen prompt. Bluetooth devices appear automatically if system Bluetooth is active.
+  Click your receiver in the left panel and select ==Pair new device==, then follow the on-screen prompt. Bluetooth devices appear automatically if system Bluetooth is active.
 
   ![Solaar Pair New Device](/assets/logitech-linux-setup/solaar-pair-new-device.png)
 
@@ -71,7 +71,7 @@ sudo apt install solaar
 
 ### **Remapping buttons with rules**
 
-The ==Rules Editor== is Solaar's equivalent of Logi Options+ key redirection. Rules intercept a button press and fire a custom action — a keystroke, shell command, or modifier combination — with optional conditions based on the active application.
+The ==Rules Editor== is Solaar's equivalent of `Logi Options+` key redirection. Rules intercept a button press and fire a custom action — a keystroke, shell command, or modifier combination — with optional conditions based on the active application.
 
 :::steps
 
@@ -81,19 +81,19 @@ The ==Rules Editor== is Solaar's equivalent of Logi Options+ key redirection. Ru
 
 - **Create a new rule**
 
-  Right-click the **Rule** node and select **Add rule**. A new empty rule appears in the tree.
+  Right-click the ==Rule== node and select ==Add rule==. A new empty rule appears in the tree.
 
 - **Add a condition**
 
-  Right-click the new rule and select **Add condition → Key**. Choose the mouse button to intercept — for example, `Haptic` for the haptic button on the MX Masters 4.
+  Right-click the new rule and select ==Add condition → Key==. Choose the mouse button to intercept — for example, `Haptic` for the haptic button on the MX Masters 4.
 
 - **Add an action**
 
-  Right-click the same rule and select **Add action → Key press**. Enter the key combination to send — for example, `Super_L` + `Shift_L` + `F1` as a dedicated trigger shortcut (which can be used to trigger the Kando Menu to work as Action Ring).
+  Right-click the same rule and select ==Add action → Key press==. Enter the key combination to send — for example, `Super_L` + `Shift_L` + `F1` as a dedicated trigger shortcut (which can be used to trigger the Kando Menu to work as Action Ring).
 
 - **Save and test**
 
-  Click **Save**. Press the button — the remapped key event fires immediately with no restart needed.
+  Click ==Save==. Press the button — the remapped key event fires immediately with no restart needed.
 
 :::
 
@@ -141,17 +141,17 @@ sudo dpkg -i kando-*.deb
 
 - **Add a new menu**
 
-  Click **Add Menu** in the left sidebar. Give it a descriptive name — e.g., 'Productivity' — and confirm.
+  Click ==Add Menu== in the left sidebar. Give it a descriptive name — e.g., 'Productivity' — and confirm.
 
   ![Kando Add New Menu](/assets/logitech-linux-setup/kando-add-new-menu.png)
 
 - **Add items to the ring**
 
-  Click the **+** button in the ring diagram to add actions. Drag items around the ring to arrange them in positions that feel natural for your hand.
+  Click the ==+== button in the ring diagram to add actions. Drag items around the ring to arrange them in positions that feel natural for your hand.
 
 - **Save and trigger**
 
-  Click **Save**. Use your assigned trigger shortcut (set in the next section) to open the menu and verify your items appear correctly.
+  Click ==Save==. Use your assigned trigger shortcut (set in the next section) to open the menu and verify your items appear correctly.
 
 :::
 
@@ -174,7 +174,7 @@ Each menu in `Kando` has an independent ==trigger==: a global keyboard shortcut,
 
 - **Open trigger settings**
 
-  In the `Kando` editor, click the menu you want to configure and select the **Trigger** tab on the right panel.
+  In the `Kando` editor, click the menu you want to configure and select the ==Trigger== tab on the right panel.
 
 - **Set a global shortcut**
 
