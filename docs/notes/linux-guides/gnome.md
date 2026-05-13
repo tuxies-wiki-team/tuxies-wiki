@@ -55,7 +55,6 @@ Check out ==more extensions, settings, and tips== to make more out of Gnome!
 
 - `Gnome Tweaks`
 
-  ::::card
   :::tabs
 
   @tab ::devicon:fedora:: Fedora
@@ -82,11 +81,8 @@ Check out ==more extensions, settings, and tips== to make more out of Gnome!
 
   [More details...](/linux-apps/gnomie/#gnome-tweaks)
 
-  ::::
-
 - `Dconf Editor`
 
-  ::::card
   :::tabs
 
   @tab ::devicon:fedora:: Fedora
@@ -113,11 +109,7 @@ Check out ==more extensions, settings, and tips== to make more out of Gnome!
 
   [More details...](/linux-apps/gnomie/#dconf-editor)
 
-  ::::
-
 - `Extension Manager`
-
-  ::::card
 
   :::tabs
 
@@ -138,8 +130,6 @@ Check out ==more extensions, settings, and tips== to make more out of Gnome!
   ![Extension Manager](/assets/gnome/extension-manager.png)
 
   [More details...](/linux-apps/gnomie/#extension-manager)
-  ::::
-  :::::
 
 :::::::
 
@@ -159,6 +149,7 @@ Check out ==more extensions, settings, and tips== to make more out of Gnome!
 ```bash
 dconf write /org/gnome/desktop/wm/preferences/button-layout "':minimize,maximize,close'"
 dconf write /org/gnome/desktop/sound/allow-volume-above-100-percent "true"
+dconf write /org/gnome/mutter/experimental-features "['scale-monitor-framebuffer']"
 ```
 
 @tab ::mdi:reload:: Reset changes (cli)
@@ -166,6 +157,7 @@ dconf write /org/gnome/desktop/sound/allow-volume-above-100-percent "true"
 ```bash
 dconf reset /org/gnome/desktop/wm/preferences/button-layout
 dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
+dconf reset /org/gnome/mutter/experimental-features
 ```
 
 :::
@@ -175,8 +167,6 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 ::::::collapse accordion
 
 - Enable maximise and minimise title bar buttons
-
-  ::::card
 
   :::tabs
 
@@ -202,11 +192,7 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   ![Gnome Tweaks Title Bar Settings](/assets/gnome/gnome-tweaks-title-bar-settings.png)
 
-  ::::
-
 - Volume overamplification
-
-  ::::card
 
   :::info Allows volume from your desktop to be amplified beyond 100% at the cost of distortion.
   :::
@@ -233,9 +219,34 @@ dconf reset /org/gnome/desktop/sound/allow-volume-above-100-percent
 
   :::
 
-  ::::
+- Enable Fractional Scaling Flag
 
-::::::
+  :::info Fractional scaling is enabled in most modern distros, but some apps do not work correctly as of Gnome 50 unless you toggle this flag on.
+  :::
+
+  :::tabs
+
+  @tab ::mdi:terminal:: Append changes (cli)
+
+  ```bash
+  dconf write /org/gnome/mutter/experimental-features "['scale-monitor-framebuffer']"
+  ```
+
+  @tab ::mdi:file-settings:: Append changes (Dconf Editor)
+
+  `/org/gnome/mutter/experimental-features`
+
+  --> ==scale-monitor-framebuffer==
+
+  @tab ::mdi:reload:: Reset changes (cli)
+
+  ```bash
+  dconf reset /org/gnome/mutter/experimental-features
+  ```
+
+  :::
+
+  ::::::
 
 :::::::
 
@@ -388,8 +399,6 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
 - Switch workspaces (Windows-like)
 
-  :::::card
-
   `Ctrl` + `Super` + `Arrow`
   :::tabs
 
@@ -422,11 +431,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   :::
 
-  :::::
-
 - Move a window to the workspace left or right
-
-  :::::card
 
   `Super` + `[`
 
@@ -460,11 +465,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   ::::
 
-  :::::
-
 - More powerful `Alt–Tab` and `Super–Tab`
-
-  :::::card
 
   `Alt` + `Tab` switches windows
 
@@ -510,11 +511,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   :::
 
-  :::::
-
 - Launch `Settings` app (Windows-like)
-
-  :::::card
 
   Because `Super` + `I` may not work due to interference with other shortcuts, `Super` + `;` is also provided here.
 
@@ -544,11 +541,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   ::::
 
-  :::::
-
 - Launch home folder (Windows-like)
-
-  :::::card
 
   `Super` + `E`
 
@@ -574,11 +567,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   ::::
 
-  :::::
-
 - Run command dialog (Windows-like)
-
-  :::::card
 
   `Super` + `R`
 
@@ -606,8 +595,6 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
 - Centre window
 
-  :::::card
-
   `Super` + `Shift` + `Return`
 
   :::tabs
@@ -626,11 +613,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   :::
 
-  :::::
-
 - Toggle fullscreen (universal)
-
-  :::::card
 
   `Super` + `F`
 
@@ -650,11 +633,7 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   :::
 
-  :::::
-
 - Close window (ergonomic)
-
-  :::::card
 
   `Super` + `X`
 
@@ -674,8 +653,6 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
   :::
 
-  :::::
-
   ::::::
 
 :::caution Appending the following changes will override all shortcuts you've added in the `Settings`'s custom section. It is suggested that you append them manually through the `Gnome Settings` app --> `Keyboard` --> `View and Customise Keyboard Shortcuts` section instead if you have existing custom shortcuts.
@@ -684,8 +661,6 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 ::::::collapse accordion
 
 - Launch `Ptyxis` Terminal
-
-  ::::card
 
   `Super` + `Return`
 
@@ -715,8 +690,6 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
 
 - Launch `Mission Center` (Windows-like)
 
-  :::::card
-
   `Ctrl` + `Shft` + `Esc`
 
   ==Install dependencies==
@@ -736,7 +709,5 @@ dconf reset /org/gnome/desktop/wm/keybindings/close
   ```
 
   ::::
-
-  :::::
 
 ::::::
