@@ -161,6 +161,8 @@ sudo dpkg -i kando-*.deb
 <video src="/assets/logitech-linux-setup/kando-marking-mode.mp4" autoplay loop muted playsinline></video>
 :::
 
+:::note Follow [this](https://github.com/tuxies-wiki-team/tuxies-wiki/tree/master/resources/dotfiles/kando) link to download configuration files to achieve the effect in the above video.
+
 ### **Binding menus to shortcuts**
 
 Each menu in `Kando` has an independent ==trigger==: a global keyboard shortcut, a mouse button combination, or a shortcut scoped to a single application.
