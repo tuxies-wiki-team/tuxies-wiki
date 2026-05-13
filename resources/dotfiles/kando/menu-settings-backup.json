@@ -1,0 +1,154 @@
+{
+  "version": "2.3.0",
+  "menus": [
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Primary",
+        "icon": "circles_ext",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Launcher",
+            "icon": "rocket_launch",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "AltLeft+F4",
+                  "delayed": true
+                },
+                "name": "Close App",
+                "icon": "close",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 225
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "nautilus",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Nautilus",
+                "icon": "folder",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 315
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "gnome-control-center",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Settings",
+                "icon": "settings",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 45
+              },
+              {
+                "type": "settings",
+                "data": null,
+                "name": "Kando Settings",
+                "icon": "submenu-item.svg",
+                "iconTheme": "kando",
+                "angle": 495
+              }
+            ],
+            "angle": 0
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "BrowserForward",
+              "delayed": true
+            },
+            "name": "Forward",
+            "icon": "arrow_right_alt",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 90
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Power",
+            "icon": "power_settings_new",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "gnome-session-quit --power-off",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Power Off",
+                "icon": "power_settings_circle",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "gnome-session-quit --reboot",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Reboot",
+                "icon": "restart_alt",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "gnome-session-quit",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Log Out",
+                "icon": "logout",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ],
+            "angle": 180
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "BrowserBack",
+              "delayed": true
+            },
+            "name": "Back",
+            "icon": "arrow_left_alt",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 270
+          }
+        ]
+      },
+      "shortcut": "Shift+Meta+F1",
+      "shortcutID": "",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": true,
+      "tags": []
+    }
+  ],
+  "collections": [
+    {
+      "name": "Favorites",
+      "icon": "favorite",
+      "iconTheme": "material-symbols-rounded",
+      "tags": [
+        "favs"
+      ]
+    }
+  ]
+}
