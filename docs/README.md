@@ -28,7 +28,7 @@ config:
 
 
         Join us to Linux learning accessible, fun, and collaborative!
-      image: tux.svg
+      image: /assets/tux.svg
       actions:
         # - theme: brand
         #   icon: mdi:account-plus

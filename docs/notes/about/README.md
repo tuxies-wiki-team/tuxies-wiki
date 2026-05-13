@@ -34,7 +34,7 @@ Join discussions and connect with the community:
 
 Explore our knowledge base:
 
-[Linux Apps Library](/linux-apps/) | [Linux Guides](/linux-guides/) | [Other Articles](/guides/)
+[Linux Apps Library](/linux-apps/) | [Linux Guides](/linux-guides/) | [Other Guides](/guides/)
 
 :::
 

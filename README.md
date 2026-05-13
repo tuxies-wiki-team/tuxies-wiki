@@ -12,6 +12,6 @@ In this series, we offer distro and desktop environment setup guides/tips. If yo
 
 A collection of apps separated into the "Editor's Choice," "Essentials," "Popular," and "Gnomie" categories worth checking out either they are useful, or fun (or most likely both!).
 
-### [Other Articles](https://tuxies-wiki-team.github.io/tuxies-wiki/guides/)
+### [Other Guides](https://tuxies-wiki-team.github.io/tuxies-wiki/guides/)
 
 This is where everything else written by Tuxie's Wiki Team lives ranging from how to make your Firefox scroll to your likings on laptop—to how to how to make your terminal look cooler—to set up your Logitech peripherals to maximise their usability (Logitech Guide coming soon!).

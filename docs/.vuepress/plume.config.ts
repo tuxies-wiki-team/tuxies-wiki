@@ -17,7 +17,7 @@ import { enNavbar } from "./navbar";
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: "tux.svg",
+  logo: "/assets/tux.svg",
 
   appearance: true, // 配置 深色模式
 
@@ -57,7 +57,7 @@ export default defineThemeConfig({
        */
       profile: {
         // TODO
-        avatar: "tux.svg",
+        avatar: "/assets/tux.svg",
         name: "Tuxie's Wiki",
         description: "A team of penguin-loving wikipedians!",
         // circle: true,

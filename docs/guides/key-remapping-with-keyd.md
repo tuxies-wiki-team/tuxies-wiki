@@ -3,11 +3,11 @@ title: Key Remapping with keyd
 createTime: 2026/05/12 16:12:27
 permalink: /guides/key-remapping-with-keyd/
 tags:
-  - beginner
-  - peripherals
-  - productivity
-  - fixes
-  - testing-needed
+  - Beginner
+  - Peripherals
+  - Productivity
+  - Fixes
+  - Testing-Needed
 ---
 
 ::: info What is ==keyd?==
@@ -40,6 +40,9 @@ sudo apt install make gcc
 sudo pacman -S make gcc
 ```
 
+:::
+
+:::important It is highly recommended that you go through this guide to set up `keyd` to your liking, but if you would like to append everything in this guide quickly you can download [this](https://github.com/tuxies-wiki-team/tuxies-wiki/blob/master/resources/key-remapping-with-keyd/keyd-setup.sh) bash script.
 :::
 
 ## **Installing keyd**

@@ -4,10 +4,10 @@ createTime: 2026/05/12 18:33:59
 permalink: /guides/microsoft-edge-setup/
 tags:
   - Beginner
-  - Browser
+  - Browsers
   - Productivity
   - Fixes
-  - testing-needed
+  - Testing-Needed
 ---
 
 ## **Installation**

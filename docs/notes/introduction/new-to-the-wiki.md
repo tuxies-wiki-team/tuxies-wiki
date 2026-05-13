@@ -73,8 +73,8 @@ Consists of all recommended Linux apps tested by maintainers and categorised in 
 
 :::card
 
-### ::fluent-emoji:plus:: [Other Articles](/guides/)
+### ::fluent-emoji:plus:: [Other Guides](/guides/)
 
-Consists of Non-Linux related guides, built out of personal experience.
+Specific guides addressing individual fixes.
 :::
 ::::
