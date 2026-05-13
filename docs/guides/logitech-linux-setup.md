@@ -15,8 +15,6 @@ contributors:
 :::info This guide covers Logitech devices connecting via Unifying, Bolt, Nano, or Bluetooth receivers. It replicates Logi Options+ **key reassignment** and the **Actions Ring** using `Solaar` and `Kando` respectively.
 :::
 
----
-
 ## **Part 1: Solaar — Key Reassignment**
 
 ### **Installing Solaar**
@@ -99,6 +97,10 @@ The ==Rules Editor== is Solaar's equivalent of Logi Options+ key redirection. Ru
 
 :::
 
+:::note Follow [this](https://github.com/tuxies-wiki-team/tuxies-wiki/tree/master/resources/logitech-linux-setup) link to download an example configuration for the MX Masters 4 and MX Keys S.
+The configuration files are ready to use if you have the hardware mentioned above. Otherwise, you may have to do some tweaking in the Solaar app.
+:::
+
 ## **Part 2: Kando**
 
 ### **Installing Kando**
@@ -161,7 +163,7 @@ sudo dpkg -i kando-*.deb
 <video src="/assets/logitech-linux-setup/kando-marking-mode.mp4" autoplay loop muted playsinline></video>
 :::
 
-:::note Follow [this](https://github.com/tuxies-wiki-team/tuxies-wiki/tree/master/resources/dotfiles/kando) link to download configuration files to achieve the effect in the above video.
+:::note Follow [this](https://github.com/tuxies-wiki-team/tuxies-wiki/tree/master/resources/logitech-linux-setup/kando) link to download configuration files to achieve the effect in the above video.
 :::
 
 ### **Binding menus to shortcuts**

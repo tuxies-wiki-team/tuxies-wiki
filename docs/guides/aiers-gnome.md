@@ -301,7 +301,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   <video src="/assets/aiers-gnome/kando-marking-mode.mp4" autoplay loop muted playsinline></video>
   :::
 
-  :::note Follow [this](https://github.com/tuxies-wiki-team/tuxies-wiki/tree/master/resources/dotfiles/kando) link to download configuration files to achieve the effect in the above video.
+  :::note Follow [this](https://github.com/tuxies-wiki-team/tuxies-wiki/tree/master/resources/logitech-linux-setup/kando) link to download configuration files to achieve the effect in the above video.
   :::
 
   :::::
