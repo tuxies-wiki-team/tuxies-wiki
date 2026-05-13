@@ -10,7 +10,7 @@ tags:
   - Testing-Needed
 ---
 
-::: info What is ==keyd?==
+::: info What is `keyd?`
 `keyd` is a key remapping daemon for Linux that works at the kernel level. `keyd` remaps keys before any application sees them, making it one of the most reliable remapping solutions available on Linux.
 
 This guide walks you through installing keyd from source, writing a basic configuration, and optionally running the setup script to apply a preset configuration and register keyd as an internal keyboard.
@@ -42,7 +42,7 @@ sudo pacman -S make gcc
 
 :::
 
-:::important It is highly recommended that you go through this guide to set up `keyd` to your liking, but if you would like to append everything in this guide quickly you can download [this](https://github.com/tuxies-wiki-team/tuxies-wiki/blob/master/resources/key-remapping-with-keyd/keyd-setup.sh) bash script.
+:::important If you would like to append everything in this guide quickly you can download and run [this](https://github.com/tuxies-wiki-team/tuxies-wiki/blob/master/resources/key-remapping-with-keyd/keyd-setup.sh) bash script after installing all prerequisites.
 :::
 
 ## **Installing keyd**
