@@ -7,7 +7,7 @@ config:
     background: tint-plate
     tintPlate: 220
     hero:
-      name: Tuxie's Wiki
+      name: Tuxie's Wiki (Testing)
       tagline: Embrace your newfound freedom.
       text: Use this freedom to make Linux more powerful and fun!
       actions:
