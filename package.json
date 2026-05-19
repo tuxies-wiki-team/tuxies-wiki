@@ -12,11 +12,11 @@
     "start": "vuepress dev docs",
     "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "build": "vuepress build docs --clean-cache --clean-temp",
-    "build:gh": "cross-env VUEPRESS_BASE=/tuxies-wiki/ vuepress build docs --clean-cache --clean-temp",
-    "build:cf": "cross-env VUEPRESS_BASE=/ vuepress build docs --clean-cache --clean-temp",
+    "build-gh": "cross-env VUEPRESS_BASE=/tuxies-wiki/ vuepress build docs --clean-cache --clean-temp",
+    "build-cf": "cross-env VUEPRESS_BASE=/ vuepress build docs --clean-cache --clean-temp",
     "vp-update": "npx vp-update",
     "update-deps": "npx npm-check-updates -u && npm install",
-    "deploy": "npm run build && gh-pages -d docs/.vuepress/dist -b gh-pages"
+    "deploy": "npm run build-gh && gh-pages -d docs/.vuepress/dist -b gh-pages"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",

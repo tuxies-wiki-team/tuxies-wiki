@@ -1,4 +1,4 @@
-# Tuxie's Wiki
+# Tuxie's Wiki (Testing)
 
 Tuxie's Wiki tries to be a newcomer friendly source of documentation for all things Linux related. From common troubleshooting to cool programs that makes Linux fun, we try to improve Tuxie's Wiki so that it can be a newcomer's "go-to".
 
