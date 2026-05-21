@@ -1,11 +1,11 @@
 ---
-title: Terminal Customization (Bash)
+title: Terminal Customisation (Bash)
 tags:
   - Intermediate
   - Terminal
   - Ricing
 createTime: 2025/05/22 09:05:08
-permalink: /guides/terminal-customization-bash/
+permalink: /guides/terminal-customisation-bash/
 contributors:
   - aier
   - Lunear
@@ -91,7 +91,7 @@ PS1='------------------\n\[$(tput setaf 21)\][\[$(tput setaf 27)\]\u \[$(tput se
 
 :::
 
-![Aesthetic Terminal](./assets/terminal-customization-bash/aesthetic-terminal.png)
+![Aesthetic Terminal](/assets/terminal-customisation-bash/aesthetic-terminal.png)
 
 :::::
 
@@ -141,7 +141,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
   and here is what it looks like:
 
   :::demo-wrapper img
-  ![fastfetch](./assets/terminal-customization-bash/fastfetch.png)
+  ![fastfetch](/assets/terminal-customisation-bash/fastfetch.png)
   :::
 
 - **Changing the look of the prompt (`PS1`)**
@@ -161,11 +161,10 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
 
   and here is what it looks like:
 
-  ![Custom PS1](./assets/terminal-customization-bash/custom-ps1.png)
+  ![Custom PS1](/assets/terminal-customisation-bash/custom-ps1.png)
 
 - **More resources**
-
-  - [`PS1` customization by Rahul from tecadmin.net](https://tecadmin.net/how-to-customize-bash-prompt-ps1-in-linux/)
+  - [`PS1` customisation by Rahul from tecadmin.net](https://tecadmin.net/how-to-customize-bash-prompt-ps1-in-linux/)
 
 :::::
 
@@ -264,7 +263,6 @@ alias lsta3='eza -Ta --level 3'
   :::
 
 - **More resources**
-
   - [Tutorial](https://youtu.be/MvLQor1Ck3M?si=t23i-fsLL57QyuzU&t=50) on how to use `fzf` by DevOps Toolbox
   - [Use `fzf` with `zoxide`](https://www.youtube.com/watch?v=aghxkpyRVDY) by Dreams of Autonomy
   - [More info](https://github.com/junegunn/fzf?tab=readme-ov-file) about `fzf` from the official `fzf` GitHub page.
@@ -317,7 +315,6 @@ alias lsta3='eza -Ta --level 3'
   :::
 
 - **More resources**
-
   - [Tutorial](https://www.youtube.com/watch?v=aghxkpyRVDY&t=83s) on how to use `zoxide` by Dreams of Autonomy (includes how to use it with `fzf`, too)
   - [More info](https://github.com/ajeetdsouza/zoxide) about `zoxide` from the official `zoxide` GitHub page
 
@@ -326,7 +323,7 @@ alias lsta3='eza -Ta --level 3'
 ### **Using `eza`**
 
 :::tip What is `eza`?
-`eza` is a modern alternative to the classic `ls`, it provides color-coding, tree-styled outputs, git integration, and more.
+`eza` is a modern alternative to the classic `ls`, it provides colour-coding, tree-styled outputs, git integration, and more.
 :::
 
 :::::steps
@@ -392,7 +389,6 @@ alias lsta3='eza -Ta --level 3'
   :::
 
 - **More resources**
-
   - [Quick overview](https://www.youtube.com/watch?v=mmqDYw9C30I&t=615s) on `eza` by Josean Martinez
 
 :::::

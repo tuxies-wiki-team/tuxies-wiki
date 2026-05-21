@@ -10,16 +10,16 @@ Please read over this article to get you started!
 
 :::
 
-## **What is this wiki about?**
+## **About**
 
 The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wiki page focused primarily on Linux knowledge, which includes Apps Library, Linux Guides, and software related guides.
 
-:::warning Tuxie's Wiki is currently a small team, thus there might be a slight delay to bug reports and other maintainance.
-:::
+<!-- :::warning Tuxie's Wiki is currently a small team, thus there might be a slight delay to bug reports and other maintainance.
+::: -->
 
-:::warning This wiki is NOT endorsed by the Linux Foundation and is not a source of official documentation for any Linux distros and software.
+:::tip
+If you want to find something, `Ctrl` + `K`! We might have a guide somewhere, and if we don't, bring it up to us!
 :::
-==If you want to find something, `Ctrl` + `K`! We might have a guide somewhere, and if we don't, bring it up to us!==
 
 :::danger PLEASE
 
@@ -48,11 +48,12 @@ The Tuxie's Wiki is designated for Linux beginners and enthusiasts. This is a wi
 
 ## **Navigate the wiki**
 
-:::info Use the ribbon located at the top of the page to navigate through different categories of the wiki!
+<!-- :::tip Use the ribbon located at the top of the page to navigate through different categories of the wiki!
 :::
 
 :::tip Use to table of content on the right side of the page.
 :::
+ -->
 
 ::::card-grid
 
@@ -67,13 +68,13 @@ Consists of Fedora guide, Arch guide, and Debian/Ubuntu guide (maintainer wanted
 
 ### ::fluent-emoji:books:: [Linux App Library](/linux-apps/)
 
-Consists of all recommended Linux apps tested by maintainers and categorized in Editor's Choice, Essentials, Popular, and Gnomie. Includes descriptions of the applications and its appropriate installations.
+Consists of all recommended Linux apps tested by maintainers and categorised in Editor's Choice, Essentials, Popular, and Gnomie. Includes descriptions of the applications and its appropriate installations.
 :::
 
 :::card
 
-### ::fluent-emoji:plus:: [Other Articles](/guides/)
+### ::fluent-emoji:plus:: [Other Guides](/guides/)
 
-Consists of Non-Linux related guides, built out of personal experience.
+Specific guides addressing individual fixes.
 :::
 ::::

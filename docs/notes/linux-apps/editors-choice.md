@@ -10,7 +10,7 @@ contributors:
 ## **[LocalSend](https://localsend.org/)**
 
 :::details Open-source, cross-platform file sharer to nearby devices.
-![Localsend Demo](./assets/editors-choice/localsend-demo.png)
+![Localsend Demo](/assets/editors-choice/localsend-demo.png)
 :::
 
 :::tabs
@@ -52,10 +52,11 @@ flatpak install flathub org.inkscape.Inkscape
 ```bash
 flatpak install --user org.inkscape.Inkscape
 ```
+
 ## **[Zen Browser](https://flathub.org/apps/app.zen_browser.zen)**
 
 :::details A feature-rich, Firefox based browser that just works with smooth animations and QoL features.
-![Zen Demo](./assets/editors-choice/zen-demo.png)
+![Zen Demo](/assets/editors-choice/zen-demo.png)
 :::
 
 :::tabs
@@ -83,7 +84,7 @@ yay -S zen-browser-bin
 
 Useful and intuitive system resources displayer, that accurately displays information including CPU, GPU, RAM, processes, among others.
 :::details Safe, trusted password manager.
-![Bitwarden Demo](./assets/editors-choice/bitwarden-demo.png)
+![Bitwarden Demo](/assets/editors-choice/bitwarden-demo.png)
 :::
 
 :::tabs
@@ -112,7 +113,7 @@ Bitwarden is also offered as a browser extension:
 ## **[Mission Center](https://flathub.org/apps/io.missioncenter.MissionCenter)**
 
 :::details Useful and intuitive system resources monitor that accurately displays informations including CPU, GPU, RAM, processes, among others.
-![Mission Center Demo](./assets/editors-choice/mission-center-demo.png)
+![Mission Center Demo](/assets/editors-choice/mission-center-demo.png)
 :::
 
 :::tabs
@@ -134,7 +135,7 @@ flatpak install --user flathub io.missioncenter.MissionCenter
 ## **[Obsidian](https://flathub.org/apps/md.obsidian.Obsidian)**
 
 ::: details Obsidian is a powerful markdown note-taking app available across different platforms. Obsidian supports custom theming, sync (paid), and publishing services. Write everything that is useful or that can be useful down and start building your second brain!
-![Obsidian Demo](./assets/editors-choice/obsidian-demo.png)
+![Obsidian Demo](/assets/editors-choice/obsidian-demo.png)
 :::
 
 :::tabs
@@ -232,7 +233,7 @@ sudo apt install waydroid -y
 ## **[Gradia](https://flathub.org/en/apps/be.alexandervanhee.gradia)**
 
 :::details Screenshot application with annotation modes including text, arrow, and censor
-![Gradia Demo](./assets/editors-choice/gradia-demo.png)
+![Gradia Demo](/assets/editors-choice/gradia-demo.png)
 :::
 
 :::tabs

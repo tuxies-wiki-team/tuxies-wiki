@@ -17,7 +17,7 @@ contributors:
 :::
 
 :::card title="What is Vuepress?" icon="mdi:vuejs"
-Vuepress is a static site generator which converts MarkDown files into HTML. It offers a good option for one who desires to create their personal blog, documentation, or website. Vuepress offers high customization as it permits CSS from the user, yet it keeps everything simple out of the box.
+Vuepress is a static site generator which converts MarkDown files into HTML. It offers a good option for one who desires to create their personal blog, documentation, or website. Vuepress offers high customisation as it permits CSS from the user, yet it keeps everything simple out of the box.
 :::
 
 ## **Installation**

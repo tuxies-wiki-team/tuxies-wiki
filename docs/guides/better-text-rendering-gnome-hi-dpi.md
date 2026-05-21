@@ -35,4 +35,4 @@ dconf reset /org/gnome/desktop/interface/font-hinting
 
 :::
 
-![Gnome Tweaks Font Redering Settings](./assets/better-text-rendering-gnome-hi-dpi/gnome-tweaks-font-rendering-settings.png)
+![Gnome Tweaks Font Redering Settings](/assets/better-text-rendering-gnome-hi-dpi/gnome-tweaks-font-rendering-settings.png)

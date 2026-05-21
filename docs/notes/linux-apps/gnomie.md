@@ -78,7 +78,7 @@ flatpak install --user flathub com.mattjakeman.ExtensionManager
 
 ## **[Gnome Tweaks](https://github.com/GNOME/gnome-tweaks)**
 
-Change fonts, manage shell themes (requires `User Theme` extension), add hide and maximize buttons, and more!
+Change fonts, manage shell themes (requires `User Theme` extension), add hide and maximise buttons, and more!
 
 :::tabs
 

@@ -1,0 +1,73 @@
+%YAML 1.3
+---
+- Key: [Haptic, pressed]
+- KeyPress:
+  - [Super_L, Shift_L, F1]
+  - click
+...
+---
+- Key: [Mouse Gesture Button, pressed]
+- KeyPress:
+  - Super_L
+  - depress
+...
+---
+- Key: [Mouse Gesture Button, released]
+- KeyPress:
+  - Super_L
+  - release
+...
+---
+- Key: [Forward Button, pressed]
+- KeyPress:
+  - Shift_L
+  - depress
+...
+---
+- Key: [Forward Button, released]
+- KeyPress:
+  - Shift_L
+  - release
+...
+---
+- Key: [Back Button, pressed]
+- KeyPress:
+  - Control_L
+  - depress
+...
+---
+- Key: [Back Button, released]
+- KeyPress:
+  - Control_L
+  - release
+...
+---
+- Key: [Dictation, pressed]
+- KeyPress:
+  - [Super_L, i]
+  - click
+...
+---
+- Key: [Emoji, pressed]
+- KeyPress:
+  - [Super_L, Shift_L, v]
+  - click
+...
+---
+- Key: [Mute Microphone, pressed]
+- KeyPress:
+  - XF86_AudioMicMute
+  - click
+...
+---
+- Key: [Screen Capture, pressed]
+- KeyPress:
+  - Print
+  - click
+...
+---
+- Key: [Screen Lock, pressed]
+- KeyPress:
+  - Tab
+  - click
+...

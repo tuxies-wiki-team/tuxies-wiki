@@ -29,7 +29,7 @@ flatpak install --user flathub com.github.tchx84.Flatseal
 
 ## **[Timeshift](https://github.com/linuxmint/timeshift)**
 
-Create snapshots of your computer, especially if you use Arch.
+Create snapshots of your computer that you can go back.
 
 ::::steps
 
@@ -47,6 +47,20 @@ Create snapshots of your computer, especially if you use Arch.
   # [!code ++]
   SELINUX=permissive
   ```
+
+  :::
+
+  :::note If you are restoring snapshots in RSYNC mode, you may encounter file mislabeling errors or "permission denied" errors. You may perform the following. Be patient with the reboot as the system takes its time to relabel files.
+
+  ```bash
+  sudo touch /.autorelabel
+  ```
+
+  ```bash
+  reboot
+  ```
+
+  :::
 
 - **Installation**
 

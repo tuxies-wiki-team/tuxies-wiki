@@ -18,10 +18,9 @@ Fedora is the preferred distro of ==aier==. Fedora offers a high-quality out-of-
 
   :::warning TODO: A video step-by-step installation.
   :::
+  - [Installing Fedora in the Simplest Possible Way](https://itsfoss.com/install-fedora/) by Abhishek Prakash from It's FOSS.
 
-  - [How to Install Fedora Step by Step](https://www.linuxtechi.com/how-to-install-fedora-workstation/) by Pradeep Kumar from Linux Techi.
-
-  - [NVIDIA Drivers Guide](https://rpmfusion.org/Howto/NVIDIA#Current_GeForce.2FQuadro.2FTesla) by Official RPM Fusion.
+  - [NVIDIA Drivers Guide](https://rpmfusion.org/Howto/NVIDIA) by Official RPM Fusion.
 
   - [Fedora on MacBook](https://asahilinux.org/fedora/) by Official Asahi Linux.
 
@@ -35,7 +34,7 @@ Fedora is the preferred distro of ==aier==. Fedora offers a high-quality out-of-
   ```
 
   @tab GUI (Gnome Software)
-  ![Gnome Software Update Button](./assets/gnome-software-update.svg)
+  ![Gnome Software Update Button](/assets/fedora/gnome-software-update.svg)
   :::
 
 - **Reboot**
@@ -87,7 +86,7 @@ We'll be using ==Timeshift==, but you can use whichever snapshot/backup tool you
 
   :::details I recommend keeping 3–5 boot snapshots.
 
-  ![Timeshift setup wizard](./assets/timeshift-setup.png)
+  ![Timeshift setup wizard](/assets/fedora/timeshift-setup.png)
 
   :::
 
@@ -95,7 +94,7 @@ We'll be using ==Timeshift==, but you can use whichever snapshot/backup tool you
 
   :::details Choose the snapshot you wish to restore and voila!
 
-  ![Timeshift Restore Snapshot!](./assets/timeshift-restore-snapshot.png)
+  ![Timeshift Restore Snapshot!](/assets/fedora/timeshift-restore-snapshot.png)
 
   :::
 
@@ -103,6 +102,9 @@ We'll be using ==Timeshift==, but you can use whichever snapshot/backup tool you
 
   ```bash
   sudo touch /.autorelabel
+  ```
+
+  ```bash
   reboot
   ```
 
@@ -110,9 +112,9 @@ We'll be using ==Timeshift==, but you can use whichever snapshot/backup tool you
 
 ::::
 
-## **Further customization**
+## **Further customisation**
 
-From this point on, customization for your Fedora installation would mainly be based on the DE that you are using.
+From this point on, customisation for your Fedora installation would mainly be based on the DE that you are using.
 
 - [Gnome Guide](/linux-guides/gnome/)
 - [aier's Gnome](/guides/aiers-gnome/)

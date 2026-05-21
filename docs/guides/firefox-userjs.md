@@ -3,6 +3,7 @@ tags:
   - Beginner
   - Browsers
   - Productivity
+  - Fixes
 title: Firefox Advanced Settings Tweaks (user.js)
 createTime: 2025/05/22 09:05:08
 permalink: /guides/firefox-userjs/
@@ -54,7 +55,7 @@ user_pref("zen.workspaces.separate-essentials", false); // true
 - **Create a `user.js` by typing "about:support" into your browser and clicking "Open Directory" in the Profile Directory row.**
 
   :::demo-wrapper img
-  ![Firefox Profile Directory](./assets/firefox-userjs/firefox-profile-directory.png)
+  ![Firefox Profile Directory](/assets/firefox-userjs/firefox-profile-directory.png)
   :::
 
 - **Inside your profile folder, you can create a file named `user.js` if it does not exist already. You can append changes from this guide into `user.js`.**
@@ -68,7 +69,7 @@ user_pref("zen.workspaces.separate-essentials", false); // true
 - **Type in "about:config" into your browser and you'll be taken to the Firefox advanced preference page. Press "Accept risk and continue".**
 
   :::demo-wrapper img
-  ![Firefox about:config page](./assets/firefox-userjs/firefox-about-config.png)
+  ![Firefox about:config page](/assets/firefox-userjs/firefox-about-config.png)
   :::
 
 - **You can then type in the search bar the preference mentioned in the guide, edit the values of the preference, and create the reference if it doesn't exist.**
@@ -80,7 +81,7 @@ user_pref("zen.workspaces.separate-essentials", false); // true
 :::note Improving Scrolling
 Many Firefox users (us included) feel that the Firefox default scrolling is quite slow on the mousewheel, or too fast on the trackpad, or not smooth enough, or not dynamic enough.
 
-However you want your scrolling, hopefully you can customize the options we'll provide you to suit your needs.
+However you want your scrolling, hopefully you can customise the options we'll provide you to suit your needs.
 :::
 
 ## **Mousewheel scrolling**

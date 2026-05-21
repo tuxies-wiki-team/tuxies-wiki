@@ -1,12 +1,15 @@
 ---
 tags:
-  - Contributions
+  - Advanced
+  - Vuepress
+  - Web-Dev
+  - Wiki
 title: Contribution Guidelines
 createTime: 2025/06/09 11:25:08
 permalink: /contributions/guidelines/
 ---
 
-:::info This is a guideline for editing, styling, and formatting when editing Tuxie's Wiki. Please read and comply with these guidelines as it could jeopardize your opportunity in being a contributor.
+:::info This is a guideline for editing, styling, and formatting when editing Tuxie's Wiki. Please read and comply with these guidelines as it could jeopardise your opportunity in being a contributor.
 :::
 
 ## **Formatting**
@@ -41,20 +44,54 @@ The name of the file should be derived from the name of the article (if it is on
 :::note Examples
 Gnome Guide @ `/docs/notes/linux-guides/gnome.md`
 
---> **/linux-guides/gnome/**
+--> ==/linux-guides/gnome/==
 
-Terminal Customization (Bash) @ `/docs/guides/terminal-customization-bash.md`
+Terminal Customisation (Bash) @ `/docs/guides/terminal-customisation-bash.md`
 
---> **/guides/terminal-customization-bash/**
+--> ==/guides/terminal-customisation-bash/==
 :::
+
+### **Article tagging**
+
+Articles are tagged in the yaml header of each .md file to dynamically categorise them.
+
+```md
+---
+tags:
+  - Advanced
+  - Firefox
+  - Browser
+  - Productivity
+# ... code omitted ...
+---
+```
+
+:::note Use the following as a rough guideline of how to tag your article. It is recommended you do not exceed 4 tags.
+
+==Recommended level:== Beginner, Intermediate, Advanced.
+
+==Specific program:== e.g. Gnome, Firefox, virt-manager, bash.
+
+==Category of program:== e.g. Browser, OS, VM, Terminal.
+​​
+==​​​​Category of guide:== ​​​​​Fixes, Ricing, Productivity, Web-Dev, Wiki.
+:::
+
+### **Language**
+
+English guides are written in non-Oxford Standard GB English (en-gb). Keep in mind the universal language standard for code is US English despite the guides being in Standard GB English.
+
+Use ==professional, concise, and effective language== that avoids unnecessary complexity. Our mission is to effectively transfer information and convey ideas, not write for high academia.
+
+Use 'we' in universal articles. Use 'I' in blogs.
 
 ### **Code formatting**
 
-We're not strict with our code formatting as long as the output of your code is clean (i.e. the generated content is pretty).
+Formatting is not strictly monitored as long as the output is clean (i.e. the generated content is pretty).
 
-We'd appreciate it if you use the Prettier extension in VS Code or an equivalent to format your code, though.
+The use of the Prettier extension in VS Code or an equivalent would be appreciated.
 
-:::important Use relative links over permalinks when referring to internal pages to make the development smoother, when possible.
+:::important Use article permalinks when referring to internal pages and assets (placed in the .public folder). This makes project structuring more maintainable.
 :::
 
 ### **Code Structure**
@@ -111,7 +148,7 @@ We'll follow the following hierarchy for icons:
 
 `mdi` >> `ic` >> others
 
-We prefer to keep navigational and core components clean, without colors.
+We prefer to keep navigational and core components clean, without colours.
 
 #### Cards
 
@@ -123,7 +160,7 @@ Cards would preferably be catchy and fun.
 
 `devicon` >> `logos` >> `mdi` >> `ic` >> `simple-icons` >> others
 
-Similar to core components, they should be clean and informative; some color would be nice, though.
+Similar to core components, they should be clean and informative; some colour would be nice, though.
 
 ::::::details How to add an icon...
 
@@ -381,14 +418,14 @@ Content text...
 
 ```md
 :::demo-wrapper img
-![Tuxie's Wiki](./assets/tuxies-wiki.png)
+![Tuxie's Wiki](/assets/guidelines/tuxies-wiki.png)
 :::
 ```
 
 :::::
 
 :::demo-wrapper img
-![Tuxie's Wiki](./assets/tuxies-wiki.png)
+![Tuxie's Wiki](/assets/guidelines/tuxies-wiki.png)
 :::
 
 ### Details & collapse
@@ -401,7 +438,7 @@ Use `details` to collapse content that you don't want taking up a large amount o
 :::details
 
 The following is a picture of Ice Bear from We Bare Bears.
-![Ice Bear](./assets/ice-bear.jpg)
+![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
 :::
 ```
@@ -413,7 +450,7 @@ The following is a picture of Ice Bear from We Bare Bears.
 :::details
 
 The following is a picture of Ice Bear from We Bare Bears.
-![Ice Bear](./assets/ice-bear.jpg)
+![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
 :::
 
@@ -438,13 +475,13 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
   The following is a picture of Ice Bear from We Bare Bears.
 
-  ![Ice Bear](./assets/ice-bear.jpg)
+  ![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
   :::
 
 - Card can be omitted in the case of a singular image.
 
-  ![Ice Bear](./assets/ice-bear.jpg)
+  ![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
 ::::
 ```
@@ -461,13 +498,13 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
   The following is a picture of Ice Bear from We Bare Bears.
 
-  ![Ice Bear](./assets/ice-bear.jpg)
+  ![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
   :::
 
 - Card can be omitted in the case of a singular image.
 
-  ![Ice Bear](./assets/ice-bear.jpg)
+  ![Ice Bear](/assets/guidelines/ice-bear.jpg)
 
 ::::
 
@@ -481,7 +518,7 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
 - Heading 4 (####) does not appear on the table of contents, use it for minor titles/sections within larger topics
 
-- We prefer not using titlecase in headings.
+- We prefer titlecase for Heading 2 (implicitly Heading 1), and NOT using titlecase in lower headings.
 
 :::details See example...
 
@@ -503,30 +540,16 @@ Always pair `collapse` with a card unless the only content is a photo. If it has
 
 :::demo-wrapper img
 
-![Headings](./assets/headings.png)
+![Headings](/assets/guidelines/headings.png)
 :::
 
 ### Highlighting
 
-Use highlighting (==) to emphasize text, especially in paragraphs.
+Use highlighting (==) to emphasise text, especially in paragraphs.
 
 ==Highlights will replace bolding entirely.==
 
 Do not use highlighting in titles such as headings, step module titles, or collapse module titles.
-
-Linux is known for being ==flexible, secure, and stable==.
-
-It is ==open-source=={.important}, meaning its source code is freely available for anyone to view, modify, and distribute.
-
-This fosters a ==collaborative global community== that continuously improves the system.
-
-==Default==  
-==Info=={.info}  
-==Note=={.note}  
-==Tip=={.tip}  
-==Warning=={.warning}  
-==Danger=={.danger}  
-==Important=={.important}
 
 :::details See code...
 
@@ -542,15 +565,16 @@ This fosters a ==collaborative global community== that continuously improves the
 ==Note=={.note}  
 ==Tip=={.tip}  
 ==Warning=={.warning}  
-==Danger=={.danger}   
+==Danger=={.danger}  
 ==Important=={.important}
 ```
 
 :::
 
 :::demo-wrapper img
-![Highlighting-Demo](./assets/highlighting-demo.png)
+![Highlighting-Demo](/assets/guidelines/highlighting-demo.png)
 :::
+
 ### Steps
 
 Use "-" to auto-generate `steps` instead of manually numbering them. It helps maintenance and editing much easier.

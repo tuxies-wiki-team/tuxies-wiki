@@ -10,7 +10,7 @@ groups:
     list:
       - name: aier
         link: https://www.linkedin.com/in/eugenio-wu/
-        avatar: https://media.licdn.com/dms/image/v2/D4D03AQG1nvUKCLi4UQ/profile-displayphoto-scale_400_400/B4DZpcQCj6HwAg-/0/1762484300629?e=1766620800&v=beta&t=H5aOJjnoboHukTc19HYlpy400W5N8wK1J08mWvQzlzw
+        avatar: https://github.com/aier9500.png
         location: Boston, NYC, Valencia
         desc: I am pursuing Finance but I do a bit of tech on the side ❤️‍🔥
 
