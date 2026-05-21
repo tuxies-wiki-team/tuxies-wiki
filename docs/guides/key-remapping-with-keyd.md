@@ -42,7 +42,7 @@ sudo pacman -S make gcc
 
 :::
 
-:::important If you would like to append everything in this guide quickly you can download and run [this](https://github.com/tuxies-wiki-team/tuxies-wiki/blob/master/resources/key-remapping-with-keyd/keyd-setup.sh) bash script after installing all prerequisites.
+:::important If you would like to append everything in this guide quickly you can download and run [this](https://github.com/Theory-Y/tuxies-wiki/blob/master/resources/key-remapping-with-keyd/keyd-setup.sh) bash script after installing all prerequisites.
 :::
 
 ## **Installing keyd**

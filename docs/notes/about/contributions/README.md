@@ -24,7 +24,7 @@ We use Discord as our primary platform to discuss ideas, get feedback, and coord
 
 :::card
 
-::logos:github-icon =20:: [Github Page](https://github.com/tuxies-wiki-team/tuxies-wiki)
+::logos:github-icon =20:: [Github Page](https://github.com/Theory-Y/tuxies-wiki)
 
 :::
 ::::
@@ -65,7 +65,6 @@ Propose new sections or features for the project.
 - **Start editing.**
 
   There are two main ways you can edit and submit:
-
   - You can fork the website and edit articles and see them live in your own machine.
   - You can write a text document, whether in plain text, plain markdown, or in Vuepress markdown used for the wiki.
 

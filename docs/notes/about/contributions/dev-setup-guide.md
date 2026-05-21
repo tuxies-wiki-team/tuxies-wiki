@@ -46,7 +46,7 @@ This guide aims to set up and run Tuxie's Wiki locally to start drafting your co
 
   :::
 
-- Clone [Github repository](https://github.com/tuxies-wiki-team/tuxies-wiki)
+- Clone [Github repository](https://github.com/Theory-Y/tuxies-wiki)
   - Create a directory/folder
   - Open terminal with the path of the created directory/folder
 
@@ -66,7 +66,7 @@ This guide aims to set up and run Tuxie's Wiki locally to start drafting your co
   - Run
 
   ```bash
-  git clone https://github.com/tuxies-wiki-team/tuxies-wiki.git
+  git clone https://github.com/Theory-Y/tuxies-wiki.git
   ```
 
 - Install npm dependencies
