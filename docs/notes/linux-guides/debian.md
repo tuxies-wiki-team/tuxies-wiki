@@ -12,7 +12,7 @@ We are currently looking for a contributor for this guide. Check [Become a Contr
 :::
 
 :::tip Slow and steady wins the race
-**Debian** is known for its great stability and resilience. In order to accomplish this, it does run older versions of many packages and has slower update times which could make it incompatible with the most bleeding edge of users. However, if you want to run a server at home (my use case), or just want a very reliable system, ==Debian== is the way to go.
+==Debian== is known for its great stability and resilience. In order to accomplish this, it does run older versions of many packages and has slower update times which could make it incompatible with the most bleeding edge of users. However, if you want to run a server at home (my use case), or just want a very reliable system, ==Debian== is the way to go.
 
 This guide will teach you how to start your own Debian home server machine from installation to sensation!
 :::

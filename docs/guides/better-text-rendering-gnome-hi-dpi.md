@@ -22,9 +22,9 @@ dconf write /org/gnome/desktop/interface/font-hinting "'slight'"
 
 @tab ::mdi:puzzle:: Append changes (Gnome Tweaks)
 
-`Fonts` > `Rendering` > `Hinting` --> **slight**
+`Fonts` > `Rendering` > `Hinting` --> ==slight==
 
-`Fonts` > `Rendering` > `Antialiasing` --> **Standard Grayscale**
+`Fonts` > `Rendering` > `Antialiasing` --> ==Standard Grayscale==
 
 @tab ::mdi:reload:: Reset changes (cli)
 
