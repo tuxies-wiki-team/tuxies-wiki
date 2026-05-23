@@ -283,7 +283,7 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::info A button that shows your desktop, hiding all other windows. (Just like clicking the bottom right corner or `Super` + `D` in Windows)
 
-  <video src="/assets/aiers-gnome/show-desktop-plus-demo.mp4" autoplay loop muted playsinline></video>
+  <video src="/assets/aiers-gnome/show-desktop-plus-demo.mp4" autoplay loop muted playsinline onloadedmetadata="this.playbackRate=1.25"></video>
 
   ```bash
   dconf write /org/gnome/shell/extensions/show-desktop-plus/button-position "'right-end'"
@@ -292,13 +292,18 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::
 
+- [Shotzy](https://extensions.gnome.org/extension/9707/shotzy/)
+
+  :::info Image search on Google Lens, OCR and QR scan directly from the built-in GNOME Screenshot tool.
+  :::
+
 - [Kando Integration](https://extensions.gnome.org/extension/7068/kando-integration/)
 
   :::info Allows you to use the Kando Menu in Gnome Wayland sessions.
   :::
 
   :::demo-wrapper
-  <video src="/assets/aiers-gnome/kando-marking-mode.mp4" autoplay loop muted playsinline></video>
+  <video src="/assets/aiers-gnome/kando-marking-mode.mp4" autoplay loop muted playsinline onloadedmetadata="this.playbackRate=1.25"></video>
   :::
 
   :::note Follow [this](https://github.com/Theory-Y/tuxies-wiki/tree/master/resources/logitech-linux-setup/kando) link to download configuration files to achieve the effect in the above video.

@@ -160,7 +160,7 @@ sudo dpkg -i kando-*.deb
 `Kando` supports ==marking menus== — a gesture technique where you draw a direction with your cursor to select an item without stopping to click. Once muscle memory is established for a layout, you can open and trigger an action in a single continuous movement, faster than a keyboard shortcut.
 
 :::demo-wrapper
-<video src="/assets/logitech-linux-setup/kando-marking-mode.mp4" autoplay loop muted playsinline></video>
+<video src="/assets/logitech-linux-setup/kando-marking-mode.mp4" autoplay loop muted playsinline onloadedmetadata="this.playbackRate=1.25"></video>
 :::
 
 :::note Follow [this](https://github.com/Theory-Y/tuxies-wiki/tree/master/resources/logitech-linux-setup/kando) link to download configuration files to achieve the effect in the above video.
