@@ -242,7 +242,10 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 :::::
 ::::::
 
-### Workflow specific
+### Personal recommendations
+
+:::info Extensions with a more niche usecase that I recommend you to check out.
+:::
 
 ::::::card
 ::::: collapse
@@ -273,25 +276,6 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::
 
-- [GTK4 Desktop Icon NG](https://extensions.gnome.org/extension/5263/gtk4-desktop-icons-ng-ding/)
-
-  :::info Allows for links, folders, and files in the desktop.
-  ![DING4 Demo](/assets/aiers-gnome/ding4-demo.png)
-  :::
-
-- [Show Desktop Plus](https://extensions.gnome.org/extension/9756/show-desktop-plus/) _(QoL additions to GTK4 Desktop Icons NG)_
-
-  :::info A button that shows your desktop, hiding all other windows. (Just like clicking the bottom right corner or `Super` + `D` in Windows)
-
-  <video src="/assets/aiers-gnome/show-desktop-plus-demo.mp4" autoplay loop muted playsinline onloadedmetadata="this.playbackRate=1.25"></video>
-
-  ```bash
-  dconf write /org/gnome/shell/extensions/show-desktop-plus/button-position "'right-end'"
-  dconf write /org/gnome/shell/extensions/show-desktop-plus/enable-hotkey true # Super + D to show desktop
-  ```
-
-  :::
-
 - [Shotzy](https://extensions.gnome.org/extension/9707/shotzy/)
 
   :::info Image search on Google Lens, OCR and QR scan directly from the built-in GNOME Screenshot tool.
@@ -312,7 +296,10 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   :::::
   ::::::
 
-### Not in my setup, but you may like:
+### Others
+
+:::info Not in my setup, but you may like them.
+:::
 
 ::::::card
 ::::: collapse
@@ -335,6 +322,25 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
 
   :::tip My settings:
   ==Position of ordered folders --> Start==, to make folders appear before apps.
+  :::
+
+- [GTK4 Desktop Icon NG](https://extensions.gnome.org/extension/5263/gtk4-desktop-icons-ng-ding/)
+
+  :::info Allows for links, folders, and files in the desktop.
+  ![DING4 Demo](/assets/aiers-gnome/ding4-demo.png)
+  :::
+
+- [Show Desktop Plus](https://extensions.gnome.org/extension/9756/show-desktop-plus/) _(QoL additions to GTK4 Desktop Icons NG)_
+
+  :::info A button that shows your desktop, hiding all other windows. (Just like clicking the bottom right corner or `Super` + `D` in Windows)
+
+  <video src="/assets/aiers-gnome/show-desktop-plus-demo.mp4" autoplay loop muted playsinline onloadedmetadata="this.playbackRate=1.25"></video>
+
+  ```bash
+  dconf write /org/gnome/shell/extensions/show-desktop-plus/button-position "'right-end'"
+  dconf write /org/gnome/shell/extensions/show-desktop-plus/enable-hotkey true # Super + D to show desktop
+  ```
+
   :::
 
 :::::
