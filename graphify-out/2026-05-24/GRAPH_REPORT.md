@@ -1,18 +1,12 @@
-# Graph Report - tuxies-wiki  (2026-05-24)
+# Graph Report - .  (2026-05-23)
 
 ## Corpus Check
-- 145 files · ~1,328,127 words
-- Verdict: corpus is large enough that graph structure adds value.
+- Large corpus: 111 files · ~1,289,456 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder.
 
 ## Summary
-- 360 nodes · 351 edges · 67 communities (34 shown, 33 thin omitted)
+- 345 nodes · 338 edges · 65 communities (33 shown, 32 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.88)
 - Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `4f87bdb3`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Kando Menu Config|Kando Menu Config]]
@@ -76,20 +70,18 @@
 - [[_COMMUNITY_Misc Group 62|Misc Group 62]]
 - [[_COMMUNITY_Misc Group 63|Misc Group 63]]
 - [[_COMMUNITY_Misc Group 64|Misc Group 64]]
-- [[_COMMUNITY_Community 65|Community 65]]
-- [[_COMMUNITY_Community 66|Community 66]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Linux Vocabulary Guide` - 12 edges
 2. `Editor's Choice Apps Guide` - 11 edges
 3. `scripts` - 10 edges
 4. `Gnome Setup and Customisation Guide` - 9 edges
-5. `GNOME Extensions (Universal Benefits)` - 8 edges
-6. `Arch Linux Installation Guide` - 8 edges
-7. `Gnomie Apps Guide` - 6 edges
-8. `GNOME Desktop Environment` - 6 edges
-9. `User-defined Rules` - 6 edges
-10. `Better-Looking Fonts` - 5 edges
+5. `Arch Linux Installation Guide` - 8 edges
+6. `Gnomie Apps Guide` - 6 edges
+7. `GNOME Desktop Environment` - 6 edges
+8. `User-defined Rules` - 6 edges
+9. `GNOME Desktop Environment` - 5 edges
+10. `Flatpak` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Tuxies Wiki Homepage (VuePress)` --references--> `Tuxies Wiki – Linux Newcomer Resource`  [EXTRACTED]
@@ -106,7 +98,7 @@
 ## Hyperedges (group relationships)
 - **Core Tuxies Wiki Guides** — guides_aiers_gnome, guides_logitech_linux_setup, guides_terminal_customisation_bash, guides_firefox_userjs [INFERRED 0.85]
 
-## Communities (67 total, 33 thin omitted)
+## Communities (65 total, 32 thin omitted)
 
 ### Community 0 - "Kando Menu Config"
 Cohesion: 0.04
@@ -141,8 +133,8 @@ Cohesion: 0.24
 Nodes (10): Tuxies Logo Inkscape Source (SVG), Tux Open Graph Image (SVG), Tuxie Mascot SVG (Inkscape), Tux Transparent Background (SVG), Tuxie Mascot (PNG), Tuxies Wiki Logo (PNG), Tux Linux Mascot, Tux Wearing Tuxedo (Visual Motif) (+2 more)
 
 ### Community 8 - "Core Guides & Contributors"
-Cohesion: 0.40
-Nodes (6): Our Team Page, Bash Prompt Customization (PS1), Fastfetch – System Info Display, Terminal Customisation (Bash) Guide, aier (Wiki Founder), Lunear (Wiki Founder)
+Cohesion: 0.25
+Nodes (9): Our Team Page, Bash Prompt Customization (PS1), Fastfetch – System Info Display, GNOME Desktop Environment, aier's GNOME In-Depth Tips and Tricks, Better Text Rendering GNOME HiDPI Guide, Terminal Customisation (Bash) Guide, aier (Wiki Founder) (+1 more)
 
 ### Community 9 - "Wiki Meta & Contributions"
 Cohesion: 0.22
@@ -224,24 +216,20 @@ Nodes (3): Firefox/Zen Profile Directory for user.js, Zen Browser (Firefox Fork)
 Cohesion: 0.67
 Nodes (3): action-icon-color, menuThemeColors, clean-circle
 
-### Community 65 - "Community 65"
-Cohesion: 0.12
-Nodes (16): Better-Looking Fonts, code:bash (sudo dnf install ibm-plex-fonts-all), code:bash (# Stylise panel into Windows-styled task bar), code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu), code:bash (sudo pacman -S ttf-ibm-plex), code:bash (sudo apt install fonts-ibm-plex), code:bash (dconf write /org/gnome/desktop/interface/font-name "'IBM Ple), code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray) (+8 more)
-
 ## Knowledge Gaps
-- **208 isolated node(s):** `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)`, `code:bash (sudo pacman -S ttf-ibm-plex)`, `code:bash (sudo apt install fonts-ibm-plex)`, `code:bash (dconf write /org/gnome/desktop/interface/font-name "'IBM Ple)` (+203 more)
+- **197 isolated node(s):** `name`, `type`, `version`, `description`, `license` (+192 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **33 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **32 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Linux Vocabulary Guide` connect `Core Linux Concepts` to `Linux Apps Library`, `Linux Distros & Vocabulary`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Why does `Gnome Setup and Customisation Guide` connect `Linux Distros & Vocabulary` to `Linux Apps Library`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **What connects `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)`, `code:bash (sudo pacman -S ttf-ibm-plex)` to the rest of the system?**
-  _208 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `name`, `type`, `version` to the rest of the system?**
+  _197 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `VuePress Build System` be split into smaller, more focused modules?**
