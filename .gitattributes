@@ -8,3 +8,8 @@
 *.tff binary
 *.woff binary
 *.woff2 binary
+
+# User added to stop videos from corrupting
+*.mp4 binary
+*.mov binary
+*.webm binary
