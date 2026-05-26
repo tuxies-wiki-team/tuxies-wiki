@@ -86,7 +86,7 @@ Your `.bashrc` should look something like this if you decide to follow all instr
 
 fastfetch
 
-PS1='------------------\n\[$(tput setaf 21)\][\[$(tput setaf 27)\]\u \[$(tput setaf 33)\]@ \[$(tput setaf 39)\]\h\[$(tput setaf 21)\]] \[$(tput setaf 45)\]\w\[$(tput sgr0)\]\n > '
+PS1='------------------\n\[$(tput setaf 26)\][\[$(tput setaf 32)\]\u \[$(tput setaf 38)\]@ \[$(tput setaf 44)\]\h\[$(tput setaf 26)\]] \[$(tput setaf 75)\]\w\[$(tput sgr0)\]\n > '
 ```
 
 :::
