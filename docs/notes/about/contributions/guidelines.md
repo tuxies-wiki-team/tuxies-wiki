@@ -96,7 +96,23 @@ The use of the Prettier extension in VS Code or an equivalent would be appreciat
 
 ### **Code Structure**
 
-In some occasions, we encounter usage of nested formatting tools such as [details](#details--collapse) and [steps](#steps) within one another. In similar cases, we should always follow the rule of adding an additional ":" to the outer tool. Below is an example illustrating this point.
+In some occasions, we encounter usage of nested formatting tools such as [details](#details-collapse) and [steps](#steps) within one another. In similar cases, we should always follow the rule of adding an additional ":" to the outer tool. Below is an example illustrating this point.
+
+The rule is simple: ==every container must have more colons than any container nested inside it.== Count from the innermost container outward, adding one colon at each level.
+
+:::note Count from the inside out
+Start with the innermost container at `:::` (3 colons — the minimum). Each container wrapping it gets one more colon. Never skip a level.
+
+| Nesting level   | Colons   | Example                           |
+| --------------- | -------- | --------------------------------- |
+| Innermost       | `:::`    | `:::note`, `:::card`              |
+| One level up    | `::::`   | `::::details`, `::::collapse`     |
+| Two levels up   | `:::::`  | `:::::steps`, `:::::demo-wrapper` |
+| Three levels up | `::::::` | `::::::details`                   |
+
+:::
+
+A common mistake is writing a container with the same or fewer colons than something inside it — this breaks rendering. If a container does not close correctly, check that its colon count is strictly greater than all containers nested within it.
 
 ::::::details See code..
 
@@ -629,21 +645,23 @@ Do ==not== use bold in step description content — use highlighting (==) for an
 
 Use `tabs` for showing multiple options to not use up unnecessary space.
 
+The default tab order is ==Fedora, Debian/Ubuntu, Arch==. Always follow this order when all three distros are present.
+
 :::::details See code...
 
 ````md
 :::tabs
 
-@tab ::devicon:debian:: Debian/Ubuntu
-
-```bash
-sudo apt install timeshift
-```
-
 @tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install timeshift
+```
+
+@tab ::devicon:debian:: Debian/Ubuntu
+
+```bash
+sudo apt install timeshift
 ```
 
 @tab ::devicon:archlinux:: Arch
@@ -661,16 +679,16 @@ pacman -S timeshift
 
 :::tabs
 
-@tab ::devicon:debian:: Debian/Ubuntu
-
-```bash
-sudo apt install timeshift
-```
-
 @tab ::devicon:fedora:: Fedora
 
 ```bash
 sudo dnf install timeshift
+```
+
+@tab ::devicon:debian:: Debian/Ubuntu
+
+```bash
+sudo apt install timeshift
 ```
 
 @tab ::devicon:archlinux:: Arch
