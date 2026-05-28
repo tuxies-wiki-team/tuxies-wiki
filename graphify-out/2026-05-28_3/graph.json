@@ -21,517 +21,157 @@
   },
   "nodes": [
     {
-      "label": "editors-choice.md",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L1",
-      "id": "docs_notes_linux_apps_editors_choice_md",
-      "community": 69,
-      "norm_label": "editors-choice.md"
-    },
-    {
-      "label": "**[LocalSend](https://localsend.org/)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L10",
-      "id": "linux_apps_editors_choice_localsend_https_localsend_org",
-      "community": 69,
-      "norm_label": "**[localsend](https://localsend.org/)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub org.localsend.localsend_app)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L20",
-      "id": "linux_apps_editors_choice_codeblock_1",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub org.localsend.localsend_app)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub org.localsend.localsend_app)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L26",
-      "id": "linux_apps_editors_choice_codeblock_2",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user flathub org.localsend.localsend_app)"
-    },
-    {
-      "label": "code:bash (yay -S localsend-bin)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L32",
-      "id": "linux_apps_editors_choice_codeblock_3",
-      "community": 69,
-      "norm_label": "code:bash (yay -s localsend-bin)"
-    },
-    {
-      "label": "**[Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L38",
-      "id": "linux_apps_editors_choice_inkscape_https_flathub_org_apps_org_inkscape_inkscape",
-      "community": 69,
-      "norm_label": "**[inkscape](https://flathub.org/apps/org.inkscape.inkscape)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub org.inkscape.Inkscape)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L46",
-      "id": "linux_apps_editors_choice_codeblock_4",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub org.inkscape.inkscape)"
-    },
-    {
-      "label": "code:bash (flatpak install --user org.inkscape.Inkscape)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L52",
-      "id": "linux_apps_editors_choice_codeblock_5",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user org.inkscape.inkscape)"
-    },
-    {
-      "label": "**[Zen Browser](https://flathub.org/apps/app.zen_browser.zen)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L56",
-      "id": "linux_apps_editors_choice_zen_browser_https_flathub_org_apps_app_zen_browser_zen",
-      "community": 69,
-      "norm_label": "**[zen browser](https://flathub.org/apps/app.zen_browser.zen)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub app.zen_browser.zen)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L65",
-      "id": "linux_apps_editors_choice_codeblock_6",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub app.zen_browser.zen)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub app.zen_browser.zen)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L71",
-      "id": "linux_apps_editors_choice_codeblock_7",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user flathub app.zen_browser.zen)"
-    },
-    {
-      "label": "code:bash (yay -S zen-browser-bin)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L77",
-      "id": "linux_apps_editors_choice_codeblock_8",
-      "community": 69,
-      "norm_label": "code:bash (yay -s zen-browser-bin)"
-    },
-    {
-      "label": "**[Bitwarden](https://bitwarden.com/)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L83",
-      "id": "linux_apps_editors_choice_bitwarden_https_bitwarden_com",
-      "community": 69,
-      "norm_label": "**[bitwarden](https://bitwarden.com/)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub com.bitwarden.desktop)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L94",
-      "id": "linux_apps_editors_choice_codeblock_9",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub com.bitwarden.desktop)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub com.bitwarden.desktop)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L100",
-      "id": "linux_apps_editors_choice_codeblock_10",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user flathub com.bitwarden.desktop)"
-    },
-    {
-      "label": "**[Mission Center](https://flathub.org/apps/io.missioncenter.MissionCenter)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L113",
-      "id": "linux_apps_editors_choice_mission_center_https_flathub_org_apps_io_missioncenter_missioncenter",
-      "community": 69,
-      "norm_label": "**[mission center](https://flathub.org/apps/io.missioncenter.missioncenter)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub io.missioncenter.MissionCenter)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L123",
-      "id": "linux_apps_editors_choice_codeblock_11",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub io.missioncenter.missioncenter)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub io.missioncenter.MissionCente)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L129",
-      "id": "linux_apps_editors_choice_codeblock_12",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user flathub io.missioncenter.missioncente)"
-    },
-    {
-      "label": "**[Obsidian](https://flathub.org/apps/md.obsidian.Obsidian)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L135",
-      "id": "linux_apps_editors_choice_obsidian_https_flathub_org_apps_md_obsidian_obsidian",
-      "community": 69,
-      "norm_label": "**[obsidian](https://flathub.org/apps/md.obsidian.obsidian)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub md.obsidian.Obsidian)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L145",
-      "id": "linux_apps_editors_choice_codeblock_13",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub md.obsidian.obsidian)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub md.obsidian.Obsidian)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L151",
-      "id": "linux_apps_editors_choice_codeblock_14",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user flathub md.obsidian.obsidian)"
-    },
-    {
-      "label": "**[Scrcpy](https://github.com/Genymobile/scrcpy)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L157",
-      "id": "linux_apps_editors_choice_scrcpy_https_github_com_genymobile_scrcpy",
-      "community": 69,
-      "norm_label": "**[scrcpy](https://github.com/genymobile/scrcpy)**"
-    },
-    {
-      "label": "code:bash (sudo dnf copr enable zeno/scrcpy && sudo dnf install scrcpy)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L165",
-      "id": "linux_apps_editors_choice_codeblock_15",
-      "community": 69,
-      "norm_label": "code:bash (sudo dnf copr enable zeno/scrcpy && sudo dnf install scrcpy)"
-    },
-    {
-      "label": "code:bash (pacman -S scrcpy)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L171",
-      "id": "linux_apps_editors_choice_codeblock_16",
-      "community": 69,
-      "norm_label": "code:bash (pacman -s scrcpy)"
-    },
-    {
-      "label": "**[Vesktop](https://flathub.org/apps/dev.vencord.Vesktop)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L181",
-      "id": "linux_apps_editors_choice_vesktop_https_flathub_org_apps_dev_vencord_vesktop",
-      "community": 69,
-      "norm_label": "**[vesktop](https://flathub.org/apps/dev.vencord.vesktop)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub dev.vencord.Vesktop)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L192",
-      "id": "linux_apps_editors_choice_codeblock_17",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub dev.vencord.vesktop)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub dev.vencord.Vesktop)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L198",
-      "id": "linux_apps_editors_choice_codeblock_18",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user flathub dev.vencord.vesktop)"
-    },
-    {
-      "label": "**[Waydroid](https://docs.waydro.id/usage/install-on-desktops)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L204",
-      "id": "linux_apps_editors_choice_waydroid_https_docs_waydro_id_usage_install_on_desktops",
-      "community": 69,
-      "norm_label": "**[waydroid](https://docs.waydro.id/usage/install-on-desktops)**"
-    },
-    {
-      "label": "code:bash (sudo dnf install waydroid)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L213",
-      "id": "linux_apps_editors_choice_codeblock_19",
-      "community": 69,
-      "norm_label": "code:bash (sudo dnf install waydroid)"
-    },
-    {
-      "label": "code:bash (sudo yay -S waydroid)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L219",
-      "id": "linux_apps_editors_choice_codeblock_20",
-      "community": 69,
-      "norm_label": "code:bash (sudo yay -s waydroid)"
-    },
-    {
-      "label": "code:bash (sudo apt install curl ca-certificates -y)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L225",
-      "id": "linux_apps_editors_choice_codeblock_21",
-      "community": 69,
-      "norm_label": "code:bash (sudo apt install curl ca-certificates -y)"
-    },
-    {
-      "label": "**[Gradia](https://flathub.org/en/apps/be.alexandervanhee.gradia)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L233",
-      "id": "linux_apps_editors_choice_gradia_https_flathub_org_en_apps_be_alexandervanhee_gradia",
-      "community": 69,
-      "norm_label": "**[gradia](https://flathub.org/en/apps/be.alexandervanhee.gradia)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub be.alexandervanhee.gradia)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L243",
-      "id": "linux_apps_editors_choice_codeblock_22",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub be.alexandervanhee.gradia)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub be.alexandervanhee.gradia)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L249",
-      "id": "linux_apps_editors_choice_codeblock_23",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user flathub be.alexandervanhee.gradia)"
-    },
-    {
-      "label": "**[Kooha](https://flathub.org/apps/io.github.seadve.Kooha)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L255",
-      "id": "linux_apps_editors_choice_kooha_https_flathub_org_apps_io_github_seadve_kooha",
-      "community": 69,
-      "norm_label": "**[kooha](https://flathub.org/apps/io.github.seadve.kooha)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub io.github.seadve.Kooha)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L265",
-      "id": "linux_apps_editors_choice_codeblock_24",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub io.github.seadve.kooha)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub io.github.seadve.Kooha)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L271",
-      "id": "linux_apps_editors_choice_codeblock_25",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user flathub io.github.seadve.kooha)"
-    },
-    {
-      "label": "**[RClone Manager](https://flathub.org/apps/io.github.zarestia_dev.rclone-manager)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L277",
-      "id": "linux_apps_editors_choice_rclone_manager_https_flathub_org_apps_io_github_zarestia_dev_rclone_manager",
-      "community": 69,
-      "norm_label": "**[rclone manager](https://flathub.org/apps/io.github.zarestia_dev.rclone-manager)**"
-    },
-    {
-      "label": "code:bash (flatpak install flathub io.github.zarestia_dev.rclone-manage)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L287",
-      "id": "linux_apps_editors_choice_codeblock_26",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install flathub io.github.zarestia_dev.rclone-manage)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub io.github.zarestia_dev.rclone)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L293",
-      "id": "linux_apps_editors_choice_codeblock_27",
-      "community": 69,
-      "norm_label": "code:bash (flatpak install --user flathub io.github.zarestia_dev.rclone)"
-    },
-    {
       "label": "aiers-gnome.md",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L1",
+      "id": "docs_guides_aiers_gnome_md",
       "community": 65,
-      "norm_label": "aiers-gnome.md",
-      "id": "docs_guides_aiers_gnome_md"
+      "norm_label": "aiers-gnome.md"
     },
     {
       "label": "Facial Recognition With Howdy",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L21",
+      "id": "guides_aiers_gnome_facial_recognition_with_howdy",
       "community": 65,
-      "norm_label": "facial recognition with howdy",
-      "id": "guides_aiers_gnome_facial_recognition_with_howdy"
+      "norm_label": "facial recognition with howdy"
     },
     {
       "label": "Better-Looking Fonts",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L26",
+      "id": "guides_aiers_gnome_better_looking_fonts",
       "community": 65,
-      "norm_label": "better-looking fonts",
-      "id": "guides_aiers_gnome_better_looking_fonts"
+      "norm_label": "better-looking fonts"
     },
     {
       "label": "code:bash (sudo dnf install ibm-plex-fonts-all)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L35",
+      "id": "guides_aiers_gnome_codeblock_1",
       "community": 65,
-      "norm_label": "code:bash (sudo dnf install ibm-plex-fonts-all)",
-      "id": "guides_aiers_gnome_codeblock_1"
+      "norm_label": "code:bash (sudo dnf install ibm-plex-fonts-all)"
     },
     {
       "label": "code:bash (sudo pacman -S ttf-ibm-plex)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L41",
+      "id": "guides_aiers_gnome_codeblock_2",
       "community": 65,
-      "norm_label": "code:bash (sudo pacman -s ttf-ibm-plex)",
-      "id": "guides_aiers_gnome_codeblock_2"
+      "norm_label": "code:bash (sudo pacman -s ttf-ibm-plex)"
     },
     {
       "label": "code:bash (sudo apt install fonts-ibm-plex)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L47",
+      "id": "guides_aiers_gnome_codeblock_3",
       "community": 65,
-      "norm_label": "code:bash (sudo apt install fonts-ibm-plex)",
-      "id": "guides_aiers_gnome_codeblock_3"
+      "norm_label": "code:bash (sudo apt install fonts-ibm-plex)"
     },
     {
       "label": "code:bash (dconf write /org/gnome/desktop/interface/font-name \"'IBM Ple)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L53",
+      "id": "guides_aiers_gnome_codeblock_4",
       "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/interface/font-name \"'ibm ple)",
-      "id": "guides_aiers_gnome_codeblock_4"
+      "norm_label": "code:bash (dconf write /org/gnome/desktop/interface/font-name \"'ibm ple)"
     },
     {
       "label": "GNOME Extensions (Universal Benefits)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L63",
+      "id": "guides_aiers_gnome_gnome_extensions_universal_benefits",
       "community": 65,
-      "norm_label": "gnome extensions (universal benefits)",
-      "id": "guides_aiers_gnome_gnome_extensions_universal_benefits"
+      "norm_label": "gnome extensions (universal benefits)"
     },
     {
       "label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L105",
+      "id": "guides_aiers_gnome_codeblock_5",
       "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
-      "id": "guides_aiers_gnome_codeblock_5"
+      "norm_label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)"
     },
     {
       "label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L120",
+      "id": "guides_aiers_gnome_codeblock_6",
       "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
-      "id": "guides_aiers_gnome_codeblock_6"
+      "norm_label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)"
     },
     {
       "label": "code:bash (# Hide ripple box in hot corner)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L152",
+      "id": "guides_aiers_gnome_codeblock_7",
       "community": 65,
-      "norm_label": "code:bash (# hide ripple box in hot corner)",
-      "id": "guides_aiers_gnome_codeblock_7"
+      "norm_label": "code:bash (# hide ripple box in hot corner)"
     },
     {
       "label": "code:bash (dconf write /org/gnome/shell/extensions/nightthemeswitcher/c)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L187",
+      "id": "guides_aiers_gnome_codeblock_8",
       "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/shell/extensions/nightthemeswitcher/c)",
-      "id": "guides_aiers_gnome_codeblock_8"
+      "norm_label": "code:bash (dconf write /org/gnome/shell/extensions/nightthemeswitcher/c)"
     },
     {
       "label": "code:bash (# aier's Kiwi settings)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L204",
+      "id": "guides_aiers_gnome_codeblock_9",
       "community": 65,
-      "norm_label": "code:bash (# aier's kiwi settings)",
-      "id": "guides_aiers_gnome_codeblock_9"
+      "norm_label": "code:bash (# aier's kiwi settings)"
     },
     {
       "label": "Personal recommendations",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L250",
+      "id": "guides_aiers_gnome_personal_recommendations",
       "community": 65,
-      "norm_label": "personal recommendations",
-      "id": "guides_aiers_gnome_personal_recommendations"
+      "norm_label": "personal recommendations"
     },
     {
       "label": "code:bash (# Stylise panel into Windows-styled task bar)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L265",
+      "id": "guides_aiers_gnome_codeblock_10",
       "community": 65,
-      "norm_label": "code:bash (# stylise panel into windows-styled task bar)",
-      "id": "guides_aiers_gnome_codeblock_10"
+      "norm_label": "code:bash (# stylise panel into windows-styled task bar)"
     },
     {
       "label": "Others",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L304",
+      "id": "guides_aiers_gnome_others",
       "community": 65,
-      "norm_label": "others",
-      "id": "guides_aiers_gnome_others"
+      "norm_label": "others"
     },
     {
       "label": "code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu)",
       "file_type": "document",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L344",
+      "id": "guides_aiers_gnome_codeblock_11",
       "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu)",
-      "id": "guides_aiers_gnome_codeblock_11"
+      "norm_label": "code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu)"
     },
     {
       "label": "CLAUDE.md",
@@ -2326,7 +1966,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Create snapshots of your computer that you can restore.",
-      "community": 3,
+      "community": 2,
       "norm_label": "timeshift",
       "id": "linux_apps_essentials_timeshift"
     },
@@ -2411,6 +2051,145 @@
       "community": 3,
       "norm_label": "clipboard indicator",
       "id": "linux_apps_gnomie_clipboardindicator"
+    },
+    {
+      "label": "Editor's Choice Apps Guide",
+      "file_type": "document",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2025/05/22",
+      "author": null,
+      "contributor": "aier, Lunear",
+      "community": 2,
+      "norm_label": "editor's choice apps guide",
+      "id": "linux_apps_editors_choice_editorschoice"
+    },
+    {
+      "label": "LocalSend",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "LocalSend section",
+      "source_url": "https://localsend.org/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Open-source, cross-platform file sharer to nearby devices.",
+      "community": 2,
+      "norm_label": "localsend",
+      "id": "linux_apps_editors_choice_localsend"
+    },
+    {
+      "label": "Zen Browser",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Zen Browser section",
+      "source_url": "https://flathub.org/apps/app.zen_browser.zen",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Feature-rich, Firefox-based browser with smooth animations and QoL features.",
+      "community": 2,
+      "norm_label": "zen browser",
+      "id": "linux_apps_editors_choice_zenbrowser"
+    },
+    {
+      "label": "Bitwarden",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Bitwarden section",
+      "source_url": "https://bitwarden.com/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Safe, trusted password manager.",
+      "community": 2,
+      "norm_label": "bitwarden",
+      "id": "linux_apps_editors_choice_bitwarden"
+    },
+    {
+      "label": "Mission Center",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Mission Center section",
+      "source_url": "https://flathub.org/apps/io.missioncenter.MissionCenter",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Useful and intuitive system resources monitor that accurately displays CPU, GPU, RAM, processes, among others.",
+      "community": 2,
+      "norm_label": "mission center",
+      "id": "linux_apps_editors_choice_missioncenter"
+    },
+    {
+      "label": "Obsidian",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Obsidian section",
+      "source_url": "https://flathub.org/apps/md.obsidian.Obsidian",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Powerful markdown note-taking app across different platforms; supports custom theming, sync, and publishing.",
+      "community": 2,
+      "norm_label": "obsidian",
+      "id": "linux_apps_editors_choice_obsidian"
+    },
+    {
+      "label": "Scrcpy",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Scrcpy section",
+      "source_url": "https://github.com/Genymobile/scrcpy",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Mirrors Android devices (video and audio) connected via USB or TCP/IP; allows control using keyboard and mouse; no root access required.",
+      "community": 2,
+      "norm_label": "scrcpy",
+      "id": "linux_apps_editors_choice_scrcpy"
+    },
+    {
+      "label": "Vesktop",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Vesktop section",
+      "source_url": "https://flathub.org/apps/dev.vencord.Vesktop",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Discord with screen sharing and audio support, as well as Vencord inbuilt.",
+      "community": 2,
+      "norm_label": "vesktop",
+      "id": "linux_apps_editors_choice_vesktop"
+    },
+    {
+      "label": "Waydroid",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Waydroid section",
+      "source_url": "https://docs.waydro.id/usage/install-on-desktops",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Run Android on Linux.",
+      "community": 2,
+      "norm_label": "waydroid",
+      "id": "linux_apps_editors_choice_waydroid"
+    },
+    {
+      "label": "Gradia",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Gradia section",
+      "source_url": "https://flathub.org/en/apps/be.alexandervanhee.gradia",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Screenshot application with annotation modes including text, arrow, and censor.",
+      "community": 2,
+      "norm_label": "gradia",
+      "id": "linux_apps_editors_choice_gradia"
     },
     {
       "label": "Linux Guides Index",
@@ -4667,396 +4446,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_localsend_https_localsend_org",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_inkscape_https_flathub_org_apps_org_inkscape_inkscape",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L56",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_zen_browser_https_flathub_org_apps_app_zen_browser_zen",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L83",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_bitwarden_https_bitwarden_com",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L113",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_mission_center_https_flathub_org_apps_io_missioncenter_missioncenter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L135",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_obsidian_https_flathub_org_apps_md_obsidian_obsidian",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L157",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_scrcpy_https_github_com_genymobile_scrcpy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L181",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_vesktop_https_flathub_org_apps_dev_vencord_vesktop",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L204",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_waydroid_https_docs_waydro_id_usage_install_on_desktops",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L233",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_gradia_https_flathub_org_en_apps_be_alexandervanhee_gradia",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L255",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_kooha_https_flathub_org_apps_io_github_seadve_kooha",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L277",
-      "weight": 1.0,
-      "source": "docs_notes_linux_apps_editors_choice_md",
-      "target": "linux_apps_editors_choice_rclone_manager_https_flathub_org_apps_io_github_zarestia_dev_rclone_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_localsend_https_localsend_org",
-      "target": "linux_apps_editors_choice_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_localsend_https_localsend_org",
-      "target": "linux_apps_editors_choice_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_localsend_https_localsend_org",
-      "target": "linux_apps_editors_choice_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_inkscape_https_flathub_org_apps_org_inkscape_inkscape",
-      "target": "linux_apps_editors_choice_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_inkscape_https_flathub_org_apps_org_inkscape_inkscape",
-      "target": "linux_apps_editors_choice_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_zen_browser_https_flathub_org_apps_app_zen_browser_zen",
-      "target": "linux_apps_editors_choice_codeblock_6",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_zen_browser_https_flathub_org_apps_app_zen_browser_zen",
-      "target": "linux_apps_editors_choice_codeblock_7",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L77",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_zen_browser_https_flathub_org_apps_app_zen_browser_zen",
-      "target": "linux_apps_editors_choice_codeblock_8",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L94",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_bitwarden_https_bitwarden_com",
-      "target": "linux_apps_editors_choice_codeblock_9",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L100",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_bitwarden_https_bitwarden_com",
-      "target": "linux_apps_editors_choice_codeblock_10",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L123",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_mission_center_https_flathub_org_apps_io_missioncenter_missioncenter",
-      "target": "linux_apps_editors_choice_codeblock_11",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L129",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_mission_center_https_flathub_org_apps_io_missioncenter_missioncenter",
-      "target": "linux_apps_editors_choice_codeblock_12",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L145",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_obsidian_https_flathub_org_apps_md_obsidian_obsidian",
-      "target": "linux_apps_editors_choice_codeblock_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L151",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_obsidian_https_flathub_org_apps_md_obsidian_obsidian",
-      "target": "linux_apps_editors_choice_codeblock_14",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L165",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_scrcpy_https_github_com_genymobile_scrcpy",
-      "target": "linux_apps_editors_choice_codeblock_15",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L171",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_scrcpy_https_github_com_genymobile_scrcpy",
-      "target": "linux_apps_editors_choice_codeblock_16",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L192",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_vesktop_https_flathub_org_apps_dev_vencord_vesktop",
-      "target": "linux_apps_editors_choice_codeblock_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L198",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_vesktop_https_flathub_org_apps_dev_vencord_vesktop",
-      "target": "linux_apps_editors_choice_codeblock_18",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L213",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_waydroid_https_docs_waydro_id_usage_install_on_desktops",
-      "target": "linux_apps_editors_choice_codeblock_19",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L219",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_waydroid_https_docs_waydro_id_usage_install_on_desktops",
-      "target": "linux_apps_editors_choice_codeblock_20",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L225",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_waydroid_https_docs_waydro_id_usage_install_on_desktops",
-      "target": "linux_apps_editors_choice_codeblock_21",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L243",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_gradia_https_flathub_org_en_apps_be_alexandervanhee_gradia",
-      "target": "linux_apps_editors_choice_codeblock_22",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L249",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_gradia_https_flathub_org_en_apps_be_alexandervanhee_gradia",
-      "target": "linux_apps_editors_choice_codeblock_23",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L265",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_kooha_https_flathub_org_apps_io_github_seadve_kooha",
-      "target": "linux_apps_editors_choice_codeblock_24",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L271",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_kooha_https_flathub_org_apps_io_github_seadve_kooha",
-      "target": "linux_apps_editors_choice_codeblock_25",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L287",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_rclone_manager_https_flathub_org_apps_io_github_zarestia_dev_rclone_manager",
-      "target": "linux_apps_editors_choice_codeblock_26",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/editors-choice.md",
-      "source_location": "L293",
-      "weight": 1.0,
-      "source": "linux_apps_editors_choice_rclone_manager_https_flathub_org_apps_io_github_zarestia_dev_rclone_manager",
-      "target": "linux_apps_editors_choice_codeblock_27",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L21",
       "weight": 1.0,
@@ -6654,6 +6043,16 @@
       "source_location": "Card grid",
       "weight": 1.0,
       "source": "linux_apps_readme_appsindex",
+      "target": "linux_apps_editors_choice_editorschoice"
+    },
+    {
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/README.md",
+      "source_location": "Card grid",
+      "weight": 1.0,
+      "source": "linux_apps_readme_appsindex",
       "target": "linux_apps_essentials_essentials"
     },
     {
@@ -6720,6 +6119,16 @@
       "relation": "lists",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Inkscape section",
+      "weight": 0.8,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_creative_suite_inkscape"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "docs/notes/linux-apps/popular.md",
       "source_location": "Discord section",
       "weight": 1.0,
@@ -6764,6 +6173,26 @@
       "source_location": "Vencord subsection",
       "weight": 1.0,
       "source": "linux_apps_popular_discord",
+      "target": "linux_apps_popular_vencord"
+    },
+    {
+      "relation": "alternative_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/popular.md",
+      "source_location": "Discord section - Vesktop mention",
+      "weight": 1.0,
+      "source": "linux_apps_popular_discord",
+      "target": "linux_apps_editors_choice_vesktop"
+    },
+    {
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Vesktop section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_vesktop",
       "target": "linux_apps_popular_vencord"
     },
     {
@@ -6895,6 +6324,106 @@
       "weight": 1.0,
       "source": "linux_guides_gnome_gnomeguide",
       "target": "linux_apps_gnomie_gnometweaks"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "LocalSend section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_editors_choice_localsend"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Zen Browser section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_editors_choice_zenbrowser"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Bitwarden section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_editors_choice_bitwarden"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Mission Center section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_editors_choice_missioncenter"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Obsidian section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_editors_choice_obsidian"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Scrcpy section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_editors_choice_scrcpy"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Vesktop section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_editors_choice_vesktop"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Waydroid section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_editors_choice_waydroid"
+    },
+    {
+      "relation": "lists",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-apps/editors-choice.md",
+      "source_location": "Gradia section",
+      "weight": 1.0,
+      "source": "linux_apps_editors_choice_editorschoice",
+      "target": "linux_apps_editors_choice_gradia"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-guides/gnome.md",
+      "source_location": "Keyboard shortcuts - Mission Center",
+      "weight": 1.0,
+      "source": "linux_guides_gnome_gnomeguide",
+      "target": "linux_apps_editors_choice_missioncenter"
     },
     {
       "relation": "links_to",
@@ -8397,5 +7926,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "e63f268508cd265629127cb4441cf57f59fa8424"
+  "built_at_commit": "5d70a46f361fcba7ee578b9389167888841a8d2f"
 }

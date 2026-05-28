@@ -1,16 +1,16 @@
 # Graph Report - tuxies-wiki  (2026-05-28)
 
 ## Corpus Check
-- 148 files · ~1,331,991 words
+- 148 files · ~1,328,308 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 395 nodes · 379 edges · 70 communities (35 shown, 35 thin omitted)
-- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.88)
+- 365 nodes · 354 edges · 69 communities (34 shown, 35 thin omitted)
+- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.88)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e63f2685`
+- Built from commit: `5d70a46f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -80,36 +80,35 @@
 - [[_COMMUNITY_Community 66|Community 66]]
 - [[_COMMUNITY_Community 67|Community 67]]
 - [[_COMMUNITY_Community 68|Community 68]]
-- [[_COMMUNITY_Community 69|Community 69]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Linux Vocabulary Guide` - 12 edges
-2. `scripts` - 10 edges
-3. `GNOME Extensions (Universal Benefits)` - 8 edges
-4. `Arch Linux Installation Guide` - 8 edges
-5. `Gnome Setup and Customisation Guide` - 8 edges
-6. `Gnomie Apps Guide` - 6 edges
-7. `GNOME Desktop Environment` - 6 edges
-8. `User-defined Rules` - 6 edges
-9. `Better-Looking Fonts` - 5 edges
-10. `GNOME Desktop Environment` - 5 edges
+2. `Editor's Choice Apps Guide` - 11 edges
+3. `scripts` - 10 edges
+4. `Gnome Setup and Customisation Guide` - 9 edges
+5. `GNOME Extensions (Universal Benefits)` - 8 edges
+6. `Arch Linux Installation Guide` - 8 edges
+7. `Gnomie Apps Guide` - 6 edges
+8. `GNOME Desktop Environment` - 6 edges
+9. `User-defined Rules` - 6 edges
+10. `Better-Looking Fonts` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Tuxies Wiki Homepage (VuePress)` --references--> `Tuxies Wiki – Linux Newcomer Resource`  [EXTRACTED]
   docs/README.md → README.md
 - `Arch Linux Installation Guide` --references--> `GParted`  [EXTRACTED]
   docs/notes/linux-guides/arch.md → docs/notes/linux-apps/popular.md
+- `Gnome Setup and Customisation Guide` --references--> `Mission Center`  [EXTRACTED]
+  docs/notes/linux-guides/gnome.md → docs/notes/linux-apps/editors-choice.md
 - `Clipboard Indicator GNOME Extension` --semantically_similar_to--> `Copyous GNOME Extension (Categorized Clipboard)`  [INFERRED] [semantically similar]
   docs/.vuepress/public/assets/aiers-gnome/clipboard-indicator-demonstration.png → docs/.vuepress/public/assets/aiers-gnome/copyous-demo.png
 - `Logitech Linux Setup Guide` --conceptually_related_to--> `Key Remapping with keyd`  [INFERRED]
   docs/guides/logitech-linux-setup.md → docs/guides/key-remapping-with-keyd.md
-- `Contributions Overview` --references--> `Contribution Guidelines`  [INFERRED]
-  docs/notes/about/contributions/README.md → docs/notes/about/contributions/guidelines.md
 
 ## Hyperedges (group relationships)
 - **Core Tuxies Wiki Guides** — guides_aiers_gnome, guides_logitech_linux_setup, guides_terminal_customisation_bash, guides_firefox_userjs [INFERRED 0.85]
 
-## Communities (70 total, 35 thin omitted)
+## Communities (69 total, 35 thin omitted)
 
 ### Community 0 - "Kando Menu Config"
 Cohesion: 0.04
@@ -120,12 +119,12 @@ Cohesion: 0.07
 Nodes (27): description, devDependencies, cross-env, gh-pages, http-server, sass-embedded, typescript, vue (+19 more)
 
 ### Community 2 - "Linux Apps Library"
-Cohesion: 0.18
-Nodes (14): Flatpak, Blender, Creative Software Guide, Darktable, Inkscape, Essentials Apps Guide, Flatseal, Discord (+6 more)
+Cohesion: 0.10
+Nodes (25): Flatpak, Blender, Creative Software Guide, Darktable, Inkscape, Bitwarden, Editor's Choice Apps Guide, Gradia (+17 more)
 
 ### Community 3 - "Linux Distros & Vocabulary"
-Cohesion: 0.13
-Nodes (23): Arch Linux Distribution, Debian Linux Distribution, Linux Distributions (Distros), Fedora Linux Distribution, GNOME Desktop Environment, Timeshift, Clipboard Indicator, Dconf Editor (+15 more)
+Cohesion: 0.14
+Nodes (22): Arch Linux Distribution, Debian Linux Distribution, Linux Distributions (Distros), Fedora Linux Distribution, GNOME Desktop Environment, Clipboard Indicator, Dconf Editor, Extension Manager (+14 more)
 
 ### Community 4 - "Logitech Peripheral Setup"
 Cohesion: 0.16
@@ -231,12 +230,8 @@ Nodes (3): action-icon-color, menuThemeColors, clean-circle
 Cohesion: 0.12
 Nodes (16): Better-Looking Fonts, code:bash (sudo dnf install ibm-plex-fonts-all), code:bash (# Stylise panel into Windows-styled task bar), code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu), code:bash (sudo pacman -S ttf-ibm-plex), code:bash (sudo apt install fonts-ibm-plex), code:bash (dconf write /org/gnome/desktop/interface/font-name "'IBM Ple), code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray) (+8 more)
 
-### Community 69 - "Community 69"
-Cohesion: 0.05
-Nodes (39): **[Bitwarden](https://bitwarden.com/)**, code:bash (flatpak install flathub org.localsend.localsend_app), code:bash (flatpak install --user flathub com.bitwarden.desktop), code:bash (flatpak install flathub io.missioncenter.MissionCenter), code:bash (flatpak install --user flathub io.missioncenter.MissionCente), code:bash (flatpak install flathub md.obsidian.Obsidian), code:bash (flatpak install --user flathub md.obsidian.Obsidian), code:bash (sudo dnf copr enable zeno/scrcpy && sudo dnf install scrcpy) (+31 more)
-
 ## Knowledge Gaps
-- **232 isolated node(s):** `code:bash (flatpak install flathub org.localsend.localsend_app)`, `code:bash (flatpak install --user flathub org.localsend.localsend_app)`, `code:bash (yay -S localsend-bin)`, `code:bash (flatpak install flathub org.inkscape.Inkscape)`, `code:bash (flatpak install --user org.inkscape.Inkscape)` (+227 more)
+- **211 isolated node(s):** `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)`, `code:bash (sudo pacman -S ttf-ibm-plex)`, `code:bash (sudo apt install fonts-ibm-plex)`, `code:bash (dconf write /org/gnome/desktop/interface/font-name "'IBM Ple)` (+206 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **35 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -244,16 +239,16 @@ Nodes (39): **[Bitwarden](https://bitwarden.com/)**, code:bash (flatpak install 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Linux Vocabulary Guide` connect `Core Linux Concepts` to `Linux Apps Library`, `Linux Distros & Vocabulary`?**
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **Why does `Gnome Setup and Customisation Guide` connect `Linux Distros & Vocabulary` to `Linux Apps Library`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **Why does `Arch Linux Installation Guide` connect `Linux Distros & Vocabulary` to `Linux Apps Library`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **What connects `code:bash (flatpak install flathub org.localsend.localsend_app)`, `code:bash (flatpak install --user flathub org.localsend.localsend_app)`, `code:bash (yay -S localsend-bin)` to the rest of the system?**
-  _232 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)`, `code:bash (sudo pacman -S ttf-ibm-plex)` to the rest of the system?**
+  _211 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `VuePress Build System` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
+- **Should `Linux Apps Library` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Linux Distros & Vocabulary` be split into smaller, more focused modules?**
-  _Cohesion score 0.13043478260869565 - nodes in this community are weakly interconnected._
-- **Should `Community 65` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13852813852813853 - nodes in this community are weakly interconnected._
