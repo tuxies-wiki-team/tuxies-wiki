@@ -10,7 +10,6 @@ First steps:
 - Keyd
 
 
-Pending: 
 - Scrolling (first steps)
 - Editor's choice: 
 	- Kooha
