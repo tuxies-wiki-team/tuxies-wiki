@@ -21,49 +21,22 @@
   },
   "nodes": [
     {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "id": "claude_md",
-      "community": 68,
-      "norm_label": "claude.md"
-    },
-    {
-      "label": "graphify",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "id": "tuxies_wiki_claude_graphify",
-      "community": 68,
-      "norm_label": "graphify"
-    },
-    {
-      "label": "Output guideline",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L12",
-      "id": "tuxies_wiki_claude_output_guideline",
-      "community": 68,
-      "norm_label": "output guideline"
-    },
-    {
       "label": "external-resources.md",
       "file_type": "document",
       "source_file": "docs/guides/external-resources.md",
       "source_location": "L1",
+      "id": "docs_guides_external_resources_md",
       "community": 67,
-      "norm_label": "external-resources.md",
-      "id": "docs_guides_external_resources_md"
+      "norm_label": "external-resources.md"
     },
     {
       "label": "Fixes",
       "file_type": "document",
       "source_file": "docs/guides/external-resources.md",
       "source_location": "L13",
+      "id": "guides_external_resources_fixes",
       "community": 67,
-      "norm_label": "fixes",
-      "id": "guides_external_resources_fixes"
+      "norm_label": "fixes"
     },
     {
       "label": "aiers-gnome.md",
@@ -4446,32 +4419,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "claude_md",
-      "target": "tuxies_wiki_claude_graphify",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "claude_md",
-      "target": "tuxies_wiki_claude_output_guideline",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "docs/guides/external-resources.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_guides_external_resources_md",
-      "target": "guides_external_resources_fixes"
+      "target": "guides_external_resources_fixes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7926,5 +7879,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "49154cbf80cd7e159b236b929c3a84f7d62d9378"
+  "built_at_commit": "9e1407810d7445ecdd07b3d2ea0cc766e7dc5eb1"
 }

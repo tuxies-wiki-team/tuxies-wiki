@@ -1,16 +1,16 @@
-# Graph Report - tuxies-wiki  (2026-05-28)
+# Graph Report - tuxies-wiki  (2026-05-24)
 
 ## Corpus Check
-- 148 files · ~1,328,771 words
+- 148 files · ~1,328,252 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 365 nodes · 354 edges · 69 communities (34 shown, 35 thin omitted)
+- 362 nodes · 352 edges · 68 communities (34 shown, 34 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.88)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `49154cbf`
+- Built from commit: `9e140781`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -79,7 +79,6 @@
 - [[_COMMUNITY_Community 65|Community 65]]
 - [[_COMMUNITY_Community 66|Community 66]]
 - [[_COMMUNITY_Community 67|Community 67]]
-- [[_COMMUNITY_Community 68|Community 68]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Linux Vocabulary Guide` - 12 edges
@@ -108,7 +107,7 @@
 ## Hyperedges (group relationships)
 - **Core Tuxies Wiki Guides** — guides_aiers_gnome, guides_logitech_linux_setup, guides_terminal_customisation_bash, guides_firefox_userjs [INFERRED 0.85]
 
-## Communities (69 total, 35 thin omitted)
+## Communities (68 total, 34 thin omitted)
 
 ### Community 0 - "Kando Menu Config"
 Cohesion: 0.04
@@ -231,9 +230,9 @@ Cohesion: 0.12
 Nodes (16): Better-Looking Fonts, code:bash (sudo dnf install ibm-plex-fonts-all), code:bash (# Stylise panel into Windows-styled task bar), code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu), code:bash (sudo pacman -S ttf-ibm-plex), code:bash (sudo apt install fonts-ibm-plex), code:bash (dconf write /org/gnome/desktop/interface/font-name "'IBM Ple), code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray) (+8 more)
 
 ## Knowledge Gaps
-- **211 isolated node(s):** `graphify`, `Output guideline`, `Fixes`, `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)` (+206 more)
+- **209 isolated node(s):** `Fixes`, `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)`, `code:bash (sudo pacman -S ttf-ibm-plex)`, `code:bash (sudo apt install fonts-ibm-plex)` (+204 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **35 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **34 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -242,8 +241,8 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Why does `Gnome Setup and Customisation Guide` connect `Linux Distros & Vocabulary` to `Linux Apps Library`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **What connects `graphify`, `Output guideline`, `Fixes` to the rest of the system?**
-  _211 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Fixes`, `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)` to the rest of the system?**
+  _209 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `VuePress Build System` be split into smaller, more focused modules?**
