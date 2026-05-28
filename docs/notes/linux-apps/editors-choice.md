@@ -251,3 +251,47 @@ flatpak install --user flathub be.alexandervanhee.gradia
 ```
 
 :::
+
+## **[Kooha](https://flathub.org/apps/io.github.seadve.Kooha)**
+
+:::details Simple and elegant screen recorder for Wayland.
+![Kooha Demo](/assets/editors-choice/kooha-demo.png)
+:::
+
+:::tabs
+
+@tab ::simple-icons:flatpak:: Flatpak (System)
+
+```bash
+flatpak install flathub io.github.seadve.Kooha
+```
+
+@tab ::simple-icons:flatpak:: Flatpak (User)
+
+```bash
+flatpak install --user flathub io.github.seadve.Kooha
+```
+
+:::
+
+## **[RClone Manager](https://flathub.org/apps/io.github.zarestia_dev.rclone-manager)**
+
+:::details Graphical interface for managing rclone cloud storage configurations and transfers.
+![RClone Manager Demo](/assets/editors-choice/rclone-manager-demo.png)
+:::
+
+:::tabs
+
+@tab ::simple-icons:flatpak:: Flatpak (System)
+
+```bash
+flatpak install flathub io.github.zarestia_dev.rclone-manager
+```
+
+@tab ::simple-icons:flatpak:: Flatpak (User)
+
+```bash
+flatpak install --user flathub io.github.zarestia_dev.rclone-manager
+```
+
+:::
