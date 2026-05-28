@@ -8,14 +8,9 @@ First steps:
 - Bash customisation
 - Logitech Linux Setup
 - Keyd
-
-
-- Scrolling (first steps)
-- Editor's choice: 
-	- Kooha
-	- RClone Manager (Editor's Choice)
+- Editor's choice
+- Essentials
 
 Manual: 
 - Fluent icons & cursor 
-
 
