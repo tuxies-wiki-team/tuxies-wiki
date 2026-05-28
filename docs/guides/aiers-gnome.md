@@ -191,6 +191,11 @@ dconf write /org/gnome/desktop/interface/monospace-font-name "'IBM Plex Mono 11'
   :::
   ```
 
+- [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
+
+  :::info Brings tiling window management to GNOME, allowing automatic window arrangements in customisable layouts.
+  :::
+
 <!-- - [Kiwi is not Apple](https://extensions.gnome.org/extension/8276/kiwi-is-not-apple/)
 
   ::: info Offers many UI changes to make Gnome more Mac-like. I use it for the window title, lock key indicator, and transparent window move function.
