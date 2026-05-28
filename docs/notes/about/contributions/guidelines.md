@@ -269,7 +269,7 @@ Use `code` to indicate files, programs, and directories. Simply surround the tex
 
 ### Code block & inline code
 
-==Always== wrap programs, applications, and directories in `inline code` (`) for better legibility.
+==Always== wrap programs, applications, and directories in `inline code` (\`) for better legibility. Do not use both highlight and inline code together — if the term is technical (a program, command, path, or config value), use `inline code` only. Reserve highlighting for non-technical emphasis in prose.
 
 ::::details See code...
 
