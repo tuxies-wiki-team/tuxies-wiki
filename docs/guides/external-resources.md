@@ -12,4 +12,6 @@ contributors:
 
 ## Fixes
 
+### Gnome
+
 [Touchpad scrolling sensitivity fix.](https://github.com/shivasai573/touchpad-sensitivity-tweak) (Guide on GitHub by shivasai573)
