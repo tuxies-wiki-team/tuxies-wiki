@@ -581,6 +581,8 @@ Use "-" to auto-generate `steps` instead of manually numbering them. It helps ma
 
 Keep the keywords of your step titles bold. If the step title is relatively short, make the entire title bold for better distinction from content text.
 
+Do ==not== use bold in step description content — use highlighting (==) for any emphasis instead.
+
 :::::details See code...
 
 ```md
