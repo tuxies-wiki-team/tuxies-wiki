@@ -41,6 +41,10 @@ Check out ==more extensions, settings, and tips== to make more out of Gnome!
 - ==Keyboard== — Add and modify keyboard shortcuts and change keyboard input settings.
   :::
 
+:::tip See also
+Check out the [External Resources](/guides/external-resources/) page for additional fixes, including a touchpad scrolling sensitivity fix for Gnome.
+:::
+
 ### **Install some apps for more advanced options**
 
 :::::::card
