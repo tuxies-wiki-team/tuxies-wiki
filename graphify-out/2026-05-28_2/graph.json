@@ -21,184 +21,31 @@
   },
   "nodes": [
     {
-      "label": "aiers-gnome.md",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L1",
-      "id": "docs_guides_aiers_gnome_md",
-      "community": 65,
-      "norm_label": "aiers-gnome.md"
-    },
-    {
-      "label": "Facial Recognition With Howdy",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L21",
-      "id": "guides_aiers_gnome_facial_recognition_with_howdy",
-      "community": 65,
-      "norm_label": "facial recognition with howdy"
-    },
-    {
-      "label": "Better-Looking Fonts",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L26",
-      "id": "guides_aiers_gnome_better_looking_fonts",
-      "community": 65,
-      "norm_label": "better-looking fonts"
-    },
-    {
-      "label": "code:bash (sudo dnf install ibm-plex-fonts-all)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L35",
-      "id": "guides_aiers_gnome_codeblock_1",
-      "community": 65,
-      "norm_label": "code:bash (sudo dnf install ibm-plex-fonts-all)"
-    },
-    {
-      "label": "code:bash (sudo pacman -S ttf-ibm-plex)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L41",
-      "id": "guides_aiers_gnome_codeblock_2",
-      "community": 65,
-      "norm_label": "code:bash (sudo pacman -s ttf-ibm-plex)"
-    },
-    {
-      "label": "code:bash (sudo apt install fonts-ibm-plex)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L47",
-      "id": "guides_aiers_gnome_codeblock_3",
-      "community": 65,
-      "norm_label": "code:bash (sudo apt install fonts-ibm-plex)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/interface/font-name \"'IBM Ple)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L53",
-      "id": "guides_aiers_gnome_codeblock_4",
-      "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/interface/font-name \"'ibm ple)"
-    },
-    {
-      "label": "GNOME Extensions (Universal Benefits)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L63",
-      "id": "guides_aiers_gnome_gnome_extensions_universal_benefits",
-      "community": 65,
-      "norm_label": "gnome extensions (universal benefits)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L105",
-      "id": "guides_aiers_gnome_codeblock_5",
-      "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L120",
-      "id": "guides_aiers_gnome_codeblock_6",
-      "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)"
-    },
-    {
-      "label": "code:bash (# Hide ripple box in hot corner)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L152",
-      "id": "guides_aiers_gnome_codeblock_7",
-      "community": 65,
-      "norm_label": "code:bash (# hide ripple box in hot corner)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/shell/extensions/nightthemeswitcher/c)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L187",
-      "id": "guides_aiers_gnome_codeblock_8",
-      "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/shell/extensions/nightthemeswitcher/c)"
-    },
-    {
-      "label": "code:bash (# aier's Kiwi settings)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L204",
-      "id": "guides_aiers_gnome_codeblock_9",
-      "community": 65,
-      "norm_label": "code:bash (# aier's kiwi settings)"
-    },
-    {
-      "label": "Personal recommendations",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L250",
-      "id": "guides_aiers_gnome_personal_recommendations",
-      "community": 65,
-      "norm_label": "personal recommendations"
-    },
-    {
-      "label": "code:bash (# Stylise panel into Windows-styled task bar)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L265",
-      "id": "guides_aiers_gnome_codeblock_10",
-      "community": 65,
-      "norm_label": "code:bash (# stylise panel into windows-styled task bar)"
-    },
-    {
-      "label": "Others",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L304",
-      "id": "guides_aiers_gnome_others",
-      "community": 65,
-      "norm_label": "others"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu)",
-      "file_type": "document",
-      "source_file": "docs/guides/aiers-gnome.md",
-      "source_location": "L344",
-      "id": "guides_aiers_gnome_codeblock_11",
-      "community": 65,
-      "norm_label": "code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu)"
-    },
-    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
+      "id": "claude_md",
       "community": 68,
-      "norm_label": "claude.md",
-      "id": "claude_md"
+      "norm_label": "claude.md"
     },
     {
       "label": "graphify",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
+      "id": "tuxies_wiki_claude_graphify",
       "community": 68,
-      "norm_label": "graphify",
-      "id": "tuxies_wiki_claude_graphify"
+      "norm_label": "graphify"
     },
     {
       "label": "Output guideline",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L12",
+      "id": "tuxies_wiki_claude_output_guideline",
       "community": 68,
-      "norm_label": "output guideline",
-      "id": "tuxies_wiki_claude_output_guideline"
+      "norm_label": "output guideline"
     },
     {
       "label": "external-resources.md",
@@ -217,6 +64,159 @@
       "community": 67,
       "norm_label": "fixes",
       "id": "guides_external_resources_fixes"
+    },
+    {
+      "label": "aiers-gnome.md",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L1",
+      "community": 65,
+      "norm_label": "aiers-gnome.md",
+      "id": "docs_guides_aiers_gnome_md"
+    },
+    {
+      "label": "Facial Recognition With Howdy",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L21",
+      "community": 65,
+      "norm_label": "facial recognition with howdy",
+      "id": "guides_aiers_gnome_facial_recognition_with_howdy"
+    },
+    {
+      "label": "Better-Looking Fonts",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L26",
+      "community": 65,
+      "norm_label": "better-looking fonts",
+      "id": "guides_aiers_gnome_better_looking_fonts"
+    },
+    {
+      "label": "code:bash (sudo dnf install ibm-plex-fonts-all)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L35",
+      "community": 65,
+      "norm_label": "code:bash (sudo dnf install ibm-plex-fonts-all)",
+      "id": "guides_aiers_gnome_codeblock_1"
+    },
+    {
+      "label": "code:bash (sudo pacman -S ttf-ibm-plex)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L41",
+      "community": 65,
+      "norm_label": "code:bash (sudo pacman -s ttf-ibm-plex)",
+      "id": "guides_aiers_gnome_codeblock_2"
+    },
+    {
+      "label": "code:bash (sudo apt install fonts-ibm-plex)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L47",
+      "community": 65,
+      "norm_label": "code:bash (sudo apt install fonts-ibm-plex)",
+      "id": "guides_aiers_gnome_codeblock_3"
+    },
+    {
+      "label": "code:bash (dconf write /org/gnome/desktop/interface/font-name \"'IBM Ple)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L53",
+      "community": 65,
+      "norm_label": "code:bash (dconf write /org/gnome/desktop/interface/font-name \"'ibm ple)",
+      "id": "guides_aiers_gnome_codeblock_4"
+    },
+    {
+      "label": "GNOME Extensions (Universal Benefits)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L63",
+      "community": 65,
+      "norm_label": "gnome extensions (universal benefits)",
+      "id": "guides_aiers_gnome_gnome_extensions_universal_benefits"
+    },
+    {
+      "label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L105",
+      "community": 65,
+      "norm_label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
+      "id": "guides_aiers_gnome_codeblock_5"
+    },
+    {
+      "label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L120",
+      "community": 65,
+      "norm_label": "code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray)",
+      "id": "guides_aiers_gnome_codeblock_6"
+    },
+    {
+      "label": "code:bash (# Hide ripple box in hot corner)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L152",
+      "community": 65,
+      "norm_label": "code:bash (# hide ripple box in hot corner)",
+      "id": "guides_aiers_gnome_codeblock_7"
+    },
+    {
+      "label": "code:bash (dconf write /org/gnome/shell/extensions/nightthemeswitcher/c)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L187",
+      "community": 65,
+      "norm_label": "code:bash (dconf write /org/gnome/shell/extensions/nightthemeswitcher/c)",
+      "id": "guides_aiers_gnome_codeblock_8"
+    },
+    {
+      "label": "code:bash (# aier's Kiwi settings)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L199",
+      "community": 65,
+      "norm_label": "code:bash (# aier's kiwi settings)",
+      "id": "guides_aiers_gnome_codeblock_9"
+    },
+    {
+      "label": "Personal recommendations",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L245",
+      "community": 65,
+      "norm_label": "personal recommendations",
+      "id": "guides_aiers_gnome_personal_recommendations"
+    },
+    {
+      "label": "code:bash (# Stylise panel into Windows-styled task bar)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L260",
+      "community": 65,
+      "norm_label": "code:bash (# stylise panel into windows-styled task bar)",
+      "id": "guides_aiers_gnome_codeblock_10"
+    },
+    {
+      "label": "Others",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L299",
+      "community": 65,
+      "norm_label": "others",
+      "id": "guides_aiers_gnome_others"
+    },
+    {
+      "label": "code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu)",
+      "file_type": "document",
+      "source_file": "docs/guides/aiers-gnome.md",
+      "source_location": "L339",
+      "community": 65,
+      "norm_label": "code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu)",
+      "id": "guides_aiers_gnome_codeblock_11"
     },
     {
       "label": "package.json",
@@ -4446,6 +4446,36 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "tuxies_wiki_claude_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "tuxies_wiki_claude_output_guideline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/guides/external-resources.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_guides_external_resources_md",
+      "target": "guides_external_resources_fixes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/guides/aiers-gnome.md",
       "source_location": "L21",
       "weight": 1.0,
@@ -4602,36 +4632,6 @@
       "confidence_score": 1.0,
       "source": "guides_aiers_gnome_others",
       "target": "guides_aiers_gnome_codeblock_11"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_md",
-      "target": "tuxies_wiki_claude_graphify"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_md",
-      "target": "tuxies_wiki_claude_output_guideline"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/guides/external-resources.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_guides_external_resources_md",
-      "target": "guides_external_resources_fixes"
     },
     {
       "relation": "contains",
@@ -7926,5 +7926,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "5d70a46f361fcba7ee578b9389167888841a8d2f"
+  "built_at_commit": "49154cbf80cd7e159b236b929c3a84f7d62d9378"
 }

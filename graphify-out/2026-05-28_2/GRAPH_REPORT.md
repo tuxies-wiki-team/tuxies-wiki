@@ -1,7 +1,7 @@
 # Graph Report - tuxies-wiki  (2026-05-28)
 
 ## Corpus Check
-- 148 files · ~1,328,308 words
+- 148 files · ~1,328,771 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5d70a46f`
+- Built from commit: `49154cbf`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -231,7 +231,7 @@ Cohesion: 0.12
 Nodes (16): Better-Looking Fonts, code:bash (sudo dnf install ibm-plex-fonts-all), code:bash (# Stylise panel into Windows-styled task bar), code:bash (dconf write /org/gnome/shell/extensions/show-desktop-plus/bu), code:bash (sudo pacman -S ttf-ibm-plex), code:bash (sudo apt install fonts-ibm-plex), code:bash (dconf write /org/gnome/desktop/interface/font-name "'IBM Ple), code:bash (dconf write /org/gnome/shell/keybindings/toggle-message-tray) (+8 more)
 
 ## Knowledge Gaps
-- **211 isolated node(s):** `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)`, `code:bash (sudo pacman -S ttf-ibm-plex)`, `code:bash (sudo apt install fonts-ibm-plex)`, `code:bash (dconf write /org/gnome/desktop/interface/font-name "'IBM Ple)` (+206 more)
+- **211 isolated node(s):** `graphify`, `Output guideline`, `Fixes`, `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)` (+206 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **35 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -242,7 +242,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Why does `Gnome Setup and Customisation Guide` connect `Linux Distros & Vocabulary` to `Linux Apps Library`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **What connects `Facial Recognition With Howdy`, `code:bash (sudo dnf install ibm-plex-fonts-all)`, `code:bash (sudo pacman -S ttf-ibm-plex)` to the rest of the system?**
+- **What connects `graphify`, `Output guideline`, `Fixes` to the rest of the system?**
   _211 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
