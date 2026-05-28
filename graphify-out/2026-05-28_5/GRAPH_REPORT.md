@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 444 nodes · 419 edges · 72 communities (37 shown, 35 thin omitted)
-- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 26 edges (avg confidence: 0.87)
+- 396 nodes · 380 edges · 70 communities (35 shown, 35 thin omitted)
+- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.88)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `914cc856`
+- Built from commit: `a4715958`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -81,36 +81,35 @@
 - [[_COMMUNITY_Community 67|Community 67]]
 - [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 69|Community 69]]
-- [[_COMMUNITY_Community 71|Community 71]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `**Append useful keyboard shortcuts**` - 28 edges
-2. `Linux Vocabulary Guide` - 12 edges
-3. `**Basics**` - 10 edges
-4. `scripts` - 10 edges
-5. `**Install some apps for more advanced options**` - 9 edges
-6. `GNOME Extensions (Universal Benefits)` - 8 edges
-7. `Arch Linux Installation Guide` - 7 edges
-8. `Gnomie Apps Guide` - 6 edges
-9. `GNOME Desktop Environment` - 6 edges
-10. `User-defined Rules` - 6 edges
+1. `Linux Vocabulary Guide` - 12 edges
+2. `scripts` - 10 edges
+3. `GNOME Extensions (Universal Benefits)` - 8 edges
+4. `Arch Linux Installation Guide` - 8 edges
+5. `Gnome Setup and Customisation Guide` - 8 edges
+6. `Gnomie Apps Guide` - 6 edges
+7. `GNOME Desktop Environment` - 6 edges
+8. `User-defined Rules` - 6 edges
+9. `Better-Looking Fonts` - 5 edges
+10. `GNOME Desktop Environment` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Tuxies Wiki Homepage (VuePress)` --references--> `Tuxies Wiki – Linux Newcomer Resource`  [EXTRACTED]
   docs/README.md → README.md
+- `Arch Linux Installation Guide` --references--> `GParted`  [EXTRACTED]
+  docs/notes/linux-guides/arch.md → docs/notes/linux-apps/popular.md
 - `Clipboard Indicator GNOME Extension` --semantically_similar_to--> `Copyous GNOME Extension (Categorized Clipboard)`  [INFERRED] [semantically similar]
   docs/.vuepress/public/assets/aiers-gnome/clipboard-indicator-demonstration.png → docs/.vuepress/public/assets/aiers-gnome/copyous-demo.png
 - `Logitech Linux Setup Guide` --conceptually_related_to--> `Key Remapping with keyd`  [INFERRED]
   docs/guides/logitech-linux-setup.md → docs/guides/key-remapping-with-keyd.md
 - `Contributions Overview` --references--> `Contribution Guidelines`  [INFERRED]
   docs/notes/about/contributions/README.md → docs/notes/about/contributions/guidelines.md
-- `Contributions Overview` --references--> `Dev Setup Guide (Contributions)`  [INFERRED]
-  docs/notes/about/contributions/README.md → docs/notes/about/contributions/dev-setup-guide.md
 
 ## Hyperedges (group relationships)
 - **Core Tuxies Wiki Guides** — guides_aiers_gnome, guides_logitech_linux_setup, guides_terminal_customisation_bash, guides_firefox_userjs [INFERRED 0.85]
 
-## Communities (72 total, 35 thin omitted)
+## Communities (70 total, 35 thin omitted)
 
 ### Community 0 - "Kando Menu Config"
 Cohesion: 0.04
@@ -121,12 +120,12 @@ Cohesion: 0.07
 Nodes (27): description, devDependencies, cross-env, gh-pages, http-server, sass-embedded, typescript, vue (+19 more)
 
 ### Community 2 - "Linux Apps Library"
-Cohesion: 0.09
-Nodes (28): Arch Linux Distribution, Debian Linux Distribution, Linux Distributions (Distros), Fedora Linux Distribution, Flatpak, Blender, Creative Software Guide, Darktable (+20 more)
+Cohesion: 0.18
+Nodes (14): Flatpak, Blender, Creative Software Guide, Darktable, Inkscape, Essentials Apps Guide, Flatseal, Discord (+6 more)
 
 ### Community 3 - "Linux Distros & Vocabulary"
-Cohesion: 0.07
-Nodes (28): **Append useful keyboard shortcuts**, code:bash (dconf write /org/gnome/desktop/wm/keybindings/switch-to-work), code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-to-work), code:bash (dconf write /org/gnome/desktop/wm/keybindings/switch-to-work), code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-to-work), code:bash (# Also preserving the original keybinding), code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-to-work), code:bash (dconf write /org/gnome/desktop/wm/keybindings/move-to-worksp) (+20 more)
+Cohesion: 0.13
+Nodes (23): Arch Linux Distribution, Debian Linux Distribution, Linux Distributions (Distros), Fedora Linux Distribution, GNOME Desktop Environment, Timeshift, Clipboard Indicator, Dconf Editor (+15 more)
 
 ### Community 4 - "Logitech Peripheral Setup"
 Cohesion: 0.16
@@ -137,8 +136,8 @@ Cohesion: 0.17
 Nodes (16): GNOME Activities Overview, GNOME Bottom Dock, GNOME Desktop Environment, Linux Desktop Environment, Nautilus File Manager, About KDE Dialog, Dolphin File Manager, KDE Plasma Desktop Environment (+8 more)
 
 ### Community 6 - "Core Linux Concepts"
-Cohesion: 0.12
-Nodes (20): DE — Desktop Environment, FOSS (Free and Open-Source Software), GNOME Desktop Environment, GNU/Linux, KDE Plasma Desktop Environment, Linux Kernel, Linux Vocabulary Guide, OS (Operating System) (+12 more)
+Cohesion: 0.17
+Nodes (13): DE — Desktop Environment, FOSS (Free and Open-Source Software), GNU/Linux, KDE Plasma Desktop Environment, Linux Kernel, Linux Vocabulary Guide, OS (Operating System), Package Manager (+5 more)
 
 ### Community 7 - "Tuxies Branding Assets"
 Cohesion: 0.24
@@ -236,29 +235,25 @@ Nodes (16): Better-Looking Fonts, code:bash (sudo dnf install ibm-plex-fonts-all
 Cohesion: 0.05
 Nodes (39): **[Bitwarden](https://bitwarden.com/)**, code:bash (flatpak install flathub org.localsend.localsend_app), code:bash (flatpak install --user flathub com.bitwarden.desktop), code:bash (flatpak install flathub io.missioncenter.MissionCenter), code:bash (flatpak install --user flathub io.missioncenter.MissionCente), code:bash (flatpak install flathub md.obsidian.Obsidian), code:bash (flatpak install --user flathub md.obsidian.Obsidian), code:bash (sudo dnf copr enable zeno/scrcpy && sudo dnf install scrcpy) (+31 more)
 
-### Community 71 - "Community 71"
-Cohesion: 0.10
-Nodes (20): **Basics**, code:bash (sudo dnf install gnome-tweaks), code:bash (dconf reset /org/gnome/desktop/wm/preferences/button-layout), code:bash (dconf write /org/gnome/desktop/wm/preferences/button-layout ), code:bash (dconf reset /org/gnome/desktop/wm/preferences/button-layout), code:bash (dconf write /org/gnome/desktop/sound/allow-volume-above-100-), code:bash (dconf reset /org/gnome/desktop/sound/allow-volume-above-100-), code:bash (dconf write /org/gnome/mutter/experimental-features "['scale) (+12 more)
-
 ## Knowledge Gaps
-- **276 isolated node(s):** `**Go through the `Settings` app and make some quick tweaks to your needs.**`, `code:bash (sudo dnf install gnome-tweaks)`, `code:bash (sudo pacman -S gnome-tweaks)`, `code:bash (sudo apt install gnome-tweaks)`, `code:bash (sudo dnf install dconf-editor)` (+271 more)
+- **232 isolated node(s):** `Gnome`, `code:bash (flatpak install flathub org.localsend.localsend_app)`, `code:bash (flatpak install --user flathub org.localsend.localsend_app)`, `code:bash (yay -S localsend-bin)`, `code:bash (flatpak install flathub org.inkscape.Inkscape)` (+227 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **35 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `**Append useful keyboard shortcuts**` connect `Linux Distros & Vocabulary` to `Community 71`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
-- **Why does `**Basics**` connect `Community 71` to `Linux Distros & Vocabulary`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Why does `Linux Vocabulary Guide` connect `Core Linux Concepts` to `Linux Apps Library`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **What connects `**Go through the `Settings` app and make some quick tweaks to your needs.**`, `code:bash (sudo dnf install gnome-tweaks)`, `code:bash (sudo pacman -S gnome-tweaks)` to the rest of the system?**
-  _276 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Linux Vocabulary Guide` connect `Core Linux Concepts` to `Linux Apps Library`, `Linux Distros & Vocabulary`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `Arch Linux Installation Guide` connect `Linux Distros & Vocabulary` to `Linux Apps Library`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **What connects `Gnome`, `code:bash (flatpak install flathub org.localsend.localsend_app)`, `code:bash (flatpak install --user flathub org.localsend.localsend_app)` to the rest of the system?**
+  _232 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `VuePress Build System` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
-- **Should `Linux Apps Library` be split into smaller, more focused modules?**
-  _Cohesion score 0.08994708994708994 - nodes in this community are weakly interconnected._
+- **Should `Linux Distros & Vocabulary` be split into smaller, more focused modules?**
+  _Cohesion score 0.13043478260869565 - nodes in this community are weakly interconnected._
+- **Should `Community 65` be split into smaller, more focused modules?**
+  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._

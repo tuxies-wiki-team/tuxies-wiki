@@ -21,454 +21,13 @@
   },
   "nodes": [
     {
-      "label": "gnome.md",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L1",
-      "id": "docs_notes_linux_guides_gnome_md",
-      "community": 71,
-      "norm_label": "gnome.md"
-    },
-    {
-      "label": "**First steps**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L29",
-      "id": "linux_guides_gnome_first_steps",
-      "community": 71,
-      "norm_label": "**first steps**"
-    },
-    {
-      "label": "**Go through the `Settings` app and make some quick tweaks to your needs.**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L31",
-      "id": "linux_guides_gnome_go_through_the_settings_app_and_make_some_quick_tweaks_to_your_needs",
-      "community": 71,
-      "norm_label": "**go through the `settings` app and make some quick tweaks to your needs.**"
-    },
-    {
-      "label": "**Install some apps for more advanced options**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L48",
-      "id": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "community": 71,
-      "norm_label": "**install some apps for more advanced options**"
-    },
-    {
-      "label": "code:bash (sudo dnf install gnome-tweaks)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L66",
-      "id": "linux_guides_gnome_codeblock_1",
-      "community": 71,
-      "norm_label": "code:bash (sudo dnf install gnome-tweaks)"
-    },
-    {
-      "label": "code:bash (sudo pacman -S gnome-tweaks)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L72",
-      "id": "linux_guides_gnome_codeblock_2",
-      "community": 71,
-      "norm_label": "code:bash (sudo pacman -s gnome-tweaks)"
-    },
-    {
-      "label": "code:bash (sudo apt install gnome-tweaks)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L78",
-      "id": "linux_guides_gnome_codeblock_3",
-      "community": 71,
-      "norm_label": "code:bash (sudo apt install gnome-tweaks)"
-    },
-    {
-      "label": "code:bash (sudo dnf install dconf-editor)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L94",
-      "id": "linux_guides_gnome_codeblock_4",
-      "community": 71,
-      "norm_label": "code:bash (sudo dnf install dconf-editor)"
-    },
-    {
-      "label": "code:bash (sudo pacman -S dconf-editor)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L100",
-      "id": "linux_guides_gnome_codeblock_5",
-      "community": 71,
-      "norm_label": "code:bash (sudo pacman -s dconf-editor)"
-    },
-    {
-      "label": "code:bash (sudo apt install dconf-editor)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L106",
-      "id": "linux_guides_gnome_codeblock_6",
-      "community": 71,
-      "norm_label": "code:bash (sudo apt install dconf-editor)"
-    },
-    {
-      "label": "code:bash (flatpak install flathub com.mattjakeman.ExtensionManager)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L122",
-      "id": "linux_guides_gnome_codeblock_7",
-      "community": 71,
-      "norm_label": "code:bash (flatpak install flathub com.mattjakeman.extensionmanager)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub com.mattjakeman.ExtensionMana)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L128",
-      "id": "linux_guides_gnome_codeblock_8",
-      "community": 71,
-      "norm_label": "code:bash (flatpak install --user flathub com.mattjakeman.extensionmana)"
-    },
-    {
-      "label": "**Basics**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L140",
-      "id": "linux_guides_gnome_basics",
-      "community": 71,
-      "norm_label": "**basics**"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/preferences/button-layout )",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L153",
-      "id": "linux_guides_gnome_codeblock_9",
-      "community": 71,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/preferences/button-layout )"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/preferences/button-layout)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L161",
-      "id": "linux_guides_gnome_codeblock_10",
-      "community": 71,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/preferences/button-layout)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/preferences/button-layout )",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L179",
-      "id": "linux_guides_gnome_codeblock_11",
-      "community": 71,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/preferences/button-layout )"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/preferences/button-layout)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L191",
-      "id": "linux_guides_gnome_codeblock_12",
-      "community": 71,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/preferences/button-layout)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/sound/allow-volume-above-100-)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L208",
-      "id": "linux_guides_gnome_codeblock_13",
-      "community": 71,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/sound/allow-volume-above-100-)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/sound/allow-volume-above-100-)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L220",
-      "id": "linux_guides_gnome_codeblock_14",
-      "community": 71,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/sound/allow-volume-above-100-)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/mutter/experimental-features \"['scale)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L235",
-      "id": "linux_guides_gnome_codeblock_15",
-      "community": 71,
-      "norm_label": "code:bash (dconf write /org/gnome/mutter/experimental-features \"['scale)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/mutter/experimental-features)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L247",
-      "id": "linux_guides_gnome_codeblock_16",
-      "community": 71,
-      "norm_label": "code:bash (dconf reset /org/gnome/mutter/experimental-features)"
-    },
-    {
-      "label": "**Append useful keyboard shortcuts**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L257",
-      "id": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "community": 3,
-      "norm_label": "**append useful keyboard shortcuts**"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/switch-to-work)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L272",
-      "id": "linux_guides_gnome_codeblock_17",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/switch-to-work)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-to-work)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L291",
-      "id": "linux_guides_gnome_codeblock_18",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-to-work)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/switch-to-work)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L336",
-      "id": "linux_guides_gnome_codeblock_19",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/switch-to-work)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-to-work)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L364",
-      "id": "linux_guides_gnome_codeblock_20",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-to-work)"
-    },
-    {
-      "label": "code:bash (# Also preserving the original keybinding)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L411",
-      "id": "linux_guides_gnome_codeblock_21",
-      "community": 3,
-      "norm_label": "code:bash (# also preserving the original keybinding)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-to-work)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L431",
-      "id": "linux_guides_gnome_codeblock_22",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-to-work)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/move-to-worksp)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L448",
-      "id": "linux_guides_gnome_codeblock_23",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/move-to-worksp)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/move-to-worksp)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L465",
-      "id": "linux_guides_gnome_codeblock_24",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/move-to-worksp)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/switch-windows)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L482",
-      "id": "linux_guides_gnome_codeblock_25",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/switch-windows)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-windows)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L509",
-      "id": "linux_guides_gnome_codeblock_26",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/switch-windows)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/settings-daemon/plugins/media-keys/co)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L530",
-      "id": "linux_guides_gnome_codeblock_27",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/settings-daemon/plugins/media-keys/co)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/settings-daemon/plugins/media-keys/co)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L542",
-      "id": "linux_guides_gnome_codeblock_28",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/settings-daemon/plugins/media-keys/co)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/settings-daemon/plugins/media-keys/ho)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L556",
-      "id": "linux_guides_gnome_codeblock_29",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/settings-daemon/plugins/media-keys/ho)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/settings-daemon/plugins/media-keys/ho)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L568",
-      "id": "linux_guides_gnome_codeblock_30",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/settings-daemon/plugins/media-keys/ho)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/panel-run-dial)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L582",
-      "id": "linux_guides_gnome_codeblock_31",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/panel-run-dial)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dial)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L594",
-      "id": "linux_guides_gnome_codeblock_32",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/panel-run-dial)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/move-to-center)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L608",
-      "id": "linux_guides_gnome_codeblock_33",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/move-to-center)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/move-to-center)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L614",
-      "id": "linux_guides_gnome_codeblock_34",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/move-to-center)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscr)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L628",
-      "id": "linux_guides_gnome_codeblock_35",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/toggle-fullscr)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/toggle-fullscr)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L634",
-      "id": "linux_guides_gnome_codeblock_36",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/toggle-fullscr)"
-    },
-    {
-      "label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/close \"['<Supe)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L648",
-      "id": "linux_guides_gnome_codeblock_37",
-      "community": 3,
-      "norm_label": "code:bash (dconf write /org/gnome/desktop/wm/keybindings/close \"['<supe)"
-    },
-    {
-      "label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/close)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L654",
-      "id": "linux_guides_gnome_codeblock_38",
-      "community": 3,
-      "norm_label": "code:bash (dconf reset /org/gnome/desktop/wm/keybindings/close)"
-    },
-    {
-      "label": "code:bash (sudo dnf install ptyxis)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L677",
-      "id": "linux_guides_gnome_codeblock_39",
-      "community": 3,
-      "norm_label": "code:bash (sudo dnf install ptyxis)"
-    },
-    {
-      "label": "code:bash (pacman -S ptyxis)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L683",
-      "id": "linux_guides_gnome_codeblock_40",
-      "community": 3,
-      "norm_label": "code:bash (pacman -s ptyxis)"
-    },
-    {
-      "label": "code:bash (sudo apt install ptyxis)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L689",
-      "id": "linux_guides_gnome_codeblock_41",
-      "community": 3,
-      "norm_label": "code:bash (sudo apt install ptyxis)"
-    },
-    {
-      "label": "code:bash (flatpak install flathub io.missioncenter.MissionCenter)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L705",
-      "id": "linux_guides_gnome_codeblock_42",
-      "community": 3,
-      "norm_label": "code:bash (flatpak install flathub io.missioncenter.missioncenter)"
-    },
-    {
-      "label": "code:bash (flatpak install --user flathub io.missioncenter.MissionCente)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L711",
-      "id": "linux_guides_gnome_codeblock_43",
-      "community": 3,
-      "norm_label": "code:bash (flatpak install --user flathub io.missioncenter.missioncente)"
-    },
-    {
       "label": "aiers-fedora-checklist.md",
       "file_type": "document",
       "source_file": "docs/.vuepress/public/reference-docs/aiers-fedora-checklist.md",
       "source_location": "L1",
+      "id": "docs_vuepress_public_reference_docs_aiers_fedora_checklist_md",
       "community": 70,
-      "norm_label": "aiers-fedora-checklist.md",
-      "id": "docs_vuepress_public_reference_docs_aiers_fedora_checklist_md"
+      "norm_label": "aiers-fedora-checklist.md"
     },
     {
       "label": "external-resources.md",
@@ -2435,7 +1994,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Clean, modern interface focused on simplicity and productivity. Default in Fedora, Ubuntu, and many others.",
-      "community": 6,
+      "community": 3,
       "norm_label": "gnome desktop environment",
       "id": "introduction_linux_vocabs_gnome"
     },
@@ -2476,7 +2035,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "norm_label": "linux distributions (distros)",
       "id": "introduction_linux_vocabs_distros"
     },
@@ -2490,7 +2049,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Nice out-of-the-box experience; simple to use and cutting edge at the same time.",
-      "community": 2,
+      "community": 3,
       "norm_label": "fedora linux distribution",
       "id": "introduction_linux_vocabs_fedora"
     },
@@ -2504,7 +2063,7 @@
       "author": null,
       "contributor": null,
       "rationale": "DIY approach; extremely minimal, no GUI installer or DE by default; for advanced users.",
-      "community": 2,
+      "community": 3,
       "norm_label": "arch linux distribution",
       "id": "introduction_linux_vocabs_archlinux"
     },
@@ -2518,7 +2077,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Stable; releases every 2 years; often the base for other distros like Ubuntu.",
-      "community": 2,
+      "community": 3,
       "norm_label": "debian linux distribution",
       "id": "introduction_linux_vocabs_debian"
     },
@@ -2785,7 +2344,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Create snapshots of your computer that you can restore.",
-      "community": 2,
+      "community": 3,
       "norm_label": "timeshift",
       "id": "linux_apps_essentials_timeshift"
     },
@@ -2798,7 +2357,7 @@
       "captured_at": "2025/05/29",
       "author": null,
       "contributor": "aier, Lunear",
-      "community": 6,
+      "community": 3,
       "norm_label": "gnomie apps guide",
       "id": "linux_apps_gnomie_gnomie"
     },
@@ -2812,7 +2371,7 @@
       "author": null,
       "contributor": null,
       "rationale": "GUI to edit GSettings/Dconf database (advanced Gnome system settings).",
-      "community": 6,
+      "community": 3,
       "norm_label": "dconf editor",
       "id": "linux_apps_gnomie_dconfeditor"
     },
@@ -2826,7 +2385,7 @@
       "author": null,
       "contributor": null,
       "rationale": "GUI to modify Gnome Extensions.",
-      "community": 6,
+      "community": 3,
       "norm_label": "extension manager",
       "id": "linux_apps_gnomie_extensionmanager"
     },
@@ -2840,7 +2399,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Change fonts, manage shell themes (requires User Theme extension), add hide and maximise buttons, and more.",
-      "community": 6,
+      "community": 3,
       "norm_label": "gnome tweaks",
       "id": "linux_apps_gnomie_gnometweaks"
     },
@@ -2853,7 +2412,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 3,
       "norm_label": "savedesktop",
       "id": "linux_apps_gnomie_savedesktop"
     },
@@ -2867,7 +2426,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Clipboard manager for Gnome.",
-      "community": 6,
+      "community": 3,
       "norm_label": "clipboard indicator",
       "id": "linux_apps_gnomie_clipboardindicator"
     },
@@ -2880,7 +2439,7 @@
       "captured_at": "2025/06/03",
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "norm_label": "linux guides index",
       "id": "linux_guides_readme_guidesindex"
     },
@@ -2893,7 +2452,7 @@
       "captured_at": "2025/05/29",
       "author": null,
       "contributor": "Lunear",
-      "community": 2,
+      "community": 3,
       "norm_label": "arch linux installation guide",
       "id": "linux_guides_arch_archguide"
     },
@@ -2907,7 +2466,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Custom fan profiles, anime, LED control, GPU switching, and ROG Control Center GUI for ASUS ROG laptops on Arch Linux.",
-      "community": 2,
+      "community": 3,
       "norm_label": "rog asusctl setup",
       "id": "linux_guides_arch_rogasusctl"
     },
@@ -2921,7 +2480,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Package manager that allows the user to access the AUR repository.",
-      "community": 2,
+      "community": 3,
       "norm_label": "yay aur helper",
       "id": "linux_guides_arch_yay"
     },
@@ -2935,7 +2494,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Recommended audio server for most users; provides modern features (Bluetooth LDAC, pro audio support), screen recording, JACK application support, lower latency, and better Wayland integration.",
-      "community": 2,
+      "community": 3,
       "norm_label": "pipewire",
       "id": "linux_guides_arch_pipewire"
     },
@@ -2948,7 +2507,7 @@
       "captured_at": "2025/05/29",
       "author": null,
       "contributor": "joseporcar",
-      "community": 2,
+      "community": 3,
       "norm_label": "debian installation and home server guide",
       "id": "linux_guides_debian_debianserverguide"
     },
@@ -2961,7 +2520,7 @@
       "captured_at": "2025/05/29",
       "author": null,
       "contributor": "aier",
-      "community": 2,
+      "community": 3,
       "norm_label": "fedora setup guide",
       "id": "linux_guides_fedora_fedoraguide"
     },
@@ -2974,7 +2533,7 @@
       "captured_at": "2025/06/26",
       "author": null,
       "contributor": "Lunear",
-      "community": 2,
+      "community": 3,
       "norm_label": "flashing guide (usb iso)",
       "id": "linux_guides_flashing_guide_flashingguide"
     },
@@ -2988,9 +2547,36 @@
       "author": null,
       "contributor": null,
       "rationale": "Supports multiple ISO images on a single USB drive; compatible with both Windows and Linux; open source.",
-      "community": 2,
+      "community": 3,
       "norm_label": "ventoy",
       "id": "linux_guides_flashing_guide_ventoy"
+    },
+    {
+      "label": "Gnome Setup and Customisation Guide",
+      "file_type": "document",
+      "source_file": "docs/notes/linux-guides/gnome.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2025/06/07",
+      "author": null,
+      "contributor": "aier",
+      "community": 3,
+      "norm_label": "gnome setup and customisation guide",
+      "id": "linux_guides_gnome_gnomeguide"
+    },
+    {
+      "label": "dconf / gsettings Configuration System",
+      "file_type": "concept",
+      "source_file": "docs/notes/linux-guides/gnome.md",
+      "source_location": "Basics section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "All settings in Gnome Tweaks can be made through Dconf Editor, dconf CLI, or gsettings CLI.",
+      "community": 3,
+      "norm_label": "dconf / gsettings configuration system",
+      "id": "linux_guides_gnome_dconf"
     },
     {
       "label": "Solaar Config (Logitech Linux Setup)",
@@ -5099,486 +4685,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "docs_notes_linux_guides_gnome_md",
-      "target": "linux_guides_gnome_first_steps",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L140",
-      "weight": 1.0,
-      "source": "docs_notes_linux_guides_gnome_md",
-      "target": "linux_guides_gnome_basics",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_first_steps",
-      "target": "linux_guides_gnome_go_through_the_settings_app_and_make_some_quick_tweaks_to_your_needs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_first_steps",
-      "target": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L66",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "target": "linux_guides_gnome_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L72",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "target": "linux_guides_gnome_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "target": "linux_guides_gnome_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L94",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "target": "linux_guides_gnome_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L100",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "target": "linux_guides_gnome_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L106",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "target": "linux_guides_gnome_codeblock_6",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L122",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "target": "linux_guides_gnome_codeblock_7",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L128",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_install_some_apps_for_more_advanced_options",
-      "target": "linux_guides_gnome_codeblock_8",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L153",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_basics",
-      "target": "linux_guides_gnome_codeblock_9",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L161",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_basics",
-      "target": "linux_guides_gnome_codeblock_10",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L179",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_basics",
-      "target": "linux_guides_gnome_codeblock_11",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L191",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_basics",
-      "target": "linux_guides_gnome_codeblock_12",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L208",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_basics",
-      "target": "linux_guides_gnome_codeblock_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L220",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_basics",
-      "target": "linux_guides_gnome_codeblock_14",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L235",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_basics",
-      "target": "linux_guides_gnome_codeblock_15",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L247",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_basics",
-      "target": "linux_guides_gnome_codeblock_16",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L257",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_basics",
-      "target": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L272",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L291",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_18",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L336",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_19",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L364",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_20",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L411",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_21",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L431",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_22",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L448",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_23",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L465",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_24",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L482",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_25",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L509",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_26",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L530",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_27",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L542",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_28",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L556",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_29",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L568",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_30",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L582",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_31",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L594",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_32",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L608",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_33",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L614",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_34",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L628",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_35",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L634",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_36",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L648",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_37",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L654",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_38",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L677",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_39",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L683",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_40",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L689",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_41",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L705",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_42",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-guides/gnome.md",
-      "source_location": "L711",
-      "weight": 1.0,
-      "source": "linux_guides_gnome_append_useful_keyboard_shortcuts",
-      "target": "linux_guides_gnome_codeblock_43",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "docs/guides/external-resources.md",
       "source_location": "L13",
       "weight": 1.0,
@@ -7459,6 +6565,16 @@
       "target": "introduction_linux_vocabs_gnome"
     },
     {
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-guides/gnome.md",
+      "source_location": "Entire document",
+      "weight": 1.0,
+      "source": "linux_guides_gnome_gnomeguide",
+      "target": "introduction_linux_vocabs_gnome"
+    },
+    {
       "relation": "example_of",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7769,6 +6885,46 @@
       "target": "linux_apps_gnomie_clipboardindicator"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-guides/gnome.md",
+      "source_location": "Install some apps section",
+      "weight": 1.0,
+      "source": "linux_guides_gnome_gnomeguide",
+      "target": "linux_apps_gnomie_dconfeditor"
+    },
+    {
+      "relation": "provides_gui_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/notes/linux-apps/gnomie.md",
+      "source_location": "Dconf Editor section",
+      "weight": 0.95,
+      "source": "linux_apps_gnomie_dconfeditor",
+      "target": "linux_guides_gnome_dconf"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-guides/gnome.md",
+      "source_location": "Install some apps section",
+      "weight": 1.0,
+      "source": "linux_guides_gnome_gnomeguide",
+      "target": "linux_apps_gnomie_extensionmanager"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-guides/gnome.md",
+      "source_location": "Install some apps section",
+      "weight": 1.0,
+      "source": "linux_guides_gnome_gnomeguide",
+      "target": "linux_apps_gnomie_gnometweaks"
+    },
+    {
       "relation": "links_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7799,6 +6955,16 @@
       "target": "linux_guides_debian_debianserverguide"
     },
     {
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-guides/README.md",
+      "source_location": "Desktop Environments card grid",
+      "weight": 1.0,
+      "source": "linux_guides_readme_guidesindex",
+      "target": "linux_guides_gnome_gnomeguide"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7807,6 +6973,16 @@
       "weight": 1.0,
       "source": "linux_guides_arch_archguide",
       "target": "linux_guides_flashing_guide_flashingguide"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-guides/arch.md",
+      "source_location": "Post Installation - Desktop Environment",
+      "weight": 1.0,
+      "source": "linux_guides_arch_archguide",
+      "target": "linux_guides_gnome_gnomeguide"
     },
     {
       "relation": "documents",
@@ -7849,6 +7025,16 @@
       "target": "linux_guides_flashing_guide_flashingguide"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-guides/fedora.md",
+      "source_location": "Further customisation section",
+      "weight": 1.0,
+      "source": "linux_guides_fedora_fedoraguide",
+      "target": "linux_guides_gnome_gnomeguide"
+    },
+    {
       "relation": "uses",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -7857,6 +7043,16 @@
       "weight": 1.0,
       "source": "linux_guides_flashing_guide_flashingguide",
       "target": "linux_guides_flashing_guide_ventoy"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/notes/linux-guides/gnome.md",
+      "source_location": "Quick append sections",
+      "weight": 1.0,
+      "source": "linux_guides_gnome_gnomeguide",
+      "target": "linux_guides_gnome_dconf"
     },
     {
       "relation": "configures",
@@ -9229,5 +8425,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "914cc8562dc25a727ac9cb31ac1a5c46b9e7697e"
+  "built_at_commit": "d170ed0cbaab2096a78ebb7b86c611836e5d65f6"
 }
