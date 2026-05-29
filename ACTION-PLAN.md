@@ -5,6 +5,10 @@ bottom; the **Arch guide is saved for last** as it is the most error-dense.
 
 Legend: 🔴 dangerous / data-loss · 🟠 broken command · 🟡 missing step / gap · 🔵 style
 
+**Status:** Non-Arch guides done (except SSH). `arch.md` and `ssh-guide.md` were drafted
+then reverted and are **handed off** to another engineer — see the ⚠️ HANDED OFF notes
+below. Their original edits were discarded, so those files are back to their pre-audit state.
+
 ---
 
 ## Non-Arch guides
@@ -24,11 +28,18 @@ Legend: 🔴 dangerous / data-loss · 🟠 broken command · 🟡 missing step /
 - [x] 🟡 **L88-139** — Dispatcher script body is shown but never saved; L139 chmods `/etc/NetworkManager/dispatcher.d/99-fix-wifi`, a file the reader was never told to create. Add the create/paste step (and note NM ignores group/world-writable scripts).
 - [x] 🔵 **L10** — Uses an H1; guidelines say H1 should be rare. Demote to H2.
 
-### `guides/ssh-guide.md`
+### `guides/ssh-guide.md` ⚠️ HANDED OFF — NOT YET FIXED
 
-- [x] 🟡 **L72-74** — `apt install fail2ban` and the `echo … >> paths-debian.conf` run without `sudo` (will fail as a normal user); rest of guide uses `sudo`.
-- [x] 🟡 **L73** — Editing `paths-debian.conf` directly is fragile; prefer a `jail.local` override (survives upgrades).
-- [x] 🟡 **L64** — `systemctl restart sshd`: on Debian/Ubuntu (this guide's target) the unit is `ssh`.
+> **Handoff note (for the next engineer + AI agent):** Edits to this file were drafted
+> but **discarded/reverted** — the original author is not confident enough in the SSH/
+> fail2ban specifics to land them. The three items below are **still open**. Please verify
+> against the guide's actual target distro (Debian/Ubuntu, per the frontmatter and `apt`
+> usage) before changing anything. Suggested fixes from the audit are noted inline, but
+> treat them as proposals, not gospel — confirm on a real Debian/Ubuntu box first.
+
+- [ ] 🟡 **L72-74** — `apt install fail2ban` and the `echo … >> paths-debian.conf` run without `sudo` (will fail as a normal user); rest of guide uses `sudo`. *Proposed:* add `sudo` to the install/restart.
+- [ ] 🟡 **L73** — Editing `paths-debian.conf` directly is fragile; prefer a `jail.local` override (survives upgrades). *Proposed:* write `[sshd]\nenabled = true\nbackend = systemd` to `/etc/fail2ban/jail.local` via `sudo tee`. ⚠️ Verify the correct jail/backend keys for the target fail2ban version.
+- [ ] 🟡 **L64** — `systemctl restart sshd`: on Debian/Ubuntu the unit is typically `ssh` (with `sshd.service` aliased). *Proposed:* `sudo systemctl restart ssh`. ⚠️ Confirm the unit name on the target distro.
 
 ### `guides/key-remapping-with-keyd.md`
 
@@ -40,23 +51,33 @@ Legend: 🔴 dangerous / data-loss · 🟠 broken command · 🟡 missing step /
 
 ---
 
-## `notes/linux-guides/arch.md` (do last)
+## `notes/linux-guides/arch.md` ⚠️ HANDED OFF — NOT YET FIXED
 
-- [x] 🔴 **L719** — `docker system prune -a --volumes` under "clearing cache" deletes real data volumes. Drop `--volumes` or add a loud warning.
-- [x] 🔴 **L336-338** — Casual `rm -rf /boot/<directory-of-bootloader>` is high-risk; also the enclosing `:::important` block is never closed (breaks rendering).
-- [x] 🟠 **L208-211** — Timezone symlink missing space before `/etc/localtime`; zone is `America/Caracas`, not `Americas/Caracas`.
-- [x] 🟠 **L223-231** — Localisation edits `/etc/locale.conf` but should uncomment locales in `/etc/locale.gen`.
-- [x] 🟠 **L485** — `unname -r` → `uname -r`.
-- [x] 🟠 **L521** — `cd yay bin` → `cd yay-bin`.
-- [x] 🟠 **L559** — `pacman-key refresh-keys` → `pacman-key --refresh-keys`.
-- [x] 🟠 **L330** — `--efi-directory= <dir>` has a stray space; should be `--efi-directory=<dir>`.
-- [x] 🔵 **L291** — `Defaults timestamp_timeout=0` recommended as default forces a password on every `sudo`; present as an option, not the default.
-- [x] 🔵 **L220** — Stray third `=` in `===This command assumes…` (broken highlight markup).
-- [x] 🔵 **L53-54** — "Arch is not for you" gatekeeping tone + "If not network adapter" typo; clash with the professional-language guideline.
-- [x] 🔵 — Headings missing bold keywords per the H2/H3 bold rule. (Bolded `## Known errors and fixes` at L501; also fixed `System Maintainance` → `System Maintenance`.)
+> **Handoff note (for the next engineer + AI agent):** This was the most error-dense file
+> in the audit. Edits were drafted but **discarded/reverted** — the original author isn't
+> familiar enough with the Arch install flow to land them confidently. Every item below is
+> **still open**. The fixes are proposals from the audit; before applying, sanity-check
+> each against the [official ArchWiki Installation guide](https://wiki.archlinux.org/title/Installation_guide),
+> since a wrong command here (timezone symlink, `locale.gen` vs `locale.conf`, `rm -rf /boot/...`,
+> `grub-install`) can leave a system unbootable. Line numbers below are from the pre-revert
+> read and may have drifted — search by content. After landing fixes, run `graphify update .`.
+
+- [ ] 🔴 **L719** — `docker system prune -a --volumes` under "clearing cache" deletes real data volumes. Drop `--volumes` or add a loud warning.
+- [ ] 🔴 **L336-338** — Casual `rm -rf /boot/<directory-of-bootloader>` is high-risk; also the enclosing `:::important` block is never closed (breaks rendering). Confirm dir name before deleting; close the container.
+- [ ] 🟠 **L208-211** — Timezone symlink missing space before `/etc/localtime`; zone is `America/Caracas`, not `Americas/Caracas`. *(Verify: `ln -sf /usr/share/zoneinfo/<Region>/<City> /etc/localtime`.)*
+- [ ] 🟠 **L223-231** — Localisation step text says edit `/etc/locale.gen` (correct) but the code block opens `/etc/locale.conf`. Make the command match `/etc/locale.gen` before `locale-gen`.
+- [ ] 🟠 **L485** — `unname -r` → `uname -r`.
+- [ ] 🟠 **L521** — `cd yay bin` → `cd yay-bin`.
+- [ ] 🟠 **L559** — `pacman-key refresh-keys` → `pacman-key --refresh-keys`.
+- [ ] 🟠 **L330** — `--efi-directory= <dir>` has a stray space; should be `--efi-directory=<dir>`.
+- [ ] 🔵 **L291** — `Defaults timestamp_timeout=0` recommended as default forces a password on every `sudo`; present as an option, not the default.
+- [ ] 🔵 **L220** — Stray third `=` in `===This command assumes…` (broken highlight markup).
+- [ ] 🔵 **L53-54** — "Arch is not for you" gatekeeping tone + "If not network adapter" typo; clash with the professional-language guideline.
+- [ ] 🔵 — Headings missing bold keywords per the H2/H3 bold rule (e.g. `## Known errors and fixes`; also `System Maintainance` → `System Maintenance`).
 
 ---
 
 ## After all fixes
 
-- [ ] Run `graphify update .` to keep the knowledge graph current.
+- [x] Run `graphify update .` after the landed (non-Arch, non-SSH) edits.
+- [ ] Re-run `graphify update .` once the handoff engineer lands `arch.md` and `ssh-guide.md`.
