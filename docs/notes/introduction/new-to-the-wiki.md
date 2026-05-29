@@ -35,7 +35,7 @@ If you want to find something, `Ctrl` + `K`! We might have a guide somewhere, an
 
 - We welcome documentation improvements, guides, app recommendations, error reports and fixes, and more.
 
-- We use Discord (along with GitHub) as our primary platform to discuss ideas, get feedback, and coordinate with the team.
+- Contributions are hosted on GitHub. We use Discord to discuss ideas, get feedback, and reach out to the team.
 
 ::::card-grid
 

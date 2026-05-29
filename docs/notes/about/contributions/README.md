@@ -10,7 +10,7 @@ We welcome documentation improvements, guides, app recommendations, error report
 
 Learn how to get started locally on your machine [Dev Setup Guide](/contributions/dev-setup-guide/).
 
-We use Discord as our primary platform to discuss ideas, get feedback, and coordinate with the team.
+Contributions are hosted on GitHub — open an issue or pull request to propose and submit your work. We use Discord for communication and reaching out to the team.
 
 :::::
 
@@ -18,13 +18,13 @@ We use Discord as our primary platform to discuss ideas, get feedback, and coord
 
 :::card
 
-::logos:discord-icon:: [Discord Server](https://discord.gg/WkeNeu8NGt)
+::logos:github-icon =20:: [Github Page](https://github.com/Theory-Y/tuxies-wiki)
 
 :::
 
 :::card
 
-::logos:github-icon =20:: [Github Page](https://github.com/Theory-Y/tuxies-wiki)
+::logos:discord-icon:: [Discord Server](https://discord.gg/WkeNeu8NGt)
 
 :::
 ::::
@@ -58,7 +58,7 @@ Propose new sections or features for the project.
 
 ::::::steps
 
-- **Discuss** your idea in `#contributions` and/or **open an issue** on GitHub.
+- **Open an issue** on GitHub to propose your idea. You can also reach out on Discord to discuss.
 
 - [**Check out contribution guidelines.**](/contributions/guidelines/)
 
@@ -68,7 +68,7 @@ Propose new sections or features for the project.
   - You can fork the website and edit articles and see them live in your own machine.
   - You can write a text document, whether in plain text, plain markdown, or in Vuepress markdown used for the wiki.
 
-- **Submit via** GitHub PR or `#submissions`.
+- **Submit via** a GitHub pull request or contact a maintainer!
 
 ::::::
 
