@@ -83,7 +83,7 @@ sudo pacman -S make gcc
 
 ::::
 
-## **Cofiguring keyd**
+## **Configuring keyd**
 
 keyd reads its configuration from files placed in `/etc/keyd/`. The main configuration file is `/etc/keyd/default.conf`, and it applies to all keyboards by default.
 
