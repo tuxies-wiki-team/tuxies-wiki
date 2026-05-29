@@ -68,7 +68,7 @@ Propose new sections or features for the project.
   - You can fork the website and edit articles and see them live in your own machine.
   - You can write a text document, whether in plain text, plain markdown, or in Vuepress markdown used for the wiki.
 
-- **Submit via** a GitHub pull request or contact a maintainer!
+- **Submit via** a GitHub pull request or contact a [maintainer](/about/our-team/)!
 
 ::::::
 
