@@ -1,16 +1,16 @@
 # Graph Report - tuxies-wiki  (2026-05-28)
 
 ## Corpus Check
-- 149 files · ~1,333,745 words
+- 148 files · ~1,332,789 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1122 nodes · 985 edges · 206 communities (114 shown, 92 thin omitted)
+- 1098 nodes · 955 edges · 205 communities (113 shown, 92 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 26 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fa6be5eb`
+- Built from commit: `de047a9f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -166,14 +166,13 @@
 - [[_COMMUNITY_Community 154|Community 154]]
 - [[_COMMUNITY_Community 155|Community 155]]
 - [[_COMMUNITY_Community 156|Community 156]]
-- [[_COMMUNITY_Community 205|Community 205]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `**Installation guide**` - 41 edges
 2. `**Append useful keyboard shortcuts**` - 28 edges
 3. `**WiFi**` - 16 edges
 4. `**Folder Structure**` - 14 edges
-5. `Title text` - 14 edges
+5. `Title text` - 13 edges
 6. `Linux Vocabulary Guide` - 12 edges
 7. `scripts` - 10 edges
 8. `**Option 2 Using `gh`**` - 10 edges
@@ -195,7 +194,7 @@
 ## Hyperedges (group relationships)
 - **Core Tuxies Wiki Guides** — guides_aiers_gnome, guides_logitech_linux_setup, guides_terminal_customisation_bash, guides_firefox_userjs [INFERRED 0.85]
 
-## Communities (206 total, 92 thin omitted)
+## Communities (205 total, 92 thin omitted)
 
 ### Community 0 - "Kando Menu Config"
 Cohesion: 0.04
@@ -346,8 +345,8 @@ Cohesion: 0.07
 Nodes (26): code:bash (flatpak install flathub com.discordapp.Discord), code:bash (sudo dnf install gcc kernel-devel dkms), code:bash (sudo pacman -S v4l2loopback-dkms), code:bash (sudo apt install dkms), code:bash (git clone https://github.com/umlaeute/v4l2loopback), code:bash (v4l2loopback), code:bash (sudo modprobe v4l2loopback), code:bash (flatpak install flathub com.visualstudio.code) (+18 more)
 
 ### Community 77 - "Community 77"
-Cohesion: 0.12
-Nodes (29): Code Tree, code:block13, code:java (public class Hello {), code:md (---), code:md (:::demo-wrapper), code:md (:::demo-wrapper img), code:md (:::details), code:md (::::collapse accordion) (+21 more)
+Cohesion: 0.11
+Nodes (28): Code Tree, code:block13, code:java (public class Hello {), code:md (---), code:md (:::demo-wrapper), code:md (:::demo-wrapper img), code:md (:::details), code:md (::::collapse accordion) (+20 more)
 
 ### Community 78 - "Community 78"
 Cohesion: 0.08
@@ -387,7 +386,7 @@ Nodes (9): code:bash (flatpak install flathub com.microsoft.Edge), code:bash (mk
 
 ### Community 87 - "Community 87"
 Cohesion: 0.20
-Nodes (9): code:bash (flatpak install flathub com.github.tchx84.Flatseal), code:bash (flatpak install --user flathub com.github.tchx84.Flatseal), code:bash (sudo dnf install timeshift), code:bash (sudo apt-get install timeshift), code:bash (sudo pacman -S timeshift), code:bash (sudo touch /.autorelabel), code:bash (reboot), **[Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)** (+1 more)
+Nodes (9): code:bash (flatpak install flathub com.github.tchx84.Flatseal), code:bash (flatpak install --user flathub com.github.tchx84.Flatseal), code:bash (sudo dnf install timeshift), code:bash (sudo pacman -S timeshift), code:bash (sudo apt-get install timeshift), code:bash (sudo touch /.autorelabel), code:bash (reboot), **[Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)** (+1 more)
 
 ### Community 88 - "Community 88"
 Cohesion: 0.22
@@ -433,12 +432,8 @@ Nodes (4): **Installation**, **Setting up your home server**, **SSH**, **TailSca
 Cohesion: 0.50
 Nodes (3): **Contribution areas**, **Perks**, **Submission process**
 
-### Community 205 - "Community 205"
-Cohesion: 0.09
-Nodes (22): Chosen fix, code:md (## **Create snapshots/backups** for your computer), code:block10, code:block11, code:block12, code:block2, code:block3, code:block4 (+14 more)
-
 ## Knowledge Gaps
-- **702 isolated node(s):** `name`, `type`, `version`, `description`, `license` (+697 more)
+- **684 isolated node(s):** `name`, `type`, `version`, `description`, `license` (+679 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **92 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -446,11 +441,11 @@ Nodes (22): Chosen fix, code:md (## **Create snapshots/backups** for your comput
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `**Installation guide**` connect `Core Linux Concepts` to `Community 74`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `Title text` connect `Community 77` to `Community 72`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `name`, `type`, `version` to the rest of the system?**
-  _702 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _684 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `VuePress Build System` be split into smaller, more focused modules?**

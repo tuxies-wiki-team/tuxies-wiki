@@ -1,16 +1,16 @@
 # Graph Report - tuxies-wiki  (2026-05-28)
 
 ## Corpus Check
-- 149 files · ~1,333,745 words
+- 148 files · ~1,332,831 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1122 nodes · 985 edges · 206 communities (114 shown, 92 thin omitted)
+- 1099 nodes · 963 edges · 208 communities (116 shown, 92 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 26 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fa6be5eb`
+- Built from commit: `de047a9f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -167,6 +167,8 @@
 - [[_COMMUNITY_Community 155|Community 155]]
 - [[_COMMUNITY_Community 156|Community 156]]
 - [[_COMMUNITY_Community 205|Community 205]]
+- [[_COMMUNITY_Community 206|Community 206]]
+- [[_COMMUNITY_Community 207|Community 207]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `**Installation guide**` - 41 edges
@@ -195,7 +197,7 @@
 ## Hyperedges (group relationships)
 - **Core Tuxies Wiki Guides** — guides_aiers_gnome, guides_logitech_linux_setup, guides_terminal_customisation_bash, guides_firefox_userjs [INFERRED 0.85]
 
-## Communities (206 total, 92 thin omitted)
+## Communities (208 total, 92 thin omitted)
 
 ### Community 0 - "Kando Menu Config"
 Cohesion: 0.04
@@ -334,8 +336,8 @@ Cohesion: 0.05
 Nodes (39): **Basic NPM Commands**, Build website, code:yaml (name: deploy), code:json ({), code:md (---), code:`md (This page is the README file for Github), code:block13, code:block14 (+31 more)
 
 ### Community 74 - "Community 74"
-Cohesion: 0.05
-Nodes (38): code:bash (sudo pacman-key --recv-keys 8F654886F17D497FEFE3DB448B15A6B0), code:bash ([g14]), code:bash (sudo pacman -Suy), code:bash (pacman -S asusctl power-profiles-daemon), code:bash (pacman -S supergfxctl switcheroo-control), code:bash (pacman -S rog-control-center), code:bash (pacman -Sy linux-g14 linux-g14-headers), code:bash (# -g14 is the important one) (+30 more)
+Cohesion: 0.18
+Nodes (10): code:bash (# Remove yay for update), code:bash (# Install reflector), code:bash (# Example fail message:), code:bash (pacman-key refresh-keys), code:bash (# Remove the keys), code:bash (sudo rm /var/lib/pacman/db.lck), code:bash (pacman -S archlinux-keyring), code:bash (ILoveCandy) (+2 more)
 
 ### Community 75 - "Community 75"
 Cohesion: 0.07
@@ -434,11 +436,19 @@ Cohesion: 0.50
 Nodes (3): **Contribution areas**, **Perks**, **Submission process**
 
 ### Community 205 - "Community 205"
-Cohesion: 0.09
-Nodes (22): Chosen fix, code:md (## **Create snapshots/backups** for your computer), code:block10, code:block11, code:block12, code:block2, code:block3, code:block4 (+14 more)
+Cohesion: 0.20
+Nodes (10): code:bash (sudo pacman-key --recv-keys 8F654886F17D497FEFE3DB448B15A6B0), code:bash ([g14]), code:bash (sudo pacman -Suy), code:bash (pacman -S asusctl power-profiles-daemon), code:bash (pacman -S supergfxctl switcheroo-control), code:bash (pacman -S rog-control-center), code:bash (pacman -Sy linux-g14 linux-g14-headers), code:bash (# -g14 is the important one) (+2 more)
+
+### Community 206 - "Community 206"
+Cohesion: 0.22
+Nodes (9): code:bash (sudo pacman -U <directory-of-extracted-package.pkg.tar.zst>), code:bash (# Search for package name), code:bash (ls /var/cache/pacman/pkg/ | grep <package-name>), code:bash (sudo pacman -U /var/cache/pacman/pkg/<package-name>-<old-ver), code:bash (yay -S downgrade), code:bash (sudo pacman -U $(ls -t /var/cache/pacman/pkg/*.pkg.tar.zst |), code:bash (sudo pacman -S reflector), code:bash (# Example Template:) (+1 more)
+
+### Community 207 - "Community 207"
+Cohesion: 0.22
+Nodes (9): code:bash (# Example usage: Scan everything starting from /), code:bash (sudo pacman -S pacman-contrib), code:bash (# Removes all older unused packages and keep 1 version in ca), code:bash (flatpak list --columns=name,application,size), code:bash (flatpak uninstall --unused), code:bash (pip cache info), code:bash (pip cache purge), code:bash (docker system prune -a --volumes) (+1 more)
 
 ## Knowledge Gaps
-- **702 isolated node(s):** `name`, `type`, `version`, `description`, `license` (+697 more)
+- **684 isolated node(s):** `name`, `type`, `version`, `description`, `license` (+679 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **92 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -446,16 +456,16 @@ Nodes (22): Chosen fix, code:md (## **Create snapshots/backups** for your comput
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `**Installation guide**` connect `Core Linux Concepts` to `Community 74`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `Title text` connect `Community 77` to `Community 72`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **Why does `**[ROG Asusctl](https://asus-linux.org/)**` connect `Community 205` to `Community 74`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `name`, `type`, `version` to the rest of the system?**
-  _702 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _684 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `VuePress Build System` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Linux Apps Library` be split into smaller, more focused modules?**
   _Cohesion score 0.05230496453900709 - nodes in this community are weakly interconnected._
-- **Should `Linux Distros & Vocabulary` be split into smaller, more focused modules?**
-  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._

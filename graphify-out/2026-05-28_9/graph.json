@@ -2413,211 +2413,175 @@
       "norm_label": "output guideline"
     },
     {
-      "label": "selinux-timeshift-fix-handoff.md",
+      "label": "timeshift-selinux-fix-action-plan.md",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
       "source_location": "L1",
-      "id": "selinux_timeshift_fix_handoff_md",
-      "community": 205,
-      "norm_label": "selinux-timeshift-fix-handoff.md"
+      "id": "timeshift_selinux_fix_action_plan_md",
+      "community": 80,
+      "norm_label": "timeshift-selinux-fix-action-plan.md"
     },
     {
-      "label": "Handoff: SELinux + Timeshift Security Fix",
+      "label": "Action Plan: Remove insecure SELinux=permissive recommendation from Timeshift instructions",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
       "source_location": "L1",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_handoff_selinux_timeshift_security_fix",
-      "community": 205,
-      "norm_label": "handoff: selinux + timeshift security fix"
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
+      "community": 80,
+      "norm_label": "action plan: remove insecure selinux=permissive recommendation from timeshift instructions"
     },
     {
-      "label": "The problem",
+      "label": "Background / why this fix",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L3",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_the_problem",
-      "community": 205,
-      "norm_label": "the problem"
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L14",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_background_why_this_fix",
+      "community": 80,
+      "norm_label": "background / why this fix"
     },
     {
-      "label": "Chosen fix",
+      "label": "Task 1 \u2014 `docs/notes/linux-apps/essentials.md`",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L15",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_chosen_fix",
-      "community": 205,
-      "norm_label": "chosen fix"
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L27",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md",
+      "community": 80,
+      "norm_label": "task 1 \u2014 `docs/notes/linux-apps/essentials.md`"
     },
     {
-      "label": "`fedora.md` \u2014 Replace Timeshift entirely with `btrfs-assistant`",
+      "label": "code:`md (- **Recovering from SELinux label issues after a restore**)",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L17",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_fedora_md_replace_timeshift_entirely_with_btrfs_assistant",
-      "community": 205,
-      "norm_label": "`fedora.md` \u2014 replace timeshift entirely with `btrfs-assistant`"
-    },
-    {
-      "label": "`essentials.md` \u2014 Keep Timeshift, fix the SELinux step",
-      "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L25",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_essentials_md_keep_timeshift_fix_the_selinux_step",
-      "community": 205,
-      "norm_label": "`essentials.md` \u2014 keep timeshift, fix the selinux step"
-    },
-    {
-      "label": "New content for `fedora.md`",
-      "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L34",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_fedora_md",
-      "community": 205,
-      "norm_label": "new content for `fedora.md`"
-    },
-    {
-      "label": "code:md (## **Create snapshots/backups** for your computer)",
-      "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L38",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_1",
-      "community": 205,
-      "norm_label": "code:md (## **create snapshots/backups** for your computer)"
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L43",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_1",
+      "community": 80,
+      "norm_label": "code:`md (- **recovering from selinux label issues after a restore**)"
     },
     {
       "label": "code:block2",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L53",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_2",
-      "community": 205,
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L50",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_2",
+      "community": 80,
       "norm_label": "code:block2"
     },
     {
       "label": "code:block3",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L61",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_3",
-      "community": 205,
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L54",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_3",
+      "community": 80,
       "norm_label": "code:block3"
     },
     {
-      "label": "code:block4",
+      "label": "code:md (:::tip Fedora users)",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L76",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_4",
-      "community": 205,
-      "norm_label": "code:block4"
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L62",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_4",
+      "community": 80,
+      "norm_label": "code:md (:::tip fedora users)"
     },
     {
-      "label": "code:block5",
+      "label": "Task 2 \u2014 `docs/notes/linux-guides/fedora.md`",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L82",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_5",
-      "community": 205,
-      "norm_label": "code:block5"
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L74",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
+      "community": 80,
+      "norm_label": "task 2 \u2014 `docs/notes/linux-guides/fedora.md`"
+    },
+    {
+      "label": "code:`md (## **Create snapshots/backups** for your computer)",
+      "file_type": "document",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L80",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_5",
+      "community": 80,
+      "norm_label": "code:`md (## **create snapshots/backups** for your computer)"
     },
     {
       "label": "code:block6",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L86",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_6",
-      "community": 205,
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L95",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_6",
+      "community": 80,
       "norm_label": "code:block6"
     },
     {
-      "label": "New content for `essentials.md`",
+      "label": "code:block7",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L127",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_essentials_md",
-      "community": 205,
-      "norm_label": "new content for `essentials.md`"
-    },
-    {
-      "label": "code:md (## **[Timeshift](https://github.com/linuxmint/timeshift)**)",
-      "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L131",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_7",
-      "community": 205,
-      "norm_label": "code:md (## **[timeshift](https://github.com/linuxmint/timeshift)**)"
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L103",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_7",
+      "community": 80,
+      "norm_label": "code:block7"
     },
     {
       "label": "code:block8",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L150",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_8",
-      "community": 205,
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L111",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_8",
+      "community": 80,
       "norm_label": "code:block8"
     },
     {
       "label": "code:block9",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L156",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_9",
-      "community": 205,
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L117",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_9",
+      "community": 80,
       "norm_label": "code:block9"
     },
     {
       "label": "code:block10",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L162",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_10",
-      "community": 205,
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L125",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_10",
+      "community": 80,
       "norm_label": "code:block10"
     },
     {
       "label": "code:block11",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L172",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_11",
-      "community": 205,
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L131",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_11",
+      "community": 80,
       "norm_label": "code:block11"
     },
     {
       "label": "code:block12",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L176",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_12",
-      "community": 205,
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L141",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_12",
+      "community": 80,
       "norm_label": "code:block12"
     },
     {
-      "label": "Formatting rules to follow (from `docs/notes/about/contributions/guidelines.md`)",
+      "label": "Task 3 \u2014 Verification",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L186",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_formatting_rules_to_follow_from_docs_notes_about_contributions_guidelines_md",
-      "community": 205,
-      "norm_label": "formatting rules to follow (from `docs/notes/about/contributions/guidelines.md`)"
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L154",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_3_verification",
+      "community": 80,
+      "norm_label": "task 3 \u2014 verification"
     },
     {
-      "label": "Verification steps after editing",
+      "label": "Task 4 \u2014 Out of scope (do not do)",
       "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L196",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_verification_steps_after_editing",
-      "community": 205,
-      "norm_label": "verification steps after editing"
-    },
-    {
-      "label": "Out of scope",
-      "file_type": "document",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L205",
-      "id": "tuxies_wiki_selinux_timeshift_fix_handoff_out_of_scope",
-      "community": 205,
-      "norm_label": "out of scope"
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L164",
+      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_4_out_of_scope_do_not_do",
+      "community": 80,
+      "norm_label": "task 4 \u2014 out of scope (do not do)"
     },
     {
       "label": "README.md",
@@ -4756,7 +4720,7 @@
       "label": "code:md (<!-- \":::::\" demo-wrapper-->)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L119",
+      "source_location": "L103",
       "id": "contributions_guidelines_codeblock_2",
       "community": 72,
       "norm_label": "code:md (<!-- \":::::\" demo-wrapper-->)"
@@ -4765,7 +4729,7 @@
       "label": "**Icons**",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L159",
+      "source_location": "L143",
       "id": "contributions_guidelines_icons",
       "community": 72,
       "norm_label": "**icons**"
@@ -4774,7 +4738,7 @@
       "label": "Core website components",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L163",
+      "source_location": "L147",
       "id": "contributions_guidelines_core_website_components",
       "community": 72,
       "norm_label": "core website components"
@@ -4783,7 +4747,7 @@
       "label": "Cards",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L169",
+      "source_location": "L153",
       "id": "contributions_guidelines_cards",
       "community": 72,
       "norm_label": "cards"
@@ -4792,7 +4756,7 @@
       "label": "Tabs",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L175",
+      "source_location": "L159",
       "id": "contributions_guidelines_tabs",
       "community": 72,
       "norm_label": "tabs"
@@ -4801,7 +4765,7 @@
       "label": "code:md (::mdi:linux =50 /#000000::)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L191",
+      "source_location": "L175",
       "id": "contributions_guidelines_codeblock_3",
       "community": 72,
       "norm_label": "code:md (::mdi:linux =50 /#000000::)"
@@ -4810,7 +4774,7 @@
       "label": "**Document components**",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L210",
+      "source_location": "L194",
       "id": "contributions_guidelines_document_components",
       "community": 72,
       "norm_label": "**document components**"
@@ -4819,7 +4783,7 @@
       "label": "Callout container",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L212",
+      "source_location": "L196",
       "id": "contributions_guidelines_callout_container",
       "community": 72,
       "norm_label": "callout container"
@@ -4828,7 +4792,7 @@
       "label": "code:md (:::important This is an announcement for everybody: I love L)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L218",
+      "source_location": "L202",
       "id": "contributions_guidelines_codeblock_4",
       "community": 72,
       "norm_label": "code:md (:::important this is an announcement for everybody: i love l)"
@@ -4837,7 +4801,7 @@
       "label": "Card & card grid",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L238",
+      "source_location": "L222",
       "id": "contributions_guidelines_card_card_grid",
       "community": 72,
       "norm_label": "card & card grid"
@@ -4846,7 +4810,7 @@
       "label": "code:md (::::card-grid)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L246",
+      "source_location": "L230",
       "id": "contributions_guidelines_codeblock_5",
       "community": 72,
       "norm_label": "code:md (::::card-grid)"
@@ -4855,7 +4819,7 @@
       "label": "Code",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L270",
+      "source_location": "L254",
       "id": "contributions_guidelines_code",
       "community": 72,
       "norm_label": "code"
@@ -4864,7 +4828,7 @@
       "label": "code:md (`fzf` is a program that allows for fuzzy searching in the cl)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L276",
+      "source_location": "L260",
       "id": "contributions_guidelines_codeblock_6",
       "community": 72,
       "norm_label": "code:md (`fzf` is a program that allows for fuzzy searching in the cl)"
@@ -4873,7 +4837,7 @@
       "label": "Code block & inline code",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L286",
+      "source_location": "L270",
       "id": "contributions_guidelines_code_block_inline_code",
       "community": 72,
       "norm_label": "code block & inline code"
@@ -4882,7 +4846,7 @@
       "label": "code:md (Go to `~/Documents`)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L292",
+      "source_location": "L276",
       "id": "contributions_guidelines_codeblock_7",
       "community": 72,
       "norm_label": "code:md (go to `~/documents`)"
@@ -4891,7 +4855,7 @@
       "label": "code:`",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L314",
+      "source_location": "L298",
       "id": "contributions_guidelines_codeblock_8",
       "community": 72,
       "norm_label": "code:`"
@@ -4900,7 +4864,7 @@
       "label": "this is some example bash code",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L316",
+      "source_location": "L300",
       "id": "contributions_guidelines_this_is_some_example_bash_code",
       "community": 72,
       "norm_label": "this is some example bash code"
@@ -4909,7 +4873,7 @@
       "label": "code:block9",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L318",
+      "source_location": "L302",
       "id": "contributions_guidelines_codeblock_9",
       "community": 72,
       "norm_label": "code:block9"
@@ -4918,7 +4882,7 @@
       "label": "code:bash (# this is some example bash code)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L325",
+      "source_location": "L309",
       "id": "contributions_guidelines_codeblock_10",
       "community": 72,
       "norm_label": "code:bash (# this is some example bash code)"
@@ -4927,7 +4891,7 @@
       "label": "Code tabs",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L332",
+      "source_location": "L316",
       "id": "contributions_guidelines_code_tabs",
       "community": 72,
       "norm_label": "code tabs"
@@ -4936,7 +4900,7 @@
       "label": "code:`MD (::::code-tabs)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L341",
+      "source_location": "L325",
       "id": "contributions_guidelines_codeblock_11",
       "community": 72,
       "norm_label": "code:`md (::::code-tabs)"
@@ -4945,7 +4909,7 @@
       "label": "code:block12",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L354",
+      "source_location": "L338",
       "id": "contributions_guidelines_codeblock_12",
       "community": 72,
       "norm_label": "code:block12"
@@ -4954,7 +4918,7 @@
       "label": "Title text",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L364",
+      "source_location": "L348",
       "id": "contributions_guidelines_title_text",
       "community": 77,
       "norm_label": "title text"
@@ -4963,7 +4927,7 @@
       "label": "code:block13",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L369",
+      "source_location": "L353",
       "id": "contributions_guidelines_codeblock_13",
       "community": 77,
       "norm_label": "code:block13"
@@ -4972,7 +4936,7 @@
       "label": "code:java (public class Hello {)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L382",
+      "source_location": "L366",
       "id": "contributions_guidelines_codeblock_14",
       "community": 77,
       "norm_label": "code:java (public class hello {)"
@@ -4981,7 +4945,7 @@
       "label": "code:md (---)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L398",
+      "source_location": "L382",
       "id": "contributions_guidelines_codeblock_15",
       "community": 77,
       "norm_label": "code:md (---)"
@@ -4990,7 +4954,7 @@
       "label": "Demo wrapper",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L415",
+      "source_location": "L399",
       "id": "contributions_guidelines_demo_wrapper",
       "community": 77,
       "norm_label": "demo wrapper"
@@ -4999,7 +4963,7 @@
       "label": "code:md (:::demo-wrapper)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L421",
+      "source_location": "L405",
       "id": "contributions_guidelines_codeblock_16",
       "community": 77,
       "norm_label": "code:md (:::demo-wrapper)"
@@ -5008,7 +4972,7 @@
       "label": "code:md (:::demo-wrapper img)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L435",
+      "source_location": "L419",
       "id": "contributions_guidelines_codeblock_17",
       "community": 77,
       "norm_label": "code:md (:::demo-wrapper img)"
@@ -5017,7 +4981,7 @@
       "label": "Details & collapse",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L447",
+      "source_location": "L431",
       "id": "contributions_guidelines_details_collapse",
       "community": 77,
       "norm_label": "details & collapse"
@@ -5026,7 +4990,7 @@
       "label": "code:md (:::details)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L453",
+      "source_location": "L437",
       "id": "contributions_guidelines_codeblock_18",
       "community": 77,
       "norm_label": "code:md (:::details)"
@@ -5035,7 +4999,7 @@
       "label": "code:md (::::collapse accordion)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L485",
+      "source_location": "L469",
       "id": "contributions_guidelines_codeblock_19",
       "community": 77,
       "norm_label": "code:md (::::collapse accordion)"
@@ -5044,7 +5008,7 @@
       "label": "Headings",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L529",
+      "source_location": "L513",
       "id": "contributions_guidelines_headings",
       "community": 77,
       "norm_label": "headings"
@@ -5053,7 +5017,7 @@
       "label": "code:md (## **Heading 2**)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L541",
+      "source_location": "L525",
       "id": "contributions_guidelines_codeblock_20",
       "community": 77,
       "norm_label": "code:md (## **heading 2**)"
@@ -5062,7 +5026,7 @@
       "label": "Highlighting",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L562",
+      "source_location": "L546",
       "id": "contributions_guidelines_highlighting",
       "community": 77,
       "norm_label": "highlighting"
@@ -5071,7 +5035,7 @@
       "label": "code:md (Linux is known for being ==flexible, secure, and stable==.)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L572",
+      "source_location": "L556",
       "id": "contributions_guidelines_codeblock_21",
       "community": 77,
       "norm_label": "code:md (linux is known for being ==flexible, secure, and stable==.)"
@@ -5080,7 +5044,7 @@
       "label": "Steps",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L594",
+      "source_location": "L578",
       "id": "contributions_guidelines_steps",
       "community": 77,
       "norm_label": "steps"
@@ -5089,7 +5053,7 @@
       "label": "code:md (:::steps)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L604",
+      "source_location": "L586",
       "id": "contributions_guidelines_codeblock_22",
       "community": 77,
       "norm_label": "code:md (:::steps)"
@@ -5098,8 +5062,8 @@
       "label": "Tabs",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L644",
-      "id": "contributions_guidelines_tabs_644",
+      "source_location": "L626",
+      "id": "contributions_guidelines_tabs_626",
       "community": 77,
       "norm_label": "tabs"
     },
@@ -5107,7 +5071,7 @@
       "label": "code:`md (:::tabs)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L652",
+      "source_location": "L632",
       "id": "contributions_guidelines_codeblock_23",
       "community": 77,
       "norm_label": "code:`md (:::tabs)"
@@ -5116,7 +5080,7 @@
       "label": "code:block24",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L659",
+      "source_location": "L639",
       "id": "contributions_guidelines_codeblock_24",
       "community": 77,
       "norm_label": "code:block24"
@@ -5125,7 +5089,7 @@
       "label": "code:block25",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L665",
+      "source_location": "L645",
       "id": "contributions_guidelines_codeblock_25",
       "community": 77,
       "norm_label": "code:block25"
@@ -5134,34 +5098,34 @@
       "label": "code:block26",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L671",
+      "source_location": "L651",
       "id": "contributions_guidelines_codeblock_26",
       "community": 77,
       "norm_label": "code:block26"
     },
     {
-      "label": "code:bash (sudo dnf install timeshift)",
-      "file_type": "document",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L684",
-      "id": "contributions_guidelines_codeblock_27",
-      "community": 77,
-      "norm_label": "code:bash (sudo dnf install timeshift)"
-    },
-    {
       "label": "code:bash (sudo apt install timeshift)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L690",
-      "id": "contributions_guidelines_codeblock_28",
+      "source_location": "L664",
+      "id": "contributions_guidelines_codeblock_27",
       "community": 77,
       "norm_label": "code:bash (sudo apt install timeshift)"
+    },
+    {
+      "label": "code:bash (sudo dnf install timeshift)",
+      "file_type": "document",
+      "source_file": "docs/notes/about/contributions/guidelines.md",
+      "source_location": "L670",
+      "id": "contributions_guidelines_codeblock_28",
+      "community": 77,
+      "norm_label": "code:bash (sudo dnf install timeshift)"
     },
     {
       "label": "code:bash (pacman -S timeshift)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L696",
+      "source_location": "L676",
       "id": "contributions_guidelines_codeblock_29",
       "community": 77,
       "norm_label": "code:bash (pacman -s timeshift)"
@@ -5170,7 +5134,7 @@
       "label": "Code Tree",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L704",
+      "source_location": "L684",
       "id": "contributions_guidelines_code_tree",
       "community": 77,
       "norm_label": "code tree"
@@ -5179,7 +5143,7 @@
       "label": "code:`md (::::code-tree title=\"Some Python Project\" height=\"400px\" ent)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L710",
+      "source_location": "L690",
       "id": "contributions_guidelines_codeblock_30",
       "community": 77,
       "norm_label": "code:`md (::::code-tree title=\"some python project\" height=\"400px\" ent)"
@@ -5188,7 +5152,7 @@
       "label": "Some more python code...",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L716",
+      "source_location": "L696",
       "id": "contributions_guidelines_some_more_python_code",
       "community": 72,
       "norm_label": "some more python code..."
@@ -5197,7 +5161,7 @@
       "label": "code:block31",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L717",
+      "source_location": "L697",
       "id": "contributions_guidelines_codeblock_31",
       "community": 72,
       "norm_label": "code:block31"
@@ -5206,7 +5170,7 @@
       "label": "code:block32",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L721",
+      "source_location": "L701",
       "id": "contributions_guidelines_codeblock_32",
       "community": 72,
       "norm_label": "code:block32"
@@ -5215,7 +5179,7 @@
       "label": "code:block33",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L725",
+      "source_location": "L705",
       "id": "contributions_guidelines_codeblock_33",
       "community": 72,
       "norm_label": "code:block33"
@@ -5224,7 +5188,7 @@
       "label": "code:block34",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L734",
+      "source_location": "L714",
       "id": "contributions_guidelines_codeblock_34",
       "community": 72,
       "norm_label": "code:block34"
@@ -5233,7 +5197,7 @@
       "label": "code:python (e = mc^2)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L743",
+      "source_location": "L723",
       "id": "contributions_guidelines_codeblock_35",
       "community": 72,
       "norm_label": "code:python (e = mc^2)"
@@ -5242,7 +5206,7 @@
       "label": "code:python (Some impressive algorithm)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L749",
+      "source_location": "L729",
       "id": "contributions_guidelines_codeblock_36",
       "community": 72,
       "norm_label": "code:python (some impressive algorithm)"
@@ -5251,7 +5215,7 @@
       "label": "code:python (Some python code)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L753",
+      "source_location": "L733",
       "id": "contributions_guidelines_codeblock_37",
       "community": 72,
       "norm_label": "code:python (some python code)"
@@ -5260,7 +5224,7 @@
       "label": "code:json ({)",
       "file_type": "document",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L757",
+      "source_location": "L737",
       "id": "contributions_guidelines_codeblock_38",
       "community": 72,
       "norm_label": "code:json ({)"
@@ -6409,22 +6373,22 @@
       "norm_label": "code:bash (sudo dnf install timeshift)"
     },
     {
-      "label": "code:bash (sudo apt-get install timeshift)",
+      "label": "code:bash (sudo pacman -S timeshift)",
       "file_type": "document",
       "source_file": "docs/notes/linux-apps/essentials.md",
       "source_location": "L52",
       "id": "linux_apps_essentials_codeblock_4",
       "community": 87,
-      "norm_label": "code:bash (sudo apt-get install timeshift)"
+      "norm_label": "code:bash (sudo pacman -s timeshift)"
     },
     {
-      "label": "code:bash (sudo pacman -S timeshift)",
+      "label": "code:bash (sudo apt-get install timeshift)",
       "file_type": "document",
       "source_file": "docs/notes/linux-apps/essentials.md",
       "source_location": "L58",
       "id": "linux_apps_essentials_codeblock_5",
       "community": 87,
-      "norm_label": "code:bash (sudo pacman -s timeshift)"
+      "norm_label": "code:bash (sudo apt-get install timeshift)"
     },
     {
       "label": "code:bash (sudo touch /.autorelabel)",
@@ -7762,244 +7726,46 @@
       "label": "code:bash (sudo systemctl enable --now snapper-timeline.timer snapper-c)",
       "file_type": "document",
       "source_file": "docs/notes/linux-guides/fedora.md",
-      "source_location": "L68",
+      "source_location": "L72",
       "id": "linux_guides_fedora_codeblock_4",
       "community": 85,
       "norm_label": "code:bash (sudo systemctl enable --now snapper-timeline.timer snapper-c)"
     },
     {
+      "label": "code:bash (sudo systemctl enable --now grub-btrfsd.service)",
+      "file_type": "document",
+      "source_file": "docs/notes/linux-guides/fedora.md",
+      "source_location": "L78",
+      "id": "linux_guides_fedora_codeblock_5",
+      "community": 85,
+      "norm_label": "code:bash (sudo systemctl enable --now grub-btrfsd.service)"
+    },
+    {
+      "label": "code:bash (sudo snapper -c root rollback <number>)",
+      "file_type": "document",
+      "source_file": "docs/notes/linux-guides/fedora.md",
+      "source_location": "L94",
+      "id": "linux_guides_fedora_codeblock_6",
+      "community": 85,
+      "norm_label": "code:bash (sudo snapper -c root rollback <number>)"
+    },
+    {
       "label": "**Further customisation**",
       "file_type": "document",
       "source_file": "docs/notes/linux-guides/fedora.md",
-      "source_location": "L88",
+      "source_location": "L104",
       "id": "linux_guides_fedora_further_customisation",
       "community": 85,
       "norm_label": "**further customisation**"
     },
     {
-      "label": "code:bash (sudo dnf install git inotify-tools)",
+      "label": "code:bash (sudo snapper -c root create --description \u201cclean install\u201d)",
       "file_type": "document",
       "source_file": "docs/notes/linux-guides/fedora.md",
-      "source_location": "L76",
+      "source_location": "L90",
       "community": 85,
-      "norm_label": "code:bash (sudo dnf install git inotify-tools)",
-      "id": "linux_guides_fedora_codeblock_5"
-    },
-    {
-      "label": "code:bash (sudo systemctl enable --now grub-btrfsd.service)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/fedora.md",
-      "source_location": "L85",
-      "community": 85,
-      "norm_label": "code:bash (sudo systemctl enable --now grub-btrfsd.service)",
-      "id": "linux_guides_fedora_codeblock_6"
-    },
-    {
-      "label": "code:bash (sudo grub2-mkconfig -o /boot/grub2/grub.cfg)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-guides/fedora.md",
-      "source_location": "L89",
-      "community": 85,
-      "norm_label": "code:bash (sudo grub2-mkconfig -o /boot/grub2/grub.cfg)",
+      "norm_label": "code:bash (sudo snapper -c root create --description \u201cclean install\u201d)",
       "id": "linux_guides_fedora_codeblock_7"
-    },
-    {
-      "label": "Tabs",
-      "file_type": "document",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L643",
-      "community": 77,
-      "norm_label": "tabs",
-      "id": "contributions_guidelines_tabs_643"
-    },
-    {
-      "label": "Tabs",
-      "file_type": "document",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L628",
-      "community": 77,
-      "norm_label": "tabs",
-      "id": "contributions_guidelines_tabs_628"
-    },
-    {
-      "label": "timeshift-selinux-fix-action-plan.md",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L1",
-      "community": 80,
-      "norm_label": "timeshift-selinux-fix-action-plan.md",
-      "id": "timeshift_selinux_fix_action_plan_md"
-    },
-    {
-      "label": "Action Plan: Remove insecure SELinux=permissive recommendation from Timeshift instructions",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L1",
-      "community": 80,
-      "norm_label": "action plan: remove insecure selinux=permissive recommendation from timeshift instructions",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions"
-    },
-    {
-      "label": "Background / why this fix",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L14",
-      "community": 80,
-      "norm_label": "background / why this fix",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_background_why_this_fix"
-    },
-    {
-      "label": "Task 1 \u2014 `docs/notes/linux-apps/essentials.md`",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L27",
-      "community": 80,
-      "norm_label": "task 1 \u2014 `docs/notes/linux-apps/essentials.md`",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md"
-    },
-    {
-      "label": "code:`md (- **Recovering from SELinux label issues after a restore**)",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L43",
-      "community": 80,
-      "norm_label": "code:`md (- **recovering from selinux label issues after a restore**)",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_1"
-    },
-    {
-      "label": "code:block2",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L50",
-      "community": 80,
-      "norm_label": "code:block2",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_2"
-    },
-    {
-      "label": "code:block3",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L54",
-      "community": 80,
-      "norm_label": "code:block3",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_3"
-    },
-    {
-      "label": "code:md (:::tip Fedora users)",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L62",
-      "community": 80,
-      "norm_label": "code:md (:::tip fedora users)",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_4"
-    },
-    {
-      "label": "Task 2 \u2014 `docs/notes/linux-guides/fedora.md`",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L74",
-      "community": 80,
-      "norm_label": "task 2 \u2014 `docs/notes/linux-guides/fedora.md`",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md"
-    },
-    {
-      "label": "code:`md (## **Create snapshots/backups** for your computer)",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L80",
-      "community": 80,
-      "norm_label": "code:`md (## **create snapshots/backups** for your computer)",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_5"
-    },
-    {
-      "label": "code:block6",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L95",
-      "community": 80,
-      "norm_label": "code:block6",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_6"
-    },
-    {
-      "label": "code:block7",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L103",
-      "community": 80,
-      "norm_label": "code:block7",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_7"
-    },
-    {
-      "label": "code:block8",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L111",
-      "community": 80,
-      "norm_label": "code:block8",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_8"
-    },
-    {
-      "label": "code:block9",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L117",
-      "community": 80,
-      "norm_label": "code:block9",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_9"
-    },
-    {
-      "label": "code:block10",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L125",
-      "community": 80,
-      "norm_label": "code:block10",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_10"
-    },
-    {
-      "label": "code:block11",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L131",
-      "community": 80,
-      "norm_label": "code:block11",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_11"
-    },
-    {
-      "label": "code:block12",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L141",
-      "community": 80,
-      "norm_label": "code:block12",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_12"
-    },
-    {
-      "label": "Task 3 \u2014 Verification",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L154",
-      "community": 80,
-      "norm_label": "task 3 \u2014 verification",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_3_verification"
-    },
-    {
-      "label": "Task 4 \u2014 Out of scope (do not do)",
-      "file_type": "document",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L164",
-      "community": 80,
-      "norm_label": "task 4 \u2014 out of scope (do not do)",
-      "id": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_4_out_of_scope_do_not_do"
-    },
-    {
-      "label": "Tabs",
-      "file_type": "document",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L626",
-      "community": 77,
-      "norm_label": "tabs",
-      "id": "contributions_guidelines_tabs_626"
     },
     {
       "label": "code:bash (sudo snapper -c root list)",
@@ -12743,222 +12509,182 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "selinux_timeshift_fix_handoff_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_handoff_selinux_timeshift_security_fix",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "timeshift_selinux_fix_action_plan_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L3",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L14",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_handoff_selinux_timeshift_security_fix",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_the_problem",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_background_why_this_fix"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L15",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L27",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_handoff_selinux_timeshift_security_fix",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_chosen_fix",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L34",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L74",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_handoff_selinux_timeshift_security_fix",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_fedora_md",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L127",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L154",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_handoff_selinux_timeshift_security_fix",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_essentials_md",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_3_verification"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L186",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L164",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_handoff_selinux_timeshift_security_fix",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_formatting_rules_to_follow_from_docs_notes_about_contributions_guidelines_md",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_4_out_of_scope_do_not_do"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L196",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L43",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_handoff_selinux_timeshift_security_fix",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_verification_steps_after_editing",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_1"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L205",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L50",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_handoff_selinux_timeshift_security_fix",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_out_of_scope",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_2"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L17",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L54",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_chosen_fix",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_fedora_md_replace_timeshift_entirely_with_btrfs_assistant",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_3"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L25",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L62",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_chosen_fix",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_essentials_md_keep_timeshift_fix_the_selinux_step",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_4"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L38",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L80",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_fedora_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_1",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_5"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L53",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L95",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_fedora_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_2",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_6"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L61",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L103",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_fedora_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_3",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_7"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L76",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L111",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_fedora_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_4",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_8"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L82",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L117",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_fedora_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_5",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_9"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L86",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L125",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_fedora_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_6",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_10"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
       "source_location": "L131",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_essentials_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_7",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_11"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L150",
+      "source_file": "timeshift-selinux-fix-action-plan.md",
+      "source_location": "L141",
       "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_essentials_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_8",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L156",
-      "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_essentials_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_9",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L162",
-      "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_essentials_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_10",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L172",
-      "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_essentials_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_11",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "selinux-timeshift-fix-handoff.md",
-      "source_location": "L176",
-      "weight": 1.0,
-      "source": "tuxies_wiki_selinux_timeshift_fix_handoff_new_content_for_essentials_md",
-      "target": "tuxies_wiki_selinux_timeshift_fix_handoff_codeblock_12",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
+      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_12"
     },
     {
       "relation": "contains",
@@ -15444,11 +15170,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L644",
+      "source_location": "L626",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "contributions_guidelines_title_text",
-      "target": "contributions_guidelines_tabs_644"
+      "target": "contributions_guidelines_tabs_626"
     },
     {
       "relation": "contains",
@@ -15459,36 +15185,6 @@
       "confidence_score": 1.0,
       "source": "contributions_guidelines_title_text",
       "target": "contributions_guidelines_code_tree"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L643",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_title_text",
-      "target": "contributions_guidelines_tabs_643"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L628",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_title_text",
-      "target": "contributions_guidelines_tabs_628"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L626",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_title_text",
-      "target": "contributions_guidelines_tabs_626"
     },
     {
       "relation": "contains",
@@ -15564,121 +15260,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L652",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_644",
-      "target": "contributions_guidelines_codeblock_23"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L659",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_644",
-      "target": "contributions_guidelines_codeblock_24"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L665",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_644",
-      "target": "contributions_guidelines_codeblock_25"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L671",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_644",
-      "target": "contributions_guidelines_codeblock_26"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L684",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_644",
-      "target": "contributions_guidelines_codeblock_27"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L690",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_644",
-      "target": "contributions_guidelines_codeblock_28"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L696",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_644",
-      "target": "contributions_guidelines_codeblock_29"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L649",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_643",
-      "target": "contributions_guidelines_codeblock_23"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L634",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_628",
-      "target": "contributions_guidelines_codeblock_23"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
       "source_location": "L632",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "contributions_guidelines_tabs_626",
       "target": "contributions_guidelines_codeblock_23"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L656",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_643",
-      "target": "contributions_guidelines_codeblock_24"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L641",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_628",
-      "target": "contributions_guidelines_codeblock_24"
     },
     {
       "relation": "contains",
@@ -15694,51 +15280,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L662",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_643",
-      "target": "contributions_guidelines_codeblock_25"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L647",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_628",
-      "target": "contributions_guidelines_codeblock_25"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
       "source_location": "L645",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "contributions_guidelines_tabs_626",
       "target": "contributions_guidelines_codeblock_25"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L668",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_643",
-      "target": "contributions_guidelines_codeblock_26"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L653",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_628",
-      "target": "contributions_guidelines_codeblock_26"
     },
     {
       "relation": "contains",
@@ -15754,26 +15300,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L681",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_643",
-      "target": "contributions_guidelines_codeblock_27"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L666",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_628",
-      "target": "contributions_guidelines_codeblock_27"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
       "source_location": "L664",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -15784,51 +15310,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L687",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_643",
-      "target": "contributions_guidelines_codeblock_28"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L672",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_628",
-      "target": "contributions_guidelines_codeblock_28"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
       "source_location": "L670",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "contributions_guidelines_tabs_626",
       "target": "contributions_guidelines_codeblock_28"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L693",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_643",
-      "target": "contributions_guidelines_codeblock_29"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/about/contributions/guidelines.md",
-      "source_location": "L678",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contributions_guidelines_tabs_628",
-      "target": "contributions_guidelines_codeblock_29"
     },
     {
       "relation": "contains",
@@ -18621,186 +18107,6 @@
       "target": "linux_guides_fedora_codeblock_9"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "timeshift_selinux_fix_action_plan_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_background_why_this_fix"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L74",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L154",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_3_verification"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L164",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_action_plan_remove_insecure_selinux_permissive_recommendation_from_timeshift_instructions",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_4_out_of_scope_do_not_do"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_2"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L54",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_1_docs_notes_linux_apps_essentials_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_4"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_5"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L95",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_6"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L103",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_7"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L111",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_8"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L117",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_9"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L125",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_10"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L131",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_11"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "timeshift-selinux-fix-action-plan.md",
-      "source_location": "L141",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tuxies_wiki_timeshift_selinux_fix_action_plan_task_2_docs_notes_linux_guides_fedora_md",
-      "target": "tuxies_wiki_timeshift_selinux_fix_action_plan_codeblock_12"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -20991,5 +20297,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "fa6be5eb46ca3e77a55c3332fc4b953494e03a9b"
+  "built_at_commit": "3d2f3ee110b6faaf1506c8a92d543a172642193b"
 }
