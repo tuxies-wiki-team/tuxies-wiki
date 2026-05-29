@@ -7,7 +7,7 @@ createTime: 2026/05/05 17:50:44
 permalink: /guides/rb-14-2023-fedora/
 ---
 
-# RazerBlade 14 (2023) General Fedora Fix
+## **RazerBlade 14 (2023) General Fedora Fix**
 
 ## **Speaker**
 
@@ -83,7 +83,13 @@ Try straight up running these two lines if the startup script combo doesn't work
 
 ==If The Issue Persists (presumably occasionally getting low speed WiFi after reboot)==: That most likely leads to a RX aggregation issue. The fix is to try reconnect manually.
 
-Add a script to reconnect only once after connecting to WiFi.
+Add a script to reconnect only once after connecting to WiFi. Create the dispatcher script:
+
+```bash
+sudo nano /etc/NetworkManager/dispatcher.d/99-fix-wifi
+```
+
+Paste the following:
 
 ```bash
 #!/bin/bash
@@ -133,7 +139,7 @@ ExecStart=/usr/bin/bash -c 'sleep 2 && /usr/bin/nmcli dev disconnect wlp3s0 && s
 
 It waits 2 seconds, disconnects `wlp3s0`, waits 1 second, and then connects `wlp3s0` (Note: Use your own interface code)
 
-Grant access:
+Grant access. The script must be owned by root and must not be group- or world-writable, otherwise NetworkManager will ignore it:
 
 ```bash
 sudo chmod a+x /etc/NetworkManager/dispatcher.d/99-fix-wifi

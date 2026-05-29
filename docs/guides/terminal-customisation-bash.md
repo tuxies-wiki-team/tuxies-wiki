@@ -154,7 +154,7 @@ You can make your bash terminal autorun `fastfetch` to display system informatio
   @tab .bashrc
 
   ```bash
-  PS1='------------------\n\[$(tput setaf 56)\][$(tput setaf 56)\]\u \[$(tput setaf 92)\]@ \[$(tput setaf 128)\]\h\[$(tput setaf 128)\]] \[$(tput setaf 200)\]\w\[$(tput sgr0)\]\n > '
+  PS1='------------------\n\[$(tput setaf 56)\][\[$(tput setaf 56)\]\u \[$(tput setaf 92)\]@ \[$(tput setaf 128)\]\h\[$(tput setaf 128)\]] \[$(tput setaf 200)\]\w\[$(tput sgr0)\]\n > '
   ```
 
   :::
@@ -334,12 +334,8 @@ alias lsta3='eza -Ta --level 3'
 
   @tab ::devicon:fedora:: Fedora
 
-  :::important As of Fedora 42, there is no maintainer for `eza` so you'll be unable to download `eza` through `dnf`.
-  :::
-
   ```bash
   sudo dnf install eza
-
   ```
 
   @tab ::devicon:archlinux:: Arch
