@@ -6184,46 +6184,10 @@
       "norm_label": "code:bash (flatpak install --user flathub com.github.tchx84.flatseal)"
     },
     {
-      "label": "**[btrfs-assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant)**",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L30",
-      "id": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
-      "community": 87,
-      "norm_label": "**[btrfs-assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant)**"
-    },
-    {
-      "label": "code:bash (sudo dnf install btrfs-assistant snapper python3-dnf-plugin-)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L38",
-      "id": "linux_apps_essentials_codeblock_3",
-      "community": 87,
-      "norm_label": "code:bash (sudo dnf install btrfs-assistant snapper python3-dnf-plugin-)"
-    },
-    {
-      "label": "code:bash (sudo apt-get install btrfs-assistant snapper)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L44",
-      "id": "linux_apps_essentials_codeblock_4",
-      "community": 87,
-      "norm_label": "code:bash (sudo apt-get install btrfs-assistant snapper)"
-    },
-    {
-      "label": "code:bash (sudo pacman -S btrfs-assistant snapper)",
-      "file_type": "document",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L50",
-      "id": "linux_apps_essentials_codeblock_5",
-      "community": 87,
-      "norm_label": "code:bash (sudo pacman -s btrfs-assistant snapper)"
-    },
-    {
       "label": "**[Timeshift](https://github.com/linuxmint/timeshift)**",
       "file_type": "document",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L60",
+      "source_location": "L30",
       "id": "linux_apps_essentials_timeshift_https_github_com_linuxmint_timeshift",
       "community": 87,
       "norm_label": "**[timeshift](https://github.com/linuxmint/timeshift)**"
@@ -6232,8 +6196,8 @@
       "label": "code:bash (sudo dnf install timeshift)",
       "file_type": "document",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L76",
-      "id": "linux_apps_essentials_codeblock_6",
+      "source_location": "L46",
+      "id": "linux_apps_essentials_codeblock_3",
       "community": 87,
       "norm_label": "code:bash (sudo dnf install timeshift)"
     },
@@ -6241,8 +6205,8 @@
       "label": "code:bash (sudo apt-get install timeshift)",
       "file_type": "document",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L82",
-      "id": "linux_apps_essentials_codeblock_7",
+      "source_location": "L52",
+      "id": "linux_apps_essentials_codeblock_4",
       "community": 87,
       "norm_label": "code:bash (sudo apt-get install timeshift)"
     },
@@ -6250,8 +6214,8 @@
       "label": "code:bash (sudo pacman -S timeshift)",
       "file_type": "document",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L88",
-      "id": "linux_apps_essentials_codeblock_8",
+      "source_location": "L58",
+      "id": "linux_apps_essentials_codeblock_5",
       "community": 87,
       "norm_label": "code:bash (sudo pacman -s timeshift)"
     },
@@ -6259,8 +6223,8 @@
       "label": "code:bash (sudo touch /.autorelabel)",
       "file_type": "document",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L98",
-      "id": "linux_apps_essentials_codeblock_9",
+      "source_location": "L68",
+      "id": "linux_apps_essentials_codeblock_6",
       "community": 87,
       "norm_label": "code:bash (sudo touch /.autorelabel)"
     },
@@ -6268,10 +6232,46 @@
       "label": "code:bash (reboot)",
       "file_type": "document",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L102",
-      "id": "linux_apps_essentials_codeblock_10",
+      "source_location": "L72",
+      "id": "linux_apps_essentials_codeblock_7",
       "community": 87,
       "norm_label": "code:bash (reboot)"
+    },
+    {
+      "label": "**[btrfs-assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant)**",
+      "file_type": "document",
+      "source_file": "docs/notes/linux-apps/essentials.md",
+      "source_location": "L81",
+      "id": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
+      "community": 87,
+      "norm_label": "**[btrfs-assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant)**"
+    },
+    {
+      "label": "code:bash (sudo dnf install btrfs-assistant snapper python3-dnf-plugin-)",
+      "file_type": "document",
+      "source_file": "docs/notes/linux-apps/essentials.md",
+      "source_location": "L89",
+      "id": "linux_apps_essentials_codeblock_8",
+      "community": 87,
+      "norm_label": "code:bash (sudo dnf install btrfs-assistant snapper python3-dnf-plugin-)"
+    },
+    {
+      "label": "code:bash (sudo apt-get install btrfs-assistant snapper)",
+      "file_type": "document",
+      "source_file": "docs/notes/linux-apps/essentials.md",
+      "source_location": "L95",
+      "id": "linux_apps_essentials_codeblock_9",
+      "community": 87,
+      "norm_label": "code:bash (sudo apt-get install btrfs-assistant snapper)"
+    },
+    {
+      "label": "code:bash (sudo pacman -S btrfs-assistant snapper)",
+      "file_type": "document",
+      "source_file": "docs/notes/linux-apps/essentials.md",
+      "source_location": "L101",
+      "id": "linux_apps_essentials_codeblock_10",
+      "community": 87,
+      "norm_label": "code:bash (sudo pacman -s btrfs-assistant snapper)"
     },
     {
       "label": "README.md",
@@ -7591,7 +7591,7 @@
       "label": "**Further customisation**",
       "file_type": "document",
       "source_file": "docs/notes/linux-guides/fedora.md",
-      "source_location": "L96",
+      "source_location": "L86",
       "id": "linux_guides_fedora_further_customisation",
       "community": 85,
       "norm_label": "**further customisation**"
@@ -16890,21 +16890,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L81",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_notes_linux_apps_essentials_md",
-      "target": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/essentials.md",
       "source_location": "L30",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_notes_linux_apps_essentials_md",
       "target": "linux_apps_essentials_timeshift_https_github_com_linuxmint_timeshift"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/notes/linux-apps/essentials.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "docs_notes_linux_apps_essentials_md",
+      "target": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16925,66 +16925,6 @@
       "confidence_score": 1.0,
       "source": "linux_apps_essentials_flatseal_https_flathub_org_apps_com_github_tchx84_flatseal",
       "target": "linux_apps_essentials_codeblock_2"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
-      "target": "linux_apps_essentials_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
-      "target": "linux_apps_essentials_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
-      "target": "linux_apps_essentials_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L89",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
-      "target": "linux_apps_essentials_codeblock_8"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L95",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
-      "target": "linux_apps_essentials_codeblock_9"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L101",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
-      "target": "linux_apps_essentials_codeblock_10"
     },
     {
       "relation": "contains",
@@ -17040,9 +16980,9 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L88",
+      "source_location": "L89",
       "weight": 1.0,
-      "source": "linux_apps_essentials_timeshift_https_github_com_linuxmint_timeshift",
+      "source": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
       "target": "linux_apps_essentials_codeblock_8",
       "confidence_score": 1.0
     },
@@ -17050,9 +16990,9 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L98",
+      "source_location": "L95",
       "weight": 1.0,
-      "source": "linux_apps_essentials_timeshift_https_github_com_linuxmint_timeshift",
+      "source": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
       "target": "linux_apps_essentials_codeblock_9",
       "confidence_score": 1.0
     },
@@ -17060,9 +17000,9 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/notes/linux-apps/essentials.md",
-      "source_location": "L102",
+      "source_location": "L101",
       "weight": 1.0,
-      "source": "linux_apps_essentials_timeshift_https_github_com_linuxmint_timeshift",
+      "source": "linux_apps_essentials_btrfs_assistant_https_gitlab_com_btrfs_assistant_btrfs_assistant",
       "target": "linux_apps_essentials_codeblock_10",
       "confidence_score": 1.0
     },
@@ -21127,5 +21067,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "ba1ada19649c99301a2e6ea599a831e92944edce"
+  "built_at_commit": "0c398742618140ab23b027c4a5109f5b1e33779c"
 }

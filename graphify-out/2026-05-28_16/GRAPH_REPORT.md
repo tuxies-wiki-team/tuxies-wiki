@@ -1,16 +1,16 @@
 # Graph Report - tuxies-wiki  (2026-05-28)
 
 ## Corpus Check
-- 148 files · ~1,352,887 words
+- 148 files · ~1,328,939 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1126 nodes · 995 edges · 206 communities (114 shown, 92 thin omitted)
+- 1126 nodes · 989 edges · 206 communities (114 shown, 92 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 26 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ba1ada19`
+- Built from commit: `0c398742`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -386,8 +386,8 @@ Cohesion: 0.20
 Nodes (9): code:bash (flatpak install flathub com.microsoft.Edge), code:bash (mkdir -p ~/.var/app/com.microsoft.Edge/config/microsoft-edge), code:bash (cp HubApps ~/.var/app/com.microsoft.Edge/config/microsoft-ed), code:bash (nano ~/.var/app/com.microsoft.Edge/config/edge-flags.conf), code:conf (--enable-features=TouchpadOverscrollHistoryNavigation), Enable Touchpad Gestures, **Fix Copilot (Missing HubApps File)**, Fix Web App Icons on Wayland (+1 more)
 
 ### Community 87 - "Community 87"
-Cohesion: 0.21
-Nodes (13): **[btrfs-assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant)**, code:bash (flatpak install flathub com.github.tchx84.Flatseal), code:bash (reboot), code:bash (flatpak install --user flathub com.github.tchx84.Flatseal), code:bash (sudo dnf install btrfs-assistant snapper python3-dnf-plugin-), code:bash (sudo apt-get install btrfs-assistant snapper), code:bash (sudo pacman -S btrfs-assistant snapper), code:bash (sudo dnf install timeshift) (+5 more)
+Cohesion: 0.14
+Nodes (13): **[btrfs-assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant)**, code:bash (flatpak install flathub com.github.tchx84.Flatseal), code:bash (sudo pacman -S btrfs-assistant snapper), code:bash (flatpak install --user flathub com.github.tchx84.Flatseal), code:bash (sudo dnf install timeshift), code:bash (sudo apt-get install timeshift), code:bash (sudo pacman -S timeshift), code:bash (sudo touch /.autorelabel) (+5 more)
 
 ### Community 88 - "Community 88"
 Cohesion: 0.22
@@ -438,7 +438,7 @@ Cohesion: 0.09
 Nodes (22): Chosen fix, code:md (## **Create snapshots/backups** for your computer), code:block10, code:block11, code:block12, code:block2, code:block3, code:block4 (+14 more)
 
 ## Knowledge Gaps
-- **699 isolated node(s):** `name`, `type`, `version`, `description`, `license` (+694 more)
+- **705 isolated node(s):** `name`, `type`, `version`, `description`, `license` (+700 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **92 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -450,7 +450,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Title text` connect `Community 77` to `Community 72`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `name`, `type`, `version` to the rest of the system?**
-  _699 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _705 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `VuePress Build System` be split into smaller, more focused modules?**
