@@ -217,14 +217,18 @@ sudo dnf install waydroid
 @tab ::devicon:archlinux:: Arch (AUR)
 
 ```bash
-sudo yay -S waydroid
+yay -S waydroid
 ```
 
 @tab ::devicon:debian:: Debian/Ubuntu
 
 ```bash
 sudo apt install curl ca-certificates -y
-curl https://repo.waydro.id | sudo bash
+# Download the repo setup script, review it, then run it
+# (safer than piping a remote script straight into sudo bash)
+curl -o waydroid-setup.sh https://repo.waydro.id
+less waydroid-setup.sh
+sudo bash waydroid-setup.sh
 sudo apt install waydroid -y
 ```
 
