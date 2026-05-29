@@ -65,14 +65,24 @@ Every step below is also available through the `snapper` CLI if you'd rather not
 
   Open `btrfs-assistant` and go to the ==Snapper Settings== tab. Click ==New==, set ==Backup path== to `/`, give it a ==Config name==, then click ==Save==.
 
-  With the config selected, tick ==Enable timeline snapshots== and choose how many to keep under ==Snapshot Retention==. Then, under ==systemd Unit Settings==, tick ==Snapper timeline enabled== and ==Snapper cleanup enabled== and click ==Apply systemd changes==.
+  ![Creating a new Snapper config in btrfs-assistant](/assets/fedora/btrfs-assistant-creating-new-settings.png)
 
-  :::tip TODO I recommend keeping 3 daily snapshots
+  With the config selected, tick ==Enable timeline snapshots== and choose how many to keep under ==Snapshot Retention==.
+
+  ![Setting the number of snapshots to keep under Snapshot Retention](/assets/fedora/btrfs-assistant-number-of-snapshots.png)
+
+  Then, under ==systemd Unit Settings==, tick ==Snapper timeline enabled== and ==Snapper cleanup enabled== and click ==Apply systemd changes==.
+
+  ![Enabling the Snapper timeline and cleanup systemd units](/assets/fedora/btrfs-assistant-enable-timeline-systemd.png)
+
+  :::tip I recommend keeping 3–5 snapshots at a time.
   :::
 
 - **Take your first snapshot**
 
   Switch to the ==Snapper== tab, select your config, and click ==New== to take a manual snapshot. Give it a description like `clean install`.
+
+  ![Taking a manual snapshot in btrfs-assistant](/assets/fedora/btrfs-assistant-creating-new-snapshot.png)
 
 - **Restore a snapshot when needed**
 
