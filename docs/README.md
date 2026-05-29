@@ -21,13 +21,13 @@ config:
           link: https://discord.gg/WkeNeu8NGt
   - type: doc-hero
     hero:
-      name: Become a contributor
+      name: Interested in contributing?
       tagline: >
 
-        We are accepting contributors! 
+        Tuxie's Wiki is community-maintained.
 
 
-        Join us to Linux learning accessible, fun, and collaborative!
+        Here's how to make Linux learning accessible, fun, and collaborative!
       image: /assets/tux.svg
       actions:
         # - theme: brand
