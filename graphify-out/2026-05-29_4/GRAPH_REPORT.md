@@ -1,7 +1,7 @@
 # Graph Report - tuxies-wiki  (2026-05-29)
 
 ## Corpus Check
-- 171 files · ~1,376,480 words
+- 171 files · ~1,376,401 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6847df92`
+- Built from commit: `f5f6a41c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -753,7 +753,7 @@ Nodes (3): code:bash (# Generate SBOM for vulnerability tracking), Generation, S
 
 ### Community 268 - "Community 268"
 Cohesion: 0.18
-Nodes (10): After all fixes, Guide Audit — Action Plan, `guides/key-remapping-with-keyd.md`, `guides/microsoft-edge-setup.md`, `guides/rb-14-2023-fedora.md`, `guides/ssh-guide.md` ⚠️ HANDED OFF — NOT YET FIXED, `guides/terminal-customisation-bash.md`, Non-Arch guides (+2 more)
+Nodes (10): After all fixes, Guide Audit — Action Plan, `guides/key-remapping-with-keyd.md`, `guides/microsoft-edge-setup.md`, `guides/rb-14-2023-fedora.md`, `guides/ssh-guide.md`, `guides/terminal-customisation-bash.md`, Non-Arch guides (+2 more)
 
 ### Community 269 - "Community 269"
 Cohesion: 0.20
@@ -768,7 +768,7 @@ Cohesion: 0.36
 Nodes (10): code:bash (# Example usage: Scan everything starting from /), code:bash (sudo pacman -S pacman-contrib), code:bash (# Removes all older unused packages and keep 1 version in ca), code:bash (flatpak list --columns=name,application,size), code:bash (flatpak uninstall --unused), code:bash (pip cache info), code:bash (pip cache purge), code:bash (docker system prune -a) (+2 more)
 
 ## Knowledge Gaps
-- **1158 isolated node(s):** ``notes/linux-apps/editors-choice.md``, ``guides/terminal-customisation-bash.md``, ``guides/rb-14-2023-fedora.md``, ``guides/ssh-guide.md` ⚠️ HANDED OFF — NOT YET FIXED`, ``guides/key-remapping-with-keyd.md`` (+1153 more)
+- **1158 isolated node(s):** `name`, `type`, `version`, `description`, `license` (+1153 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **92 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -781,7 +781,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Why does `**Installation guide**` connect `Core Linux Concepts` to `Community 74`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **What connects ``notes/linux-apps/editors-choice.md``, ``guides/terminal-customisation-bash.md``, ``guides/rb-14-2023-fedora.md`` to the rest of the system?**
+- **What connects `name`, `type`, `version` to the rest of the system?**
   _1158 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._

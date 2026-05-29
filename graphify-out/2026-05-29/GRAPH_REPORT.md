@@ -1,16 +1,16 @@
-# Graph Report - tuxies-wiki  (2026-05-29)
+# Graph Report - tuxies-wiki  (2026-05-28)
 
 ## Corpus Check
-- 171 files · ~1,376,480 words
+- 170 files · ~1,375,453 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2108 nodes · 1970 edges · 272 communities (180 shown, 92 thin omitted)
+- 2094 nodes · 1941 edges · 268 communities (176 shown, 92 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 26 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6847df92`
+- Built from commit: `e8010014`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -229,20 +229,16 @@
 - [[_COMMUNITY_Community 265|Community 265]]
 - [[_COMMUNITY_Community 266|Community 266]]
 - [[_COMMUNITY_Community 267|Community 267]]
-- [[_COMMUNITY_Community 268|Community 268]]
-- [[_COMMUNITY_Community 269|Community 269]]
-- [[_COMMUNITY_Community 270|Community 270]]
-- [[_COMMUNITY_Community 271|Community 271]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `**Installation guide**` - 41 edges
 2. `**Append useful keyboard shortcuts**` - 28 edges
-3. `**WiFi**` - 18 edges
+3. `**WiFi**` - 16 edges
 4. `API Security Reference` - 15 edges
 5. `Security Misconfiguration Reference` - 15 edges
-6. `**Folder Structure**` - 14 edges
-7. `Title text` - 14 edges
-8. `Supply Chain Security Reference` - 14 edges
+6. `Supply Chain Security Reference` - 14 edges
+7. `**Folder Structure**` - 14 edges
+8. `Title text` - 14 edges
 9. `Error Handling Security Reference` - 13 edges
 10. `Cross-Site Request Forgery (CSRF) Prevention Reference` - 12 edges
 
@@ -261,7 +257,7 @@
 ## Hyperedges (group relationships)
 - **Core Tuxies Wiki Guides** — guides_aiers_gnome, guides_logitech_linux_setup, guides_terminal_customisation_bash, guides_firefox_userjs [INFERRED 0.85]
 
-## Communities (272 total, 92 thin omitted)
+## Communities (268 total, 92 thin omitted)
 
 ### Community 0 - "Kando Menu Config"
 Cohesion: 0.04
@@ -392,16 +388,16 @@ Cohesion: 0.04
 Nodes (48): API Key Security, API Security Reference, Authentication, Authorization, Batching Attack Prevention, code:python (# JWT Best Practices), code:python (# VULNERABLE: Accepting all fields), code:python (# VULNERABLE: Unbounded depth) (+40 more)
 
 ### Community 72 - "Community 72"
-Cohesion: 0.14
-Nodes (14): **Article tagging**, Cards, **Code formatting**, **Code Structure**, code:md (---), code:md (<!-- ":::::" demo-wrapper-->), code:md (::mdi:linux =50 /#000000::), Core website components (+6 more)
+Cohesion: 0.05
+Nodes (39): **Article tagging**, Callout container, Card & card grid, Cards, Code, Code block & inline code, **Code formatting**, **Code Structure** (+31 more)
 
 ### Community 73 - "Community 73"
 Cohesion: 0.05
 Nodes (39): **Basic NPM Commands**, Build website, code:yaml (name: deploy), code:json ({), code:md (---), code:`md (This page is the README file for Github), code:block13, code:block14 (+31 more)
 
 ### Community 74 - "Community 74"
-Cohesion: 0.18
-Nodes (10): code:bash (# Remove yay for update), code:bash (# Install reflector), code:bash (# Example fail message:), code:bash (pacman-key --refresh-keys), code:bash (# Remove the keys), code:bash (sudo rm /var/lib/pacman/db.lck), code:bash (pacman -S archlinux-keyring), code:bash (ILoveCandy) (+2 more)
+Cohesion: 0.05
+Nodes (38): code:bash (sudo pacman-key --recv-keys 8F654886F17D497FEFE3DB448B15A6B0), code:bash ([g14]), code:bash (sudo pacman -Suy), code:bash (pacman -S asusctl power-profiles-daemon), code:bash (pacman -S supergfxctl switcheroo-control), code:bash (pacman -S rog-control-center), code:bash (pacman -Sy linux-g14 linux-g14-headers), code:bash (# -g14 is the important one) (+30 more)
 
 ### Community 75 - "Community 75"
 Cohesion: 0.07
@@ -412,16 +408,16 @@ Cohesion: 0.07
 Nodes (26): code:bash (flatpak install flathub com.discordapp.Discord), code:bash (sudo dnf install gcc kernel-devel dkms), code:bash (sudo pacman -S v4l2loopback-dkms), code:bash (sudo apt install dkms), code:bash (git clone https://github.com/umlaeute/v4l2loopback), code:bash (v4l2loopback), code:bash (sudo modprobe v4l2loopback), code:bash (flatpak install flathub com.visualstudio.code) (+18 more)
 
 ### Community 77 - "Community 77"
-Cohesion: 0.05
-Nodes (54): Callout container, Card & card grid, Code, Code block & inline code, Code tabs, Code Tree, code:bash (# this is some example bash code), code:`MD (::::code-tabs) (+46 more)
+Cohesion: 0.12
+Nodes (29): Code Tree, code:block13, code:java (public class Hello {), code:md (---), code:md (:::demo-wrapper), code:md (:::demo-wrapper img), code:md (:::details), code:md (::::collapse accordion) (+21 more)
 
 ### Community 78 - "Community 78"
-Cohesion: 0.09
-Nodes (26): code:bash (sudo nano /usr/bin/fix-wifi.sh), code:bash (#!/bin/bash), code:block11 (Interface wlp3s0), code:bash (sudo nano /etc/systemd/system/wifi-reconnect.service), code:ini ([Unit]), code:bash (sudo chmod a+x /etc/NetworkManager/dispatcher.d/99-fix-wifi), code:bash (sudo iw dev wlp3s0 set power_save off), code:bash (sudo nano /etc/systemd/system/fix-wifi.timer) (+18 more)
+Cohesion: 0.08
+Nodes (25): code:bash (sudo nano /usr/bin/fix-wifi.sh), code:block10 (Interface wlp3s0), code:bash (sudo nano /etc/systemd/system/wifi-reconnect.service), code:ini ([Unit]), code:bash (sudo chmod a+x /etc/NetworkManager/dispatcher.d/99-fix-wifi), code:bash (sudo iw dev wlp3s0 set power_save off), code:bash (sudo nano /etc/systemd/system/fix-wifi.timer), code:ini ([Unit]) (+17 more)
 
 ### Community 79 - "Community 79"
 Cohesion: 0.10
-Nodes (20): **Applying a configuration**, code:bash (sudo dnf install make gcc), code:bash (sudo keyd reload), code:bash (sudo cat /etc/keyd/default.conf), code:bash (sudo mkdir -p /etc/libinput), code:conf (# Libinput Local Quirks), code:bash (sudo apt install make gcc), code:bash (sudo pacman -S make gcc) (+12 more)
+Nodes (19): Applying a configuration, code:bash (sudo dnf install make gcc), code:bash (sudo keyd reload), code:bash (sudo cat /etc/keyd/default.conf), code:bash (sudo mkdir -p /etc/libinput), code:conf (# Libinput Local Quirks), code:bash (sudo apt install make gcc), code:bash (sudo pacman -S make gcc) (+11 more)
 
 ### Community 80 - "Community 80"
 Cohesion: 0.11
@@ -449,7 +445,7 @@ Nodes (12): code:bash (sudo dnf update -y), code:bash (reboot), code:bash (sudo 
 
 ### Community 86 - "Community 86"
 Cohesion: 0.20
-Nodes (9): code:bash (flatpak install flathub com.microsoft.Edge), code:bash (mkdir -p ~/.var/app/com.microsoft.Edge/config/microsoft-edge), code:bash (cp HubApps ~/.var/app/com.microsoft.Edge/config/microsoft-ed), code:bash (nano ~/.var/app/com.microsoft.Edge/config/edge-flags.conf), code:conf (--enable-features=TouchpadOverscrollHistoryNavigation), **Enable Touchpad Gestures**, **Fix Copilot (Missing HubApps File)**, **Fix Web App Icons on Wayland** (+1 more)
+Nodes (9): code:bash (flatpak install flathub com.microsoft.Edge), code:bash (mkdir -p ~/.var/app/com.microsoft.Edge/config/microsoft-edge), code:bash (cp HubApps ~/.var/app/com.microsoft.Edge/config/microsoft-ed), code:bash (nano ~/.var/app/com.microsoft.Edge/config/edge-flags.conf), code:conf (--enable-features=TouchpadOverscrollHistoryNavigation), Enable Touchpad Gestures, **Fix Copilot (Missing HubApps File)**, Fix Web App Icons on Wayland (+1 more)
 
 ### Community 87 - "Community 87"
 Cohesion: 0.21
@@ -461,7 +457,7 @@ Nodes (8): code:bash (sudo dnf install git), code:bash (sudo pacman -S git), cod
 
 ### Community 89 - "Community 89"
 Cohesion: 0.25
-Nodes (7): code:bash (ssh [server-username]@[server_ip] -p 22;), code:bash (ssh [server_username]@[server_ip] -p 22), code:bash (ssh-keygen -f ~/.ssh/[name_for_keys]; # Creates the client k), code:block4 (PermitRootLogin no), code:bash (sudo systemctl restart ssh), code:bash (sudo apt install fail2ban), code:bash (eval `ssh-agent`;)
+Nodes (7): code:bash (ssh [server-username]@[server_ip] -p 22;), code:bash (ssh [server_username]@[server_ip] -p 22), code:bash (ssh-keygen -f ~/.ssh/[name_for_keys]; # Creates the client k), code:block4 (PermitRootLogin no), code:bash (systemctl restart sshd), code:bash (apt install fail2ban;), code:bash (eval `ssh-agent`;)
 
 ### Community 90 - "Community 90"
 Cohesion: 0.29
@@ -751,41 +747,25 @@ Nodes (3): code:bash (# Consider vendoring for:), Vendoring Dependencies, When t
 Cohesion: 0.67
 Nodes (3): code:bash (# Generate SBOM for vulnerability tracking), Generation, SBOM (Software Bill of Materials)
 
-### Community 268 - "Community 268"
-Cohesion: 0.18
-Nodes (10): After all fixes, Guide Audit — Action Plan, `guides/key-remapping-with-keyd.md`, `guides/microsoft-edge-setup.md`, `guides/rb-14-2023-fedora.md`, `guides/ssh-guide.md` ⚠️ HANDED OFF — NOT YET FIXED, `guides/terminal-customisation-bash.md`, Non-Arch guides (+2 more)
-
-### Community 269 - "Community 269"
-Cohesion: 0.20
-Nodes (10): code:bash (sudo pacman-key --recv-keys 8F654886F17D497FEFE3DB448B15A6B0), code:bash ([g14]), code:bash (sudo pacman -Suy), code:bash (pacman -S asusctl power-profiles-daemon), code:bash (pacman -S supergfxctl switcheroo-control), code:bash (pacman -S rog-control-center), code:bash (pacman -Sy linux-g14 linux-g14-headers), code:bash (# -g14 is the important one) (+2 more)
-
-### Community 270 - "Community 270"
-Cohesion: 0.22
-Nodes (9): code:bash (sudo pacman -U <directory-of-extracted-package.pkg.tar.zst>), code:bash (# Search for package name), code:bash (ls /var/cache/pacman/pkg/ | grep <package-name>), code:bash (sudo pacman -U /var/cache/pacman/pkg/<package-name>-<old-ver), code:bash (yay -S downgrade), code:bash (sudo pacman -U $(ls -t /var/cache/pacman/pkg/*.pkg.tar.zst |), code:bash (sudo pacman -S reflector), code:bash (# Example Template:) (+1 more)
-
-### Community 271 - "Community 271"
-Cohesion: 0.36
-Nodes (10): code:bash (# Example usage: Scan everything starting from /), code:bash (sudo pacman -S pacman-contrib), code:bash (# Removes all older unused packages and keep 1 version in ca), code:bash (flatpak list --columns=name,application,size), code:bash (flatpak uninstall --unused), code:bash (pip cache info), code:bash (pip cache purge), code:bash (docker system prune -a) (+2 more)
-
 ## Knowledge Gaps
-- **1158 isolated node(s):** ``notes/linux-apps/editors-choice.md``, ``guides/terminal-customisation-bash.md``, ``guides/rb-14-2023-fedora.md``, ``guides/ssh-guide.md` ⚠️ HANDED OFF — NOT YET FIXED`, ``guides/key-remapping-with-keyd.md`` (+1153 more)
+- **1161 isolated node(s):** `Scope: Research vs. Reporting`, `Confidence Levels`, `General Rules`, `code:python (# SAFE: URL comes from Django settings (server-controlled))`, `code:python (# VULNERABLE: URL comes from request (attacker-controlled))` (+1156 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **92 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Docker Security Reference` connect `Community 226` to `Community 228`, `Community 241`, `Community 242`, `Community 243`, `Community 221`, `Community 222`?**
+- **Why does `Supply Chain Security Reference` connect `Community 227` to `Community 262`, `Community 263`, `Community 264`, `Community 265`, `Community 266`, `Community 235`, `Community 236`, `Community 267`, `Community 239`?**
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **Why does `JavaScript/TypeScript Security Patterns` connect `Community 240` to `Community 229`, `Community 230`, `Community 231`, `Community 244`, `Community 245`, `Community 246`, `Community 247`, `Community 248`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `Dockerfile Security` connect `Community 221` to `Community 226`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `**Installation guide**` connect `Core Linux Concepts` to `Community 74`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **What connects ``notes/linux-apps/editors-choice.md``, ``guides/terminal-customisation-bash.md``, ``guides/rb-14-2023-fedora.md`` to the rest of the system?**
-  _1158 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Scope: Research vs. Reporting`, `Confidence Levels`, `General Rules` to the rest of the system?**
+  _1161 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Kando Menu Config` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `VuePress Build System` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Linux Apps Library` be split into smaller, more focused modules?**
   _Cohesion score 0.05230496453900709 - nodes in this community are weakly interconnected._
+- **Should `Linux Distros & Vocabulary` be split into smaller, more focused modules?**
+  _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
