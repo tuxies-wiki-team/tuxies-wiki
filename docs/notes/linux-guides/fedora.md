@@ -47,67 +47,38 @@ Fedora is the preferred distro of ==aier==. Fedora offers a high-quality out-of-
 
 ## **Create snapshots/backups** for your computer
 
-We'll be using ==Timeshift==, but you can use whichever snapshot/backup tool you like.
+We'll be using `btrfs-assistant`, a simple GUI for managing snapshots. It sits on top of `snapper` and uses Fedora's default `BTRFS` filesystem, so snapshots are quick and preserve SELinux labels — no permissive mode and no relabeling needed.
+
+:::tip Prefer the terminal?
+Every step below is also available through the `snapper` CLI if you'd rather not use the GUI.
+:::
 
 ::::steps
 
-- **SELinux compatibility**
-
-  Fedora Workstation and many other spins enforce SELinux by default.
-
-  If you want to use Timeshift with SELinux, you might want to set SELinux mode from “enforcing” to “permissive” to enable proper function among kernel versions.
-
-  :::code-tabs
-
-  @tab /etc/selinux/config
+- **Install `btrfs-assistant`**
 
   ```bash
-  # [!code --]
-  SELINUX=enforcing
-  # [!code ++]
-  SELINUX=permissive
+  sudo dnf install btrfs-assistant snapper python3-dnf-plugin-snapper
   ```
 
+- **Set up snapshots**
+
+  Open `btrfs-assistant` and go to the ==Snapper Settings== tab. Click ==New==, set ==Backup path== to `/`, give it a ==Config name==, then click ==Save==.
+
+  With the config selected, tick ==Enable timeline snapshots== and choose how many to keep under ==Snapshot Retention==. Then, under ==systemd Unit Settings==, tick ==Snapper timeline enabled== and ==Snapper cleanup enabled== and click ==Apply systemd changes==.
+
+  :::tip TODO I recommend keeping 3 daily snapshots
   :::
 
-  Restart your computer after the modification.
+- **Take your first snapshot**
 
-  ```bash
-  reboot
-  ```
+  Switch to the ==Snapper== tab, select your config, and click ==New== to take a manual snapshot. Give it a description like `clean install`.
 
-- **Install Timeshift**
+- **Restore a snapshot when needed**
 
-  ```bash
-  sudo dnf install timeshift
-  ```
+  On the ==Snapper== tab, open the ==Browse/Restore== view, select the snapshot you want, and click ==Restore==. Reboot once it completes.
 
-- **Go through the setup wizard**
-
-  :::details I recommend keeping 3–5 boot snapshots.
-
-  ![Timeshift setup wizard](/assets/fedora/timeshift-setup.png)
-
-  :::
-
-- **Restore backup when needed**
-
-  :::details Choose the snapshot you wish to restore and voila!
-
-  ![Timeshift Restore Snapshot!](/assets/fedora/timeshift-restore-snapshot.png)
-
-  :::
-
-  :::note If you are restoring snapshots in RSYNC mode, you may encounter file mislabeling errors or "permission denied" errors. You may perform the following. Be patient with the reboot as the system takes its time to relabel files.
-
-  ```bash
-  sudo touch /.autorelabel
-  ```
-
-  ```bash
-  reboot
-  ```
-
+  :::note Want to boot straight into a snapshot when your system won't start? [`grub-btrfs`](https://github.com/Antynea/grub-btrfs) adds a snapshots submenu to `GRUB` for exactly that. It has no Fedora package and must be built from source, so follow its README if you'd like to set it up.
   :::
 
 ::::
