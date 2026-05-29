@@ -130,7 +130,7 @@ man keyd
 
 :::
 
-### Applying a configuration
+### **Applying a configuration**
 
 After writing your config, reload keyd to apply it immediately — no reboot needed:
 
@@ -144,7 +144,7 @@ To verify the config was written correctly:
 sudo cat /etc/keyd/default.conf
 ```
 
-## Registering keyd as an Internal Keyboard
+## **Registering keyd as an Internal Keyboard**
 
 :::info ==This step is optional for desktops.== It is primarily useful on laptops where you want palm rejection and other libinput heuristics to work with your remapped keyboard.
 :::
