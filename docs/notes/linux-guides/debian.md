@@ -8,7 +8,7 @@ contributors:
 ---
 
 :::warning Under construction
-We are currently looking for a contributor for this guide. Check [Become a Contributor](/contributions/) for more details.
+This guide is still a work in progress.
 :::
 
 :::tip Slow and steady wins the race
